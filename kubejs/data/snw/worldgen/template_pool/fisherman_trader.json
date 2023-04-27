@@ -1,15 +1,13 @@
 {
   "name": "snw:fisherman_trader",
-    "fallback": "minecraft:empty",
-    "elements": [
-      {
-        "weight": 1,
-        "element": {
+  "fallback": "minecraft:empty",
+  "elements": [{
+      "weight": 1,
+      "element": {
           "element_type": "minecraft:single_pool_element",
           "location": "snw:fisherman_trader",
           "projection": "rigid",
           "processors": "minecraft:empty"
-        }
       }
-    ]
-  }
+  }]
+}
