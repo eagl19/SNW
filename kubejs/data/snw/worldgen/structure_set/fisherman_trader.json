@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "snw:fisherman_trader",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 774356299,
+    "spacing": 40,
+    "separation": 16,
+	"type": "minecraft:random_spread"
+  }
+}

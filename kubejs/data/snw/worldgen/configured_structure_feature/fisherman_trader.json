@@ -1,0 +1,14 @@
+{
+	"type":"minecraft:village",
+	"config":{
+		"start_pool":"snw:fisherman_trader",
+		"size":1,
+		"project_start_to_heightmap": "WORLD_SURFACE_WG",
+		"offsetY": -10
+	},	
+	"biomes":"tfc:plains",
+	"spawn_overrides":{
+
+	}
+	
+}
