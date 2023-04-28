@@ -1,0 +1,70 @@
+{
+  "name": "snw:villager_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 1,
+      "element": {
+        "location": "snw:villagers/barrel",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "snw:villagers/cartography",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "snw:villagers/composter",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "snw:villagers/fletching",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "snw:villagers/grindstone",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "snw:villagers/loom",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "snw:villagers/stonecutter",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+	
+  ]
+}

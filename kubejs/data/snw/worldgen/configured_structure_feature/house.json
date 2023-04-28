@@ -1,0 +1,10 @@
+{
+  "config": {
+    "start_pool": "snw:house_pool",
+    "size": 3
+  },
+  "biomes": "tfc:plains",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "type": "minecraft:village"
+}

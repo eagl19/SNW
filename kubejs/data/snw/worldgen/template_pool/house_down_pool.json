@@ -1,0 +1,15 @@
+{
+  "name": "snw:house_down_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 1,
+      "element": {
+        "location": "snw:house_down",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
