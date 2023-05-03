@@ -1,0 +1,36 @@
+{
+	 "item.kubejs.andesite_dust": "Andesite flux",
+	 "item.kubejs.kelp_string": "Kelp string",
+	 "item.kubejs.incomplete_mechanical_crafter": "Incomplete mechanical crafter",
+	 "item.kubejs.crushed_bismuthinite_ore": "Crushed Bismuthinite",
+	 "item.kubejs.crushed_bertrandite_ore": "Crushed Bertrandite",
+	 "item.kubejs.crushed_cobaltite_ore": "Crushed Cobaltite",
+	 "item.kubejs.crushed_kernite_ore": "Crushed Kernite",
+	 "item.kubejs.crushed_monazite_ore": "Crushed Monazite",
+	 "item.kubejs.crushed_native_iridium_ore": "Crushed Iridium",
+	 "item.kubejs.crushed_rutile_ore": "Crushed Rutile",
+	 "item.kubejs.crushed_stibnite_ore": "Crushed Stibnite",
+	 "item.kubejs.crushed_wolframite_ore": "Crushed Wolframite",
+	 "item.kubejs.crushed_chromite_ore": "Crushed Chromite",
+	 "item.kubejs.crushed_wrought_iron_ore": "Crushed Wrought iron",
+	 "item.kubejs.bismuth_nugget": "Bismuth nugget",
+	 "item.kubejs.beryllium_nugget": "Beryllium nugget",
+	 "item.kubejs.boron_nugget": "Boron nugget",
+	 "item.kubejs.thorium_nugget": "Thorium nugget",
+	 "item.kubejs.iridium_nugget": "Iridium nugget",
+	 "item.kubejs.titanium_nugget": "Titanium nugget",
+	 "item.kubejs.antimony_nugget": "Antimony nugget",
+	 "item.kubejs.tungsten_nugget": "Tungsten nugget",
+	 "item.kubejs.platinum_nugget": "Platinum nugget",
+	 "item.kubejs.chromium_nugget": "Chromium nugget",
+	 "item.kubejs.wrought_iron_nugget": "Wrought iron nugget"
+	 "item.kubejs.small_plate_cast": "Small Plate Cast"
+	 "item.kubejs.small_gear_cast": "Small Gear Cast"
+	 "item.kubejs.small_rod_cast": "Small Rod Cast"
+	 "item.kubejs.small_plate_red_sand_cast": "Small Plate Red Sand Cast"
+	 "item.kubejs.small_gear_red_sand_cast": "Small Gear Red Sand Cast"
+	 "item.kubejs.small_rod_red_sand_cast": "Small Rod Red Sand Cast"
+	 "item.kubejs.small_plate_sand_cast": "Small Plate Sand Cast"
+	 "item.kubejs.small_gear_sand_cast": "Small Gear Sand Cast"
+	 "item.kubejs.small_rod_sand_cast": "Small Rod Sand Cast"
+}
