@@ -184,7 +184,7 @@ onEvent('recipes', event => {
 	})
 })
 onEvent('item.tags', event => {
-	event.add('tconstruct:casts/multi_use/small_plate','kubejs:small_plate_cast')
-	event.add('tconstruct:casts/multi_use/small_gear','kubejs:small_gear_cast')
-	event.add('tconstruct:casts/multi_use/small_rod','kubejs:small_rod_cast')
+	event.add('tconstruct:casts/multi_use/small_plate',	'kubejs:small_plate_cast')
+	event.add('tconstruct:casts/multi_use/small_gear',	'kubejs:small_gear_cast')
+	event.add('tconstruct:casts/multi_use/small_rod',	'kubejs:small_rod_cast')
 })
