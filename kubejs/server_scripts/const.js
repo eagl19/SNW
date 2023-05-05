@@ -258,7 +258,7 @@ const BLOCKS={
 	PLATINUM:		'tfc_metalwork:metal/block/platinum',
 	OSMIUM:			'tfc_metalwork:metal/block/osmium'
 }
-const SMALL_GEARS={
+const GEARS={
 	ALUMINUM: 		'tfc_metalwork:metal/small_gear/aluminum',
 	COPPER:			'tfc_metalwork:metal/small_gear/copper',
 	GOLD:			'tfc_metalwork:metal/small_gear/gold',
