@@ -1,13 +1,13 @@
 onEvent('recipes', event => {
 	const CASTS={
-		NUGGET: 	{ SINGLE: 'tconstruct:casts/single_use/nugget', 	MULTI:'tconstruct:casts/multi_use/nugget' },
-		INGOT: 		{ SINGLE:'tconstruct:casts/single_use/ingot', 		MULTI:'tconstruct:casts/multi_use/ingot' },		
-		GEAR: 		{ SINGLE:'tconstruct:casts/single_use/small_gear', 	MULTI:'tconstruct:casts/multi_use/small_gear' },			
-		ROD: 		{ SINGLE:'tconstruct:casts/single_use/small_rod', 	MULTI:'tconstruct:casts/multi_use/small_rod' },			
-		PLATE: 		{ SINGLE:'tconstruct:casts/single_use/small_plate', 	MULTI:'tconstruct:casts/multi_use/small_plate' },			
-		GREATE_PLATE: 	{ SINGLE:'tconstruct:casts/single_use/plate', 		MULTI:'tconstruct:casts/multi_use/plate' },	
-		GREATE_GEAR: 	{ SINGLE:'tconstruct:casts/single_use/gear', 		MULTI:'tconstruct:casts/multi_use/gear' },	
-		GREATE_ROD:	{ SINGLE:'tconstruct:casts/single_use/rod', 		MULTI:'tconstruct:casts/multi_use/rod' }
+		NUGGET: 	{ SINGLE : 'tconstruct:casts/single_use/nugget', 	MULTI : 'tconstruct:casts/multi_use/nugget' },
+		INGOT: 		{ SINGLE : 'tconstruct:casts/single_use/ingot', 	MULTI : 'tconstruct:casts/multi_use/ingot' },		
+		GEAR: 		{ SINGLE : 'tconstruct:casts/single_use/small_gear', 	MULTI : 'tconstruct:casts/multi_use/small_gear' },			
+		ROD: 		{ SINGLE : 'tconstruct:casts/single_use/small_rod', 	MULTI : 'tconstruct:casts/multi_use/small_rod' },			
+		PLATE: 		{ SINGLE : 'tconstruct:casts/single_use/small_plate', 	MULTI : 'tconstruct:casts/multi_use/small_plate' },			
+		GREATE_PLATE: 	{ SINGLE : 'tconstruct:casts/single_use/plate', 	MULTI : 'tconstruct:casts/multi_use/plate' },	
+		GREATE_GEAR: 	{ SINGLE : 'tconstruct:casts/single_use/gear', 		MULTI : 'tconstruct:casts/multi_use/gear' },	
+		GREATE_ROD:	{ SINGLE : 'tconstruct:casts/single_use/rod', 		MULTI : 'tconstruct:casts/multi_use/rod' }
 		
 	}
 	const recipes=[
