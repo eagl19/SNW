@@ -141,7 +141,7 @@ const FLUIDS={
 	ALUMINUM: 		'tfc_metallum:metal/aluminum',
 	COPPER:			'tfc:metal/copper',
 	GOLD:			'tfc:metal/gold',
-	WROUGHT_IRON:	'tfc:metal/wrought_iron',
+	WROUGHT_IRON:		'tfc:metal/wrought_iron',
 	LEAD:			'tfc_metallum:metal/lead',
 	NICKEL:			'tfc:metal/nickel',
 	SILVER:			'tfc:metal/silver',
@@ -160,6 +160,7 @@ const FLUIDS={
 	URANIUM:		'tfc_metallum:metal/uranium',
 	PLATINUM:		'tfc_metallum:metal/platinum',
 	OSMIUM:			'tfc_metallum:metal/osmium',
+	TUNGSTEN_STEEL:		'tfc_metallum:metal/tungsten_steel'
 }
 const NUGGETS={
 	ALUMINUM: 		'immersiveengineering:nugget_aluminum',
