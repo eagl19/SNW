@@ -5,13 +5,13 @@ onEvent('recipes', event => {
 	}
 	const recipes=[
 		{ MATERIAL : BLANK.RED, 	PATTERN : 'forge:gears', OUTPUT : 'kubejs:small_gear_red_sand_cast', 	KEY : 'red_sand_casts/small_gear'},
-		{ MATERIAL : BLANK.WHITE,	PATTERN : 'forge:gears', OUTPUT : 'kubejs:small_gear_sand_cast', 		KEY : 'sand_casts/small_gear'},
+		{ MATERIAL : BLANK.WHITE,	PATTERN : 'forge:gears', OUTPUT : 'kubejs:small_gear_sand_cast', 	KEY : 'sand_casts/small_gear'},
 		
-		{ MATERIAL : BLANK.RED, 	PATTERN : 'forge:rods', OUTPUT : 'kubejs:small_rod_red_sand_cast', 		KEY : 'red_sand_casts/small_rod'},
-		{ MATERIAL : BLANK.WHITE,	PATTERN : 'forge:rods', OUTPUT : 'kubejs:small_rod_sand_cast', 			KEY : 'sand_casts/small_rod'},
+		{ MATERIAL : BLANK.RED, 	PATTERN : 'forge:rods', OUTPUT : 'kubejs:small_rod_red_sand_cast', 	KEY : 'red_sand_casts/small_rod'},
+		{ MATERIAL : BLANK.WHITE,	PATTERN : 'forge:rods', OUTPUT : 'kubejs:small_rod_sand_cast', 		KEY : 'sand_casts/small_rod'},
 		
-		{ MATERIAL : BLANK.RED, 	PATTERN : 'forge:plates', OUTPUT : 'kubejs:small_plate_red_sand_cast', 		KEY : 'red_sand_casts/small_plate'},
-		{ MATERIAL : BLANK.WHITE,	PATTERN : 'forge:plates', OUTPUT : 'kubejs:small_plate_sand_cast', 			KEY : 'sand_casts/small_plate'}
+		{ MATERIAL : BLANK.RED, 	PATTERN : 'forge:plates', OUTPUT : 'kubejs:small_plate_red_sand_cast', 	KEY : 'red_sand_casts/small_plate'},
+		{ MATERIAL : BLANK.WHITE,	PATTERN : 'forge:plates', OUTPUT : 'kubejs:small_plate_sand_cast', 	KEY : 'sand_casts/small_plate'}
 	]
 	recipes.forEach(recipe=>{
 		event.custom({
