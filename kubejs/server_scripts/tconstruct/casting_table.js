@@ -10,6 +10,28 @@ onEvent('recipes', event => {
 		GREATE_ROD:	{ SINGLE : 'tconstruct:casts/single_use/rod', 		MULTI : 'tconstruct:casts/multi_use/rod' }
 		
 	}
+	const cast_recipes=[
+		{ ITEM : 'forge:gears', CONSUMED : true, FLUID:{TAG : FLUIDS.TUNGSTEN, COUNT : 100}, OUTPUT : 'kubejs:small_gear_cast', KEY: 'small_gear'}
+		]
+	cast_recipes.forEach(recipe=>{
+		event.custom({
+			type: 'tconstruct:casting_table',
+			cast: {
+				tag: recipe.ITEM,
+				type: 'tconstruct:material'
+			},
+			cast_consumed: recipe.CONSUMED,
+			switch_slots: true,
+			fluid: {
+				tag: recipe.FLUID.TAG,
+				amount: recipe.FLUID.COUNT
+			},
+			result: { 
+				item: recipe.OUTPUT
+			},
+			cooling_time: recipe.TIME
+		}).id(`tconstruct:casts/multi_use/${recipe.KEY}`)
+	})
 	const recipes=[
 		{ INPUT : { FLUID:FLUIDS.ALUMINUM,	COUNT : 10 }, OUTPUT : NUGGETS.ALUMINUM,	CONSUMED : true, 	TYPE : CASTS.NUGGET, TIME : 53,  KEY : 'aluminum/nugget_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.COPPER,	COUNT : 10 }, OUTPUT : NUGGETS.COPPER,		CONSUMED : true, 	TYPE : CASTS.NUGGET, TIME : 75,  KEY : 'copper/nugget_sand_cast'},
