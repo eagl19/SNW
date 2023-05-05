@@ -49,7 +49,7 @@ onEvent('recipes', event => {
 		{ ITEM : '#forge:gems',			CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:gem_cast', 		TIME: 824, KEY: 'gems'},
 		{ ITEM : 'tconstruct:repair_kit',	CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:repair_kit_cast', 	TIME: 824, KEY: 'repair_kit'},
 		{ ITEM : '#forge:wires',		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:wire_cast', 		TIME: 824, KEY: 'wires'}
-		]
+	]
 	cast_recipes.forEach(recipe=>{
 		let CAST=null
 		if (recipe.ITEM.startsWith("#")){
@@ -182,4 +182,9 @@ onEvent('recipes', event => {
 			cooling_time: recipe.TIME
 		}).id(`tconstruct:smeltery/casting/metal/${recipe.KEY}`)
 	})
+})
+onEvent('item.tags', event => {
+	event.add('tconstruct:casts/multi_use/small_plate','kubejs:small_plate_cast')
+	event.add('tconstruct:casts/multi_use/small_gear','kubejs:small_gear_cast')
+	event.add('tconstruct:casts/multi_use/small_rod','kubejs:small_rod_cast')
 })
