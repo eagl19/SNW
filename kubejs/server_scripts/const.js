@@ -258,3 +258,27 @@ const BLOCKS={
 	PLATINUM:		'tfc_metalwork:metal/block/platinum',
 	OSMIUM:			'tfc_metalwork:metal/block/osmium'
 }
+const SMALL_GEARS={
+	ALUMINUM: 		'tfc_metalwork:metal/small_gear/aluminum',
+	COPPER:			'tfc_metalwork:metal/small_gear/copper',
+	GOLD:			'tfc_metalwork:metal/small_gear/gold',
+	WROUGHT_IRON:	'tfc_metalwork:metal/small_gear/wrought_iron',
+	LEAD:			'tfc_metalwork:metal/small_gear/lead',
+	NICKEL:			'tfc_metalwork:metal/small_gear/nickel',
+	SILVER:			'tfc_metalwork:metal/small_gear/silver',
+	TIN:			'tfc_metalwork:metal/small_gear/tin',
+	ZINC:			'tfc_metalwork:metal/small_gear/zinc',
+	BISMUTH:		'tfc_metalwork:metal/small_gear/bismuth',
+	BERYLLIUM:		'tfc_metalwork:metal/small_gear/beryllium',
+	COBALT:			'tfc_metalwork:metal/small_gear/cobalt',
+	BORON:			'tfc_metalwork:metal/small_gear/boron',
+	THORIUM:		'tfc_metalwork:metal/small_gear/thorium',
+	IRIDIUM:		'tfc_metalwork:metal/small_gear/iridium',
+	TITANIUM:		'tfc_metalwork:metal/small_gear/titanium',
+	ANTIMONY:		'tfc_metalwork:metal/small_gear/antimony',
+	TUNGSTEN:		'tfc_metalwork:metal/small_gear/tungsten',
+	CHROMIUM:		'tfc_metalwork:metal/small_gear/chromium',
+	URANIUM:		'tfc_metalwork:metal/small_gear/uranium',
+	PLATINUM:		'tfc_metalwork:metal/small_gear/platinum',
+	OSMIUM:			'tfc_metalwork:metal/small_gear/osmium'
+}
