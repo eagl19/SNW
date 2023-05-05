@@ -7,30 +7,70 @@ onEvent('recipes', event => {
 		PLATE: 		{ SINGLE : 'tconstruct:casts/single_use/small_plate', 	MULTI : 'tconstruct:casts/multi_use/small_plate' },			
 		GREATE_PLATE: 	{ SINGLE : 'tconstruct:casts/single_use/plate', 	MULTI : 'tconstruct:casts/multi_use/plate' },	
 		GREATE_GEAR: 	{ SINGLE : 'tconstruct:casts/single_use/gear', 		MULTI : 'tconstruct:casts/multi_use/gear' },	
-		GREATE_ROD:	{ SINGLE : 'tconstruct:casts/single_use/rod', 		MULTI : 'tconstruct:casts/multi_use/rod' }
-		
+		GREATE_ROD:	{ SINGLE : 'tconstruct:casts/single_use/rod', 		MULTI : 'tconstruct:casts/multi_use/rod' },
+		TOOL_HANDLE: 	{ SINGLE : 'tconstruct:casts/multi_use/tool_handle', 	MULTI : 'tconstruct:casts/multi_use/tool_handle' },
+		TOUGH_HANDLE: 	{ SINGLE : 'tconstruct:casts/multi_use/tough_handle', 	MULTI : 'tconstruct:casts/multi_use/tough_handle' },
+		BOW_LIMB: 	{ SINGLE : 'tconstruct:casts/multi_use/bow_limb', 	MULTI : 'tconstruct:casts/multi_use/bow_limb' },
+		BOW_GRIP: 	{ SINGLE : 'tconstruct:casts/multi_use/bow_grip', 	MULTI : 'tconstruct:casts/multi_use/bow_grip' },
+		PICK_HEAD: 	{ SINGLE : 'tconstruct:casts/multi_use/pick_head', 	MULTI : 'tconstruct:casts/multi_use/pick_head' },
+		SMALL_AXE_HEAD: { SINGLE : 'tconstruct:casts/multi_use/small_axe_head', MULTI : 'tconstruct:casts/multi_use/small_axe_head' },
+		SMALL_BLADE: 	{ SINGLE : 'tconstruct:casts/multi_use/small_blade', 	MULTI : 'tconstruct:casts/multi_use/small_blade' },
+		HAMMER_HEAD: 	{ SINGLE : 'tconstruct:casts/multi_use/hammer_head', 	MULTI : 'tconstruct:casts/multi_use/hammer_head' },
+		BROAD_BLADE: 	{ SINGLE : 'tconstruct:casts/multi_use/broad_blade', 	MULTI : 'tconstruct:casts/multi_use/broad_blade' },
+		BROAD_AXE_HEAD: { SINGLE : 'tconstruct:casts/multi_use/broad_axe_head', MULTI : 'tconstruct:casts/multi_use/broad_axe_head' },
+		TOOL_BINDING: 	{ SINGLE : 'tconstruct:casts/multi_use/tool_binding', 	MULTI : 'tconstruct:casts/multi_use/tool_binding' },
+		ROUND_PLATE: 	{ SINGLE : 'tconstruct:casts/multi_use/round_plate', 	MULTI : 'tconstruct:casts/multi_use/round_plate' },
+		LARGE_PLATE: 	{ SINGLE : 'tconstruct:casts/multi_use/large_plate', 	MULTI : 'tconstruct:casts/multi_use/large_plate' },
+		GEM: 		{ SINGLE : 'tconstruct:casts/multi_use/gem', 		MULTI : 'tconstruct:casts/multi_use/gem' },
+		REPAIR_KIT: 	{ SINGLE : 'tconstruct:casts/multi_use/repair_kit', 	MULTI : 'tconstruct:casts/multi_use/repair_kit' },
+		WIRE: 		{ SINGLE : 'tconstruct:casts/multi_use/wire', 		MULTI : 'tconstruct:casts/multi_use/wire' }
 	}
 	const cast_recipes=[
-		{ ITEM : 'forge:gears', CONSUMED : true, FLUID:{TAG : FLUIDS.TUNGSTEN, COUNT : 100}, OUTPUT : 'kubejs:small_gear_cast', KEY: 'small_gear'}
+		{ ITEM : '#forge:nuggets', 		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:nugget_cast', 		TIME: 824, KEY: 'nuggets' },
+		{ ITEM : '#forge:ingots', 		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:ingot_cast', 		TIME: 824, KEY: 'ingots'},
+		{ ITEM : '#forge:gears', 		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'kubejs:small_gear_cast', 		TIME: 824, KEY: 'small_gears'},
+		{ ITEM : '#forge:rods', 		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'kubejs:small_rod_cast', 		TIME: 824, KEY: 'small_rods'},
+		{ ITEM : '#forge:plates', 		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'kubejs:small_plate_cast',		TIME: 824, KEY: 'small_plates'},
+		{ ITEM : '#forge:large_plates', 	CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:plate_cast', 		TIME: 824, KEY: 'plates'},
+		{ ITEM : '#forge:large_gears', 		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:gear_cast', 		TIME: 824, KEY: 'gears'},
+		{ ITEM : '#forge:large_rods', 		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:rod_cast', 		TIME: 824, KEY: 'rods'},
+		{ ITEM : 'tconstruct:tool_handle', 	CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:tool_handle_cast', 	TIME: 824, KEY: 'tool_handle'},
+		{ ITEM : 'tconstruct:tough_handle',	CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:tough_handle_cast', 	TIME: 824, KEY: 'tough_handle'},
+		{ ITEM : 'tconstruct:bow_limb',		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:bow_limb_cast', 	TIME: 824, KEY: 'bow_limb'},
+		{ ITEM : 'tconstruct:bow_grip',		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:bow_grip_cast', 	TIME: 824, KEY: 'bow_grip'},
+		{ ITEM : 'tconstruct:pick_head',	CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:pick_head_cast', 	TIME: 824, KEY: 'pick_head'},
+		{ ITEM : 'tconstruct:small_axe_head',	CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:small_axe_head_cast', 	TIME: 824, KEY: 'small_axe_head'},
+		{ ITEM : 'tconstruct:hammer_head',	CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:hammer_head_cast', 	TIME: 824, KEY: 'hammer_head'},
+		{ ITEM : 'tconstruct:broad_blade',	CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:broad_blade_cast', 	TIME: 824, KEY: 'broad_blade'},
+		{ ITEM : 'tconstruct:broad_axe_head',	CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:broad_axe_head_cast', 	TIME: 824, KEY: 'broad_axe_head'},
+		{ ITEM : 'tconstruct:tool_binding',	CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:tool_binding_cast', 	TIME: 824, KEY: 'tool_binding'},
+		{ ITEM : 'tconstruct:round_plate',	CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:round_plate_cast', 	TIME: 824, KEY: 'round_plate'},
+		{ ITEM : 'tconstruct:large_plate',	CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:large_plate_cast', 	TIME: 824, KEY: 'large_plate'},
+		{ ITEM : '#forge:gems',			CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:gem_cast', 		TIME: 824, KEY: 'gems'},
+		{ ITEM : 'tconstruct:repair_kit',	CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:repair_kit_cast', 	TIME: 824, KEY: 'repair_kit'},
+		{ ITEM : '#forge:wires',		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:wire_cast', 		TIME: 824, KEY: 'wires'}
 		]
 	cast_recipes.forEach(recipe=>{
+		let CAST=null
+		if (recipe.ITEM.startsWith("#")){
+			CAST = {tag: recipe.ITEM.slice(1) }
+		} else {
+			CAST = {item : recipe.ITEM, type : 'tconstruct:material' } 
+		}
 		event.custom({
 			type: 'tconstruct:casting_table',
-			cast: {
-				tag: recipe.ITEM,
-				type: 'tconstruct:material'
-			},
+			cast: CAST,
 			cast_consumed: recipe.CONSUMED,
 			switch_slots: true,
 			fluid: {
-				tag: recipe.FLUID.TAG,
+				name: recipe.FLUID.NAME,
 				amount: recipe.FLUID.COUNT
 			},
 			result: { 
 				item: recipe.OUTPUT
 			},
 			cooling_time: recipe.TIME
-		}).id(`tconstruct:casts/multi_use/${recipe.KEY}`)
+		}).id(`tconstruct:smeltery/casts/gold_casts/${recipe.KEY}`)
 	})
 	const recipes=[
 		{ INPUT : { FLUID:FLUIDS.ALUMINUM,	COUNT : 10 }, OUTPUT : NUGGETS.ALUMINUM,	CONSUMED : true, 	TYPE : CASTS.NUGGET, TIME : 53,  KEY : 'aluminum/nugget_sand_cast'},
