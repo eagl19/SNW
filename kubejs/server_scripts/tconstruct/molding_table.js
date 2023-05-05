@@ -25,7 +25,7 @@ onEvent('recipes', event => {
 			result: {
 				item: recipe.OUTPUT
 			}
-		}).id(`tconstruct:smeltery/casts/`${recipe.KEY}`)
+		}).id(`tconstruct:smeltery/casts/${recipe.KEY}`)
 	})
 })
 onEvent('item.tags', event => {
