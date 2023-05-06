@@ -29,15 +29,16 @@ onEvent('item.registry', event => {
 	event.create('small_plate_cast').texture('kubejs:item//cast/small_plate')
 	event.create('small_gear_cast').texture('kubejs:item/cast/small_gear')
 	event.create('small_rod_cast').texture('kubejs:item/cast/small_rod')
-	event.create('greate_plate_red_sand_cast').texture('kubejs:item/red_sand_cast/small_plate')
-	event.create('greate_gear_red_sand_cast').texture('kubejs:item/red_sand_cast/small_gear')
-	event.create('greate_rod_red_sand_cast').texture('kubejs:item/red_sand_cast/small_rod')
-	event.create('greate_plate_sand_cast').texture('kubejs:item/sand_cast/small_plate')
-	event.create('greate_gear_sand_cast').texture('kubejs:item/sand_cast/small_gear')
-	event.create('greate_rod_sand_cast').texture('kubejs:item/sand_cast/small_rod')
+	event.create('small_plate_red_sand_cast').texture('kubejs:item/red_sand_cast/small_plate')
+	event.create('small_gear_red_sand_cast').texture('kubejs:item/red_sand_cast/small_gear')
+	event.create('small_rod_red_sand_cast').texture('kubejs:item/red_sand_cast/small_rod')
+	event.create('small_plate_sand_cast').texture('kubejs:item/sand_cast/small_plate')
+	event.create('small_gear_sand_cast').texture('kubejs:item/sand_cast/small_gear')
+	event.create('small_rod_sand_cast').texture('kubejs:item/sand_cast/small_rod')
 })
 
 onEvent('block.registry', event => {
 	// Register new blocks here
 	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
 })
+
