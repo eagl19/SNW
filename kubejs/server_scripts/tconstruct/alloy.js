@@ -26,7 +26,9 @@ onEvent('recipes', event => {
 		{INPUT : [	{name : FLUIDS.OSMIUM, 			amount : 70 }, {name : FLUIDS.IRIDIUM, 			amount : 30  }	], OUTPUT : {fluid : FLUIDS.OSMIRIDIUM, 		amount : 100 }, TEMPERATURE : 1500, KEY : 'osmiridium' },
 		{INPUT : [	{name : FLUIDS.LEAD, 			amount : 30 }, {name : FLUIDS.ANTIMONY, 		amount : 70  }	], OUTPUT : {fluid : FLUIDS.PEWTER, 			amount : 100 }, TEMPERATURE : 1500, KEY : 'pewter' },
 		{INPUT : [	{name : FLUIDS.ANTIMONY, 		amount : 50 }, {name : FLUIDS.BISMUTH, 			amount : 30  },
-					{name : FLUIDS.TIN, 			amount : 30 }													], OUTPUT : {fluid : FLUIDS.SOLDER, 			amount : 110 }, TEMPERATURE : 400,  KEY : 'solder' }
+					{name : FLUIDS.TIN, 			amount : 30 }													], OUTPUT : {fluid : FLUIDS.SOLDER, 			amount : 110 }, TEMPERATURE : 400,  KEY : 'solder' },
+		{INPUT : [	{name : FLUIDS.STEEL, 			amount : 45 }, {name : FLUIDS.BLACK_STEEL, 		amount : 105 },
+					{name : FLUIDS.TUNGSTEN,		amount : 25 }, {name : FLUIDS.SOLDER, 			amount : 25  }	], OUTPUT : {fluid : FLUIDS.SOLDER, 			amount : 200 }, TEMPERATURE : 3690, KEY : 'tungsten_steel' }
 	]
 	recipes.forEach(recipe=>{
 		event.custom({
