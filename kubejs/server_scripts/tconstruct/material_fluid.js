@@ -16,7 +16,8 @@ onEvent('recipes', event => {
 		{INPUT : { name : FLUIDS.STEEL, 			amount : 100 }, TEMPERATURE : 1540, KEY : 'steel'},
 		{INPUT : { name : FLUIDS.TUNGSTEN_STEEL, 	amount : 100 }, TEMPERATURE : 3690, KEY : 'tungsten_steel'}
 	]
-	recipes.forEach(recipe=>{		
+	recipes.forEach(recipe=>{
+		event.remove({id:`tconstruct:tools/materials/casting/${recipe.KEY}`})
 		event.custom({
 			type 		: 'tconstruct:material_fluid',
 			fluid 		:recipe.INPUT,
