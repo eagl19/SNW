@@ -21,7 +21,31 @@ onEvent('recipes', event => {
 		{INPUT : { name : FLUIDS.CHROMIUM, 		amount: 1000 }, OUTPUT : BLOCKS.CHROMIUM,	 	TIME : 348,  KEY : 'chromium'},
 		{INPUT : { name : FLUIDS.URANIUM, 		amount: 1000 }, OUTPUT : BLOCKS.URANIUM, 		TIME : 304,  KEY : 'uranium'},
 		{INPUT : { name : FLUIDS.PLATINUM, 		amount: 1000 }, OUTPUT : BLOCKS.PLATINUM, 		TIME : 480,  KEY : 'platinum'},
-		{INPUT : { name : FLUIDS.OSMIUM, 		amount: 1000 }, OUTPUT : BLOCKS.OSMIUM, 		TIME : 836,  KEY : 'osmium'}
+		{INPUT : { name : FLUIDS.OSMIUM, 		amount: 1000 }, OUTPUT : BLOCKS.OSMIUM, 		TIME : 836,  KEY : 'osmium'},
+
+		{INPUT : { name : FLUIDS.BRONZE, 			amount: 1000 }, OUTPUT : BLOCKS.BRONZE, 			TIME : 264,  KEY : 'bronze'},
+		{INPUT : { name : FLUIDS.BISMUTH_BRONZE,	amount: 1000 }, OUTPUT : BLOCKS.BISMUTH_BRONZE,		TIME : 272,  KEY : 'bismuth_bronze'},
+		{INPUT : { name : FLUIDS.BLACK_BRONZE, 		amount: 1000 }, OUTPUT : BLOCKS.BLACK_BRONZE, 		TIME : 296,  KEY : 'black_bronze'},
+		{INPUT : { name : FLUIDS.BRASS, 			amount: 1000 }, OUTPUT : BLOCKS.BRASS, 				TIME : 256,  KEY : 'brass'},
+		{INPUT : { name : FLUIDS.ROSE_GOLD, 		amount: 1000 }, OUTPUT : BLOCKS.ROSE_GOLD, 			TIME : 264,  KEY : 'rose_gold'},
+		{INPUT : { name : FLUIDS.STERLING_SILVER, 	amount: 1000 }, OUTPUT : BLOCKS.STERLING_SILVER, 	TIME : 260,  KEY : 'sterling_silver'},
+		{INPUT : { name : FLUIDS.STEEL, 			amount: 1000 }, OUTPUT : BLOCKS.STEEL, 				TIME : 428,  KEY : 'steel'},
+		{INPUT : { name : FLUIDS.BLACK_STEEL, 		amount: 1000 }, OUTPUT : BLOCKS.BLACK_STEEL, 		TIME : 412,  KEY : 'black_steel'},
+		{INPUT : { name : FLUIDS.BLUE_STEEL, 		amount: 1000 }, OUTPUT : BLOCKS.BLUE_STEEL, 		TIME : 428,  KEY : 'blue_steel'},
+		{INPUT : { name : FLUIDS.RED_STEEL, 		amount: 1000 }, OUTPUT : BLOCKS.RED_STEEL, 			TIME : 428,  KEY : 'red_steel'},
+		{INPUT : { name : FLUIDS.ALNICO, 			amount: 1000 }, OUTPUT : BLOCKS.ALNICO, 			TIME : 416,  KEY : 'alnico'},
+		{INPUT : { name : FLUIDS.BERYLLIUM_COPPER,	amount: 1000 }, OUTPUT : BLOCKS.BERYLLIUM_COPPER,	TIME : 416,  KEY : 'beryllium_copper'},
+		{INPUT : { name : FLUIDS.CONSTANTAN, 		amount: 1000 }, OUTPUT : BLOCKS.CONSTANTAN, 		TIME : 164,  KEY : 'constantan'},
+		{INPUT : { name : FLUIDS.ELECTRUM, 			amount: 1000 }, OUTPUT : BLOCKS.ELECTRUM, 			TIME : 164,  KEY : 'electrum'},
+		{INPUT : { name : FLUIDS.FERROBORON, 		amount: 1000 }, OUTPUT : BLOCKS.FERROBORON, 		TIME : 1128, KEY : 'ferroboron'},
+		{INPUT : { name : FLUIDS.FLORENTINE_BRONZE,	amount: 1000 }, OUTPUT : BLOCKS.FLORENTINE_BRONZE, 	TIME : 112,  KEY : 'florentine_bronze'},
+		{INPUT : { name : FLUIDS.INVAR, 			amount: 1000 }, OUTPUT : BLOCKS.INVAR, 				TIME : 400,  KEY : 'invar'},
+		{INPUT : { name : FLUIDS.MITHRIL, 			amount: 1000 }, OUTPUT : BLOCKS.MITHRIL, 			TIME : 260,  KEY : 'mithril'},
+		{INPUT : { name : FLUIDS.NICKEL_SILVER, 	amount: 1000 }, OUTPUT : BLOCKS.NICKEL_SILVER, 		TIME : 400,  KEY : 'nickel_silver'},
+		{INPUT : { name : FLUIDS.OSMIRIDIUM, 		amount: 1000 }, OUTPUT : BLOCKS.OSMIRIDIUM, 		TIME : 416,  KEY : 'osmiridium'},
+		{INPUT : { name : FLUIDS.PEWTER, 			amount: 1000 }, OUTPUT : BLOCKS.PEWTER, 			TIME : 416,  KEY : 'pewter'},
+		{INPUT : { name : FLUIDS.SOLDER, 			amount: 1000 }, OUTPUT : BLOCKS.SOLDER, 			TIME : 112,  KEY : 'solder'},
+		{INPUT : { name : FLUIDS.TUNGSTEN_STEEL, 	amount: 1000 }, OUTPUT : BLOCKS.TUNGSTEN_STEEL, 	TIME : 3128,  KEY : 'tungsten_steel'}
 		
 	]
 	recipes.forEach(recipe=>{
