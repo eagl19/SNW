@@ -1,0 +1,5525 @@
+{
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_bearing": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_diorite_bricks_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/appliances/copper_backtank": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/concrete": {
+    "criteria": {
+      "has_clay": "2023-04-02 09:54:16 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:tools/materials_and_you": {
+    "criteria": {
+      "crafted_book": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:internal/starting_book": {
+    "criteria": {
+      "tick": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/alabaster/blue_bricks_stairs": {
+    "criteria": {
+      "has_item": "2023-04-02 08:06:03 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/red_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "framedcompactdrawers:recipes/framed_compacting_drawers/framed_full_one": {
+    "criteria": {
+      "has_chests_wooden": "2023-04-30 20:01:46 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/marble_bricks_wall": {
+    "criteria": {
+      "has_item": "2023-04-15 12:52:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/brass_hand": {
+    "criteria": {
+      "has_item": "2023-04-17 18:57:08 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/maize_flatbread_sandwich": {
+    "criteria": {
+      "has_item": "2023-05-06 11:17:46 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/brown_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/blasting/ingot_lead_compat_mekanism": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:27 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/speedboat": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/scorched/duct": {
+    "criteria": {
+      "has_item": "2023-04-30 20:24:24 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2023-04-03 21:22:54 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/basalt_raw_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 15:09:43 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/curiosities/peculiar_bell": {
+    "criteria": {
+      "has_item": "2023-04-17 18:57:08 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/magenta_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/rhyolite_raw_stairs": {
+    "criteria": {
+      "has_item": "2023-04-04 18:53:28 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/coal_coke_to_coke": {
+    "criteria": {
+      "has_coal_coke": "2023-04-01 16:13:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet_from_white_carpet": {
+    "criteria": {
+      "has_black_dye": "2023-04-02 11:58:04 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/gemologist": {
+    "criteria": {
+      "diamond": "2023-04-01 08:13:11 +0300",
+      "pyrite": "2023-04-01 09:12:50 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_diorite_brick_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/metal_ladder_none": {
+    "criteria": {
+      "has_metal_rod": "2023-05-06 14:46:46 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/creosote": {
+    "criteria": {
+      "has_item": "2023-04-16 14:56:55 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/andesite_smooth": {
+    "criteria": {
+      "has_item": "2023-04-04 18:51:52 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/train_door": {
+    "criteria": {
+      "has_item": "2023-04-17 18:57:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/seared_glass": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/douglas_fir_trapped_chest": {
+    "criteria": {
+      "has_item": "2023-04-01 14:10:44 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/spoon": {
+    "criteria": {
+      "has_item": "2023-04-03 21:22:54 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/zinc_block_from_compacting": {
+    "criteria": {
+      "has_item": "2023-04-02 13:02:31 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/metal_bracket": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/yellow_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "create:mechanical_pump_0": {
+    "criteria": {
+      "0": "2023-04-02 10:36:09 +0300"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2023-04-17 18:57:28 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/nest_box": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/oat_slice_sandwich": {
+    "criteria": {
+      "has_item": "2023-04-03 21:32:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/basalt_hardened": {
+    "criteria": {
+      "has_item": "2023-04-01 15:09:43 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/andesite_brick": {
+    "criteria": {
+      "has_item": "2023-04-01 08:07:11 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/andesite_pillar_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/beehive_frame": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/granite_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:35 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/basin": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_lead_to_nugget_lead": {
+    "criteria": {
+      "has_ingot_lead": "2023-04-01 12:11:06 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/basalt_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 14:27:19 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/marble_bricks_slab": {
+    "criteria": {
+      "has_item": "2023-04-15 12:52:06 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/alabaster/white_bricks_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 08:02:07 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/redstone/tripwire_hook": {
+    "criteria": {
+      "has_item": "2023-04-01 08:26:45 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_andesite_brick_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/alchemistry/combiner": {
+    "criteria": {
+      "has_item": "2023-04-30 20:01:46 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/gantry_shaft": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/blasting/ingot_uranium_compat_immersiveengineering": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:46 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/pulse_repeater": {
+    "criteria": {
+      "has_item": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/limestone_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 09:07:02 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/diorite_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 11:18:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2023-04-02 09:16:23 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/gold_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2023-04-01 09:51:56 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/quartzite_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 09:03:43 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/exposed_cut_copper_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/toolbox": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/andesite_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:42 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/deployer": {
+    "criteria": {
+      "has_item": "2023-04-17 18:24:00 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/smelting/tin_ingot_compat_thermal": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:24 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/lime_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/sequenced_gearshift": {
+    "criteria": {
+      "has_item": "2023-04-17 18:52:03 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/chalk_loose_rocks_to_cobble": {
+    "criteria": {
+      "has_item": "2023-04-03 21:22:41 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_andesite_brick_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/rhyolite_raw_stairs": {
+    "criteria": {
+      "has_item": "2023-04-04 18:53:28 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/andesite_alloy_from_zinc": {
+    "criteria": {
+      "has_item": "2023-04-02 12:57:32 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/ceramic/black_unfired_vessel": {
+    "criteria": {
+      "has_item": "2023-04-02 11:58:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2023-04-16 12:02:27 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/radial_chassis": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/andesite_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:42 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/raw_stone": {
+    "criteria": {
+      "stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/andesite_ladder": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/andesite_cobble_to_loose_rocks": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:42 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/redstone_upgrade": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/redstone/minecart": {
+    "criteria": {
+      "has_item": "2023-04-01 08:26:45 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/ingot_gauge": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/speedometerfrom_conversion": {
+    "criteria": {
+      "has_item": "2023-04-02 10:26:08 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/gearboxfrom_conversion": {
+    "criteria": {
+      "has_item": "2023-04-01 08:55:15 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/screwdriver": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/spruce_trim": {
+    "criteria": {
+      "has_planks": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/rhyolite_smooth": {
+    "criteria": {
+      "has_item": "2023-04-04 18:53:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2023-04-23 21:31:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/brass_funnel": {
+    "criteria": {
+      "has_item": "2023-04-17 18:57:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/basalt_cobble_to_loose_rocks": {
+    "criteria": {
+      "has_item": "2023-04-01 14:27:19 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2023-04-17 20:51:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/redstone/steel_hopper": {
+    "criteria": {
+      "has_item": "2023-04-01 08:26:45 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/adventuring_time": {
+    "criteria": {
+      "low_canyons": "2023-04-01 07:58:57 +0300",
+      "lowlands": "2023-04-01 08:00:24 +0300",
+      "plains": "2023-04-01 21:29:06 +0300"
+    },
+    "done": false
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/upgrade_tank": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/shaft": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/red_sand_cast": {
+    "criteria": {
+      "has_casting": "2023-04-16 14:06:29 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/drain": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/basalt_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 14:27:19 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_drill": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/train_trapdoor": {
+    "criteria": {
+      "has_item": "2023-04-17 18:57:08 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_granite_bricks_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/root": {
+    "criteria": {
+      "in_game_condition": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/gold_platform": {
+    "criteria": {
+      "has_gold": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/brass_block_from_compacting": {
+    "criteria": {
+      "has_item": "2023-04-17 18:57:28 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/andesite_raw_wall": {
+    "criteria": {
+      "has_item": "2023-04-04 18:51:52 +0300"
+    },
+    "done": true
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_diorite_brick_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "create:water_wheel": {
+    "criteria": {
+      "0": "2023-04-01 08:53:53 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/weathered_copper_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/plate_copper_hammering": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:world/tinkers_gadgetry": {
+    "criteria": {
+      "crafted_book": "2023-05-07 18:34:34 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/oak_wood": {
+    "criteria": {
+      "has_item": "2023-04-03 21:28:16 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/quartzite_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 09:03:43 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_andesite_brick_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/ashtray": {
+    "criteria": {
+      "has_item": "2023-04-15 13:41:04 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_barrel": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/weathered_cut_copper_slab_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-07 17:16:08 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/cuckoo_clock": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/redstone/hopper": {
+    "criteria": {
+      "has_item": "2023-04-01 08:26:45 +0300"
+    },
+    "done": true
+  },
+  "create:windmill_maxed": {
+    "criteria": {
+      "0": "2023-04-17 20:49:04 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/andesite_alloy": {
+    "criteria": {
+      "has_item": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/alchemistry/compactor": {
+    "criteria": {
+      "has_item": "2023-04-30 20:01:46 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/coke_to_slab": {
+    "criteria": {
+      "has_coke": "2023-04-02 13:20:59 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/storage_nickel_to_ingot_nickel": {
+    "criteria": {
+      "has_storage_nickel": "2023-04-02 13:09:50 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/granite_cobble_to_loose_rocks": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:35 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_granite_brick_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2023-04-16 15:41:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/redstone_link": {
+    "criteria": {
+      "has_item": "2023-04-17 18:52:03 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/auto_lubricator": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/wire_copper": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/millstone": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/stressometerfrom_conversion": {
+    "criteria": {
+      "has_item": "2023-04-02 10:26:03 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_granite_brick_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_diorite_brick_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/redstone_contact": {
+    "criteria": {
+      "has_item": "2023-04-17 18:52:03 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/gold_bars": {
+    "criteria": {
+      "has_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/basalt_loose_rocks_to_cobble": {
+    "criteria": {
+      "has_item": "2023-04-01 08:06:34 +0300"
+    },
+    "done": true
+  },
+  "framedcompactdrawers:recipes/framed_compacting_drawers/framed_half_four": {
+    "criteria": {
+      "has_chests_wooden": "2023-04-30 20:01:46 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/wrench": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_granite_brick_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/metal/hoe/bismuth_bronze": {
+    "criteria": {
+      "has_item": "2023-04-16 13:13:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2023-04-17 20:51:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-04-17 20:51:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/handstone": {
+    "criteria": {
+      "has_item": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/stick_steel": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/shovel_steel": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/cut_copper_slab_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-07 17:16:08 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/chute": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "firmalife:story/root": {
+    "criteria": {
+      "in_game_condition": "2023-04-28 20:20:39 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/ceramic/black_unfired_large_vessel": {
+    "criteria": {
+      "has_item": "2023-04-02 11:58:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/storage_lead_to_ingot_lead": {
+    "criteria": {
+      "has_storage_lead": "2023-04-02 13:09:34 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/granite_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:35 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/plate_gold_hammering": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/seared_ladder": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/blue_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/appliances/diving_helmet": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2023-04-16 15:39:44 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/one_stack_upgrade": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/stick_aluminum": {
+    "criteria": {
+      "has_alu_ingot": "2023-04-02 13:09:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/welding": {
+    "criteria": {
+      "double_ingots": "2023-04-01 13:59:12 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/chalk_bricks_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 08:29:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/basalt_smooth": {
+    "criteria": {
+      "has_item": "2023-04-01 15:09:43 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/small_rose_quartz_tiles_from_polished_rose_quartz_stonecutting": {
+    "criteria": {
+      "has_polished_rose_quartz": "2023-04-17 17:26:08 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/limestone_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 09:07:02 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/flux": {
+    "criteria": {
+      "has_item": "2023-04-03 21:22:41 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/bread": {
+    "criteria": {
+      "sandwich_bread": "2023-04-03 21:32:55 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/stone_anvil": {
+    "criteria": {
+      "special_condition": "2023-04-04 18:50:20 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/wirecoil_structure_steel": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/weathered_cut_copper_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/blasting/silver_ingot_compat_thermal": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:22 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/blasting/ingot_silver_compat_immersiveengineering": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:22 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/black_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/wirecoil_redstone": {
+    "criteria": {
+      "has_aluminum_ingot": "2023-04-02 13:09:43 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/empty_casing": {
+    "criteria": {
+      "has_coppper_ingot": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_nugget": "2023-04-01 11:43:28 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/plate_uranium_hammering": {
+    "criteria": {
+      "has_uranium_ingot": "2023-04-30 20:26:11 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/seared_brick": {
+    "criteria": {
+      "has_item": "2023-04-16 13:37:14 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_planks": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/map": {
+    "criteria": {
+      "has_item": "2023-04-16 15:39:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/granite_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:35 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/hand_crank": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/steel_scaffolding_standard": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/wire_aluminum": {
+    "criteria": {
+      "has_aluminum_ingot": "2023-04-02 13:09:43 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/asphalt_slab": {
+    "criteria": {
+      "has_the_recipe": "2023-04-07 17:16:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/blue_steel": {
+    "criteria": {
+      "metal_item/blue_steel": "2023-04-01 08:10:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/curiosities/minecart_coupling": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/hose_pulley": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/alu_wallmount": {
+    "criteria": {
+      "has_aluminum_ingot": "2023-04-02 13:09:43 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:foundry/fantastic_foundry": {
+    "criteria": {
+      "crafted_book": "2023-05-07 18:34:41 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/sheet": {
+    "criteria": {
+      "sheets": "2023-04-01 08:13:37 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/capacitor_lv": {
+    "criteria": {
+      "has_lead_ingot": "2023-04-02 13:09:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/horizontal_framed_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/gantry_carriage": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2023-04-01 08:27:45 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_lead_to_storage_lead": {
+    "criteria": {
+      "has_ingot_lead": "2023-04-02 13:09:34 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_chest": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/jungle_drawers": {
+    "criteria": {
+      "has_chest": "2023-04-01 14:10:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/diorite_cobble_to_loose_rocks": {
+    "criteria": {
+      "has_item": "2023-04-01 11:18:05 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/stick_iron": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/fluid_valve": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/wood/acacia_shelf": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_granite_bricks_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/stone/axe_igneous_extrusive": {
+    "criteria": {
+      "has_item": "2023-04-03 21:51:52 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/weighted_ejector": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/brass_nugget_from_decompacting": {
+    "criteria": {
+      "has_item": "2023-04-17 18:57:28 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/connector_lv": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_andesite_brick_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2023-04-02 09:54:40 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/oak_window": {
+    "criteria": {
+      "has_ingredient": "2023-04-17 20:51:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2023-04-16 12:02:27 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/puny_smelting": {
+    "criteria": {
+      "has_item": "2023-04-16 13:37:14 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/warped_drawers": {
+    "criteria": {
+      "has_chest": "2023-04-01 14:10:44 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/asphalt_stair": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/smelting/ingot_nickel_compat_immersiveengineering": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:48 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/cast_collector": {
+    "criteria": {
+      "nugget": "2023-04-22 16:45:11 +0300",
+      "pick_head": "2023-05-07 17:53:58 +0300",
+      "repair_kit": "2023-05-07 17:56:38 +0300",
+      "ingot": "2023-04-22 17:01:21 +0300"
+    },
+    "done": false
+  },
+  "immersiveengineering:main/mb_cokeoven": {
+    "criteria": {
+      "form_multiblock": "2023-04-02 10:05:59 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/sword_steel": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2023-04-03 21:22:54 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/diorite_pillar_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/voltmeter": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/basalt_raw_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 15:09:43 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/marble_bricks_slab": {
+    "criteria": {
+      "has_item": "2023-04-15 12:52:06 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/capacitor_mv": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/powered_toggle_latch": {
+    "criteria": {
+      "has_item": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/cyan_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/rose_quartz_lamp": {
+    "criteria": {
+      "has_item": "2023-04-02 12:57:32 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/andesite_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:42 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/alu_fence": {
+    "criteria": {
+      "has_alu_ingot": "2023-04-02 13:09:43 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/bow": {
+    "criteria": {
+      "has_item": "2023-04-16 14:48:26 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/puny_smelting": {
+    "criteria": {
+      "crafted_book": "2023-05-07 18:34:07 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_silver_to_nugget_silver": {
+    "criteria": {
+      "has_ingot_silver": "2023-04-01 11:37:03 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wattle": {
+    "criteria": {
+      "has_item": "2023-04-01 08:17:01 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_saw": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_sand": "2023-04-16 13:40:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/andesite_raw_slab": {
+    "criteria": {
+      "has_item": "2023-04-04 18:51:52 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2023-04-16 14:48:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-04-17 20:51:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/metallurgist": {
+    "criteria": {
+      "steel": "2023-04-01 16:09:02 +0300",
+      "blue_steel": "2023-04-01 08:10:13 +0300",
+      "unknown": "2023-04-01 16:26:13 +0300",
+      "gold": "2023-04-16 14:39:04 +0300",
+      "bismuth_bronze": "2023-04-02 11:05:17 +0300",
+      "tin": "2023-05-07 17:57:15 +0300",
+      "copper": "2023-04-02 10:46:10 +0300",
+      "wrought_iron": "2023-04-01 08:26:45 +0300",
+      "zinc": "2023-04-02 12:57:32 +0300",
+      "rose_gold": "2023-05-07 20:35:21 +0300",
+      "black_steel": "2023-04-01 08:03:24 +0300",
+      "brass": "2023-04-17 18:57:08 +0300",
+      "silver": "2023-04-02 12:57:43 +0300",
+      "red_steel": "2023-04-01 08:03:18 +0300",
+      "bismuth": "2023-04-22 17:23:57 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/hammer": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/axe_steel": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_pressure_plate": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/soot": {
+    "criteria": {
+      "has_item": "2023-04-16 10:12:46 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:foundry/encyclopedia": {
+    "criteria": {
+      "crafted_book": "2023-05-07 18:34:54 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/coke_from_slab": {
+    "criteria": {
+      "has_coke": "2023-04-02 13:20:59 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2023-04-03 21:22:54 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/petcoke_block_to_items": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/grout": {
+    "criteria": {
+      "has_item": "2023-04-02 09:54:16 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/andesite_raw_stairs": {
+    "criteria": {
+      "has_item": "2023-04-04 18:51:52 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/tools/armor/building/plate_shield": {
+    "criteria": {
+      "has_item": "2023-04-30 20:24:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/wire_lead": {
+    "criteria": {
+      "has_lead_ingot": "2023-04-02 13:09:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/fire_clay": {
+    "criteria": {
+      "fire_clay": "2023-04-02 09:16:09 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/copper_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:11 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/connector_hv": {
+    "criteria": {
+      "has_aluminum_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/oat_sandwich": {
+    "criteria": {
+      "has_item": "2023-04-03 21:32:55 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/basalt_raw_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 15:09:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/tools/armor/building/travelers_goggles": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/layered_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/wooden_bracket": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/marble_bricks_wall": {
+    "criteria": {
+      "has_item": "2023-04-15 12:52:06 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/smelting/ingot_silver_compat_immersiveengineering": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:22 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/speedometer": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_components": {
+    "criteria": {
+      "has_paper": "2023-04-16 15:39:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/granite_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:35 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_black_dye": "2023-04-02 11:58:04 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/melter": {
+    "criteria": {
+      "seared_heater": "2023-04-16 14:06:05 +0300",
+      "seared_table": "2023-04-16 14:06:35 +0300",
+      "seared_basin": "2023-04-16 14:06:11 +0300",
+      "seared_faucet": "2023-04-16 14:06:13 +0300",
+      "seared_melter": "2023-04-16 14:06:09 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/quartzite_cobble_to_loose_rocks": {
+    "criteria": {
+      "has_item": "2023-04-01 09:03:43 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/smelting/zinc_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:13 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/limestone_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 09:07:02 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/rose_quartz": {
+    "criteria": {
+      "has_item": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/nugget_silver_to_ingot_silver": {
+    "criteria": {
+      "has_nugget_silver": "2023-04-01 11:37:03 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_molds": {
+    "criteria": {
+      "has_paper": "2023-04-16 15:39:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/find_rock": {
+    "criteria": {
+      "rock_knapping": "2023-04-01 08:06:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2023-04-01 11:40:14 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/alabaster/white_bricks_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 08:02:07 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/diamond_storage_upgrade": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/iron_platform": {
+    "criteria": {
+      "has_bars": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/concealment_key": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/light_gray_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/chalk_bricks_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 08:29:26 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/nugget_nickel_to_ingot_nickel": {
+    "criteria": {
+      "has_nugget_nickel": "2023-04-01 12:04:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2023-04-03 21:22:54 +0300"
+    },
+    "done": true
+  },
+  "create:deployer": {
+    "criteria": {
+      "0": "2023-04-17 19:00:26 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/radiator": {
+    "criteria": {
+      "has_water_bucket": "2023-04-01 08:53:48 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/goggles": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_diorite_brick_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wooden_bucket": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/paraffin_wax_to_block": {
+    "criteria": {
+      "has_the_recipe": "2023-04-07 17:16:08 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/gearbox": {
+    "criteria": {
+      "has_item": "2023-04-01 08:55:20 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/smelting/lead_ingot_compat_thermal": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:27 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/spyglass": {
+    "criteria": {
+      "has_item": "2023-04-02 10:46:29 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/blasting/ingot_lead_compat_immersiveengineering": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:27 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/basalt_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 14:27:19 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/blasting/zinc_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:13 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_fence_gate": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/fire_clay_block": {
+    "criteria": {
+      "has_item": "2023-04-02 09:16:09 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/oak_lumber_log": {
+    "criteria": {
+      "has_item": "2023-04-03 21:28:16 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/smeltery/seared/seared_brick_kiln": {
+    "criteria": {
+      "has_item": "2023-04-16 13:37:14 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/exposed_cut_copper_slab_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-07 17:16:08 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/coal": {
+    "criteria": {
+      "ore/bituminous_coal": "2023-04-01 12:36:54 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2023-04-16 12:02:27 +0300"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/alchemistry/dissolver": {
+    "criteria": {
+      "has_item": "2023-04-30 20:01:46 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/seared_bricks_from_brick": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/alloybrick_from_slab": {
+    "criteria": {
+      "has_alloybrick": "2023-04-16 12:14:26 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/pink_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/paraffin_wax_block_to_items": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/quantify_key": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/andesite_loose_rocks_to_cobble": {
+    "criteria": {
+      "has_item": "2023-04-01 08:07:11 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/papyrus_strips": {
+    "criteria": {
+      "has_item": "2023-04-16 15:39:30 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/marble_cobble_to_loose_rocks": {
+    "criteria": {
+      "has_item": "2023-04-01 09:02:29 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/smelting/ingot_tin_compat_mekanism": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:24 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/alloybrick_to_slab": {
+    "criteria": {
+      "has_alloybrick": "2023-04-16 12:14:26 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/conveyor_dropper": {
+    "criteria": {
+      "has_trapdoor": "2023-04-02 12:27:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/rockcutter": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-04-17 20:51:22 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/tools/armor/building/travelers_chestplate": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/connector_structural": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/gold_casting": {
+    "criteria": {
+      "crafted_cast": "2023-04-22 16:45:11 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:foundry/alloyer": {
+    "criteria": {
+      "scorched_fuel_tank": "2023-04-23 21:41:16 +0300"
+    },
+    "done": false
+  },
+  "create:recipes/create.base/crafting/kinetics/turntable": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/dark_oak_trim": {
+    "criteria": {
+      "has_planks": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/wirecoil_copper": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/copper_valve_handle": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_trapdoor": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2023-04-02 11:48:15 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/steel_fence": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/plate_aluminum_hammering": {
+    "criteria": {
+      "has_aluminum_ingot": "2023-04-02 13:09:43 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/sticker": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/smelting/nickel_ingot_compat_thermal": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:48 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/redstone_acid": {
+    "criteria": {
+      "has_redstone_dust": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/appliances/crafting_blueprint": {
+    "criteria": {
+      "has_item": "2023-04-01 08:09:26 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/gas_generator": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/melter": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/blast_furnace": {
+    "criteria": {
+      "has_item": "2023-04-01 08:26:45 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/materials/copper_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/lantern": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/crucible": {
+    "criteria": {
+      "crucible": "2023-04-01 08:26:57 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/acacia_drawers": {
+    "criteria": {
+      "has_chest": "2023-04-01 14:10:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/rhyolite_raw_slab": {
+    "criteria": {
+      "has_item": "2023-04-04 18:53:28 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/stick_bunch": {
+    "criteria": {
+      "has_item": "2023-04-03 21:22:54 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/filter": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "has_item": "2023-04-02 10:05:41 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/oak_trim": {
+    "criteria": {
+      "has_planks": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/papyrus": {
+    "criteria": {
+      "papyrus": "2023-04-16 15:39:30 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/marble_loose_rocks_to_cobble": {
+    "criteria": {
+      "has_item": "2023-04-04 19:03:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/tools/modifiers/silky_cloth": {
+    "criteria": {
+      "has_item": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2023-04-17 20:51:22 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/beehive": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/item_vault": {
+    "criteria": {
+      "has_item": "2023-04-02 10:44:46 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/drawer_key": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/powerpack": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/stone/hoe_metamorphic": {
+    "criteria": {
+      "has_item": "2023-04-03 21:52:12 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_andesite_bricks_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/layered_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/smelting/ingot_uranium_compat_immersiveengineering": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:46 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/iron": {
+    "criteria": {
+      "magnetite": "2023-04-01 10:04:42 +0300",
+      "limonite": "2023-04-01 10:04:46 +0300",
+      "hematite": "2023-04-01 10:04:50 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_andesite_brick_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_log_fence": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/aggregate": {
+    "criteria": {
+      "has_item": "2023-04-16 13:40:28 +0300"
+    },
+    "done": true
+  },
+  "framedcompactdrawers:recipes/framed_compacting_drawers/framed_half_two": {
+    "criteria": {
+      "has_chests_wooden": "2023-04-30 20:01:46 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/basalt_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 14:27:19 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/oxidized_cut_copper_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/pulse_extender": {
+    "criteria": {
+      "has_item": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/emerald_storage_upgrade": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/connector_lv_relay": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/obsidian_storage_upgrade": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/granite_brick": {
+    "criteria": {
+      "has_item": "2023-04-03 21:19:46 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2023-04-03 21:22:54 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "create:brass_casing": {
+    "criteria": {
+      "0": "2023-04-17 19:03:09 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/nugget": {
+    "criteria": {
+      "nuggets": "2023-04-01 10:04:38 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/andesite_raw_wall": {
+    "criteria": {
+      "has_item": "2023-04-04 18:51:52 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2023-04-16 14:48:26 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/attribute_filter": {
+    "criteria": {
+      "has_item": "2023-04-17 18:57:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2023-04-01 08:10:21 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/clutch": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/tools/armor/building/travelers_shield": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2023-04-02 08:29:48 +0300"
+    },
+    "done": false
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_crafter": {
+    "criteria": {
+      "has_item": "2023-04-17 18:52:03 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/limestone_cobble_to_loose_rocks": {
+    "criteria": {
+      "has_item": "2023-04-01 09:07:02 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_nickel_to_nugget_nickel": {
+    "criteria": {
+      "has_ingot_nickel": "2023-04-01 12:04:31 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/powered_latch": {
+    "criteria": {
+      "has_item": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/sand_paper": {
+    "criteria": {
+      "has_item": "2023-04-16 15:39:44 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/gearshift": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/rhyolite_brick": {
+    "criteria": {
+      "has_item": "2023-04-01 08:06:27 +0300"
+    },
+    "done": true
+  },
+  "create:mechanical_mixer": {
+    "criteria": {
+      "0": "2023-04-02 09:41:59 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2023-04-17 20:51:22 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_diorite_brick_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2023-04-02 12:03:12 +0300"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/alchemistry/liquifier": {
+    "criteria": {
+      "has_item": "2023-04-30 20:01:46 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-04-01 08:17:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2023-04-17 17:40:59 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2023-04-03 21:22:54 +0300"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/glowstone": {
+    "criteria": {
+      "has_the_recipe": "2023-05-07 18:42:59 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/loom": {
+    "criteria": {
+      "looms": "2023-04-17 19:12:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2023-04-17 20:51:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/steel_age": {
+    "criteria": {
+      "metal_item/steel": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/fluid_tank": {
+    "criteria": {
+      "has_item": "2023-04-02 10:44:46 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/channel": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/sticky_mechanical_piston": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/projector": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/gold_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2023-04-01 09:51:56 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/andesite_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:42 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/ornate_iron_window": {
+    "criteria": {
+      "has_ingredient": "2023-04-01 11:43:28 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/survey_tools": {
+    "criteria": {
+      "has_hammer": "2023-04-02 10:05:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2023-04-01 11:40:14 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/display_link": {
+    "criteria": {
+      "has_item": "2023-04-17 18:52:03 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/copper_nugget": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/content_observer": {
+    "criteria": {
+      "has_item": "2023-04-17 19:42:17 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/compass": {
+    "criteria": {
+      "has_item": "2023-04-01 09:14:06 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/blasting/ingot_uranium_compat_mekanism": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:46 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/orange_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_granite_brick_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/plate_nickel_hammering": {
+    "criteria": {
+      "has_nickel_ingot": "2023-04-02 13:09:50 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/redstone/daylight_detector": {
+    "criteria": {
+      "has_item": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/diamond": {
+    "criteria": {
+      "ore/diamond": "2023-04-01 08:13:11 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/minerologist": {
+    "criteria": {
+      "cinnabar": "2023-04-17 17:27:07 +0300",
+      "diamond": "2023-04-01 08:13:11 +0300",
+      "cryolite": "2023-04-17 17:27:03 +0300",
+      "bituminous_coal": "2023-04-01 12:36:54 +0300"
+    },
+    "done": false
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/hoe_steel": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2023-04-02 09:54:16 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/granite_pillar_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "create:windmill": {
+    "criteria": {
+      "0": "2023-04-02 10:24:46 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_mixer": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/drillhead_steel": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "create:rose_quartz": {
+    "criteria": {
+      "0": "2023-04-17 17:26:08 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/diorite_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 11:18:05 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_bullets": {
+    "criteria": {
+      "has_paper": "2023-04-16 15:39:44 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/asphalt": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2023-04-16 15:41:24 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/birch_trim": {
+    "criteria": {
+      "has_planks": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/blasting/ingot_aluminum_compat_immersiveengineering": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:44 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/coil_mv": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/bronze_age": {
+    "criteria": {
+      "metal_item/bismuth_bronze": "2023-04-02 11:05:17 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/exposed_cut_copper_stairs_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-07 17:16:08 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/grout_multiple": {
+    "criteria": {
+      "has_item": "2023-04-02 09:54:40 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/artist": {
+    "criteria": {
+      "black": "2023-04-02 11:58:04 +0300"
+    },
+    "done": false
+  },
+  "storagedrawers:recipes/storagedrawers/oak_drawers": {
+    "criteria": {
+      "has_chest": "2023-04-01 14:10:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2023-04-01 08:53:48 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2023-04-22 15:23:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_granite_brick_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/marble_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 09:02:29 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/clockwork_bearing": {
+    "criteria": {
+      "has_item": "2023-04-17 18:52:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2023-04-17 20:51:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/coil_lv": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_door": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/min_redstone_upgrade": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-04-01 08:01:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/granite_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:35 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/tools/armor/building/plate_boots": {
+    "criteria": {
+      "has_item": "2023-04-30 20:24:24 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/void_upgrade": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/zinc_nugget_from_decompacting": {
+    "criteria": {
+      "has_item": "2023-04-02 13:02:31 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/maize_sandwich": {
+    "criteria": {
+      "has_item": "2023-05-06 11:17:47 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/dark_oak_drawers": {
+    "criteria": {
+      "has_chest": "2023-04-01 14:10:44 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/oat_flatbread_sandwich": {
+    "criteria": {
+      "has_item": "2023-04-03 21:32:55 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/metal_girder": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/plate_iron_hammering": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/warped_trim": {
+    "criteria": {
+      "has_planks": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/forge": {
+    "criteria": {
+      "special_condition": "2023-04-01 12:37:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/rose_quartz_block_from_rose_quartz_stonecutting": {
+    "criteria": {
+      "has_rose_quartz": "2023-04-17 17:26:06 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/bellows": {
+    "criteria": {
+      "bellows": "2023-04-01 12:37:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/quartzite_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 09:03:43 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/tools/armor/building/travelers_pants": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2023-04-16 14:48:26 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/basalt_raw_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 15:09:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/water_wheel": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/illumination_upgrade": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/schematics/empty_schematic": {
+    "criteria": {
+      "has_item": "2023-04-16 15:39:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/marble_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 09:02:29 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/adjustable_chain_gearshift": {
+    "criteria": {
+      "has_item": "2023-04-17 18:24:00 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/cart_assembler": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/wirecutter": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_press": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/powderkeg": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/peel": {
+    "criteria": {
+      "has_item": "2023-04-03 21:22:54 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/marble_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 09:02:29 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/firestarter": {
+    "criteria": {
+      "firestarter": "2023-04-01 08:28:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_nugget": "2023-04-01 11:43:28 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/iron_storage_upgrade": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/jungle_trim": {
+    "criteria": {
+      "has_planks": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2023-04-17 20:51:22 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/connector_hv_relay": {
+    "criteria": {
+      "has_aluminum_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "framedcompactdrawers:recipes/framed_compacting_drawers/framed_full_two": {
+    "criteria": {
+      "has_chests_wooden": "2023-04-30 20:01:46 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_fence": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/large_cogwheelfrom_little": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/cokebrick": {
+    "criteria": {
+      "has_item": "2023-04-02 09:54:16 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/stone/axe_sedimentary": {
+    "criteria": {
+      "has_item": "2023-04-03 21:54:50 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/manual": {
+    "criteria": {
+      "has_book": "2023-04-16 15:41:24 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/pickaxe_steel": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/rhyolite_hardened": {
+    "criteria": {
+      "has_item": "2023-04-04 18:53:28 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/marble_cracked": {
+    "criteria": {
+      "has_item": "2023-04-15 12:52:06 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/rs_engineering": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/marble_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 09:02:29 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/black_steel": {
+    "criteria": {
+      "metal_item/black_steel": "2023-04-01 08:03:24 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/coil_hv": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/oxidized_cut_copper_slab_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-07 17:16:08 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/copper_valve_handle_from_others": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/steam_engine": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/gadgets/gadgets/frame/gold": {
+    "criteria": {
+      "has_item": "2023-04-01 11:40:14 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/chalk_bricks_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 08:29:26 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/framed_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/rhyolite_raw_wall": {
+    "criteria": {
+      "has_item": "2023-04-04 18:53:28 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/faucet": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/copper_can": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2023-04-02 09:54:16 +0300"
+    },
+    "done": true
+  },
+  "create:mechanical_crafter": {
+    "criteria": {
+      "0": "2023-04-17 20:47:21 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/red_sand_paper": {
+    "criteria": {
+      "has_item": "2023-04-16 15:39:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/alabaster/blue_bricks_slab": {
+    "criteria": {
+      "has_item": "2023-04-02 08:06:03 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/marble_bricks_stairs": {
+    "criteria": {
+      "has_item": "2023-04-15 12:52:06 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/seismic_survey_tool": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/fill_level_upgrade": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2023-04-03 21:22:54 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/large_cogwheel": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/iron_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2023-04-01 09:11:24 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/wood/acacia_hanger": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/charcoal": {
+    "criteria": {
+      "charcoal": "2023-04-01 08:27:45 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/max_redstone_upgrade": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_aluminum_to_storage_aluminum": {
+    "criteria": {
+      "has_ingot_aluminum": "2023-04-02 13:09:43 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/alu_scaffolding_standard": {
+    "criteria": {
+      "has_alu_ingot": "2023-04-02 13:09:43 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/gunpart_hammer": {
+    "criteria": {
+      "has_ingot_steel": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/upgrade_paddles": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/redstone/sticky_piston": {
+    "criteria": {
+      "has_item": "2023-04-16 10:12:46 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2023-05-07 18:42:59 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/flarestack": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2023-04-16 14:48:26 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/birch_drawers": {
+    "criteria": {
+      "has_chest": "2023-04-01 14:10:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/red_steel": {
+    "criteria": {
+      "metal_item/red_steel": "2023-04-01 08:03:18 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/basalt_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 14:27:19 +0300"
+    },
+    "done": true
+  },
+  "create:speed_controller": {
+    "criteria": {
+      "0": "2023-04-02 10:32:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/cokebrick_to_slab": {
+    "criteria": {
+      "has_cokebrick": "2023-04-02 09:15:21 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/purple_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/alchemistry/atomizer": {
+    "criteria": {
+      "has_item": "2023-04-30 20:01:46 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/basalt_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 14:27:19 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2023-04-16 15:39:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/composter": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_diorite_bricks_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/andesite_tunnel": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/sand_cast": {
+    "criteria": {
+      "has_casting": "2023-04-16 14:06:29 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/blast_furnace": {
+    "criteria": {
+      "blast_furnace": "2023-04-01 08:26:03 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersiveengineering/ersatz_leather": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/empty_blaze_burner": {
+    "criteria": {
+      "has_item": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/blasting/nickel_ingot_compat_thermal": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:48 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_nickel_to_storage_nickel": {
+    "criteria": {
+      "has_ingot_nickel": "2023-04-02 13:09:50 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/chalk_bricks_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 08:29:26 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/clear_glass_pane": {
+    "criteria": {
+      "has_block": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/marble_brick": {
+    "criteria": {
+      "has_item": "2023-04-04 19:03:13 +0300"
+    },
+    "done": true
+  },
+  "create:millstone": {
+    "criteria": {
+      "0": "2023-04-01 09:06:41 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_aluminum_to_nugget_aluminum": {
+    "criteria": {
+      "has_ingot_aluminum": "2023-04-01 12:08:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/basalt_brick": {
+    "criteria": {
+      "has_item": "2023-04-01 08:06:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2023-04-02 11:58:04 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/capacitor_hv": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/flywheel": {
+    "criteria": {
+      "has_item": "2023-04-17 18:57:08 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/duct": {
+    "criteria": {
+      "has_item": "2023-04-30 20:24:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2023-04-17 20:51:22 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_andesite_brick_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/appliances/diving_boots": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/solar_drier": {
+    "criteria": {
+      "has_item": "2023-04-17 19:15:38 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/display_board": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/rose_quartz_tiles_from_polished_rose_quartz_stonecutting": {
+    "criteria": {
+      "has_polished_rose_quartz": "2023-04-17 17:26:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/gadgets/gadgets/shuriken/flint_shuriken": {
+    "criteria": {
+      "has_item": "2023-04-16 12:02:27 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/diorite_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 11:18:05 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/cogwheel": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/andesite_raw_stairs": {
+    "criteria": {
+      "has_item": "2023-04-04 18:51:52 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/weathered_cut_copper_stairs_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-07 17:16:08 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/white_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/smart_fluid_pipe": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/drillhead_iron": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/belt_connector": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/smelting/ingot_lead_compat_immersiveengineering": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:27 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_silver_to_storage_silver": {
+    "criteria": {
+      "has_ingot_silver": "2023-04-01 11:40:03 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/chalk_brick": {
+    "criteria": {
+      "has_item": "2023-04-03 21:22:41 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_diorite_brick_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/copper_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:11 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/tools/armor/building/travelers_boots": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/nugget_lead_to_ingot_lead": {
+    "criteria": {
+      "has_nugget_lead": "2023-04-01 12:11:06 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/vertical_gearboxfrom_conversion": {
+    "criteria": {
+      "has_item": "2023-04-01 08:55:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_arm": {
+    "criteria": {
+      "has_item": "2023-04-17 18:52:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/upgrade_reinforced_hull": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/granite_loose_rocks_to_cobble": {
+    "criteria": {
+      "has_item": "2023-04-03 21:19:46 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/basalt_raw_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 15:09:43 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/electron_tube": {
+    "criteria": {
+      "has_item": "2023-04-17 17:26:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2023-04-02 11:58:04 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/maize_slice": {
+    "criteria": {
+      "has_item": "2023-05-06 11:17:47 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/empty_shell": {
+    "criteria": {
+      "has_coppper_ingot": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/tools/armor/building/plate_chestplate": {
+    "criteria": {
+      "has_item": "2023-04-30 20:24:24 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/nixie_tube": {
+    "criteria": {
+      "has_item": "2023-04-17 18:52:03 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/chalk_cracked": {
+    "criteria": {
+      "has_item": "2023-04-01 08:29:26 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/storage_aluminum_to_ingot_aluminum": {
+    "criteria": {
+      "has_storage_aluminum": "2023-04-02 13:09:43 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/table": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/andesite_hardened": {
+    "criteria": {
+      "has_item": "2023-04-04 18:51:52 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/dacite_brick": {
+    "criteria": {
+      "has_item": "2023-04-01 08:06:16 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/chalk_bricks_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 08:29:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2023-04-16 15:41:24 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/plate_steel_hammering": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/marble_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 09:02:29 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_granite_brick_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/rhyolite_raw_wall": {
+    "criteria": {
+      "has_item": "2023-04-04 18:53:28 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/alabaster/white_bricks_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 08:02:07 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/plate_lead_hammering": {
+    "criteria": {
+      "has_lead_ingot": "2023-04-02 13:09:34 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_piston": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2023-04-16 14:48:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/andesite_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:42 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/flux": {
+    "criteria": {
+      "flux": "2023-04-01 08:03:32 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/decorations/crafting/torch": {
+    "criteria": {
+      "has_stick": "2023-04-03 21:22:54 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/crimson_drawers": {
+    "criteria": {
+      "has_chest": "2023-04-01 14:10:44 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/analog_lever": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/nickel": {
+    "criteria": {
+      "ore/small_garnierite": "2023-04-01 10:46:17 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/metal/anvil/bismuth_bronze": {
+    "criteria": {
+      "has_item": "2023-04-23 12:17:36 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/maize_slice_sandwich": {
+    "criteria": {
+      "has_item": "2023-05-06 11:17:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-04-01 08:01:04 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/ingot_tank": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_plough": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/rotation_speed_controller": {
+    "criteria": {
+      "has_item": "2023-04-17 18:52:03 +0300"
+    },
+    "done": true
+  },
+  "create:compacting": {
+    "criteria": {
+      "0": "2023-04-02 09:29:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/blasting/ingot_tin_compat_mekanism": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:24 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/vertical_framed_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/cauldron": {
+    "criteria": {
+      "has_item": "2023-04-01 08:26:45 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/limestone_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 09:07:02 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/oxidized_copper_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/exposed_copper_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/brewing/common/glass/vanilla/glass_bottle": {
+    "criteria": {
+      "has_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersiveengineering/toolupgrade_drill_lube": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_sluice": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/blasting/ingot_nickel_compat_immersiveengineering": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:48 +0300"
+    },
+    "done": true
+  },
+  "firmalife:crafting/oat_slice": {
+    "criteria": {
+      "has_item": "2023-04-03 21:32:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/zinc_ingot_from_decompacting": {
+    "criteria": {
+      "has_item": "2023-04-02 13:08:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/rope_pulley": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/get_unknown": {
+    "criteria": {
+      "metal/ingot/unknown": "2023-04-01 16:26:13 +0300"
+    },
+    "done": true
+  },
+  "framedcompactdrawers:recipes/framed_compacting_drawers/framed_full_four": {
+    "criteria": {
+      "has_chests_wooden": "2023-04-30 20:01:46 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/depot": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/andesite_raw_slab": {
+    "criteria": {
+      "has_item": "2023-04-04 18:51:52 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/andesite_funnel": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/blasting/tin_ingot_compat_thermal": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:24 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/sawblade": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_pump": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/portable_storage_interface": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-04-03 21:33:11 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/marble_bricks_stairs": {
+    "criteria": {
+      "has_item": "2023-04-15 12:52:06 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/curiosities/brown_toolbox": {
+    "criteria": {
+      "has_item": "2023-04-16 14:38:54 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/shield": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-04-01 08:01:04 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/diorite_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 11:18:05 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/stone_age": {
+    "criteria": {
+      "stone_tools": "2023-04-03 21:51:52 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/oxidized_cut_copper_stairs_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-07 17:16:08 +0300"
+    },
+    "done": true
+  },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2023-04-01 08:55:30 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/logging": {
+    "criteria": {
+      "logs": "2023-04-01 08:17:01 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/quern": {
+    "criteria": {
+      "quern": "2023-04-04 19:02:10 +0300",
+      "handstone": "2023-04-04 19:02:11 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/tools/armor/building/plate_helmet": {
+    "criteria": {
+      "has_item": "2023-04-30 20:24:24 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_sign": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:tools/make_part": {
+    "criteria": {
+      "crafted_part": "2023-05-07 18:19:59 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/quartzite_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 09:03:43 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/smelting/ingot_lead_compat_mekanism": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:27 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/light_blue_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/component_iron": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/petcoke_items_to_block": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/plate_silver_hammering": {
+    "criteria": {
+      "has_silver_ingot": "2023-04-01 11:40:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/chute": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/piston_extension_pole": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2023-05-07 18:42:59 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/diorite_cobble_slab": {
+    "criteria": {
+      "has_item": "2023-04-01 11:18:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/smelting/ingot_uranium_compat_mekanism": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:46 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/stick_from_twigs": {
+    "criteria": {
+      "has_item": "2023-04-04 18:32:23 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/decorations/candle": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/tools/tools/building/flint_and_brick": {
+    "criteria": {
+      "has_seared": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/smelting/ingot_aluminum_compat_immersiveengineering": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:44 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/sand_casting": {
+    "criteria": {
+      "crafted_cast": "2023-04-22 16:34:07 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/chalk_bricks_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 08:29:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/common/flint": {
+    "criteria": {
+      "has_item": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-04-01 08:01:04 +0300"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2023-04-17 19:49:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2023-04-02 11:58:04 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_lumber_log": {
+    "criteria": {
+      "has_item": "2023-04-03 21:31:21 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/cobalt_platform": {
+    "criteria": {
+      "has_bars": "2023-04-30 20:24:24 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_bookshelf": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2023-04-01 09:06:47 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/bowl": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/upgrade_rudders": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/nugget_aluminum_to_ingot_aluminum": {
+    "criteria": {
+      "has_nugget_aluminum": "2023-04-01 12:08:04 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/fluid_pipe_vertical": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/mighty_smelting": {
+    "criteria": {
+      "crafted_book": "2023-05-07 18:34:23 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/steel_wallmount": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/granite_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:35 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2023-04-16 14:48:26 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_bannerpatterns": {
+    "criteria": {
+      "has_paper": "2023-04-16 15:39:44 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/find_clay": {
+    "criteria": {
+      "clay_ball": "2023-04-02 09:54:16 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/quartzite_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 09:03:43 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/smelting/silver_ingot_compat_thermal": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:22 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/copper_block_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/copper_platform": {
+    "criteria": {
+      "has_bars": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/crafter_slot_cover": {
+    "criteria": {
+      "has_item": "2023-04-17 19:56:46 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/basalt_raw_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 15:09:43 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/schematics/schematic_and_quill": {
+    "criteria": {
+      "has_item": "2023-04-16 15:39:44 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/gadgets/gadgets/throwball/glow_ball": {
+    "criteria": {
+      "has_item": "2023-05-07 18:42:59 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/dacite_loose_rocks_to_cobble": {
+    "criteria": {
+      "has_item": "2023-04-01 08:06:16 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/limestone_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 09:07:02 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/coke_to_coal_coke": {
+    "criteria": {
+      "has_coke": "2023-04-01 16:13:00 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/diorite_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 11:18:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2023-04-01 11:24:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/cut_copper_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/spruce_drawers": {
+    "criteria": {
+      "has_chest": "2023-04-01 14:10:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2023-04-01 08:08:22 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/cokebrick_from_slab": {
+    "criteria": {
+      "has_cokebrick": "2023-04-02 09:15:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/wirecoil_steel": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/rhyolite_loose_rocks_to_cobble": {
+    "criteria": {
+      "has_item": "2023-04-01 08:06:27 +0300"
+    },
+    "done": true
+  },
+  "create:lava_wheel_00000": {
+    "criteria": {
+      "0": "2023-04-02 09:43:39 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/wire_steel": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2023-04-01 11:18:01 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/tables/cast_chest": {
+    "criteria": {
+      "has_item": "2023-04-22 16:45:11 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/strip_curtain": {
+    "criteria": {
+      "has_metal_rod": "2023-05-06 14:46:46 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/acacia_trim": {
+    "criteria": {
+      "has_planks": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_tool_rack": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_andesite_bricks_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/flint_and_steel": {
+    "criteria": {
+      "has_item": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/tools/armor/building/plate_leggings": {
+    "criteria": {
+      "has_item": "2023-04-30 20:24:24 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/logistics/brass_tunnel": {
+    "criteria": {
+      "has_item": "2023-04-17 18:57:08 +0300"
+    },
+    "done": true
+  },
+  "tfc_metallum:world/metallum_metallurgist": {
+    "criteria": {
+      "titanium": "2023-04-16 11:52:53 +0300",
+      "andesite_alloy": "2023-04-16 11:08:08 +0300",
+      "cobalt": "2023-04-30 20:24:24 +0300",
+      "aluminum": "2023-04-02 13:09:43 +0300",
+      "solder": "2023-04-16 11:52:51 +0300",
+      "iridium": "2023-04-30 20:25:51 +0300",
+      "platinum": "2023-04-30 20:25:54 +0300",
+      "tungsten": "2023-04-16 11:52:47 +0300",
+      "thorium": "2023-04-30 20:26:08 +0300",
+      "beryllium": "2023-04-07 17:17:41 +0300",
+      "osmium": "2023-04-30 20:25:50 +0300",
+      "lead": "2023-04-02 13:09:34 +0300",
+      "tungsten_steel": "2023-04-01 18:08:18 +0300",
+      "alnico": "2023-04-16 14:45:40 +0300",
+      "uranium": "2023-04-30 20:26:11 +0300"
+    },
+    "done": false
+  },
+  "electrodynamics:electrodynamics/guidebook": {
+    "criteria": {
+      "spawn": "2023-04-28 20:20:39 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/fuel_tank": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/crimson_trim": {
+    "criteria": {
+      "has_planks": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/firestarter": {
+    "criteria": {
+      "has_item": "2023-04-03 21:22:54 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/encased_chain_drive": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/sail_framefrom_conversion": {
+    "criteria": {
+      "has_item": "2023-04-02 10:22:20 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-04-01 08:09:26 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2023-04-01 11:17:30 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/heater": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/treated_wood_horizontal": {
+    "criteria": {
+      "has_creosote": "2023-04-16 14:56:55 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/marble_cobble_wall": {
+    "criteria": {
+      "has_item": "2023-04-01 09:02:29 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/blasting/lead_ingot_compat_thermal": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:27 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/placard": {
+    "criteria": {
+      "has_item": "2023-04-17 18:57:08 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/building_blocks/cut_copper_stairs_paraffin_waxed": {
+    "criteria": {
+      "has_the_recipe": "2023-04-07 17:16:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2023-04-17 20:51:22 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/tiled_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/gunpart_drum": {
+    "criteria": {
+      "has_ingot_steel": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_loom": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_harvester": {
+    "criteria": {
+      "has_item": "2023-04-01 14:14:03 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/basin": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/alabaster/blue_bricks_wall": {
+    "criteria": {
+      "has_item": "2023-04-02 08:06:03 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/smelting/ingot_osmium_compat_mekanism": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:16 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/gadgets/gadgets/throwball/efln_ball": {
+    "criteria": {
+      "has_item": "2023-05-07 18:42:59 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/limestone_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 09:07:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2023-04-01 11:43:28 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/asphalt2": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/ladder": {
+    "criteria": {
+      "has_item": "2023-04-02 10:45:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-04-01 08:01:04 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/acacia_wood": {
+    "criteria": {
+      "has_item": "2023-04-03 21:31:21 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/light_engineering": {
+    "criteria": {
+      "has_copper_ingot": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "tfc:story/mold": {
+    "criteria": {
+      "fired_molds": "2023-04-01 13:54:05 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/tables/pattern": {
+    "criteria": {
+      "has_item": "2023-04-03 21:22:54 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/upgrade_icebreaker": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2023-04-01 12:11:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-04-01 08:01:04 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/windmill_bearing": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "framedcompactdrawers:recipes/framed_compacting_drawers/framed_half_one": {
+    "criteria": {
+      "has_chests_wooden": "2023-04-30 20:01:46 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/copper_ingot": {
+    "criteria": {
+      "has_item": "2023-04-01 11:30:00 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/green_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/blasting/ingot_osmium_compat_mekanism": {
+    "criteria": {
+      "has_item": "2023-04-01 09:52:16 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/quartzite_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 09:03:43 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/fuel_gauge": {
+    "criteria": {
+      "has_item": "2023-04-16 13:56:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/layered_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2023-04-01 11:17:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2023-04-02 12:31:44 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2023-04-17 17:26:26 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/oil_can": {
+    "criteria": {
+      "has_the_recipe": "2023-04-01 07:58:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2023-04-01 08:11:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/white_sail": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/component_steel": {
+    "criteria": {
+      "has_steel_ingot": "2023-04-01 16:09:02 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/storage_silver_to_ingot_silver": {
+    "criteria": {
+      "has_storage_silver": "2023-04-01 11:40:03 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/iron_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2023-04-01 09:11:24 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/lantern": {
+    "criteria": {
+      "has_glowstone": "2023-05-07 18:42:59 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/steam_whistle": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/andesite_cobble_stairs": {
+    "criteria": {
+      "has_item": "2023-04-01 11:17:42 +0300"
+    },
+    "done": true
+  },
+  "tfc:stonecutting/rock/rhyolite_raw_slab": {
+    "criteria": {
+      "has_item": "2023-04-04 18:53:28 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/glass/gray_clear_stained_glass": {
+    "criteria": {
+      "has_clear_glass": "2023-04-22 15:25:51 +0300"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/gold_storage_upgrade": {
+    "criteria": {
+      "has_template": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/fluid_pipe": {
+    "criteria": {
+      "has_item": "2023-04-01 11:27:34 +0300"
+    },
+    "done": true
+  },
+  "tfc:world/root": {
+    "criteria": {
+      "in_game_condition": "2023-04-01 07:59:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/zinc_ingot_from_compacting": {
+    "criteria": {
+      "has_item": "2023-04-01 11:57:18 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/linear_chassis": {
+    "criteria": {
+      "has_item": "2023-04-01 08:24:10 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}
