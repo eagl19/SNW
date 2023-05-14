@@ -6,7 +6,7 @@
 	title: "Дивний світ"
 	icon: {
 		id: "tfc:ore/normal_native_copper"
-		Count: 1b
+		Count: 1
 		ForgeCaps: {
 			"tfc:item_heat": {
 				heat: 0.0f
@@ -29,7 +29,7 @@
 					title: "Соберіть 10 гілок"
 					item: {
 						id: "itemfilters:tag"
-						Count: 1b
+						Count: 1
 						tag: {
 							value: "tfc:twigs"
 						}
@@ -42,7 +42,7 @@
 					title: "Соберіть 4 каменя"
 					item: {
 						id: "itemfilters:tag"
-						Count: 1b
+						Count: 1
 						tag: {
 							value: "tfc:rock_knapping"
 						}
@@ -63,7 +63,7 @@
 					title: "Any #forge:axes"
 					item: {
 						id: "itemfilters:tag"
-						Count: 1b
+						Count: 1
 						tag: {
 							value: "tfc:tfc_axes"
 						}
@@ -76,7 +76,7 @@
 					title: "Any #tfc:knives"
 					item: {
 						id: "itemfilters:tag"
-						Count: 1b
+						Count: 1
 						tag: {
 							value: "tfc:knives"
 						}
@@ -89,7 +89,7 @@
 					title: "Any #tfc:shovels"
 					item: {
 						id: "itemfilters:tag"
-						Count: 1b
+						Count: 1
 						tag: {
 							value: "tfc:shovels"
 						}
@@ -142,7 +142,7 @@
 					type: "item"
 					item: {
 						id: "tfc:ceramic/pickaxe_head_mold"
-						Count: 1b
+						Count: 1
 						tag: { }
 						ForgeCaps: {
 							Parent: {
@@ -157,7 +157,7 @@
 					type: "item"
 					item: {
 						id: "tfc:ceramic/propick_head_mold"
-						Count: 1b
+						Count: 1
 						tag: { }
 						ForgeCaps: {
 							Parent: {
@@ -172,7 +172,7 @@
 					type: "item"
 					item: {
 						id: "tfc:ceramic/saw_blade_mold"
-						Count: 1b
+						Count: 1
 						tag: { }
 						ForgeCaps: {
 							Parent: {
@@ -187,7 +187,7 @@
 					type: "item"
 					item: {
 						id: "tfc:ceramic/chisel_head_mold"
-						Count: 1b
+						Count: 1
 						tag: { }
 						ForgeCaps: {
 							Parent: {
@@ -202,7 +202,7 @@
 					type: "item"
 					item: {
 						id: "tfc:ceramic/ingot_mold"
-						Count: 1b
+						Count: 1
 						tag: { }
 						ForgeCaps: {
 							Parent: {
@@ -228,7 +228,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/pickaxe/copper"
-					Count: 1b
+					Count: 1
 					tag: {
 						Damage: 0
 					}
@@ -252,7 +252,7 @@
 				title: "Any #tfc:seeds"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "tfc:seeds"
 					}
@@ -279,7 +279,7 @@
 					type: "item"
 					item: {
 						id: "tfc:handstone"
-						Count: 1b
+						Count: 1
 						tag: {
 							Damage: 0
 						}
@@ -328,7 +328,7 @@
 				type: "item"
 				item: {
 					id: "tfc:firestarter"
-					Count: 1b
+					Count: 1
 					tag: {
 						Damage: 0
 					}
@@ -347,7 +347,7 @@
 				title: "Any #tfc:copper_small_ore_pieces"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "tfc:copper_small_ore_pieces"
 					}
@@ -370,7 +370,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/ingot/copper"
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"tfc:item_heat": {
 							heat: 0.0f
@@ -394,7 +394,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/chisel/copper"
-					Count: 1b
+					Count: 1
 					tag: {
 						Damage: 0
 					}
@@ -421,7 +421,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/saw/copper"
-					Count: 1b
+					Count: 1
 					tag: {
 						Damage: 0
 					}
@@ -448,7 +448,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/propick/copper"
-					Count: 1b
+					Count: 1
 					tag: {
 						Damage: 0
 					}
@@ -475,7 +475,7 @@
 				title: "Any #tfc:lumber"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "tfc:lumber"
 					}
@@ -493,7 +493,7 @@
 				title: "Any #tfc:workbenches"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "tfc:workbenches"
 					}
@@ -512,7 +512,7 @@
 				title: "Any #tfc:fluxstone"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "tfc:fluxstone"
 					}
@@ -531,7 +531,7 @@
 				title: "Any #tfc:rock/smooth"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "tfc:rock/smooth"
 					}
@@ -548,7 +548,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/anvil/copper"
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"tfc:item_heat": {
 							heat: 0.0f
@@ -569,7 +569,7 @@
 				title: "Any #tfc:bronze_anvils"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "tfc:bronze_anvils"
 					}
@@ -589,7 +589,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/anvil/wrought_iron"
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"tfc:item_heat": {
 							heat: 0.0f
@@ -612,7 +612,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/anvil/steel"
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"tfc:item_heat": {
 							heat: 0.0f
@@ -635,7 +635,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/anvil/black_steel"
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"tfc:item_heat": {
 							heat: 0.0f
@@ -658,7 +658,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/anvil/blue_steel"
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"tfc:item_heat": {
 							heat: 0.0f
@@ -681,7 +681,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/anvil/red_steel"
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"tfc:item_heat": {
 							heat: 0.0f
@@ -773,7 +773,7 @@
 				title: "Any #tfc:barrels"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "tfc:barrels"
 					}
@@ -833,7 +833,7 @@
 				title: "Any #tfc:rock/bricks"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "tfc:tfc_bricks"
 					}
@@ -855,7 +855,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/double_ingot/bismuth_bronze"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -869,7 +869,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/sheet/bismuth_bronze"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -883,7 +883,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/double_sheet/bismuth_bronze"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -909,7 +909,7 @@
 				title: "Any #tfc:blooms"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "tfc:blooms"
 					}
@@ -955,7 +955,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/ingot/wrought_iron"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -969,7 +969,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/double_ingot/wrought_iron"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -983,7 +983,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/sheet/wrought_iron"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -1024,7 +1024,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/ingot/pig_iron"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -1038,7 +1038,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/ingot/high_carbon_steel"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -1052,7 +1052,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/ingot/steel"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -1075,7 +1075,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/ingot/weak_steel"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -1089,7 +1089,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/ingot/high_carbon_black_steel"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -1114,7 +1114,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/ingot/black_steel"
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"tfc:item_heat": {
 							heat: 0.0f
@@ -1136,7 +1136,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/ingot/brass"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -1150,7 +1150,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/ingot/rose_gold"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -1176,7 +1176,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/ingot/weak_red_steel"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -1190,7 +1190,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/ingot/high_carbon_red_steel"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -1212,7 +1212,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/ingot/red_steel"
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"tfc:item_heat": {
 							heat: 0.0f
@@ -1233,7 +1233,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/ingot/sterling_silver"
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"tfc:item_heat": {
 							heat: 0.0f
@@ -1258,7 +1258,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/ingot/weak_blue_steel"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -1272,7 +1272,7 @@
 					type: "item"
 					item: {
 						id: "tfc:metal/ingot/high_carbon_blue_steel"
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -1293,7 +1293,7 @@
 				type: "item"
 				item: {
 					id: "tfc:metal/ingot/blue_steel"
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"tfc:item_heat": {
 							heat: 0.0f

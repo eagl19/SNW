@@ -24,11 +24,18 @@
 			y: 0.0d
 			dependencies: ["529EB1BCFFFC5C35"]
 			id: "1E1593F3393D40ED"
-			tasks: [{
-				id: "04016A1522EC5A86"
-				type: "item"
-				item: "minecraft:furnace"
-			}]
+			tasks: [
+				{
+					id: "04016A1522EC5A86"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "13A25FCE29AE6BCC"
+					type: "item"
+					item: "minecraft:blast_furnace"
+				}
+			]
 		}
 		{
 			x: -5.5d
@@ -36,9 +43,16 @@
 			dependencies: ["529EB1BCFFFC5C35"]
 			id: "4B110A9BBFBB4769"
 			tasks: [{
-				id: "5F6871CF2663AB9B"
+				id: "5ED0ACDE969F0F60"
 				type: "item"
-				item: "minecraft:stonecutter"
+				title: "Any #corail_woodcutter:woodcutters"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1
+					tag: {
+						value: "corail_woodcutter:woodcutters"
+					}
+				}
 			}]
 		}
 		{
@@ -61,11 +75,17 @@
 			id: "4196784D04044E78"
 			tasks: [
 				{
-					id: "0102AF56C3EFD316"
+					id: "1F5E02A4C6F1D497"
+					type: "item"
+					item: "kubejs:andesite_dust"
+					count: 5L
+				}
+				{
+					id: "20F9EC305DD5CE74"
 					type: "item"
 					item: {
-						id: "tfc_metallum:metal/ingot/beryllium"
-						Count: 1b
+						id: "tfc:metal/ingot/zinc"
+						Count: 1
 						ForgeCaps: {
 							"tfc:item_heat": {
 								heat: 0.0f
@@ -76,10 +96,18 @@
 					count: 5L
 				}
 				{
-					id: "1F5E02A4C6F1D497"
+					id: "5775EA3632333C5F"
 					type: "item"
-					item: "kubejs:andesite_dust"
-					count: 5L
+					item: {
+						id: "tfc_metallum:metal/ingot/andesite_alloy"
+						Count: 1
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
 				}
 			]
 		}
@@ -109,7 +137,7 @@
 				title: "Any #create:crushed_ores"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "create:crushed_ores"
 					}
@@ -130,7 +158,7 @@
 				title: "Any #forge:nuggets"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "snw:nuggets"
 					}
@@ -241,7 +269,7 @@
 				type: "item"
 				item: {
 					id: "tfc_metallum:metal/ingot/tungsten_steel"
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						"tfc:item_heat": {
 							heat: 0.0f
@@ -301,7 +329,7 @@
 				title: "Any #forge:ingots"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "snw:ingots"
 					}
@@ -370,7 +398,7 @@
 				type: "item"
 				item: {
 					id: "immersiveengineering:hammer"
-					Count: 1b
+					Count: 1
 					tag: {
 						Damage: 0
 					}
@@ -416,7 +444,7 @@
 				title: "Any #tfc:ore_pieces"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "snw:tfc_redstone_ore"
 					}
@@ -470,7 +498,7 @@
 				title: "Any #snw:kelp"
 				item: {
 					id: "itemfilters:tag"
-					Count: 1b
+					Count: 1
 					tag: {
 						value: "snw:kelp"
 					}
