@@ -45,7 +45,8 @@ onEvent('recipes', event => {
 		{INPUT : { name : FLUIDS.OSMIRIDIUM, 		amount: 1000 }, OUTPUT : BLOCKS.OSMIRIDIUM, 		TIME : 416,  KEY : 'osmiridium'},
 		{INPUT : { name : FLUIDS.PEWTER, 			amount: 1000 }, OUTPUT : BLOCKS.PEWTER, 			TIME : 416,  KEY : 'pewter'},
 		{INPUT : { name : FLUIDS.SOLDER, 			amount: 1000 }, OUTPUT : BLOCKS.SOLDER, 			TIME : 112,  KEY : 'solder'},
-		{INPUT : { name : FLUIDS.TUNGSTEN_STEEL, 	amount: 1000 }, OUTPUT : BLOCKS.TUNGSTEN_STEEL, 	TIME : 3128,  KEY : 'tungsten_steel'}
+		{INPUT : { name : FLUIDS.TUNGSTEN_STEEL, 	amount: 1000 }, OUTPUT : BLOCKS.TUNGSTEN_STEEL, 	TIME : 3128, KEY : 'tungsten_steel'},
+		{INPUT : { name : FLUIDS.STAINLESS_STEEL, 	amount: 1000 }, OUTPUT : BLOCKS.STAINLESS_STEEL, 	TIME : 428,  KEY : 'stainless_steel'}
 		
 	]
 	recipes.forEach(recipe=>{
