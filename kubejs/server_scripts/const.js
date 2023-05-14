@@ -147,6 +147,9 @@ const ORES={
 		URANINITE: 		'tfc_metallum:ore/small_uraninite',
 		PLATINUM: 		'tfc_metallum:ore/small_native_platinum',
 		OSMIUM: 		'tfc_metallum:ore/small_native_osmium',
+	},
+	PRECIOUS:{
+		DIAMOND:			'tfc:ore/diamond'
 	}
 }
 const FLUIDS={
@@ -154,6 +157,7 @@ const FLUIDS={
 	COPPER:			'tfc:metal/copper',
 	GOLD:			'tfc:metal/gold',
 	WROUGHT_IRON:	'tfc:metal/wrought_iron',
+	CAST_IRON:		'tfc:metal/cast_iron',
 	LEAD:			'tfc_metallum:metal/lead',
 	NICKEL:			'tfc:metal/nickel',
 	SILVER:			'tfc:metal/silver',
@@ -194,7 +198,9 @@ const FLUIDS={
 	OSMIRIDIUM:			'tfc_metallum:metal/osmiridium',
 	PEWTER:				'tfc_metallum:metal/pewter',
 	SOLDER:				'tfc_metallum:metal/solder',
-	TUNGSTEN_STEEL:		'tfc_metallum:metal/tungsten_steel'
+	TUNGSTEN_STEEL:		'tfc_metallum:metal/tungsten_steel',
+	ANDESITE_ALLOY:		'tfc_metallum:metal/andesite_alloy',
+	STAINLESS_STEEL:	'firmalife:metal/stainless_steel'
 }
 const NUGGETS={
 	ALUMINUM: 		'immersiveengineering:nugget_aluminum',
@@ -265,7 +271,9 @@ const INGOTS={
 	OSMIRIDIUM:			'tfc_metallum:metal/ingot/osmiridium',
 	PEWTER:				'tfc_metallum:metal/ingot/pewter',
 	SOLDER:				'tfc_metallum:metal/ingot/solder',
-	TUNGSTEN_STEEL:		'tfc_metallum:metal/ingot/tungsten_steel'
+	TUNGSTEN_STEEL:		'tfc_metallum:metal/ingot/tungsten_steel',
+	ANDESITE_ALLOY:		'tfc_metallum:metal/ingot/andesite_alloy',
+	STAINLESS_STEEL:	'firmalife:metal/ingot/stainless_steel'
 }
 const DUSTS={
 	ALUMINUM: 		'tfc_metalwork:metal/dust/aluminum',
@@ -336,7 +344,8 @@ const BLOCKS={
 	OSMIRIDIUM:			'tfc_metalwork:metal/block/osmiridium',
 	PEWTER:				'tfc_metalwork:metal/block/pewter',
 	SOLDER:				'tfc_metalwork:metal/block/solder',
-	TUNGSTEN_STEEL:		'tfc_metalwork:metal/block/tungsten_steel'
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/block/tungsten_steel',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/block/stainless_steel'
 }
 const GEARS={
 	ALUMINUM: 		'tfc_metalwork:metal/small_gear/aluminum',
@@ -383,7 +392,8 @@ const GEARS={
 	OSMIRIDIUM:			'tfc_metalwork:metal/small_gear/osmiridium',
 	PEWTER:				'tfc_metalwork:metal/small_gear/pewter',
 	SOLDER:				'tfc_metalwork:metal/small_gear/solder',
-	TUNGSTEN_STEEL:		'tfc_metalwork:metal/small_gear/tungsten_steel'
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/small_gear/tungsten_steel',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/small_gear/stainless_steel'
 }
 const RODS={
 	ALUMINUM: 		'tfc_metallum:metal/rod/aluminum',
@@ -430,7 +440,8 @@ const RODS={
 	OSMIRIDIUM:			'tfc_metallum:metal/rod/osmiridium',
 	PEWTER:				'tfc_metallum:metal/rod/pewter',
 	SOLDER:				'tfc_metallum:metal/rod/solder',
-	TUNGSTEN_STEEL:		'tfc_metallum:metal/rod/tungsten_steel'
+	TUNGSTEN_STEEL:		'tfc_metallum:metal/rod/tungsten_steel',
+	STAINLESS_STEEL:	'firmalife:metal/rod/stainless_steel'
 }
 const PLATES={
 	ALUMINUM: 		'tfc_metalwork:metal/plate/aluminum',
@@ -477,7 +488,8 @@ const PLATES={
 	OSMIRIDIUM:			'tfc_metalwork:metal/plate/osmiridium',
 	PEWTER:				'tfc_metalwork:metal/plate/pewter',
 	SOLDER:				'tfc_metalwork:metal/plate/solder',
-	TUNGSTEN_STEEL:		'tfc_metalwork:metal/plate/tungsten_steel'
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/plate/tungsten_steel',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/plate/stainless_steel'
 }
 const GREATE_PLATES={
 	ALUMINUM: 		'tfc_metalwork:metal/large_plate/aluminum',
@@ -524,7 +536,8 @@ const GREATE_PLATES={
 	OSMIRIDIUM:			'tfc_metalwork:metal/large_plate/osmiridium',
 	PEWTER:				'tfc_metalwork:metal/large_plate/pewter',
 	SOLDER:				'tfc_metalwork:metal/large_plate/solder',
-	TUNGSTEN_STEEL:		'tfc_metalwork:metal/large_plate/tungsten_steel'
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/large_plate/tungsten_steel',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/large_plate/stainless_steel'
 }
 const GREATE_GEARS={
 	ALUMINUM: 		'tfc_metalwork:metal/large_gear/aluminum',
@@ -571,7 +584,8 @@ const GREATE_GEARS={
 	OSMIRIDIUM:			'tfc_metalwork:metal/large_gear/osmiridium',
 	PEWTER:				'tfc_metalwork:metal/large_gear/pewter',
 	SOLDER:				'tfc_metalwork:metal/large_gear/solder',
-	TUNGSTEN_STEEL:		'tfc_metalwork:metal/large_gear/tungsten_steel'
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/large_gear/tungsten_steel',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/large_gear/stainless_steel'
 }
 const GREATE_RODS={
 	ALUMINUM: 		'tfc_metalwork:metal/large_rod/aluminum',
@@ -618,7 +632,8 @@ const GREATE_RODS={
 	OSMIRIDIUM:			'tfc_metalwork:metal/large_rod/osmiridium',
 	PEWTER:				'tfc_metalwork:metal/large_rod/pewter',
 	SOLDER:				'tfc_metalwork:metal/large_rod/solder',
-	TUNGSTEN_STEEL:		'tfc_metalwork:metal/large_rod/tungsten_steel'
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/large_rod/tungsten_steel',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/large_rod/stainless_steel'
 }
 const DOUBLE_INGOTS={
 	ALUMINUM: 		'tfc_metallum:metal/double_ingot/aluminum',
@@ -665,7 +680,8 @@ const DOUBLE_INGOTS={
 	OSMIRIDIUM:			'tfc_metallum:metal/double_ingot/osmiridium',
 	PEWTER:				'tfc_metallum:metal/double_ingot/pewter',
 	SOLDER:				'tfc_metallum:metal/double_ingot/solder',
-	TUNGSTEN_STEEL:		'tfc_metallum:metal/double_ingot/tungsten_steel'
+	TUNGSTEN_STEEL:		'tfc_metallum:metal/double_ingot/tungsten_steel',
+	STAINLESS_STEEL:	'firmalife:metal/double_ingot/stainless_steel'
 }
 const DOUBLE_SHEETS={
 	ALUMINUM: 		'tfc_metallum:metal/double_sheet/aluminum',
@@ -712,7 +728,56 @@ const DOUBLE_SHEETS={
 	OSMIRIDIUM:			'tfc_metallum:metal/double_sheet/osmiridium',
 	PEWTER:				'tfc_metallum:metal/double_sheet/pewter',
 	SOLDER:				'tfc_metallum:metal/double_sheet/solder',
-	TUNGSTEN_STEEL:		'tfc_metallum:metal/double_sheet/tungsten_steel'
+	TUNGSTEN_STEEL:		'tfc_metallum:metal/double_sheet/tungsten_steel',
+	STAINLESS_STEEL:	'firmalife:metal/double_sheet/stainless_steel'
+}
+const SHEETS={
+	ALUMINUM: 		'tfc_metallum:metal/sheet/aluminum',
+	COPPER:			'tfc:metal/sheet/copper',
+	GOLD:			'tfc:metal/sheet/gold',
+	WROUGHT_IRON:	'tfc:metal/sheet/wrought_iron',
+	LEAD:			'tfc_metallum:metal/sheet/lead',
+	NICKEL:			'tfc:metal/sheet/nickel',
+	SILVER:			'tfc:metal/sheet/silver',
+	TIN:			'tfc:metal/sheet/tin',
+	ZINC:			'tfc:metal/sheet/zinc',
+	BISMUTH:		'tfc:metal/sheet/bismuth',
+	BERYLLIUM:		'tfc_metallum:metal/sheet/beryllium',
+	COBALT:			'tfc_metallum:metal/sheet/cobalt',
+	BORON:			'tfc_metallum:metal/sheet/boron',
+	THORIUM:		'tfc_metallum:metal/sheet/thorium',
+	IRIDIUM:		'tfc_metallum:metal/sheet/iridium',
+	TITANIUM:		'tfc_metallum:metal/sheet/titanium',
+	ANTIMONY:		'tfc_metallum:metal/sheet/antimony',
+	TUNGSTEN:		'tfc_metallum:metal/sheet/tungsten',
+	CHROMIUM:		'firmalife:metal/sheet/chromium',
+	URANIUM:		'tfc_metallum:metal/sheet/uranium',
+	PLATINUM:		'tfc_metallum:metal/sheet/platinum',
+	OSMIUM:			'tfc_metallum:metal/sheet/osmium',
+	BRONZE:				'tfc:metal/sheet/bronze',
+	BISMUTH_BRONZE:		'tfc:metal/sheet/bismuth_bronze',
+	BLACK_BRONZE:		'tfc:metal/sheet/black_bronze',
+	BRASS:				'tfc:metal/sheet/brass',
+	ROSE_GOLD:			'tfc:metal/sheet/rose_gold',
+	STERLING_SILVER:	'tfc:metal/sheet/sterling_silver',
+	STEEL:				'tfc:metal/sheet/steel',
+	BLACK_STEEL:		'tfc:metal/sheet/black_steel',
+	BLUE_STEEL:			'tfc:metal/sheet/blue_steel',
+	RED_STEEL:			'tfc:metal/sheet/red_steel',
+	ALNICO:				'tfc_metallum:metal/sheet/alnico',
+	BERYLLIUM_COPPER:	'tfc_metallum:metal/sheet/beryllium_copper',
+	CONSTANTAN:			'tfc_metallum:metal/sheet/constantan',
+	ELECTRUM:			'tfc_metallum:metal/sheet/electrum',
+	FERROBORON:			'tfc_metallum:metal/sheet/ferroboron',
+	FLORENTINE_BRONZE:	'tfc_metallum:metal/sheet/florentine_bronze',
+	INVAR:				'tfc_metallum:metal/sheet/invar',
+	MITHRIL:			'tfc_metallum:metal/sheet/mithril',
+	NICKEL_SILVER:		'tfc_metallum:metal/sheet/nickel_silver',
+	OSMIRIDIUM:			'tfc_metallum:metal/sheet/osmiridium',
+	PEWTER:				'tfc_metallum:metal/sheet/pewter',
+	SOLDER:				'tfc_metallum:metal/sheet/solder',
+	TUNGSTEN_STEEL:		'tfc_metallum:metal/sheet/tungsten_steel',
+	STAINLESS_STEEL:	'firmalife:metal/sheet/stainless_steel'
 }
 const CUT_BLOCKS={
 	ALUMINUM: 		'tfc_metalwork:metal/cut/aluminum',
@@ -759,7 +824,8 @@ const CUT_BLOCKS={
 	OSMIRIDIUM:			'tfc_metalwork:metal/cut/osmiridium',
 	PEWTER:				'tfc_metalwork:metal/cut/pewter',
 	SOLDER:				'tfc_metalwork:metal/cut/solder',
-	TUNGSTEN_STEEL:		'tfc_metalwork:metal/cut/tungsten_steel'
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/cut/tungsten_steel',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/cut/stainless_steel'
 }
 const SLABS={
 	ALUMINUM: 		'tfc_metalwork:metal/block/aluminum_slab',
@@ -806,7 +872,27 @@ const SLABS={
 	OSMIRIDIUM:			'tfc_metalwork:metal/block/osmiridium_slab',
 	PEWTER:				'tfc_metalwork:metal/block/pewter_slab',
 	SOLDER:				'tfc_metalwork:metal/block/solder_slab',
-	TUNGSTEN_STEEL:		'tfc_metalwork:metal/block/tungsten_steel_slab'
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/block/tungsten_steel_slab',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/block/stainless_steel_slab',
+	ACACIA:			'tfc:wood/planks/acacia_slab',
+	ASH:			'tfc:wood/planks/ash_slab',
+	ASPEN:			'tfc:wood/planks/aspen_slab',
+	BIRCH:			'tfc:wood/planks/birch_slab',
+	BLACKWOOD:		'tfc:wood/planks/blackwood_slab',
+	CHESTNUT:		'tfc:wood/planks/chestnut_slab',
+	DOUGLAS_FIR:	'tfc:wood/planks/douglas_fir_slab',
+	HICKORY:		'tfc:wood/planks/hickory_slab',
+	KAPOK:			'tfc:wood/planks/kapok_slab',
+	MAPLE:			'tfc:wood/planks/maple_slab',
+	OAK:			'tfc:wood/planks/oak_slab',
+	PALM:			'tfc:wood/planks/palm_slab',
+	PINE:			'tfc:wood/planks/pine_slab',
+	ROSEWOOD:		'tfc:wood/planks/rosewood_slab',
+	SEQUOIA:		'tfc:wood/planks/sequoia_slab',
+	SPRUCE:			'tfc:wood/planks/spruce_slab',
+	SYCAMORE:		'tfc:wood/planks/sycamore_slab',
+	WHITE_CEDAR:	'tfc:wood/planks/white_cedar_slab',
+	WHILLOW:		'tfc:wood/planks/willow_slab'
 }
 const STAIRS={
 	ALUMINUM: 		'tfc_metalwork:metal/block/aluminum_stairs',
@@ -853,7 +939,27 @@ const STAIRS={
 	OSMIRIDIUM:			'tfc_metalwork:metal/block/osmiridium_stairs',
 	PEWTER:				'tfc_metalwork:metal/block/pewter_stairs',
 	SOLDER:				'tfc_metalwork:metal/block/solder_stairs',
-	TUNGSTEN_STEEL:		'tfc_metalwork:metal/block/tungsten_steel_stairs'
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/block/tungsten_steel_stairs',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/block/stainless_steel_stairs',
+	ACACIA:			'tfc:wood/planks/acacia_stairs',
+	ASH:			'tfc:wood/planks/ash_stairs',
+	ASPEN:			'tfc:wood/planks/aspen_stairs',
+	BIRCH:			'tfc:wood/planks/birch_stairs',
+	BLACKWOOD:		'tfc:wood/planks/blackwood_stairs',
+	CHESTNUT:		'tfc:wood/planks/chestnut_stairs',
+	DOUGLAS_FIR:	'tfc:wood/planks/douglas_fir_stairs',
+	HICKORY:		'tfc:wood/planks/hickory_stairs',
+	KAPOK:			'tfc:wood/planks/kapok_stairs',
+	MAPLE:			'tfc:wood/planks/maple_stairs',
+	OAK:			'tfc:wood/planks/oak_stairs',
+	PALM:			'tfc:wood/planks/palm_stairs',
+	PINE:			'tfc:wood/planks/pine_stairs',
+	ROSEWOOD:		'tfc:wood/planks/rosewood_stairs',
+	SEQUOIA:		'tfc:wood/planks/sequoia_stairs',
+	SPRUCE:			'tfc:wood/planks/spruce_stairs',
+	SYCAMORE:		'tfc:wood/planks/sycamore_stairs',
+	WHITE_CEDAR:	'tfc:wood/planks/white_cedar_stairs',
+	WHILLOW:		'tfc:wood/planks/willow_stairs'
 }
 const WALLS={
 	ALUMINUM: 		'tfc_metalwork:metal/block/aluminum_wall',
@@ -900,7 +1006,8 @@ const WALLS={
 	OSMIRIDIUM:			'tfc_metalwork:metal/block/osmiridium_wall',
 	PEWTER:				'tfc_metalwork:metal/block/pewter_wall',
 	SOLDER:				'tfc_metalwork:metal/block/solder_wall',
-	TUNGSTEN_STEEL:		'tfc_metalwork:metal/block/tungsten_steel_wall'
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/block/tungsten_steel_wall',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/block/stainless_steel_wall'
 }
 const CUT_SLABS={
 	ALUMINUM: 		'tfc_metalwork:metal/cut/aluminum_slab',
@@ -947,7 +1054,8 @@ const CUT_SLABS={
 	OSMIRIDIUM:			'tfc_metalwork:metal/cut/osmiridium_slab',
 	PEWTER:				'tfc_metalwork:metal/cut/pewter_slab',
 	SOLDER:				'tfc_metalwork:metal/cut/solder_slab',
-	TUNGSTEN_STEEL:		'tfc_metalwork:metal/cut/tungsten_steel_slab'
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/cut/tungsten_steel_slab',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/cut/stainless_steel_slab'
 }
 const CUT_STAIRS={
 	ALUMINUM: 		'tfc_metalwork:metal/cut/aluminum_stairs',
@@ -994,7 +1102,8 @@ const CUT_STAIRS={
 	OSMIRIDIUM:			'tfc_metalwork:metal/cut/osmiridium_stairs',
 	PEWTER:				'tfc_metalwork:metal/cut/pewter_stairs',
 	SOLDER:				'tfc_metalwork:metal/cut/solder_stairs',
-	TUNGSTEN_STEEL:		'tfc_metalwork:metal/cut/tungsten_steel_stairs'
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/cut/tungsten_steel_stairs',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/cut/stainless_steel_stairs'
 }
 const CUT_WALLS={
 	ALUMINUM: 		'tfc_metalwork:metal/cut/aluminum_wall',
@@ -1041,5 +1150,470 @@ const CUT_WALLS={
 	OSMIRIDIUM:			'tfc_metalwork:metal/cut/osmiridium_wall',
 	PEWTER:				'tfc_metalwork:metal/cut/pewter_wall',
 	SOLDER:				'tfc_metalwork:metal/cut/solder_wall',
-	TUNGSTEN_STEEL:		'tfc_metalwork:metal/cut/tungsten_steel_wall'
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/cut/tungsten_steel_wall',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/cut/stainless_steel_wall'
+}
+const LOGS={
+	ACACIA:			'tfc:wood/log/acacia',
+	ASH:			'tfc:wood/log/ash',
+	ASPEN:			'tfc:wood/log/aspen',
+	BIRCH:			'tfc:wood/log/birch',
+	BLACKWOOD:		'tfc:wood/log/blackwood',
+	CHESTNUT:		'tfc:wood/log/chestnut',
+	DOUGLAS_FIR:	'tfc:wood/log/douglas_fir',
+	HICKORY:		'tfc:wood/log/hickory',
+	KAPOK:			'tfc:wood/log/kapok',
+	MAPLE:			'tfc:wood/log/maple',
+	OAK:			'tfc:wood/log/oak',
+	PALM:			'tfc:wood/log/palm',
+	PINE:			'tfc:wood/log/pine',
+	ROSEWOOD:		'tfc:wood/log/rosewood',
+	SEQUOIA:		'tfc:wood/log/sequoia',
+	SPRUCE:			'tfc:wood/log/spruce',
+	SYCAMORE:		'tfc:wood/log/sycamore',
+	WHITE_CEDAR:	'tfc:wood/log/white_cedar',
+	WHILLOW:		'tfc:wood/log/willow'
+}
+const WOODS={
+	ACACIA:			'tfc:wood/wood/acacia',
+	ASH:			'tfc:wood/wood/ash',
+	ASPEN:			'tfc:wood/wood/aspen',
+	BIRCH:			'tfc:wood/wood/birch',
+	BLACKWOOD:		'tfc:wood/wood/blackwood',
+	CHESTNUT:		'tfc:wood/wood/chestnut',
+	DOUGLAS_FIR:	'tfc:wood/wood/douglas_fir',
+	HICKORY:		'tfc:wood/wood/hickory',
+	KAPOK:			'tfc:wood/wood/kapok',
+	MAPLE:			'tfc:wood/wood/maple',
+	OAK:			'tfc:wood/wood/oak',
+	PALM:			'tfc:wood/wood/palm',
+	PINE:			'tfc:wood/wood/pine',
+	ROSEWOOD:		'tfc:wood/wood/rosewood',
+	SEQUOIA:		'tfc:wood/wood/sequoia',
+	SPRUCE:			'tfc:wood/wood/spruce',
+	SYCAMORE:		'tfc:wood/wood/sycamore',
+	WHITE_CEDAR:	'tfc:wood/wood/white_cedar',
+	WHILLOW:		'tfc:wood/wood/willow'
+}
+const STRIPPED_LOGS={
+	ACACIA:			'tfc:wood/stripped_log/acacia',
+	ASH:			'tfc:wood/stripped_log/ash',
+	ASPEN:			'tfc:wood/stripped_log/aspen',
+	BIRCH:			'tfc:wood/stripped_log/birch',
+	BLACKWOOD:		'tfc:wood/stripped_log/blackwood',
+	CHESTNUT:		'tfc:wood/stripped_log/chestnut',
+	DOUGLAS_FIR:	'tfc:wood/stripped_log/douglas_fir',
+	HICKORY:		'tfc:wood/stripped_log/hickory',
+	KAPOK:			'tfc:wood/stripped_log/kapok',
+	MAPLE:			'tfc:wood/stripped_log/maple',
+	OAK:			'tfc:wood/stripped_log/oak',
+	PALM:			'tfc:wood/stripped_log/palm',
+	PINE:			'tfc:wood/stripped_log/pine',
+	ROSEWOOD:		'tfc:wood/stripped_log/rosewood',
+	SEQUOIA:		'tfc:wood/stripped_log/sequoia',
+	SPRUCE:			'tfc:wood/stripped_log/spruce',
+	SYCAMORE:		'tfc:wood/stripped_log/sycamore',
+	WHITE_CEDAR:	'tfc:wood/stripped_log/white_cedar',
+	WHILLOW:		'tfc:wood/stripped_log/willow'
+}
+const STRIPPED_WOODS={
+	ACACIA:			'tfc:wood/stripped_wood/acacia',
+	ASH:			'tfc:wood/stripped_wood/ash',
+	ASPEN:			'tfc:wood/stripped_wood/aspen',
+	BIRCH:			'tfc:wood/stripped_wood/birch',
+	BLACKWOOD:		'tfc:wood/stripped_wood/blackwood',
+	CHESTNUT:		'tfc:wood/stripped_wood/chestnut',
+	DOUGLAS_FIR:	'tfc:wood/stripped_wood/douglas_fir',
+	HICKORY:		'tfc:wood/stripped_wood/hickory',
+	KAPOK:			'tfc:wood/stripped_wood/kapok',
+	MAPLE:			'tfc:wood/stripped_wood/maple',
+	OAK:			'tfc:wood/stripped_wood/oak',
+	PALM:			'tfc:wood/stripped_wood/palm',
+	PINE:			'tfc:wood/stripped_wood/pine',
+	ROSEWOOD:		'tfc:wood/stripped_wood/rosewood',
+	SEQUOIA:		'tfc:wood/stripped_wood/sequoia',
+	SPRUCE:			'tfc:wood/stripped_wood/spruce',
+	SYCAMORE:		'tfc:wood/stripped_wood/sycamore',
+	WHITE_CEDAR:	'tfc:wood/stripped_wood/white_cedar',
+	WHILLOW:		'tfc:wood/stripped_wood/willow'
+}
+const PLANKS={
+	ACACIA:			'tfc:wood/planks/acacia',
+	ASH:			'tfc:wood/planks/ash',
+	ASPEN:			'tfc:wood/planks/aspen',
+	BIRCH:			'tfc:wood/planks/birch',
+	BLACKWOOD:		'tfc:wood/planks/blackwood',
+	CHESTNUT:		'tfc:wood/planks/chestnut',
+	DOUGLAS_FIR:	'tfc:wood/planks/douglas_fir',
+	HICKORY:		'tfc:wood/planks/hickory',
+	KAPOK:			'tfc:wood/planks/kapok',
+	MAPLE:			'tfc:wood/planks/maple',
+	OAK:			'tfc:wood/planks/oak',
+	PALM:			'tfc:wood/planks/palm',
+	PINE:			'tfc:wood/planks/pine',
+	ROSEWOOD:		'tfc:wood/planks/rosewood',
+	SEQUOIA:		'tfc:wood/planks/sequoia',
+	SPRUCE:			'tfc:wood/planks/spruce',
+	SYCAMORE:		'tfc:wood/planks/sycamore',
+	WHITE_CEDAR:	'tfc:wood/planks/white_cedar',
+	WHILLOW:		'tfc:wood/planks/willow'
+}
+const SIGNS={
+	ACACIA:			'tfc:wood/sign/acacia',
+	ASH:			'tfc:wood/sign/ash',
+	ASPEN:			'tfc:wood/sign/aspen',
+	BIRCH:			'tfc:wood/sign/birch',
+	BLACKWOOD:		'tfc:wood/sign/blackwood',
+	CHESTNUT:		'tfc:wood/sign/chestnut',
+	DOUGLAS_FIR:	'tfc:wood/sign/douglas_fir',
+	HICKORY:		'tfc:wood/sign/hickory',
+	KAPOK:			'tfc:wood/sign/kapok',
+	MAPLE:			'tfc:wood/sign/maple',
+	OAK:			'tfc:wood/sign/oak',
+	PALM:			'tfc:wood/sign/palm',
+	PINE:			'tfc:wood/sign/pine',
+	ROSEWOOD:		'tfc:wood/sign/rosewood',
+	SEQUOIA:		'tfc:wood/sign/sequoia',
+	SPRUCE:			'tfc:wood/sign/spruce',
+	SYCAMORE:		'tfc:wood/sign/sycamore',
+	WHITE_CEDAR:	'tfc:wood/sign/white_cedar',
+	WHILLOW:		'tfc:wood/sign/willow'
+}
+const BUTTONS={
+	ACACIA:			'tfc:wood/planks/acacia_button',
+	ASH:			'tfc:wood/planks/ash_button',
+	ASPEN:			'tfc:wood/planks/aspen_button',
+	BIRCH:			'tfc:wood/planks/birch_button',
+	BLACKWOOD:		'tfc:wood/planks/blackwood_button',
+	CHESTNUT:		'tfc:wood/planks/chestnut_button',
+	DOUGLAS_FIR:	'tfc:wood/planks/douglas_fir_button',
+	HICKORY:		'tfc:wood/planks/hickory_button',
+	KAPOK:			'tfc:wood/planks/kapok_button',
+	MAPLE:			'tfc:wood/planks/maple_button',
+	OAK:			'tfc:wood/planks/oak_button',
+	PALM:			'tfc:wood/planks/palm_button',
+	PINE:			'tfc:wood/planks/pine_button',
+	ROSEWOOD:		'tfc:wood/planks/rosewood_button',
+	SEQUOIA:		'tfc:wood/planks/sequoia_button',
+	SPRUCE:			'tfc:wood/planks/spruce_button',
+	SYCAMORE:		'tfc:wood/planks/sycamore_button',
+	WHITE_CEDAR:	'tfc:wood/planks/white_cedar_button',
+	WHILLOW:		'tfc:wood/planks/willow_button'
+}
+const DOORS={
+	ACACIA:			'tfc:wood/planks/acacia_door',
+	ASH:			'tfc:wood/planks/ash_door',
+	ASPEN:			'tfc:wood/planks/aspen_door',
+	BIRCH:			'tfc:wood/planks/birch_door',
+	BLACKWOOD:		'tfc:wood/planks/blackwood_door',
+	CHESTNUT:		'tfc:wood/planks/chestnut_door',
+	DOUGLAS_FIR:	'tfc:wood/planks/douglas_fir_door',
+	HICKORY:		'tfc:wood/planks/hickory_door',
+	KAPOK:			'tfc:wood/planks/kapok_door',
+	MAPLE:			'tfc:wood/planks/maple_door',
+	OAK:			'tfc:wood/planks/oak_door',
+	PALM:			'tfc:wood/planks/palm_door',
+	PINE:			'tfc:wood/planks/pine_door',
+	ROSEWOOD:		'tfc:wood/planks/rosewood_door',
+	SEQUOIA:		'tfc:wood/planks/sequoia_door',
+	SPRUCE:			'tfc:wood/planks/spruce_door',
+	SYCAMORE:		'tfc:wood/planks/sycamore_door',
+	WHITE_CEDAR:	'tfc:wood/planks/white_cedar_door',
+	WHILLOW:		'tfc:wood/planks/willow_door'
+}
+const FENCES={
+	ACACIA:			'tfc:wood/planks/acacia_fence',
+	ASH:			'tfc:wood/planks/ash_fence',
+	ASPEN:			'tfc:wood/planks/aspen_fence',
+	BIRCH:			'tfc:wood/planks/birch_fence',
+	BLACKWOOD:		'tfc:wood/planks/blackwood_fence',
+	CHESTNUT:		'tfc:wood/planks/chestnut_fence',
+	DOUGLAS_FIR:	'tfc:wood/planks/douglas_fir_fence',
+	HICKORY:		'tfc:wood/planks/hickory_fence',
+	KAPOK:			'tfc:wood/planks/kapok_fence',
+	MAPLE:			'tfc:wood/planks/maple_fence',
+	OAK:			'tfc:wood/planks/oak_fence',
+	PALM:			'tfc:wood/planks/palm_fence',
+	PINE:			'tfc:wood/planks/pine_fence',
+	ROSEWOOD:		'tfc:wood/planks/rosewood_fence',
+	SEQUOIA:		'tfc:wood/planks/sequoia_fence',
+	SPRUCE:			'tfc:wood/planks/spruce_fence',
+	SYCAMORE:		'tfc:wood/planks/sycamore_fence',
+	WHITE_CEDAR:	'tfc:wood/planks/white_cedar_fence',
+	WHILLOW:		'tfc:wood/planks/willow_fence'
+}
+const FENCE_LOGS={
+	ACACIA:			'tfc:wood/planks/acacia_log_fence',
+	ASH:			'tfc:wood/planks/ash_log_fence',
+	ASPEN:			'tfc:wood/planks/aspen_log_fence',
+	BIRCH:			'tfc:wood/planks/birch_log_fence',
+	BLACKWOOD:		'tfc:wood/planks/blackwood_log_fence',
+	CHESTNUT:		'tfc:wood/planks/chestnut_log_fence',
+	DOUGLAS_FIR:	'tfc:wood/planks/douglas_fir_log_fence',
+	HICKORY:		'tfc:wood/planks/hickory_log_fence',
+	KAPOK:			'tfc:wood/planks/kapok_log_fence',
+	MAPLE:			'tfc:wood/planks/maple_log_fence',
+	OAK:			'tfc:wood/planks/oak_log_fence',
+	PALM:			'tfc:wood/planks/palm_log_fence',
+	PINE:			'tfc:wood/planks/pine_log_fence',
+	ROSEWOOD:		'tfc:wood/planks/rosewood_log_fence',
+	SEQUOIA:		'tfc:wood/planks/sequoia_log_fence',
+	SPRUCE:			'tfc:wood/planks/spruce_log_fence',
+	SYCAMORE:		'tfc:wood/planks/sycamore_log_fence',
+	WHITE_CEDAR:	'tfc:wood/planks/white_cedar_log_fence',
+	WHILLOW:		'tfc:wood/planks/willow_log_fence'
+}
+const PRESSURE_PLATES={
+	ACACIA:			'tfc:wood/planks/acacia_pressure_plate',
+	ASH:			'tfc:wood/planks/ash_pressure_plate',
+	ASPEN:			'tfc:wood/planks/aspen_pressure_plate',
+	BIRCH:			'tfc:wood/planks/birch_pressure_plate',
+	BLACKWOOD:		'tfc:wood/planks/blackwood_pressure_plate',
+	CHESTNUT:		'tfc:wood/planks/chestnut_pressure_plate',
+	DOUGLAS_FIR:	'tfc:wood/planks/douglas_fir_pressure_plate',
+	HICKORY:		'tfc:wood/planks/hickory_pressure_plate',
+	KAPOK:			'tfc:wood/planks/kapok_pressure_plate',
+	MAPLE:			'tfc:wood/planks/maple_pressure_plate',
+	OAK:			'tfc:wood/planks/oak_pressure_plate',
+	PALM:			'tfc:wood/planks/palm_pressure_plate',
+	PINE:			'tfc:wood/planks/pine_pressure_plate',
+	ROSEWOOD:		'tfc:wood/planks/rosewood_pressure_plate',
+	SEQUOIA:		'tfc:wood/planks/sequoia_pressure_plate',
+	SPRUCE:			'tfc:wood/planks/spruce_pressure_plate',
+	SYCAMORE:		'tfc:wood/planks/sycamore_pressure_plate',
+	WHITE_CEDAR:	'tfc:wood/planks/white_cedar_pressure_plate',
+	WHILLOW:		'tfc:wood/planks/willow_pressure_plate'
+}
+const TRAPDOORS={
+	ACACIA:			'tfc:wood/planks/acacia_trapdoor',
+	ASH:			'tfc:wood/planks/ash_trapdoor',
+	ASPEN:			'tfc:wood/planks/aspen_trapdoor',
+	BIRCH:			'tfc:wood/planks/birch_trapdoor',
+	BLACKWOOD:		'tfc:wood/planks/blackwood_trapdoor',
+	CHESTNUT:		'tfc:wood/planks/chestnut_trapdoor',
+	DOUGLAS_FIR:	'tfc:wood/planks/douglas_fir_trapdoor',
+	HICKORY:		'tfc:wood/planks/hickory_trapdoor',
+	KAPOK:			'tfc:wood/planks/kapok_trapdoor',
+	MAPLE:			'tfc:wood/planks/maple_trapdoor',
+	OAK:			'tfc:wood/planks/oak_trapdoor',
+	PALM:			'tfc:wood/planks/palm_trapdoor',
+	PINE:			'tfc:wood/planks/pine_trapdoor',
+	ROSEWOOD:		'tfc:wood/planks/rosewood_trapdoor',
+	SEQUOIA:		'tfc:wood/planks/sequoia_trapdoor',
+	SPRUCE:			'tfc:wood/planks/spruce_trapdoor',
+	SYCAMORE:		'tfc:wood/planks/sycamore_trapdoor',
+	WHITE_CEDAR:	'tfc:wood/planks/white_cedar_trapdoor',
+	WHILLOW:		'tfc:wood/planks/willow_trapdoor'
+}
+const LUMBERS={
+	ACACIA:			'tfc:wood/lumber/acacia',
+	ASH:			'tfc:wood/lumber/ash',
+	ASPEN:			'tfc:wood/lumber/aspen',
+	BIRCH:			'tfc:wood/lumber/birch',
+	BLACKWOOD:		'tfc:wood/lumber/blackwood',
+	CHESTNUT:		'tfc:wood/lumber/chestnut',
+	DOUGLAS_FIR:	'tfc:wood/lumber/douglas_fir',
+	HICKORY:		'tfc:wood/lumber/hickory',
+	KAPOK:			'tfc:wood/lumber/kapok',
+	MAPLE:			'tfc:wood/lumber/maple',
+	OAK:			'tfc:wood/lumber/oak',
+	PALM:			'tfc:wood/lumber/palm',
+	PINE:			'tfc:wood/lumber/pine',
+	ROSEWOOD:		'tfc:wood/lumber/rosewood',
+	SEQUOIA:		'tfc:wood/lumber/sequoia',
+	SPRUCE:			'tfc:wood/lumber/spruce',
+	SYCAMORE:		'tfc:wood/lumber/sycamore',
+	WHITE_CEDAR:	'tfc:wood/lumber/white_cedar',
+	WHILLOW:		'tfc:wood/lumber/willow'
+}
+const FENCE_GATES={
+	ACACIA:			'tfc:wood/planks/acacia_fence_gate',
+	ASH:			'tfc:wood/planks/ash_fence_gate',
+	ASPEN:			'tfc:wood/planks/aspen_fence_gate',
+	BIRCH:			'tfc:wood/planks/birch_fence_gate',
+	BLACKWOOD:		'tfc:wood/planks/blackwood_fence_gate',
+	CHESTNUT:		'tfc:wood/planks/chestnut_fence_gate',
+	DOUGLAS_FIR:	'tfc:wood/planks/douglas_fir_fence_gate',
+	HICKORY:		'tfc:wood/planks/hickory_fence_gate',
+	KAPOK:			'tfc:wood/planks/kapok_fence_gate',
+	MAPLE:			'tfc:wood/planks/maple_fence_gate',
+	OAK:			'tfc:wood/planks/oak_fence_gate',
+	PALM:			'tfc:wood/planks/palm_fence_gate',
+	PINE:			'tfc:wood/planks/pine_fence_gate',
+	ROSEWOOD:		'tfc:wood/planks/rosewood_fence_gate',
+	SEQUOIA:		'tfc:wood/planks/sequoia_fence_gate',
+	SPRUCE:			'tfc:wood/planks/spruce_fence_gate',
+	SYCAMORE:		'tfc:wood/planks/sycamore_fence_gate',
+	WHITE_CEDAR:	'tfc:wood/planks/white_cedar_fence_gate',
+	WHILLOW:		'tfc:wood/planks/willow_fence_gate_gate'
+}
+const TOOL_RACKS={
+	ACACIA:			'tfc:wood/planks/acacia_tool_rack',
+	ASH:			'tfc:wood/planks/ash_tool_rack',
+	ASPEN:			'tfc:wood/planks/aspen_tool_rack',
+	BIRCH:			'tfc:wood/planks/birch_tool_rack',
+	BLACKWOOD:		'tfc:wood/planks/blackwood_tool_rack',
+	CHESTNUT:		'tfc:wood/planks/chestnut_tool_rack',
+	DOUGLAS_FIR:	'tfc:wood/planks/douglas_fir_tool_rack',
+	HICKORY:		'tfc:wood/planks/hickory_tool_rack',
+	KAPOK:			'tfc:wood/planks/kapok_tool_rack',
+	MAPLE:			'tfc:wood/planks/maple_tool_rack',
+	OAK:			'tfc:wood/planks/oak_tool_rack',
+	PALM:			'tfc:wood/planks/palm_tool_rack',
+	PINE:			'tfc:wood/planks/pine_tool_rack',
+	ROSEWOOD:		'tfc:wood/planks/rosewood_tool_rack',
+	SEQUOIA:		'tfc:wood/planks/sequoia_tool_rack',
+	SPRUCE:			'tfc:wood/planks/spruce_tool_rack',
+	SYCAMORE:		'tfc:wood/planks/sycamore_tool_rack',
+	WHITE_CEDAR:	'tfc:wood/planks/white_cedar_tool_rack',
+	WHILLOW:		'tfc:wood/planks/willow_tool_rack'
+}
+const SUPPORTS={
+	ACACIA:			'tfc:wood/support/acacia',
+	ASH:			'tfc:wood/support/ash',
+	ASPEN:			'tfc:wood/support/aspen',
+	BIRCH:			'tfc:wood/support/birch',
+	BLACKWOOD:		'tfc:wood/support/blackwood',
+	CHESTNUT:		'tfc:wood/support/chestnut',
+	DOUGLAS_FIR:	'tfc:wood/support/douglas_fir',
+	HICKORY:		'tfc:wood/support/hickory',
+	KAPOK:			'tfc:wood/support/kapok',
+	MAPLE:			'tfc:wood/support/maple',
+	OAK:			'tfc:wood/support/oak',
+	PALM:			'tfc:wood/support/palm',
+	PINE:			'tfc:wood/support/pine',
+	ROSEWOOD:		'tfc:wood/support/rosewood',
+	SEQUOIA:		'tfc:wood/support/sequoia',
+	SPRUCE:			'tfc:wood/support/spruce',
+	SYCAMORE:		'tfc:wood/support/sycamore',
+	WHITE_CEDAR:	'tfc:wood/support/white_cedar',
+	WHILLOW:		'tfc:wood/support/willow'
+}
+const LOOSE_ROCKS={
+	ANDESITE:				'tfc:rock/loose/andesite',
+	BASALT:					'tfc:rock/loose/basalt',
+	CHALK:					'tfc:rock/loose/chalk',
+	CHERT:					'tfc:rock/loose/chert',
+	CLAYSTONE:				'tfc:rock/loose/claystone',
+	CONGLOMERATE:			'tfc:rock/loose/conglomerate',
+	DACITE:					'tfc:rock/loose/dacite',
+	DIORITE:				'tfc:rock/loose/diorite',
+	DOLOMITE:				'tfc:rock/loose/dolomite',
+	GABRO:					'tfc:rock/loose/gabbro',
+	GNEISS:					'tfc:rock/loose/gneiss',
+	GRANITE:				'tfc:rock/loose/granite',
+	LIMESTONE:				'tfc:rock/loose/limestone',
+	MARBLE:					'tfc:rock/loose/marble',
+	PHYLLITE:				'tfc:rock/loose/phyllite',
+	QUARTZITE:				'tfc:rock/loose/quartzite',
+	RHYOLITE:				'tfc:rock/loose/rhyolite',
+	SCHIST:					'tfc:rock/loose/schist',
+	SHALE:					'tfc:rock/loose/shale',
+	SLATE:					'tfc:rock/loose/slate'
+}
+const RAW_ROCKS={
+	ANDESITE:				'tfc:rock/raw/andesite',
+	BASALT:					'tfc:rock/raw/basalt',
+	CHALK:					'tfc:rock/raw/chalk',
+	CHERT:					'tfc:rock/raw/chert',
+	CLAYSTONE:				'tfc:rock/raw/claystone',
+	CONGLOMERATE:			'tfc:rock/raw/conglomerate',
+	DACITE:					'tfc:rock/raw/dacite',
+	DIORITE:				'tfc:rock/raw/diorite',
+	DOLOMITE:				'tfc:rock/raw/dolomite',
+	GABRO:					'tfc:rock/raw/gabbro',
+	GNEISS:					'tfc:rock/raw/gneiss',
+	GRANITE:				'tfc:rock/raw/granite',
+	LIMESTONE:				'tfc:rock/raw/limestone',
+	MARBLE:					'tfc:rock/raw/marble',
+	PHYLLITE:				'tfc:rock/raw/phyllite',
+	QUARTZITE:				'tfc:rock/raw/quartzite',
+	RHYOLITE:				'tfc:rock/raw/rhyolite',
+	SCHIST:					'tfc:rock/raw/schist',
+	SHALE:					'tfc:rock/raw/shale',
+	SLATE:					'tfc:rock/raw/slate'
+}
+const COBBLE_ROCKS={
+	ANDESITE:				'tfc:rock/cobble/andesite',
+	BASALT:					'tfc:rock/cobble/basalt',
+	CHALK:					'tfc:rock/cobble/chalk',
+	CHERT:					'tfc:rock/cobble/chert',
+	CLAYSTONE:				'tfc:rock/cobble/claystone',
+	CONGLOMERATE:			'tfc:rock/cobble/conglomerate',
+	DACITE:					'tfc:rock/cobble/dacite',
+	DIORITE:				'tfc:rock/cobble/diorite',
+	DOLOMITE:				'tfc:rock/cobble/dolomite',
+	GABRO:					'tfc:rock/cobble/gabbro',
+	GNEISS:					'tfc:rock/cobble/gneiss',
+	GRANITE:				'tfc:rock/cobble/granite',
+	LIMESTONE:				'tfc:rock/cobble/limestone',
+	MARBLE:					'tfc:rock/cobble/marble',
+	PHYLLITE:				'tfc:rock/cobble/phyllite',
+	QUARTZITE:				'tfc:rock/cobble/quartzite',
+	RHYOLITE:				'tfc:rock/cobble/rhyolite',
+	SCHIST:					'tfc:rock/cobble/schist',
+	SHALE:					'tfc:rock/cobble/shale',
+	SLATE:					'tfc:rock/cobble/slate'
+}
+const HARDENED_ROCKS={
+	ANDESITE:				'tfc:rock/hardened/andesite',
+	BASALT:					'tfc:rock/hardened/basalt',
+	CHALK:					'tfc:rock/hardened/chalk',
+	CHERT:					'tfc:rock/hardened/chert',
+	CLAYSTONE:				'tfc:rock/hardened/claystone',
+	CONGLOMERATE:			'tfc:rock/hardened/conglomerate',
+	DACITE:					'tfc:rock/hardened/dacite',
+	DIORITE:				'tfc:rock/hardened/diorite',
+	DOLOMITE:				'tfc:rock/hardened/dolomite',
+	GABRO:					'tfc:rock/hardened/gabbro',
+	GNEISS:					'tfc:rock/hardened/gneiss',
+	GRANITE:				'tfc:rock/hardened/granite',
+	LIMESTONE:				'tfc:rock/hardened/limestone',
+	MARBLE:					'tfc:rock/hardened/marble',
+	PHYLLITE:				'tfc:rock/hardened/phyllite',
+	QUARTZITE:				'tfc:rock/hardened/quartzite',
+	RHYOLITE:				'tfc:rock/hardened/rhyolite',
+	SCHIST:					'tfc:rock/hardened/schist',
+	SHALE:					'tfc:rock/hardened/shale',
+	SLATE:					'tfc:rock/hardened/slate'
+}
+const WOODCUTTER={
+	BIRCH:					'corail_woodcutter:birch_woodcutter',
+	SPRUCE:					'corail_woodcutter:spruce_woodcutter',
+	OAK:					'corail_woodcutter:oak_woodcutter',
+	ACACIA:					'corail_woodcutter:acacia_woodcutter'
+}
+const MC_ITEM={
+	HOPPER:					'minecraft:hopper',
+	FURNACE:				'minecraft:furnace',
+	BLAST_FURNACE:			'minecraft:blast_furnace'
+}
+const FLUXS={
+	ANDESITE:	'kubejs:andesite_dust',
+	FLUX:		'tfc:powder/flux'
+}
+const TFC_ITEM={
+	FIRE_BRICKS:			'tfc:fire_bricks',
+	HANDSTONE:				'tfc:handstone',
+	QUERN:					'tfc:quern',
+	OVEN_BOTTOM:			'firmalife:cured_oven_bottom',
+	OVEN_TOP:				'firmalife:cured_oven_top'
+}
+
+const CREATE_ITEMS={
+	ANDESITE_ALLOY: 		'create:andesite_alloy',
+	ANDESITE_CASING:		'create:andesite_casing',
+	SHAFT:					'create:shaft',
+	FLUID_PIPER:			'create:fluid_pipe',
+	PUMP:					'create:mechanical_pump',
+	COGWHEEL:				'create:cogwheel',
+	LARGE_COGWHEEL:			'create:large_cogwheel',
+	BRASS_HAND:				'create:brass_hand',
+	POLISHED_ROZE_QUARTZ:	'create:polished_rose_quartz',
+	ELECTRON_TUBE:			'create:electron_tube',
+	MILLSTONE:				'create:millstone',
+	PRESS:					'create:mechanical_press'
+}
+const IE_ITEM={
+	ROCKCUTTER:				'immersiveengineering:rockcutter'
 }

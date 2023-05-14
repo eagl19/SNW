@@ -46,6 +46,7 @@ onEvent('recipes', event => {
 		{INPUT : BLOCKS.PEWTER, 			OUTPUT : { fluid : FLUIDS.PEWTER, 				amount : 1000}, TEMPERATURE : 1500, KEY : 'pewter_block'},
 		{INPUT : BLOCKS.SOLDER, 			OUTPUT : { fluid : FLUIDS.SOLDER, 				amount : 1000}, TEMPERATURE : 400,  KEY : 'solder_block'},
 		{INPUT : BLOCKS.TUNGSTEN_STEEL, 	OUTPUT : { fluid : FLUIDS.TUNGSTEN_STEEL, 		amount : 1000}, TEMPERATURE : 3690, KEY : 'tungsten_steel_block'},
+		{INPUT : BLOCKS.STAINLESS_STEEL, 	OUTPUT : { fluid : FLUIDS.STAINLESS_STEEL, 		amount : 1000}, TEMPERATURE : 1540, KEY : 'stainless_steel_block'},
 		
 		{INPUT : GEARS.ALUMINUM, 		OUTPUT : { fluid : FLUIDS.ALUMINUM, 	amount : 200 }, TEMPERATURE : 660, 	KEY : 'aluminum_small_gear'},
 		{INPUT : GEARS.COPPER,			OUTPUT : { fluid : FLUIDS.COPPER, 		amount : 200 }, TEMPERATURE : 1080, KEY : 'copper_small_gear'},
@@ -93,6 +94,7 @@ onEvent('recipes', event => {
 		{INPUT : GEARS.PEWTER, 				OUTPUT : { fluid : FLUIDS.PEWTER, 				amount : 200 }, TEMPERATURE : 1500, KEY : 'pewter_small_gear'},
 		{INPUT : GEARS.SOLDER, 				OUTPUT : { fluid : FLUIDS.SOLDER, 				amount : 200 }, TEMPERATURE : 400,  KEY : 'solder_small_gear'},
 		{INPUT : GEARS.TUNGSTEN_STEEL, 		OUTPUT : { fluid : FLUIDS.TUNGSTEN_STEEL, 		amount : 200 }, TEMPERATURE : 3690, KEY : 'tungsten_steel_small_gear'},
+		{INPUT : GEARS.STAINLESS_STEEL, 	OUTPUT : { fluid : FLUIDS.STAINLESS_STEEL, 		amount : 200 }, TEMPERATURE : 1540, KEY : 'stainless_steel_small_gear'},
 		
 		{INPUT : GREATE_GEARS.ALUMINUM, 	OUTPUT : { fluid : FLUIDS.ALUMINUM, 	amount : 400 }, TEMPERATURE : 660, 	KEY : 'aluminum_large_gear'},
 		{INPUT : GREATE_GEARS.COPPER,		OUTPUT : { fluid : FLUIDS.COPPER, 		amount : 400 }, TEMPERATURE : 1080, KEY : 'copper_large_gear'},
@@ -140,6 +142,7 @@ onEvent('recipes', event => {
 		{INPUT : GREATE_GEARS.PEWTER, 				OUTPUT : { fluid : FLUIDS.PEWTER, 				amount : 400 }, TEMPERATURE : 1500, KEY : 'pewter_large_gear'},
 		{INPUT : GREATE_GEARS.SOLDER, 				OUTPUT : { fluid : FLUIDS.SOLDER, 				amount : 400 }, TEMPERATURE : 400,  KEY : 'solder_large_gear'},
 		{INPUT : GREATE_GEARS.TUNGSTEN_STEEL, 		OUTPUT : { fluid : FLUIDS.TUNGSTEN_STEEL, 		amount : 400 }, TEMPERATURE : 3690, KEY : 'tungsten_steel_large_gear'},
+		{INPUT : GREATE_GEARS.STAINLESS_STEEL, 		OUTPUT : { fluid : FLUIDS.STAINLESS_STEEL, 		amount : 400 }, TEMPERATURE : 1540, KEY : 'stainless_steel_large_gear'},
 		
 		{INPUT : PLATES.ALUMINUM, 		OUTPUT : { fluid : FLUIDS.ALUMINUM, 	amount : 200 }, TEMPERATURE : 660, 	KEY : 'aluminum_plate'},
 		{INPUT : PLATES.COPPER,			OUTPUT : { fluid : FLUIDS.COPPER, 		amount : 200 }, TEMPERATURE : 1080, KEY : 'copper_plate'},
@@ -187,6 +190,7 @@ onEvent('recipes', event => {
 		{INPUT : PLATES.PEWTER, 			OUTPUT : { fluid : FLUIDS.PEWTER, 				amount : 200 }, TEMPERATURE : 1500, KEY : 'pewter_plate'},
 		{INPUT : PLATES.SOLDER, 			OUTPUT : { fluid : FLUIDS.SOLDER, 				amount : 200 }, TEMPERATURE : 400,  KEY : 'solder_plate'},
 		{INPUT : PLATES.TUNGSTEN_STEEL, 	OUTPUT : { fluid : FLUIDS.TUNGSTEN_STEEL, 		amount : 200 }, TEMPERATURE : 3690, KEY : 'tungsten_steel_plate'},
+		{INPUT : PLATES.STAINLESS_STEEL, 	OUTPUT : { fluid : FLUIDS.STAINLESS_STEEL, 		amount : 200 }, TEMPERATURE : 1540, KEY : 'stainless_steel_plate'},
 		
 		{INPUT : GREATE_PLATES.ALUMINUM, 		OUTPUT : { fluid : FLUIDS.ALUMINUM, 	amount : 400 }, TEMPERATURE : 660, 	KEY : 'aluminum_large_plate'},
 		{INPUT : GREATE_PLATES.COPPER,			OUTPUT : { fluid : FLUIDS.COPPER, 		amount : 400 }, TEMPERATURE : 1080, KEY : 'copper_large_plate'},
@@ -234,6 +238,7 @@ onEvent('recipes', event => {
 		{INPUT : GREATE_PLATES.PEWTER, 				OUTPUT : { fluid : FLUIDS.PEWTER, 				amount : 400 }, TEMPERATURE : 1500, KEY : 'pewter_large_plate'},
 		{INPUT : GREATE_PLATES.SOLDER, 				OUTPUT : { fluid : FLUIDS.SOLDER, 				amount : 400 }, TEMPERATURE : 400,  KEY : 'solder_large_plate'},
 		{INPUT : GREATE_PLATES.TUNGSTEN_STEEL, 		OUTPUT : { fluid : FLUIDS.TUNGSTEN_STEEL, 		amount : 400 }, TEMPERATURE : 3690, KEY : 'tungsten_steel_large_plate'},
+		{INPUT : GREATE_PLATES.STAINLESS_STEEL, 	OUTPUT : { fluid : FLUIDS.STAINLESS_STEEL, 		amount : 400 }, TEMPERATURE : 1540, KEY : 'stainless_steel_large_plate'},
 		
 		{INPUT : GREATE_RODS.ALUMINUM, 		OUTPUT : { fluid : FLUIDS.ALUMINUM, 	amount : 200 }, TEMPERATURE : 660, 	KEY : 'aluminum_large_rod'},
 		{INPUT : GREATE_RODS.COPPER,		OUTPUT : { fluid : FLUIDS.COPPER, 		amount : 200 }, TEMPERATURE : 1080, KEY : 'copper_large_rod'},
@@ -281,6 +286,7 @@ onEvent('recipes', event => {
 		{INPUT : GREATE_RODS.PEWTER, 			OUTPUT : { fluid : FLUIDS.PEWTER, 				amount : 200 }, TEMPERATURE : 1500, KEY : 'pewter_large_rod'},
 		{INPUT : GREATE_RODS.SOLDER, 			OUTPUT : { fluid : FLUIDS.SOLDER, 				amount : 200 }, TEMPERATURE : 400,  KEY : 'solder_large_rod'},
 		{INPUT : GREATE_RODS.TUNGSTEN_STEEL, 	OUTPUT : { fluid : FLUIDS.TUNGSTEN_STEEL, 		amount : 200 }, TEMPERATURE : 3690, KEY : 'tungsten_steel_large_rod'},
+		{INPUT : GREATE_RODS.STAINLESS_STEEL, 	OUTPUT : { fluid : FLUIDS.STAINLESS_STEEL, 		amount : 200 }, TEMPERATURE : 1540, KEY : 'stainless_steel_large_rod'},
 		
 		{INPUT : SLABS.ALUMINUM, 		OUTPUT : { fluid : FLUIDS.ALUMINUM, 	amount : 500 }, TEMPERATURE : 660, 	KEY : 'aluminum_block_slab'},
 		{INPUT : SLABS.COPPER,			OUTPUT : { fluid : FLUIDS.COPPER, 		amount : 500 }, TEMPERATURE : 1080, KEY : 'copper_block_slab'},
@@ -328,6 +334,7 @@ onEvent('recipes', event => {
 		{INPUT : SLABS.PEWTER, 				OUTPUT : { fluid : FLUIDS.PEWTER, 				amount : 500 }, TEMPERATURE : 1500, KEY : 'pewter_block_slab'},
 		{INPUT : SLABS.SOLDER, 				OUTPUT : { fluid : FLUIDS.SOLDER, 				amount : 500 }, TEMPERATURE : 400,  KEY : 'solder_block_slab'},
 		{INPUT : SLABS.TUNGSTEN_STEEL, 		OUTPUT : { fluid : FLUIDS.TUNGSTEN_STEEL, 		amount : 500 }, TEMPERATURE : 3690, KEY : 'tungsten_steel_block_slab'},
+		{INPUT : SLABS.STAINLESS_STEEL, 	OUTPUT : { fluid : FLUIDS.STAINLESS_STEEL, 		amount : 500 }, TEMPERATURE : 1540, KEY : 'stainless_steel_block_slab'},
 		
 		{INPUT : STAIRS.ALUMINUM, 		OUTPUT : { fluid : FLUIDS.ALUMINUM, 	amount : 700 }, TEMPERATURE : 660, 	KEY : 'aluminum_block_stairs'},
 		{INPUT : STAIRS.COPPER,			OUTPUT : { fluid : FLUIDS.COPPER, 		amount : 700 }, TEMPERATURE : 1080, KEY : 'copper_block_stairs'},
@@ -375,6 +382,7 @@ onEvent('recipes', event => {
 		{INPUT : STAIRS.PEWTER, 			OUTPUT : { fluid : FLUIDS.PEWTER, 				amount : 700 }, TEMPERATURE : 1500, KEY : 'pewter_block_stairs'},
 		{INPUT : STAIRS.SOLDER, 			OUTPUT : { fluid : FLUIDS.SOLDER, 				amount : 700 }, TEMPERATURE : 400,  KEY : 'solder_block_stairs'},
 		{INPUT : STAIRS.TUNGSTEN_STEEL, 	OUTPUT : { fluid : FLUIDS.TUNGSTEN_STEEL, 		amount : 700 }, TEMPERATURE : 3690, KEY : 'tungsten_steel_block_stairs'},
+		{INPUT : STAIRS.STAINLESS_STEEL, 	OUTPUT : { fluid : FLUIDS.STAINLESS_STEEL, 		amount : 700 }, TEMPERATURE : 1540, KEY : 'stainless_steel_block_stairs'},
 		
 		{INPUT : WALLS.ALUMINUM, 		OUTPUT : { fluid : FLUIDS.ALUMINUM, 	amount : 600 }, TEMPERATURE : 660, 	KEY : 'aluminum_block_wall'},
 		{INPUT : WALLS.COPPER,			OUTPUT : { fluid : FLUIDS.COPPER, 		amount : 600 }, TEMPERATURE : 1080, KEY : 'copper_block_wall'},
@@ -421,7 +429,8 @@ onEvent('recipes', event => {
 		{INPUT : WALLS.OSMIRIDIUM, 			OUTPUT : { fluid : FLUIDS.OSMIRIDIUM, 			amount : 600 }, TEMPERATURE : 1500, KEY : 'osmiridium_block_wall'},
 		{INPUT : WALLS.PEWTER, 				OUTPUT : { fluid : FLUIDS.PEWTER, 				amount : 600 }, TEMPERATURE : 1500, KEY : 'pewter_block_wall'},
 		{INPUT : WALLS.SOLDER, 				OUTPUT : { fluid : FLUIDS.SOLDER, 				amount : 600 }, TEMPERATURE : 400,  KEY : 'solder_block_wall'},
-		{INPUT : WALLS.TUNGSTEN_STEEL, 		OUTPUT : { fluid : FLUIDS.TUNGSTEN_STEEL, 		amount : 600 }, TEMPERATURE : 3690, KEY : 'tungsten_steel_block_wall'}
+		{INPUT : WALLS.TUNGSTEN_STEEL, 		OUTPUT : { fluid : FLUIDS.TUNGSTEN_STEEL, 		amount : 600 }, TEMPERATURE : 3690, KEY : 'tungsten_steel_block_wall'},
+		{INPUT : WALLS.STAINLESS_STEEL, 	OUTPUT : { fluid : FLUIDS.STAINLESS_STEEL, 		amount : 600 }, TEMPERATURE : 1540, KEY : 'stainless_steel_block_wall'}
 		
 	]
 	recipes.forEach(recipe=>{

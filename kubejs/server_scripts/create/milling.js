@@ -142,7 +142,9 @@ onEvent('recipes', event => {
 		{INPUT: CRUSHED_ORES.CHROMITE, 		OUTPUT: [{item : DUSTS.CHROMIUM, 		count: 2}, {item : DUSTS.CHROMIUM, 		chance: 0.05 }], TIME: 250 , KEY: 'crushed_chromite'},
 		{INPUT: CRUSHED_ORES.URANIUM, 		OUTPUT: [{item : DUSTS.URANIUM, 		count: 2}, {item : DUSTS.URANIUM, 		chance: 0.05 }], TIME: 250 , KEY: 'crushed_uranium'},
 		{INPUT: CRUSHED_ORES.PLATINUM, 		OUTPUT: [{item : DUSTS.PLATINUM, 		count: 2}, {item : DUSTS.PLATINUM, 		chance: 0.05 }], TIME: 250 , KEY: 'crushed_platinum'},
-		{INPUT: CRUSHED_ORES.OSMIUM, 		OUTPUT: [{item : DUSTS.OSMIUM, 			count: 2}, {item : DUSTS.OSMIUM, 		chance: 0.05 }], TIME: 250 , KEY: 'crushed_osmium'}
+		{INPUT: CRUSHED_ORES.OSMIUM, 		OUTPUT: [{item : DUSTS.OSMIUM, 			count: 2}, {item : DUSTS.OSMIUM, 		chance: 0.05 }], TIME: 250 , KEY: 'crushed_osmium'},
+		
+		{INPUT: LOOSE_ROCKS.ANDESITE, 		OUTPUT: [{item : FLUXS.ANDESITE, 		count: 3}											  ], TIME: 250 , KEY: 'andesite_flux'}
 		
 		
 	]
