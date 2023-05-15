@@ -200,7 +200,8 @@ const FLUIDS={
 	SOLDER:				'tfc_metallum:metal/solder',
 	TUNGSTEN_STEEL:		'tfc_metallum:metal/tungsten_steel',
 	ANDESITE_ALLOY:		'tfc_metallum:metal/andesite_alloy',
-	STAINLESS_STEEL:	'firmalife:metal/stainless_steel'
+	STAINLESS_STEEL:	'firmalife:metal/stainless_steel',
+	MC_WATER:			'minecraft:water'
 }
 const NUGGETS={
 	ALUMINUM: 		'immersiveengineering:nugget_aluminum',
@@ -1533,7 +1534,7 @@ const RAW_ROCKS={
 	SHALE:					'tfc:rock/raw/shale',
 	SLATE:					'tfc:rock/raw/slate'
 }
-const COBBLE_ROCKS={
+const COBBLES={
 	ANDESITE:				'tfc:rock/cobble/andesite',
 	BASALT:					'tfc:rock/cobble/basalt',
 	CHALK:					'tfc:rock/cobble/chalk',
@@ -1554,6 +1555,37 @@ const COBBLE_ROCKS={
 	SCHIST:					'tfc:rock/cobble/schist',
 	SHALE:					'tfc:rock/cobble/shale',
 	SLATE:					'tfc:rock/cobble/slate'
+}
+const GRAVELS={
+	ANDESITE:				'tfc:rock/gravel/andesite',
+	BASALT:					'tfc:rock/gravel/basalt',
+	CHALK:					'tfc:rock/gravel/chalk',
+	CHERT:					'tfc:rock/gravel/chert',
+	CLAYSTONE:				'tfc:rock/gravel/claystone',
+	CONGLOMERATE:			'tfc:rock/gravel/conglomerate',
+	DACITE:					'tfc:rock/gravel/dacite',
+	DIORITE:				'tfc:rock/gravel/diorite',
+	DOLOMITE:				'tfc:rock/gravel/dolomite',
+	GABRO:					'tfc:rock/gravel/gabbro',
+	GNEISS:					'tfc:rock/gravel/gneiss',
+	GRANITE:				'tfc:rock/gravel/granite',
+	LIMESTONE:				'tfc:rock/gravel/limestone',
+	MARBLE:					'tfc:rock/gravel/marble',
+	PHYLLITE:				'tfc:rock/gravel/phyllite',
+	QUARTZITE:				'tfc:rock/gravel/quartzite',
+	RHYOLITE:				'tfc:rock/gravel/rhyolite',
+	SCHIST:					'tfc:rock/gravel/schist',
+	SHALE:					'tfc:rock/gravel/shale',
+	SLATE:					'tfc:rock/gravel/slate'
+}
+const SANDS={
+	BROWN:					'tfc:sand/brown',
+    WHITE:					'tfc:sand/white',
+    BLACK:					'tfc:sand/black',
+    RED:					'tfc:sand/red',
+    YELLOW:					'tfc:sand/yellow',
+    GREEN:					'tfc:sand/green',
+    PINK:					'tfc:sand/pink'
 }
 const HARDENED_ROCKS={
 	ANDESITE:				'tfc:rock/hardened/andesite',
@@ -1586,7 +1618,8 @@ const WOODCUTTER={
 const MC_ITEM={
 	HOPPER:					'minecraft:hopper',
 	FURNACE:				'minecraft:furnace',
-	BLAST_FURNACE:			'minecraft:blast_furnace'
+	BLAST_FURNACE:			'minecraft:blast_furnace',
+	CLAY_BALL:				'minecraft:clay_ball'
 }
 const FLUXS={
 	ANDESITE:	'kubejs:andesite_dust',
@@ -1599,7 +1632,6 @@ const TFC_ITEM={
 	OVEN_BOTTOM:			'firmalife:cured_oven_bottom',
 	OVEN_TOP:				'firmalife:cured_oven_top'
 }
-
 const CREATE_ITEMS={
 	ANDESITE_ALLOY: 		'create:andesite_alloy',
 	ANDESITE_CASING:		'create:andesite_casing',
@@ -1616,4 +1648,14 @@ const CREATE_ITEMS={
 }
 const IE_ITEM={
 	ROCKCUTTER:				'immersiveengineering:rockcutter'
+}
+const TC_ITEM={
+	GROUT:					'tconstruct:grout',
+	SEARED_BRICK:			'tconstruct:seared_brick'
+}
+
+const TAGS={
+	SANDS: 					'forge:sand',
+	TFC_GRAVELS:			'tfc:rock/gravel'
+	
 }

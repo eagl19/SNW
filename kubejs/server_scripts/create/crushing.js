@@ -120,6 +120,27 @@ onEvent('recipes', event => {
 		{INPUT: ORES.SMALL.URANINITE, 		OUTPUT: [{item : CRUSHED_ORES.URANIUM, 			count: 5}, {item : CRUSHED_ORES.URANIUM, 		chance: 0.05 },{item: EXP, chance: 0.07 }], TIME: 400 , KEY: 'small_uraninite_ore'},
 		{INPUT: ORES.SMALL.PLATINUM, 		OUTPUT: [{item : CRUSHED_ORES.PLATINUM, 		count: 5}, {item : CRUSHED_ORES.PLATINUM, 		chance: 0.05 },{item: EXP, chance: 0.07 }], TIME: 400 , KEY: 'small_native_platinum_ore'},
 		{INPUT: ORES.SMALL.OSMIUM, 			OUTPUT: [{item : CRUSHED_ORES.OSMIUM, 			count: 5}, {item : CRUSHED_ORES.OSMIUM, 		chance: 0.05 },{item: EXP, chance: 0.07 }], TIME: 400 , KEY: 'small_native_osmium_ore'},
+		
+		{INPUT: COBBLES.ANDESITE, 			OUTPUT: [{item : GRAVELS.ANDESITE, 				count: 1}, {item : SANDS.BROWN, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_andesite'},
+		{INPUT: COBBLES.BASALT, 			OUTPUT: [{item : GRAVELS.BASALT, 				count: 1}, {item : SANDS.BLACK, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_basalt'},
+		{INPUT: COBBLES.CHALK, 				OUTPUT: [{item : GRAVELS.CHALK, 				count: 1}, {item : SANDS.WHITE, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_chalk'},
+		{INPUT: COBBLES.CHERT, 				OUTPUT: [{item : GRAVELS.CHERT, 				count: 1}, {item : SANDS.RED, 					chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_chert'},
+		{INPUT: COBBLES.CLAYSTONE, 			OUTPUT: [{item : GRAVELS.CLAYSTONE, 			count: 1}, {item : SANDS.PINK, 					chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_claystone'},
+		{INPUT: COBBLES.CONGLOMERATE, 		OUTPUT: [{item : GRAVELS.CONGLOMERATE, 			count: 1}, {item : SANDS.BROWN, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_conglomerate'},
+		{INPUT: COBBLES.DACITE, 			OUTPUT: [{item : GRAVELS.DACITE, 				count: 1}, {item : SANDS.BROWN, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_dacite'},
+		{INPUT: COBBLES.DIORITE, 			OUTPUT: [{item : GRAVELS.DIORITE, 				count: 1}, {item : SANDS.WHITE, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_diorite'},
+		{INPUT: COBBLES.DOLOMITE, 			OUTPUT: [{item : GRAVELS.DOLOMITE, 				count: 1}, {item : SANDS.BLACK, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_dolomite'},
+		{INPUT: COBBLES.GABRO, 				OUTPUT: [{item : GRAVELS.GABRO, 				count: 1}, {item : SANDS.GREEN, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_gabbro'},
+		{INPUT: COBBLES.GNEISS, 			OUTPUT: [{item : GRAVELS.GNEISS, 				count: 1}, {item : SANDS.GREEN, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_gneiss'},
+		{INPUT: COBBLES.GRANITE, 			OUTPUT: [{item : GRAVELS.GRANITE, 				count: 1}, {item : SANDS.BROWN, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_granite'},
+		{INPUT: COBBLES.LIMESTONE, 			OUTPUT: [{item : GRAVELS.LIMESTONE, 			count: 1}, {item : SANDS.YELLOW, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_limestone'},
+		{INPUT: COBBLES.MARBLE, 			OUTPUT: [{item : GRAVELS.MARBLE, 				count: 1}, {item : SANDS.WHITE, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_marble'},
+		{INPUT: COBBLES.PHYLLITE, 			OUTPUT: [{item : GRAVELS.PHYLLITE, 				count: 1}, {item : SANDS.BROWN, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_phyllite'},
+		{INPUT: COBBLES.QUARTZITE, 			OUTPUT: [{item : GRAVELS.QUARTZITE, 			count: 1}, {item : SANDS.WHITE, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_quartzite'},
+		{INPUT: COBBLES.RHYOLITE, 			OUTPUT: [{item : GRAVELS.RHYOLITE, 				count: 1}, {item : SANDS.BROWN, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_rhyolite'},
+		{INPUT: COBBLES.SCHIST, 			OUTPUT: [{item : GRAVELS.SCHIST, 				count: 1}, {item : SANDS.GREEN, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_schist'},
+		{INPUT: COBBLES.SHALE, 				OUTPUT: [{item : GRAVELS.SHALE, 				count: 1}, {item : SANDS.BLACK, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_shale'},
+		{INPUT: COBBLES.SLATE, 				OUTPUT: [{item : GRAVELS.SLATE, 				count: 1}, {item : SANDS.WHITE, 				chance: 0.1  },{item: EXP, chance: 0.01 }], TIME: 400 , KEY: 'cobble_slate'},
 	]
 	recipes.forEach(recipe=>{
 		event.custom({ 

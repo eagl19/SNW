@@ -144,6 +144,27 @@ onEvent('recipes', event => {
 		{INPUT: CRUSHED_ORES.PLATINUM, 		OUTPUT: [{item : DUSTS.PLATINUM, 		count: 2}, {item : DUSTS.PLATINUM, 		chance: 0.05 }], TIME: 250 , KEY: 'crushed_platinum'},
 		{INPUT: CRUSHED_ORES.OSMIUM, 		OUTPUT: [{item : DUSTS.OSMIUM, 			count: 2}, {item : DUSTS.OSMIUM, 		chance: 0.05 }], TIME: 250 , KEY: 'crushed_osmium'},
 		
+		{INPUT: GRAVELS.ANDESITE, 			OUTPUT: [{item : SANDS.BROWN, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_andesite'},
+		{INPUT: GRAVELS.BASALT, 			OUTPUT: [{item : SANDS.BLACK, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_basalt'},
+		{INPUT: GRAVELS.CHALK, 				OUTPUT: [{item : SANDS.WHITE, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_chalk'},
+		{INPUT: GRAVELS.CHERT, 				OUTPUT: [{item : SANDS.RED, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_chert'},
+		{INPUT: GRAVELS.CLAYSTONE, 			OUTPUT: [{item : SANDS.PINK, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_claystone'},
+		{INPUT: GRAVELS.CONGLOMERATE,		OUTPUT: [{item : SANDS.BROWN, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_conglomerate'},
+		{INPUT: GRAVELS.DACITE, 			OUTPUT: [{item : SANDS.BROWN, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_dacite'},
+		{INPUT: GRAVELS.DIORITE, 			OUTPUT: [{item : SANDS.WHITE, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_diorite'},
+		{INPUT: GRAVELS.DOLOMITE, 			OUTPUT: [{item : SANDS.BLACK, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_dolomite'},
+		{INPUT: GRAVELS.GABRO, 				OUTPUT: [{item : SANDS.GREEN, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_gabbro'},
+		{INPUT: GRAVELS.GNEISS, 			OUTPUT: [{item : SANDS.GREEN, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_gneiss'},
+		{INPUT: GRAVELS.GRANITE, 			OUTPUT: [{item : SANDS.BROWN, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_granite'},
+		{INPUT: GRAVELS.LIMESTONE, 			OUTPUT: [{item : SANDS.YELLOW, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_limestone'},
+		{INPUT: GRAVELS.MARBLE, 			OUTPUT: [{item : SANDS.WHITE, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_marble'},
+		{INPUT: GRAVELS.PHYLLITE, 			OUTPUT: [{item : SANDS.BROWN, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_phyllite'},
+		{INPUT: GRAVELS.QUARTZITE, 			OUTPUT: [{item : SANDS.WHITE, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_quartzite'},
+		{INPUT: GRAVELS.RHYOLITE, 			OUTPUT: [{item : SANDS.BROWN, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_rhyolite'},
+		{INPUT: GRAVELS.SCHIST, 			OUTPUT: [{item : SANDS.GREEN, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_schist'},
+		{INPUT: GRAVELS.SHALE, 				OUTPUT: [{item : SANDS.BLACK, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_shale'},
+		{INPUT: GRAVELS.SLATE, 				OUTPUT: [{item : SANDS.WHITE, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_slate'},
+		
 		{INPUT: LOOSE_ROCKS.ANDESITE, 		OUTPUT: [{item : FLUXS.ANDESITE, 		count: 3}											  ], TIME: 250 , KEY: 'andesite_flux'}
 		
 		
