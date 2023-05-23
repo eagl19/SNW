@@ -58,43 +58,124 @@
 			id: "6C11E208C887B5F7"
 			tasks: [
 				{
-					id: "28E4485F25E78A51"
+					id: "663BCBAD181A5F1C"
 					type: "item"
-					title: "Any #forge:axes"
 					item: {
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						Count: 1
 						tag: {
-							value: "tfc:tfc_axes"
+							items: [
+								{
+									id: "tfc:stone/axe/igneous_extrusive"
+									Count: 1
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/axe/igneous_intrusive"
+									Count: 1
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/axe/metamorphic"
+									Count: 1
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/axe/sedimentary"
+									Count: 1
+									tag: {
+										Damage: 0
+									}
+								}
+							]
 						}
 					}
-					only_from_crafting: true
 				}
 				{
-					id: "3F703364A3971D31"
+					id: "32F4AF92824737DC"
 					type: "item"
-					title: "Any #tfc:knives"
 					item: {
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						Count: 1
 						tag: {
-							value: "tfc:knives"
+							items: [
+								{
+									id: "tfc:stone/knife/igneous_intrusive"
+									Count: 1
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/knife/metamorphic"
+									Count: 1
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/knife/sedimentary"
+									Count: 1
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/knife/igneous_extrusive"
+									Count: 1
+									tag: {
+										Damage: 0
+									}
+								}
+							]
 						}
 					}
-					only_from_crafting: true
 				}
 				{
-					id: "5F93524D8C710FED"
+					id: "07464DB39C5C07D6"
 					type: "item"
-					title: "Any #tfc:shovels"
 					item: {
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						Count: 1
 						tag: {
-							value: "tfc:shovels"
+							items: [
+								{
+									id: "tfc:stone/shovel/igneous_extrusive"
+									Count: 1
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/shovel/igneous_intrusive"
+									Count: 1
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/shovel/metamorphic"
+									Count: 1
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/shovel/sedimentary"
+									Count: 1
+									tag: {
+										Damage: 0
+									}
+								}
+							]
 						}
 					}
-					only_from_crafting: true
 				}
 			]
 		}
@@ -342,17 +423,46 @@
 			hide: true
 			id: "7C1C6BAF5F94B1CB"
 			tasks: [{
-				id: "0722F950757CD45A"
+				id: "20A842BA47693744"
 				type: "item"
-				title: "Any #tfc:copper_small_ore_pieces"
 				item: {
-					id: "itemfilters:tag"
+					id: "itemfilters:or"
 					Count: 1
 					tag: {
-						value: "tfc:copper_small_ore_pieces"
+						items: [
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:ore/small_native_copper"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:ore/small_malachite"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:ore/small_tetrahedrite"
+								Count: 1
+							}
+						]
 					}
 				}
-				count: 40L
 			}]
 		}
 		{
@@ -828,14 +938,57 @@
 			hide: true
 			id: "5DEAD3890004D775"
 			tasks: [{
-				id: "7967D05B07CD4A64"
+				id: "7EEA6DAF8CE8999E"
 				type: "item"
-				title: "Any #tfc:rock/bricks"
+				title: "Кирпичі"
 				item: {
-					id: "itemfilters:tag"
+					id: "itemfilters:and"
 					Count: 1
 					tag: {
-						value: "tfc:tfc_bricks"
+						items: [
+							{
+								id: "itemfilters:tag"
+								Count: 1
+								tag: {
+									value: "tfc:rock/bricks"
+								}
+							}
+							{
+								id: "itemfilters:not"
+								Count: 1
+								tag: {
+									items: [{
+										id: "itemfilters:or"
+										Count: 1
+										tag: {
+											items: [
+												{
+													id: "itemfilters:tag"
+													Count: 1
+													tag: {
+														value: "tfc:mossy_stone_bricks"
+													}
+												}
+												{
+													id: "itemfilters:tag"
+													Count: 1
+													tag: {
+														value: "tfc:rock/chiseled_bricks"
+													}
+												}
+												{
+													id: "itemfilters:tag"
+													Count: 1
+													tag: {
+														value: "tfc:rock/cracked_bricks"
+													}
+												}
+											]
+										}
+									}]
+								}
+							}
+						]
 					}
 				}
 			}]

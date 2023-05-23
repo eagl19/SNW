@@ -153,14 +153,102 @@
 			]
 			id: "4801B83E5DA13C3D"
 			tasks: [{
-				id: "6C7B6F53A52DEB52"
+				id: "2406C0156B466128"
 				type: "item"
-				title: "Any #forge:nuggets"
 				item: {
-					id: "itemfilters:tag"
+					id: "itemfilters:or"
 					Count: 1
 					tag: {
-						value: "snw:nuggets"
+						items: [
+							{
+								id: "immersiveengineering:nugget_aluminum"
+								Count: 1
+							}
+							{
+								id: "create:copper_nugget"
+								Count: 1
+							}
+							{
+								id: "minecraft:gold_nugget"
+								Count: 1
+							}
+							{
+								id: "kubejs:wrought_iron_nugget"
+								Count: 1
+							}
+							{
+								id: "immersiveengineering:nugget_lead"
+								Count: 1
+							}
+							{
+								id: "immersiveengineering:nugget_nickel"
+								Count: 1
+							}
+							{
+								id: "immersiveengineering:nugget_silver"
+								Count: 1
+							}
+							{
+								id: "mekanism:nugget_tin"
+								Count: 1
+							}
+							{
+								id: "create:zinc_nugget"
+								Count: 1
+							}
+							{
+								id: "kubejs:tungsten_nugget"
+								Count: 1
+							}
+							{
+								id: "kubejs:antimony_nugget"
+								Count: 1
+							}
+							{
+								id: "kubejs:titanium_nugget"
+								Count: 1
+							}
+							{
+								id: "kubejs:iridium_nugget"
+								Count: 1
+							}
+							{
+								id: "kubejs:thorium_nugget"
+								Count: 1
+							}
+							{
+								id: "kubejs:boron_nugget"
+								Count: 1
+							}
+							{
+								id: "tconstruct:cobalt_nugget"
+								Count: 1
+							}
+							{
+								id: "kubejs:beryllium_nugget"
+								Count: 1
+							}
+							{
+								id: "kubejs:bismuth_nugget"
+								Count: 1
+							}
+							{
+								id: "kubejs:platinum_nugget"
+								Count: 1
+							}
+							{
+								id: "mekanism:nugget_osmium"
+								Count: 1
+							}
+							{
+								id: "immersiveengineering:nugget_uranium"
+								Count: 1
+							}
+							{
+								id: "kubejs:chromium_nugget"
+								Count: 1
+							}
+						]
 					}
 				}
 			}]
@@ -242,10 +330,13 @@
 			dependencies: ["15ADE13B07CE728B"]
 			id: "78C5170EE33029C8"
 			tasks: [{
-				id: "46AF6D9218E70C3C"
-				type: "item"
-				item: "immersiveengineering:cokebrick"
-				count: 9L
+				id: "291596BEE36917DA"
+				type: "questsadditions:structure"
+				name: "immersiveengineering:coke_oven"
+				hasCustomPicture: false
+				layer: true
+				ignoreState: false
+				rightclick: false
 			}]
 		}
 		{
@@ -324,14 +415,234 @@
 			]
 			id: "071591355FDD0E41"
 			tasks: [{
-				id: "0782B6CE08C5C331"
+				id: "768345A7F181BBEC"
 				type: "item"
-				title: "Any #forge:ingots"
 				item: {
-					id: "itemfilters:tag"
+					id: "itemfilters:or"
 					Count: 1
 					tag: {
-						value: "snw:ingots"
+						items: [
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metallum:metal/ingot/aluminum"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:metal/ingot/copper"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:metal/ingot/gold"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:metal/ingot/wrought_iron"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metallum:metal/ingot/lead"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:metal/ingot/nickel"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:metal/ingot/silver"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:metal/ingot/tin"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:metal/ingot/zinc"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metallum:metal/ingot/tungsten"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metallum:metal/ingot/antimony"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metallum:metal/ingot/titanium"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metallum:metal/ingot/iridium"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metallum:metal/ingot/thorium"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metallum:metal/ingot/boron"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metallum:metal/ingot/cobalt"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metallum:metal/ingot/beryllium"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc:metal/ingot/bismuth"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metallum:metal/ingot/uranium"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metallum:metal/ingot/platinum"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metallum:metal/ingot/osmium"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "firmalife:metal/ingot/chromium"
+								Count: 1
+							}
+						]
 					}
 				}
 			}]

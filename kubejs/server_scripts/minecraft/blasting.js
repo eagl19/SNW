@@ -168,7 +168,7 @@ onEvent('recipes', event => {
 	]
 	recipes.forEach(recipe=>{
 		event.custom({
-			type: 'minecraft:blasting',
+			type: RECIPE_TYPE.MC_BLASTING,
 			ingredient: { 
 				item: recipe.INPUT 
 			},

@@ -149,7 +149,8 @@ const ORES={
 		OSMIUM: 		'tfc_metallum:ore/small_native_osmium',
 	},
 	PRECIOUS:{
-		DIAMOND:			'tfc:ore/diamond'
+		DIAMOND:			'tfc:ore/diamond',
+		CERTUS_QUARTZ:		'tfc_metallum:ore/certus_quartz'
 	}
 }
 const FLUIDS={
@@ -298,7 +299,32 @@ const DUSTS={
 	CHROMIUM:		'tfc_metalwork:metal/dust/chromium',
 	URANIUM:		'tfc_metalwork:metal/dust/uranium',
 	PLATINUM:		'tfc_metalwork:metal/dust/platinum',
-	OSMIUM:			'tfc_metalwork:metal/dust/osmium'
+	OSMIUM:			'tfc_metalwork:metal/dust/osmium',
+	BRONZE:				'tfc_metalwork:metal/dust/bronze',
+	BISMUTH_BRONZE:		'tfc_metalwork:metal/dust/bismuth_bronze',
+	BLACK_BRONZE:		'tfc_metalwork:metal/dust/black_bronze',
+	BRASS:				'tfc_metalwork:metal/dust/brass',
+	ROSE_GOLD:			'tfc_metalwork:metal/dust/rose_gold',
+	STERLING_SILVER:	'tfc_metalwork:metal/dust/sterling_silver',
+	STEEL:				'tfc_metalwork:metal/dust/steel',
+	BLACK_STEEL:		'tfc_metalwork:metal/dust/black_steel',
+	BLUE_STEEL:			'tfc_metalwork:metal/dust/blue_steel',
+	RED_STEEL:			'tfc_metalwork:metal/dust/red_steel',
+	ALNICO:				'tfc_metalwork:metal/dust/alnico',
+	BERYLLIUM_COPPER:	'tfc_metalwork:metal/dust/beryllium_copper',
+	CONSTANTAN:			'tfc_metalwork:metal/dust/constantan',
+	ELECTRUM:			'tfc_metalwork:metal/dust/electrum',
+	FERROBORON:			'tfc_metalwork:metal/dust/ferroboron',
+	FLORENTINE_BRONZE:	'tfc_metalwork:metal/dust/florentine_bronze',
+	INVAR:				'tfc_metalwork:metal/dust/invar',
+	MITHRIL:			'tfc_metalwork:metal/dust/mithril',
+	NICKEL_SILVER:		'tfc_metalwork:metal/dust/nickel_silver',
+	OSMIRIDIUM:			'tfc_metalwork:metal/dust/osmiridium',
+	PEWTER:				'tfc_metalwork:metal/dust/pewter',
+	SOLDER:				'tfc_metalwork:metal/dust/solder',
+	TUNGSTEN_STEEL:		'tfc_metalwork:metal/dust/tungsten_steel',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/dust/andesite_alloy',
+	STAINLESS_STEEL:	'tfc_metalwork:metal/dust/stainless_steel'
 }
 const BLOCKS={
 	ALUMINUM: 		'tfc_metalwork:metal/block/aluminum',
@@ -1619,18 +1645,24 @@ const MC_ITEM={
 	HOPPER:					'minecraft:hopper',
 	FURNACE:				'minecraft:furnace',
 	BLAST_FURNACE:			'minecraft:blast_furnace',
-	CLAY_BALL:				'minecraft:clay_ball'
+	CLAY_BALL:				'minecraft:clay_ball',
+	BARREL:					'minecraft:barrel'
 }
 const FLUXS={
 	ANDESITE:	'kubejs:andesite_dust',
 	FLUX:		'tfc:powder/flux'
+}
+const CHAINS={
+	COPPER:					'tfc:metal/chain/copper'	
 }
 const TFC_ITEM={
 	FIRE_BRICKS:			'tfc:fire_bricks',
 	HANDSTONE:				'tfc:handstone',
 	QUERN:					'tfc:quern',
 	OVEN_BOTTOM:			'firmalife:cured_oven_bottom',
-	OVEN_TOP:				'firmalife:cured_oven_top'
+	OVEN_TOP:				'firmalife:cured_oven_top',
+	BLAST_FURNACE:			'tfc:blast_furnace'
+	
 }
 const CREATE_ITEMS={
 	ANDESITE_ALLOY: 		'create:andesite_alloy',
@@ -1644,18 +1676,35 @@ const CREATE_ITEMS={
 	POLISHED_ROZE_QUARTZ:	'create:polished_rose_quartz',
 	ELECTRON_TUBE:			'create:electron_tube',
 	MILLSTONE:				'create:millstone',
-	PRESS:					'create:mechanical_press'
+	PRESS:					'create:mechanical_press',
+	FLUID_TANK:				'create:fluid_tank'
 }
 const IE_ITEM={
-	ROCKCUTTER:				'immersiveengineering:rockcutter'
+	ROCKCUTTER:				'immersiveengineering:rockcutter',
+	COKE:					'immersiveengineering:coal_coke'
+}
+const ED_ITEMS={
+	COKE:					'electrodynamics:coalcoke'
 }
 const TC_ITEM={
 	GROUT:					'tconstruct:grout',
-	SEARED_BRICK:			'tconstruct:seared_brick'
+	SEARED_BRICK:			'tconstruct:seared_brick',
+	SEARED_MELTER:			'tconstruct:seared_melter'
+}
+
+const RECIPE_TYPE={
+	MC_SHAPELESS: 	'minecraft:crafting_shapeless',
+	MC_SHAPED:		'minecraft:crafting_shaped',
+	MC_SMELTING:	'minecraft:smelting',
+	MC_BLASTING:	'minecraft:blasting',
+	TFC_ANVIL:		'tfc:anvil',
+	C_DEPLOIYNG:	'create:deploying',
+	TC_MELTING:		'tconstruct:melting'
 }
 
 const TAGS={
 	SANDS: 					'forge:sand',
-	TFC_GRAVELS:			'tfc:rock/gravel'
+	TFC_GRAVELS:			'tfc:rock/gravel',
+	TFC_LUMBER:				'tfc:lumber'
 	
 }

@@ -911,7 +911,7 @@ onEvent('recipes', event => {
 	]
 	recipes.forEach(recipe=>{
 		event.custom({ 
-			type: 'tconstruct:melting',
+			type:  RECIPE_TYPE.TC_MELTING,
 			ingredient: { 
 				item: recipe.INPUT 
 			},

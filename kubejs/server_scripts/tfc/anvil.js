@@ -310,7 +310,7 @@ onEvent('recipes', event => {
 	event.remove({ id: re });
 	recipes.forEach(recipe=>{		
 		event.custom({ 
-			type: 'tfc:anvil',
+			type: RECIPE_TYPE.TFC_ANVIL,
 			input: { 
 				item: recipe.INPUT 
 			},

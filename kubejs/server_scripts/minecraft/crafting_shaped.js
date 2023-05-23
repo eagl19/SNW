@@ -15,8 +15,25 @@ onEvent('recipes', event => {
 		{PUTTERN : ["ABA","CDC"," E "], PUTTERN_KEY : { A : {item : CREATE_ITEMS.COGWHEEL },		B : {item : CREATE_ITEMS.LARGE_COGWHEEL },			
 														C : {item : CREATE_ITEMS.ANDESITE_CASING },	D : {item : GREATE_RODS.TITANIUM },				
 														E : {item : BLOCKS.TITANIUM },															}, 	OUTPUT : {item :  CREATE_ITEMS.PRESS, 		count : 1},	KEY : "create:crafting/kinetics/mechanical_press"},
-														
+		{PUTTERN : ["AAA","BCB","AAA"], PUTTERN_KEY : { A : {tag  : TAGS.TFC_LUMBER }, 				B : {item : CHAINS.COPPER}, 	
+														C : {item : DOUBLE_SHEETS.COPPER }														},	OUTPUT : {item :  MC_ITEM.BARREL, 			count : 1}, KEY : 'minecraft:barrel'},
+		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : SHEETS.COPPER },				B : {item : MC_ITEM.BARREL }				},	OUTPUT : {item :  CREATE_ITEMS.FLUID_TANK, 	count : 1}, KEY : 'create:crafting/kinetics/fluid_tank'},
+		{PUTTERN : ["AAA","BCB","BBB"], PUTTERN_KEY : { A : {item : ORES.PRECIOUS.CERTUS_QUARTZ },	B : {item : TC_ITEM.SEARED_BRICK}, 	
+														C : {item : TFC_ITEM.BLAST_FURNACE }													},	OUTPUT : {item :  TC_ITEM.SEARED_MELTER, 	count : 1}, KEY : 'tconstruct:smeltery/seared/melter'},
 	]
+	event.remove({output : MC_ITEM.FURNACE})
+	event.remove({output : MC_ITEM.BLAST_FURNACE})
+	event.remove({output : WOODCUTTER.BIRCH})
+	event.remove({output : WOODCUTTER.SPRUCE})
+	event.remove({output : WOODCUTTER.OAK})
+	event.remove({output : WOODCUTTER.ACACIA})
+	event.remove({output : IE_ITEM.ROCKCUTTER})
+	event.remove({output : CREATE_ITEMS.MILLSTONE})
+	event.remove({output : CREATE_ITEMS.PRESS})
+	event.remove({output : MC_ITEM.BARREL})
+	event.remove({output : CREATE_ITEMS.FLUID_TANK})
+	event.remove({output : TC_ITEM.SEARED_MELTER})
+	
 	recipes.forEach(recipe=>{
 		event.recipes.minecraft.crafting_shaped({
 			pattern: recipe.PUTTERN,
