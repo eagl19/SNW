@@ -1,7 +1,7 @@
 // priority: 0
 
-settings.logAddedRecipes = false
-settings.logRemovedRecipes = false
+settings.logAddedRecipes = true
+settings.logRemovedRecipes = true
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
@@ -26,6 +26,7 @@ onEvent('recipes', event => {
 	event.remove({output : CREATE_ITEMS.ELECTRON_TUBE,											type : RECIPE_TYPE.MC_SHAPED})
 	event.remove({output : CREATE_ITEMS.SHAFT,													type : RECIPE_TYPE.MC_SHAPED})
 	event.remove({input : TC_ITEM.SEARED_MELTER,												type : RECIPE_TYPE.TC_MELTING})
+	event.remove({id : 'immersiveengineering:crafting/treated_wood_horizontal'})
 })
 
 onEvent('item.tags', event => {

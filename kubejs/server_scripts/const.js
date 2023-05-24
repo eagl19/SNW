@@ -919,7 +919,10 @@ const SLABS={
 	SPRUCE:			'tfc:wood/planks/spruce_slab',
 	SYCAMORE:		'tfc:wood/planks/sycamore_slab',
 	WHITE_CEDAR:	'tfc:wood/planks/white_cedar_slab',
-	WHILLOW:		'tfc:wood/planks/willow_slab'
+	WHILLOW:		'tfc:wood/planks/willow_slab',
+	TREATED_WOOD_H:	'immersiveengineering:slab_treated_wood_horizontal',
+	TREATED_WOOD_V:	'immersiveengineering:slab_treated_wood_vertical',
+	TREATED_WOOD_P:	'immersiveengineering:slab_treated_wood_packaged'
 }
 const STAIRS={
 	ALUMINUM: 		'tfc_metalwork:metal/block/aluminum_stairs',
@@ -986,7 +989,10 @@ const STAIRS={
 	SPRUCE:			'tfc:wood/planks/spruce_stairs',
 	SYCAMORE:		'tfc:wood/planks/sycamore_stairs',
 	WHITE_CEDAR:	'tfc:wood/planks/white_cedar_stairs',
-	WHILLOW:		'tfc:wood/planks/willow_stairs'
+	WHILLOW:		'tfc:wood/planks/willow_stairs',
+	TREATED_WOOD_H:	'immersiveengineering:stairs_treated_wood_horizontal',
+	TREATED_WOOD_V:	'immersiveengineering:stairs_treated_wood_vertical',
+	TREATED_WOOD_P:	'immersiveengineering:stairs_treated_wood_packaged'
 }
 const WALLS={
 	ALUMINUM: 		'tfc_metalwork:metal/block/aluminum_wall',
@@ -1283,7 +1289,10 @@ const PLANKS={
 	SPRUCE:			'tfc:wood/planks/spruce',
 	SYCAMORE:		'tfc:wood/planks/sycamore',
 	WHITE_CEDAR:	'tfc:wood/planks/white_cedar',
-	WHILLOW:		'tfc:wood/planks/willow'
+	WHILLOW:		'tfc:wood/planks/willow',
+	TREATED_WOOD_H:	'immersiveengineering:treated_wood_horizontal',
+	TREATED_WOOD_V:	'immersiveengineering:treated_wood_vertical',
+	TREATED_WOOD_P:	'immersiveengineering:treated_wood_packaged'
 }
 const SIGNS={
 	ACACIA:			'tfc:wood/sign/acacia',
@@ -1661,7 +1670,9 @@ const TFC_ITEM={
 	QUERN:					'tfc:quern',
 	OVEN_BOTTOM:			'firmalife:cured_oven_bottom',
 	OVEN_TOP:				'firmalife:cured_oven_top',
-	BLAST_FURNACE:			'tfc:blast_furnace'
+	BLAST_FURNACE:			'tfc:blast_furnace',
+	IE_HAMMER_HEAD:			'tfc_ie_addon:tool_head/ie_hammer',
+	PICKAXE_BLUE_STEEL:		'tfc:metal/pickaxe/blue_steel'
 	
 }
 const CREATE_ITEMS={
@@ -1681,7 +1692,9 @@ const CREATE_ITEMS={
 }
 const IE_ITEM={
 	ROCKCUTTER:				'immersiveengineering:rockcutter',
-	COKE:					'immersiveengineering:coal_coke'
+	COKE:					'immersiveengineering:coal_coke',
+	STICK:					'immersiveengineering:stick_treated',
+	HAMMER:					'immersiveengineering:hammer'	
 }
 const ED_ITEMS={
 	COKE:					'electrodynamics:coalcoke'

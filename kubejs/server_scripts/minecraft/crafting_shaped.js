@@ -1,4 +1,5 @@
 onEvent('recipes', event => {
+	
 	const recipes=[
 		{PUTTERN : ["AAA","ABA","ACA"], PUTTERN_KEY : { A : {item : TFC_ITEM.FIRE_BRICKS }, 		B : {item : TFC_ITEM.OVEN_TOP}, 	
 														C : {item : TFC_ITEM.OVEN_BOTTOM }														},	OUTPUT : {item :  MC_ITEM.FURNACE, 			count : 1}, KEY : 'minecraft:furnace'},
@@ -20,6 +21,8 @@ onEvent('recipes', event => {
 		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : SHEETS.COPPER },				B : {item : MC_ITEM.BARREL }				},	OUTPUT : {item :  CREATE_ITEMS.FLUID_TANK, 	count : 1}, KEY : 'create:crafting/kinetics/fluid_tank'},
 		{PUTTERN : ["AAA","BCB","BBB"], PUTTERN_KEY : { A : {item : ORES.PRECIOUS.CERTUS_QUARTZ },	B : {item : TC_ITEM.SEARED_BRICK}, 	
 														C : {item : TFC_ITEM.BLAST_FURNACE }													},	OUTPUT : {item :  TC_ITEM.SEARED_MELTER, 	count : 1}, KEY : 'tconstruct:smeltery/seared/melter'},
+		{PUTTERN : ["   "," A "," B "], PUTTERN_KEY : { A : {item : TFC_ITEM.IE_HAMMER_HEAD },		B : {item : IE_ITEM.STICK },				}, 	OUTPUT : {item :  IE_ITEM.HAMMER, 			count : 1}, KEY : 'immersiveengineering:crafting/hammer'}
+														
 	]
 	event.remove({output : MC_ITEM.FURNACE})
 	event.remove({output : MC_ITEM.BLAST_FURNACE})
@@ -33,7 +36,7 @@ onEvent('recipes', event => {
 	event.remove({output : MC_ITEM.BARREL})
 	event.remove({output : CREATE_ITEMS.FLUID_TANK})
 	event.remove({output : TC_ITEM.SEARED_MELTER})
-	
+	event.remove({output : IE_ITEM.HAMMER})
 	recipes.forEach(recipe=>{
 		event.recipes.minecraft.crafting_shaped({
 			pattern: recipe.PUTTERN,

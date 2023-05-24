@@ -398,10 +398,59 @@ onEvent('recipes', event => {
 		{INPUT : WOODS.SPRUCE, 			OUTPUT : TRAPDOORS.SPRUCE, 				COUNT : 8, 	KEY : 'wood/trapdoor'},
 		{INPUT : WOODS.SYCAMORE, 		OUTPUT : TRAPDOORS.SYCAMORE, 			COUNT : 8, 	KEY : 'wood/trapdoor'},
 		{INPUT : WOODS.WHITE_CEDAR, 	OUTPUT : TRAPDOORS.WHITE_CEDAR,			COUNT : 8, 	KEY : 'wood/trapdoor'},
-		{INPUT : WOODS.WHILLOW, 		OUTPUT : TRAPDOORS.WHILLOW, 			COUNT : 8, 	KEY : 'wood/trapdoor'}
+		{INPUT : WOODS.WHILLOW, 		OUTPUT : TRAPDOORS.WHILLOW, 			COUNT : 8, 	KEY : 'wood/trapdoor'},
+		
+		{INPUT : PLANKS.ACACIA, 		OUTPUT : SLABS.ACACIA, 				COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.ASH, 			OUTPUT : SLABS.ASH, 				COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.ASPEN, 			OUTPUT : SLABS.ASPEN, 				COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.BIRCH, 			OUTPUT : SLABS.BIRCH, 				COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.BLACKWOOD, 		OUTPUT : SLABS.BLACKWOOD, 			COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.CHESTNUT, 		OUTPUT : SLABS.CHESTNUT, 			COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.DOUGLAS_FIR, 	OUTPUT : SLABS.DOUGLAS_FIR,			COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.HICKORY, 		OUTPUT : SLABS.HICKORY, 			COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.KAPOK, 			OUTPUT : SLABS.KAPOK, 				COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.MAPLE, 			OUTPUT : SLABS.MAPLE,				COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.OAK, 			OUTPUT : SLABS.OAK, 				COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.PALM, 			OUTPUT : SLABS.PALM, 				COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.PINE, 			OUTPUT : SLABS.PINE, 				COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.ROSEWOOD, 		OUTPUT : SLABS.ROSEWOOD, 			COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.SEQUOIA, 		OUTPUT : SLABS.SEQUOIA, 			COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.SPRUCE, 		OUTPUT : SLABS.SPRUCE, 				COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.SYCAMORE, 		OUTPUT : SLABS.SYCAMORE, 			COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.WHITE_CEDAR, 	OUTPUT : SLABS.WHITE_CEDAR,			COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.WHILLOW, 		OUTPUT : SLABS.WHILLOW, 			COUNT : 2, 	KEY : 'planks/slab'},		
+		{INPUT : PLANKS.TREATED_WOOD_H,	OUTPUT : SLABS.TREATED_WOOD_H, 		COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.TREATED_WOOD_V, OUTPUT : SLABS.TREATED_WOOD_V,		COUNT : 2, 	KEY : 'planks/slab'},
+		{INPUT : PLANKS.TREATED_WOOD_P, OUTPUT : SLABS.TREATED_WOOD_P, 		COUNT : 2, 	KEY : 'planks/slab'},
+		
+		{INPUT : PLANKS.ACACIA, 		OUTPUT : STAIRS.ACACIA, 			COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.ASH, 			OUTPUT : STAIRS.ASH, 				COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.ASPEN, 			OUTPUT : STAIRS.ASPEN, 				COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.BIRCH, 			OUTPUT : STAIRS.BIRCH, 				COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.BLACKWOOD, 		OUTPUT : STAIRS.BLACKWOOD, 			COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.CHESTNUT, 		OUTPUT : STAIRS.CHESTNUT, 			COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.DOUGLAS_FIR, 	OUTPUT : STAIRS.DOUGLAS_FIR,		COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.HICKORY, 		OUTPUT : STAIRS.HICKORY, 			COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.KAPOK, 			OUTPUT : STAIRS.KAPOK, 				COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.MAPLE, 			OUTPUT : STAIRS.MAPLE,				COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.OAK, 			OUTPUT : STAIRS.OAK, 				COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.PALM, 			OUTPUT : STAIRS.PALM, 				COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.PINE, 			OUTPUT : STAIRS.PINE, 				COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.ROSEWOOD, 		OUTPUT : STAIRS.ROSEWOOD, 			COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.SEQUOIA, 		OUTPUT : STAIRS.SEQUOIA, 			COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.SPRUCE, 		OUTPUT : STAIRS.SPRUCE, 			COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.SYCAMORE, 		OUTPUT : STAIRS.SYCAMORE, 			COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.WHITE_CEDAR, 	OUTPUT : STAIRS.WHITE_CEDAR,		COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.WHILLOW, 		OUTPUT : STAIRS.WHILLOW, 			COUNT : 1, 	KEY : 'planks/stairs'},		
+		{INPUT : PLANKS.TREATED_WOOD_H,	OUTPUT : STAIRS.TREATED_WOOD_H, 	COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.TREATED_WOOD_V, OUTPUT : STAIRS.TREATED_WOOD_V,		COUNT : 1, 	KEY : 'planks/stairs'},
+		{INPUT : PLANKS.TREATED_WOOD_P, OUTPUT : STAIRS.TREATED_WOOD_P, 	COUNT : 1, 	KEY : 'planks/stairs'},
+		
+		{INPUT : PLANKS.TREATED_WOOD_H, OUTPUT : IE_ITEM.STICK, 			COUNT : 8, 	KEY : 'planks/stick'}
 		
 	]
 	recipes.forEach(recipe=>{
+		const key_last=recipe.OUTPUT.slice(recipe.OUTPUT.lastIndexOf('/')+1)
 		event.custom({
 			type: 'corail_woodcutter:woodcutting',
 			ingredient: { 
@@ -409,6 +458,6 @@ onEvent('recipes', event => {
 			},
 			result: recipe.OUTPUT,
 			count: recipe.COUNT
-		}).id(`corail_woodcutter:${recipe.KEY}/${recipe.OUTPUT.slice(recipe.OUTPUT.lastIndexOf('/')+1)}`)
+		}).id(`corail_woodcutter:${recipe.KEY}/${recipe.OUTPUT.includes('/') ? recipe.OUTPUT.slice(recipe.OUTPUT.lastIndexOf('/')+1) : recipe.OUTPUT.slice(recipe.OUTPUT.lastIndexOf(':')+1)}`)
 	})
 })

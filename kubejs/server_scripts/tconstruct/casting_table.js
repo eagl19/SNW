@@ -48,15 +48,13 @@ onEvent('recipes', event => {
 		{ ITEM : 'tconstruct:large_plate',		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:large_plate_cast', 	TIME: 824, KEY: 'large_plate'},
 		{ ITEM : '#forge:gems',					CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:gem_cast', 			TIME: 824, KEY: 'gems'},
 		{ ITEM : 'tconstruct:repair_kit',		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:repair_kit_cast', 		TIME: 824, KEY: 'repair_kit'},
-		{ ITEM : '#forge:wires',				CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:wire_cast', 			TIME: 824, KEY: 'wires'}
+		{ ITEM : '#forge:wires',				CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:wire_cast', 			TIME: 824, KEY: 'wires'},
+		
+		{ ITEM : TFC_ITEM.PICKAXE_BLUE_STEEL,	CONSUMED : true, FLUID:{NAME : FLUIDS.FLORENTINE_BRONZE, COUNT : 1000}, OUTPUT : IE_ITEM.HAMMER, 				TIME: 824, KEY: 'immersiveengineering_hammer'}
 	]
 	cast_recipes.forEach(recipe=>{
 		let CAST=null
-		if (recipe.ITEM.startsWith("#")){
-			CAST = {tag: recipe.ITEM.slice(1) }
-		} else {
-			CAST = {item : recipe.ITEM, type : 'tconstruct:material' } 
-		}
+		recipe.ITEM.startsWith("#") ? CAST = {tag: recipe.ITEM.slice(1) } :	CAST = {item : recipe.ITEM, type : 'tconstruct:material' } 
 		event.custom({
 			type: 'tconstruct:casting_table',
 			cast: CAST,
