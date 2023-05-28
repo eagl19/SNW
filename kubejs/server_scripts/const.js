@@ -202,7 +202,9 @@ const FLUIDS={
 	TUNGSTEN_STEEL:		'tfc_metallum:metal/tungsten_steel',
 	ANDESITE_ALLOY:		'tfc_metallum:metal/andesite_alloy',
 	STAINLESS_STEEL:	'firmalife:metal/stainless_steel',
-	MC_WATER:			'minecraft:water'
+	MC_WATER:			'minecraft:water',
+	TC_QUARTZ:			'tconstruct:molten_quartz',
+	OBSIDIAN:			'tconstruct:molten_obsidian'
 }
 const NUGGETS={
 	ALUMINUM: 		'immersiveengineering:nugget_aluminum',
@@ -1694,7 +1696,8 @@ const IE_ITEM={
 	ROCKCUTTER:				'immersiveengineering:rockcutter',
 	COKE:					'immersiveengineering:coal_coke',
 	STICK:					'immersiveengineering:stick_treated',
-	HAMMER:					'immersiveengineering:hammer'	
+	HAMMER:					'immersiveengineering:hammer',
+	COKE_BRICK:				'immersiveengineering:cokebrick'
 }
 const ED_ITEMS={
 	COKE:					'electrodynamics:coalcoke'
@@ -1702,17 +1705,19 @@ const ED_ITEMS={
 const TC_ITEM={
 	GROUT:					'tconstruct:grout',
 	SEARED_BRICK:			'tconstruct:seared_brick',
-	SEARED_MELTER:			'tconstruct:seared_melter'
+	SEARED_MELTER:			'tconstruct:seared_melter',
+	FUEL_TANK:				'tconstruct:seared_fuel_tank'
 }
 
 const RECIPE_TYPE={
-	MC_SHAPELESS: 	'minecraft:crafting_shapeless',
-	MC_SHAPED:		'minecraft:crafting_shaped',
-	MC_SMELTING:	'minecraft:smelting',
-	MC_BLASTING:	'minecraft:blasting',
-	TFC_ANVIL:		'tfc:anvil',
-	C_DEPLOIYNG:	'create:deploying',
-	TC_MELTING:		'tconstruct:melting'
+	MC_SHAPELESS: 		'minecraft:crafting_shapeless',
+	MC_SHAPED:			'minecraft:crafting_shaped',
+	MC_SMELTING:		'minecraft:smelting',
+	MC_BLASTING:		'minecraft:blasting',
+	TFC_ANVIL:			'tfc:anvil',
+	C_DEPLOIYNG:		'create:deploying',
+	TC_MELTING:			'tconstruct:melting',
+	TC_CASTING_BASIN:	'tconstruct:casting_basin'
 }
 
 const TAGS={

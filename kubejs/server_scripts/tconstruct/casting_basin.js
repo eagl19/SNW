@@ -51,12 +51,29 @@ onEvent('recipes', event => {
 	]
 	recipes.forEach(recipe=>{
 		event.custom({
-			type: 'tconstruct:casting_basin',
+			type: RECIPE_TYPE.TC_CASTING_BASIN,
 			fluid: recipe.INPUT,
 			result: { 
 				item: recipe.OUTPUT
 			},
 			cooling_time: recipe.TIME
 		}).id(`tconstruct:smeltery/casting/metal/${recipe.KEY}/block`)
+	})
+	const recipes_cast=[
+		{CAST : CREATE_ITEMS.FLUID_TANK, 	CAST_CONSUMED : true, INPUT : { name : FLUIDS.TC_QUARTZ, 	amount: 1000 }, OUTPUT : TC_ITEM.FUEL_TANK, 	TIME : 237,  KEY : 'seared_fuel_tank'},
+		{CAST : TFC_ITEM.FIRE_BRICKS, 		CAST_CONSUMED : true, INPUT : { name : FLUIDS.OBSIDIAN, 	amount: 1000 }, OUTPUT : IE_ITEM.COKE_BRICK, 	TIME : 133,  KEY : 'cokebrick'}
+	]	
+	event.remove({output : TC_ITEM.FUEL_TANK, type : RECIPE_TYPE.MC_SHAPED})
+	recipes_cast.forEach(recipe=>{
+		event.custom({
+			type: RECIPE_TYPE.TC_CASTING_BASIN,
+			cast: { item : recipe.CAST },
+			cast_consumed:  recipe.CAST_CONSUMED,
+			fluid: recipe.INPUT,
+			result: { 
+				item: recipe.OUTPUT
+			},
+			cooling_time: recipe.TIME
+		}).id(`tconstruct:casting_basin/${recipe.KEY}`)
 	})
 })
