@@ -165,13 +165,16 @@ onEvent('recipes', event => {
 		{INPUT: GRAVELS.SHALE, 				OUTPUT: [{item : SANDS.BLACK, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_shale'},
 		{INPUT: GRAVELS.SLATE, 				OUTPUT: [{item : SANDS.WHITE, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_slate'},
 		
-		{INPUT: LOOSE_ROCKS.ANDESITE, 		OUTPUT: [{item : FLUXS.ANDESITE, 		count: 3}											  ], TIME: 250 , KEY: 'andesite_flux'}
-		
+		{INPUT: LOOSE_ROCKS.ANDESITE, 			OUTPUT: [{item : FLUXS.ANDESITE, 		count: 3}										  ], TIME: 250 , KEY: 'andesite_flux'},
+		{INPUT: MC_ITEM.CHARCOAL, 				OUTPUT: [{item : DUSTS.CHARCOAL, 		count: 1}										  ], TIME: 250 , KEY: 'charcoal'},
+		{INPUT: MC_ITEM.COAL, 					OUTPUT: [{item : DUSTS.COAL, 			count: 1}										  ], TIME: 250 , KEY: 'coal/coal'},
+		{INPUT: ORES.PRECIOUS.BITUMINUOS_COAL, 	OUTPUT: [{item : DUSTS.COAL, 			count: 3}										  ], TIME: 250 , KEY: 'coal/bituminous_coal'},
+		{INPUT: ORES.PRECIOUS.LIGNITE, 			OUTPUT: [{item : DUSTS.COAL, 			count: 2}										  ], TIME: 250 , KEY: 'coal/lignite'}
 		
 	]
 	recipes.forEach(recipe=>{
 		event.custom({ 
-			type: 'create:milling',
+			type: RECIPE_TYPE.C_MILLING,
 			ingredients: [
 				{ item:  recipe.INPUT}
 			],

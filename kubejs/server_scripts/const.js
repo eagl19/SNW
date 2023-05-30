@@ -150,7 +150,9 @@ const ORES={
 	},
 	PRECIOUS:{
 		DIAMOND:			'tfc:ore/diamond',
-		CERTUS_QUARTZ:		'tfc_metallum:ore/certus_quartz'
+		CERTUS_QUARTZ:		'tfc_metallum:ore/certus_quartz',
+		BITUMINUOS_COAL:	'tfc:ore/bituminous_coal',
+		LIGNITE:			'tfc:ore/lignite'
 	}
 }
 const FLUIDS={
@@ -203,6 +205,7 @@ const FLUIDS={
 	ANDESITE_ALLOY:		'tfc_metallum:metal/andesite_alloy',
 	STAINLESS_STEEL:	'firmalife:metal/stainless_steel',
 	MC_WATER:			'minecraft:water',
+	MC_LAVA:			'minecraft:lava',
 	TC_QUARTZ:			'tconstruct:molten_quartz',
 	OBSIDIAN:			'tconstruct:molten_obsidian'
 }
@@ -326,7 +329,9 @@ const DUSTS={
 	SOLDER:				'tfc_metalwork:metal/dust/solder',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/dust/tungsten_steel',
 	ANDESITE_ALLOY:		'tfc_metalwork:metal/dust/andesite_alloy',
-	STAINLESS_STEEL:	'tfc_metalwork:metal/dust/stainless_steel'
+	STAINLESS_STEEL:	'tfc_metalwork:metal/dust/stainless_steel',
+	CHARCOAL:			'mekanism:dust_charcoal',
+	COAL:				'mekanism:dust_coal'
 }
 const BLOCKS={
 	ALUMINUM: 		'tfc_metalwork:metal/block/aluminum',
@@ -374,7 +379,9 @@ const BLOCKS={
 	PEWTER:				'tfc_metalwork:metal/block/pewter',
 	SOLDER:				'tfc_metalwork:metal/block/solder',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/block/tungsten_steel',
-	STAINLESS_STEEL:	'tfc_metalwork:metal/block/stainless_steel'
+	STAINLESS_STEEL:	'tfc_metalwork:metal/block/stainless_steel',
+	CHARCOAL:			'mekanism:block_charcoal',
+	COAL:				'minecraft:coal_block'
 }
 const GEARS={
 	ALUMINUM: 		'tfc_metalwork:metal/small_gear/aluminum',
@@ -1652,19 +1659,21 @@ const WOODCUTTER={
 	OAK:					'corail_woodcutter:oak_woodcutter',
 	ACACIA:					'corail_woodcutter:acacia_woodcutter'
 }
-const MC_ITEM={
-	HOPPER:					'minecraft:hopper',
-	FURNACE:				'minecraft:furnace',
-	BLAST_FURNACE:			'minecraft:blast_furnace',
-	CLAY_BALL:				'minecraft:clay_ball',
-	BARREL:					'minecraft:barrel'
-}
 const FLUXS={
 	ANDESITE:	'kubejs:andesite_dust',
 	FLUX:		'tfc:powder/flux'
 }
 const CHAINS={
 	COPPER:					'tfc:metal/chain/copper'	
+}
+const MC_ITEM={
+	HOPPER:					'minecraft:hopper',
+	FURNACE:				'minecraft:furnace',
+	BLAST_FURNACE:			'minecraft:blast_furnace',
+	CLAY_BALL:				'minecraft:clay_ball',
+	BARREL:					'minecraft:barrel',
+	CHARCOAL:				'minecraft:charcoal',
+	COAL:					'minecraft:coal'
 }
 const TFC_ITEM={
 	FIRE_BRICKS:			'tfc:fire_bricks',
@@ -1716,8 +1725,11 @@ const RECIPE_TYPE={
 	MC_BLASTING:		'minecraft:blasting',
 	TFC_ANVIL:			'tfc:anvil',
 	C_DEPLOIYNG:		'create:deploying',
+	C_COMPACTING:		'create:compacting',
+	C_MILLING:			'create:milling',
 	TC_MELTING:			'tconstruct:melting',
-	TC_CASTING_BASIN:	'tconstruct:casting_basin'
+	TC_CASTING_BASIN:	'tconstruct:casting_basin',
+	IE_COKE_OVEN:		'immersiveengineering:coke_oven'
 }
 
 const TAGS={
