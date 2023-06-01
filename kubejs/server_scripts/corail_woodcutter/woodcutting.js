@@ -452,7 +452,7 @@ onEvent('recipes', event => {
 	recipes.forEach(recipe=>{
 		const key_last=recipe.OUTPUT.slice(recipe.OUTPUT.lastIndexOf('/')+1)
 		event.custom({
-			type: 'corail_woodcutter:woodcutting',
+			type: RECIPE_TYPE.CW_WOODCUTING,
 			ingredient: { 
 				item: recipe.INPUT 
 			},

@@ -27,11 +27,11 @@ onEvent('recipes', event => {
 	event.remove({output : CREATE_ITEMS.SHAFT,													type : RECIPE_TYPE.MC_SHAPED})
 	event.remove({input : TC_ITEM.SEARED_MELTER,												type : RECIPE_TYPE.TC_MELTING})
 	event.remove({id : 'immersiveengineering:crafting/treated_wood_horizontal'})
+	event.remove({id : 'immersiveengineering:crafting/stick_treated'})
 })
 
 onEvent('item.tags', event => {
-	// Get the #forge:cobblestone tag collection and add Diamond Ore to it
-	// event.get('forge:cobblestone').add('minecraft:diamond_ore')
+	event.get('tfc:forge_fuel').add('electrodynamics:coalcoke')
 
 	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
 	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')

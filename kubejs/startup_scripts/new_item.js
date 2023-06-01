@@ -35,9 +35,15 @@ onEvent('item.registry', event => {
 	event.create('kubejs:small_plate_sand_cast').texture('kubejs:item/sand_cast/small_plate')
 	event.create('kubejs:small_gear_sand_cast').texture('kubejs:item/sand_cast/small_gear')
 	event.create('kubejs:small_rod_sand_cast').texture('kubejs:item/sand_cast/small_rod')
+	
 })
 
 onEvent('block.registry', event => {
-	// Register new blocks here
-	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
+	/*event.create('kubejs:boron_bars')
+		.material('metal')
+		.hardness(5.0)
+		.harvestTool('pickaxe')
+		.harvestLevel(2)
+		.sound('metal')
+		.lightLevel(0);*/
 })

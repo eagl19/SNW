@@ -1673,7 +1673,8 @@ const MC_ITEM={
 	CLAY_BALL:				'minecraft:clay_ball',
 	BARREL:					'minecraft:barrel',
 	CHARCOAL:				'minecraft:charcoal',
-	COAL:					'minecraft:coal'
+	COAL:					'minecraft:coal',
+	SMITHING_TABLE:			'minecraft:smithing_table'
 }
 const TFC_ITEM={
 	FIRE_BRICKS:			'tfc:fire_bricks',
@@ -1683,7 +1684,13 @@ const TFC_ITEM={
 	OVEN_TOP:				'firmalife:cured_oven_top',
 	BLAST_FURNACE:			'tfc:blast_furnace',
 	IE_HAMMER_HEAD:			'tfc_ie_addon:tool_head/ie_hammer',
-	PICKAXE_BLUE_STEEL:		'tfc:metal/pickaxe/blue_steel'
+	PICKAXE_BLUE_STEEL:		'tfc:metal/pickaxe/blue_steel',
+	CRUCIBLE:				'tfc:crucible',
+	RED_STEEL_HAMMER: 		'tfc:metal/hammer/red_steel',
+	BLUE_STEEL_HAMMER:		'tfc:metal/hammer/blue_steel',
+	FERROBORON_SAW:			'tfc_metallum:metal/saw/ferroboron',
+	COBALT_CHISEL:			'tfc_metallum:metal/chisel/cobalt',
+	OSMIRIDIUM_SHEARS:		'tfc_metallum:metal/shears/osmiridium'
 	
 }
 const CREATE_ITEMS={
@@ -1699,14 +1706,18 @@ const CREATE_ITEMS={
 	ELECTRON_TUBE:			'create:electron_tube',
 	MILLSTONE:				'create:millstone',
 	PRESS:					'create:mechanical_press',
-	FLUID_TANK:				'create:fluid_tank'
+	FLUID_TANK:				'create:fluid_tank',
+	DEPOT:					'create:depot',
+	BASIN:					'create:basin'
 }
 const IE_ITEM={
 	ROCKCUTTER:				'immersiveengineering:rockcutter',
 	COKE:					'immersiveengineering:coal_coke',
 	STICK:					'immersiveengineering:stick_treated',
 	HAMMER:					'immersiveengineering:hammer',
-	COKE_BRICK:				'immersiveengineering:cokebrick'
+	COKE_BRICK:				'immersiveengineering:cokebrick',
+	ALLOY_BRICK:			'immersiveengineering:alloybrick'
+	
 }
 const ED_ITEMS={
 	COKE:					'electrodynamics:coalcoke'
@@ -1727,14 +1738,17 @@ const RECIPE_TYPE={
 	C_DEPLOIYNG:		'create:deploying',
 	C_COMPACTING:		'create:compacting',
 	C_MILLING:			'create:milling',
+	CW_WOODCUTING:		'corail_woodcutter:woodcutting',
 	TC_MELTING:			'tconstruct:melting',
 	TC_CASTING_BASIN:	'tconstruct:casting_basin',
-	IE_COKE_OVEN:		'immersiveengineering:coke_oven'
+	IE_COKE_OVEN:		'immersiveengineering:coke_oven',
+	IE_ALLOY:			'immersiveengineering:alloy'
 }
 
 const TAGS={
 	SANDS: 					'forge:sand',
 	TFC_GRAVELS:			'tfc:rock/gravel',
-	TFC_LUMBER:				'tfc:lumber'
+	TFC_LUMBER:				'tfc:lumber',
+	TFC_WORCKBENCHES:		'tfc:workbenches'
 	
 }

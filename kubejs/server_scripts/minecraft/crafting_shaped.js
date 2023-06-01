@@ -21,7 +21,17 @@ onEvent('recipes', event => {
 		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : SHEETS.COPPER },				B : {item : MC_ITEM.BARREL }				},	OUTPUT : {item :  CREATE_ITEMS.FLUID_TANK, 	count : 1}, KEY : 'create:crafting/kinetics/fluid_tank'},
 		{PUTTERN : ["AAA","BCB","BBB"], PUTTERN_KEY : { A : {item : ORES.PRECIOUS.CERTUS_QUARTZ },	B : {item : TC_ITEM.SEARED_BRICK}, 	
 														C : {item : TFC_ITEM.BLAST_FURNACE }													},	OUTPUT : {item :  TC_ITEM.SEARED_MELTER, 	count : 1}, KEY : 'tconstruct:smeltery/seared/melter'},
-		{PUTTERN : ["   "," A "," B "], PUTTERN_KEY : { A : {item : TFC_ITEM.IE_HAMMER_HEAD },		B : {item : IE_ITEM.STICK },				}, 	OUTPUT : {item :  IE_ITEM.HAMMER, 			count : 1}, KEY : 'immersiveengineering:crafting/hammer'}
+		{PUTTERN : ["   "," A "," B "], PUTTERN_KEY : { A : {item : TFC_ITEM.IE_HAMMER_HEAD },		B : {item : IE_ITEM.STICK },				}, 	OUTPUT : {item :  IE_ITEM.HAMMER, 			count : 1}, KEY : 'immersiveengineering:crafting/hammer'},
+		{PUTTERN : ["ABA","BCB","ABA"], PUTTERN_KEY : { A : {item : CUT_BLOCKS.BORON },				B : {item : IE_ITEM.COKE_BRICK}, 	
+														C : {item : TFC_ITEM.CRUCIBLE }															},	OUTPUT : {item :  IE_ITEM.ALLOY_BRICK, 		count : 1}, KEY : 'immersiveengineering:crafting/alloybrick'},
+		{PUTTERN : ["ABC","DEF","GGG"], PUTTERN_KEY : { A : {item : TFC_ITEM.RED_STEEL_HAMMER },	B : {item : TFC_ITEM.FERROBORON_SAW}, 	
+														C : {item : TFC_ITEM.BLUE_STEEL_HAMMER }, 	D : {item : TFC_ITEM.COBALT_CHISEL },
+														E : {tag  : TAGS.TFC_WORCKBENCHES }, 		F : {item : TFC_ITEM.OSMIRIDIUM_SHEARS },
+														G : {item : CREATE_ITEMS.ANDESITE_CASING }												},	OUTPUT : {item :  MC_ITEM.SMITHING_TABLE, 	count : 1}, KEY : 'minecraft:smithing_table'},
+		{PUTTERN : ["   ","AAA","BCB"], PUTTERN_KEY : { A : {item : SHEETS.TITANIUM },				B : {item : CREATE_ITEMS.ANDESITE_CASING}, 	
+														C : {item : BLOCKS.TUNGSTEN_STEEL }														},	OUTPUT : {item :  CREATE_ITEMS.DEPOT, 		count : 1}, KEY : 'create:crafting/kinetics/depot'},												
+		{PUTTERN : ["A A","A A","BCB"], PUTTERN_KEY : { A : {item : CREATE_ITEMS.ANDESITE_ALLOY },	B : {item : CREATE_ITEMS.ANDESITE_CASING}, 	
+														C : {item : CREATE_ITEMS.DEPOT }														},	OUTPUT : {item :  CREATE_ITEMS.BASIN, 		count : 1}, KEY : 'create:crafting/kinetics/basin'}
 														
 	]
 	event.remove({output : MC_ITEM.FURNACE})
@@ -37,6 +47,10 @@ onEvent('recipes', event => {
 	event.remove({output : CREATE_ITEMS.FLUID_TANK})
 	event.remove({output : TC_ITEM.SEARED_MELTER})
 	event.remove({output : IE_ITEM.HAMMER})
+	event.remove({output : IE_ITEM.ALLOY_BRICK})
+	event.remove({output : MC_ITEM.SMITHING_TABLE})
+	event.remove({output : CREATE_ITEMS.DEPOT})
+	event.remove({output : CREATE_ITEMS.BASIN})
 	recipes.forEach(recipe=>{
 		event.recipes.minecraft.crafting_shaped({
 			pattern: recipe.PUTTERN,
