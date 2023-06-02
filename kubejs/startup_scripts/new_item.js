@@ -35,15 +35,14 @@ onEvent('item.registry', event => {
 	event.create('kubejs:small_plate_sand_cast').texture('kubejs:item/sand_cast/small_plate')
 	event.create('kubejs:small_gear_sand_cast').texture('kubejs:item/sand_cast/small_gear')
 	event.create('kubejs:small_rod_sand_cast').texture('kubejs:item/sand_cast/small_rod')
-	
 })
 
 onEvent('block.registry', event => {
-	/*event.create('kubejs:boron_bars')
+	event.create('kubejs:andesite_machine')
 		.material('metal')
 		.hardness(5.0)
 		.harvestTool('pickaxe')
-		.harvestLevel(2)
+		.harvestLevel(1)
 		.sound('metal')
-		.lightLevel(0);*/
+		.lightLevel(0);
 })

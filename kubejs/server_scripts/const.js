@@ -280,7 +280,10 @@ const INGOTS={
 	SOLDER:				'tfc_metallum:metal/ingot/solder',
 	TUNGSTEN_STEEL:		'tfc_metallum:metal/ingot/tungsten_steel',
 	ANDESITE_ALLOY:		'tfc_metallum:metal/ingot/andesite_alloy',
-	STAINLESS_STEEL:	'firmalife:metal/ingot/stainless_steel'
+	STAINLESS_STEEL:	'firmalife:metal/ingot/stainless_steel',
+	M_IRON:				'minecraft:iron_ingot',
+	C_BRASS:			'create:brass_ingot',
+	M_GOLD:				'minecraft:gold_ingot'
 }
 const DUSTS={
 	ALUMINUM: 		'tfc_metalwork:metal/dust/aluminum',
@@ -813,7 +816,10 @@ const SHEETS={
 	PEWTER:				'tfc_metallum:metal/sheet/pewter',
 	SOLDER:				'tfc_metallum:metal/sheet/solder',
 	TUNGSTEN_STEEL:		'tfc_metallum:metal/sheet/tungsten_steel',
-	STAINLESS_STEEL:	'firmalife:metal/sheet/stainless_steel'
+	STAINLESS_STEEL:	'firmalife:metal/sheet/stainless_steel',
+	C_GOLDEN:			'create:golden_sheet',
+	C_BRASS:			'create:brass_sheet',
+	C_IRON:				'create:iron_sheet'
 }
 const CUT_BLOCKS={
 	ALUMINUM: 		'tfc_metalwork:metal/cut/aluminum',
@@ -1696,6 +1702,7 @@ const TFC_ITEM={
 const CREATE_ITEMS={
 	ANDESITE_ALLOY: 		'create:andesite_alloy',
 	ANDESITE_CASING:		'create:andesite_casing',
+	ANDESITE_MACHINE:		'kubejs:andesite_machine',
 	SHAFT:					'create:shaft',
 	FLUID_PIPER:			'create:fluid_pipe',
 	PUMP:					'create:mechanical_pump',
@@ -1708,7 +1715,10 @@ const CREATE_ITEMS={
 	PRESS:					'create:mechanical_press',
 	FLUID_TANK:				'create:fluid_tank',
 	DEPOT:					'create:depot',
-	BASIN:					'create:basin'
+	BASIN:					'create:basin',
+	WRENCH:					'create:wrench',
+	MIXER:					'create:mechanical_mixer',
+	WHISK:					'create:whisk'
 }
 const IE_ITEM={
 	ROCKCUTTER:				'immersiveengineering:rockcutter',
@@ -1734,10 +1744,12 @@ const RECIPE_TYPE={
 	MC_SHAPED:			'minecraft:crafting_shaped',
 	MC_SMELTING:		'minecraft:smelting',
 	MC_BLASTING:		'minecraft:blasting',
+	MC_SMITHING:		'minecraft:smithing',
 	TFC_ANVIL:			'tfc:anvil',
 	C_DEPLOIYNG:		'create:deploying',
 	C_COMPACTING:		'create:compacting',
 	C_MILLING:			'create:milling',
+	C_PRESSING:			'create:pressing',
 	CW_WOODCUTING:		'corail_woodcutter:woodcutting',
 	TC_MELTING:			'tconstruct:melting',
 	TC_CASTING_BASIN:	'tconstruct:casting_basin',
