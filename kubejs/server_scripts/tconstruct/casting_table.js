@@ -55,7 +55,7 @@ onEvent('recipes', event => {
 	]
 	cast_recipes.forEach(recipe=>{
 		let CAST=null
-		recipe.ITEM.startsWith("#") ? CAST = {tag: recipe.ITEM.slice(1) } :	CAST = {item : recipe.ITEM, type : 'tconstruct:material' } 
+		recipe.ITEM.startsWith("#") ? CAST = {tag: recipe.ITEM.slice(1) } :	recipe.ITEM.startsWith("tconstruct:") ? CAST = {item : recipe.ITEM, type : 'tconstruct:material' } :  CAST = { item : recipe.ITEM }
 		event.custom({
 			type: 'tconstruct:casting_table',
 			cast: CAST,
