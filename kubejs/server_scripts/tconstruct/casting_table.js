@@ -50,7 +50,8 @@ onEvent('recipes', event => {
 		{ ITEM : 'tconstruct:repair_kit',		CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:repair_kit_cast', 		TIME: 824, KEY: 'repair_kit'},
 		{ ITEM : '#forge:wires',				CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:wire_cast', 			TIME: 824, KEY: 'wires'},
 		
-		{ ITEM : TFC_ITEM.PICKAXE_BLUE_STEEL,	CONSUMED : true, FLUID:{NAME : FLUIDS.FLORENTINE_BRONZE, COUNT : 1000}, OUTPUT : IE_ITEM.HAMMER, 				TIME: 824, KEY: 'immersiveengineering_hammer'}
+		{ ITEM : TFC_ITEM.PICKAXE_BLUE_STEEL,	CONSUMED : true, FLUID:{NAME : FLUIDS.FLORENTINE_BRONZE, 	COUNT : 1000}, OUTPUT : IE_ITEM.HAMMER, 				TIME: 824, 	KEY: 'immersiveengineering_hammer'},
+		{ ITEM : ED_ITEMS.CERAMICPLATE,			CONSUMED : true, FLUID:{NAME : FLUIDS.COPPER, 				COUNT : 500 }, OUTPUT : IE_ITEM.CIRCUIT_BOARD, 			TIME: 51, 	KEY: 'immersiveengineering_circuit_board'}
 	]
 	cast_recipes.forEach(recipe=>{
 		let CAST=null

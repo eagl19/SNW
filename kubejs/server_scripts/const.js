@@ -1680,7 +1680,10 @@ const MC_ITEM={
 	BARREL:					'minecraft:barrel',
 	CHARCOAL:				'minecraft:charcoal',
 	COAL:					'minecraft:coal',
-	SMITHING_TABLE:			'minecraft:smithing_table'
+	SMITHING_TABLE:			'minecraft:smithing_table',
+	REDSTONE:				'minecraft:redstone',
+	CLAY:					'minecraft:clay'
+	
 }
 const TFC_ITEM={
 	FIRE_BRICKS:			'tfc:fire_bricks',
@@ -1718,7 +1721,11 @@ const CREATE_ITEMS={
 	BASIN:					'create:basin',
 	WRENCH:					'create:wrench',
 	MIXER:					'create:mechanical_mixer',
-	WHISK:					'create:whisk'
+	WHISK:					'create:whisk',
+	SAW:					'create:mechanical_saw',
+	ROSE_QUARTZ:			'create:rose_quartz',
+	BRASS_CASING:			'create:brass_casing',
+	BRASS_MACHINE:			'kubejs:brass_machine'
 }
 const IE_ITEM={
 	ROCKCUTTER:				'immersiveengineering:rockcutter',
@@ -1726,11 +1733,14 @@ const IE_ITEM={
 	STICK:					'immersiveengineering:stick_treated',
 	HAMMER:					'immersiveengineering:hammer',
 	COKE_BRICK:				'immersiveengineering:cokebrick',
-	ALLOY_BRICK:			'immersiveengineering:alloybrick'
+	ALLOY_BRICK:			'immersiveengineering:alloybrick',
+	CIRCUIT_BOARD:			'immersiveengineering:circuit_board'
 	
 }
 const ED_ITEMS={
-	COKE:					'electrodynamics:coalcoke'
+	COKE:					'electrodynamics:coalcoke',
+	CERAMICWET:				'electrodynamics:ceramicwet',
+	CERAMICPLATE:			'electrodynamics:ceramicplate'
 }
 const TC_ITEM={
 	GROUT:					'tconstruct:grout',
@@ -1750,6 +1760,7 @@ const RECIPE_TYPE={
 	C_COMPACTING:		'create:compacting',
 	C_MILLING:			'create:milling',
 	C_PRESSING:			'create:pressing',
+	C_MIXING:			'create:mixing',
 	CW_WOODCUTING:		'corail_woodcutter:woodcutting',
 	TC_MELTING:			'tconstruct:melting',
 	TC_CASTING_BASIN:	'tconstruct:casting_basin',

@@ -60,8 +60,9 @@ onEvent('recipes', event => {
 		}).id(`tconstruct:smeltery/casting/metal/${recipe.KEY}/block`)
 	})
 	const recipes_cast=[
-		{CAST : CREATE_ITEMS.FLUID_TANK, 	CAST_CONSUMED : true, INPUT : { name : FLUIDS.TC_QUARTZ, 	amount: 1000 }, OUTPUT : TC_ITEM.FUEL_TANK, 	TIME : 237,  KEY : 'seared_fuel_tank'},
-		{CAST : TFC_ITEM.FIRE_BRICKS, 		CAST_CONSUMED : true, INPUT : { name : FLUIDS.OBSIDIAN, 	amount: 1000 }, OUTPUT : IE_ITEM.COKE_BRICK, 	TIME : 133,  KEY : 'cokebrick'}
+		{CAST : CREATE_ITEMS.FLUID_TANK, 		CAST_CONSUMED : true, INPUT : { name : FLUIDS.TC_QUARTZ, 	amount: 1000 }, OUTPUT : TC_ITEM.FUEL_TANK, 		TIME : 237,  KEY : 'seared_fuel_tank'},
+		{CAST : TFC_ITEM.FIRE_BRICKS, 			CAST_CONSUMED : true, INPUT : { name : FLUIDS.OBSIDIAN, 	amount: 1000 }, OUTPUT : IE_ITEM.COKE_BRICK, 		TIME : 133,  KEY : 'cokebrick'},
+		{CAST : CREATE_ITEMS.ANDESITE_CASING, 	CAST_CONSUMED : true, INPUT : { name : FLUIDS.BRASS, 		amount: 1000 }, OUTPUT : CREATE_ITEMS.BRASS_CASING, TIME : 133,  KEY : 'brass_casing'}
 	]	
 	event.remove({output : TC_ITEM.FUEL_TANK, type : RECIPE_TYPE.MC_SHAPED})
 	recipes_cast.forEach(recipe=>{
