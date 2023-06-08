@@ -35,6 +35,9 @@ onEvent('item.registry', event => {
 	event.create('kubejs:small_plate_sand_cast').texture('kubejs:item/sand_cast/small_plate');
 	event.create('kubejs:small_gear_sand_cast').texture('kubejs:item/sand_cast/small_gear');
 	event.create('kubejs:small_rod_sand_cast').texture('kubejs:item/sand_cast/small_rod');
+	event.create('kubejs:textolite').texture('kubejs:item/textolite');
+	event.create('kubejs:kelp_cloth').texture('kubejs:item/kelp_cloth');
+	event.create('kubejs:pine_dust').texture('kubejs:item/pine_dust');
 })
 
 onEvent('block.registry', event => {
@@ -48,4 +51,12 @@ onEvent('block.registry', event => {
 		.hardness(5.0)
 		.tagBlock('minecraft:needs_iron_tool')
 		.lightLevel(0);
+})
+
+onEvent('fluid.registry', event => {
+	event.create('kubejs:oleoresin')
+		.thinTexture(0xB38935)
+		.bucketColor(0xFFD278)
+		.luminosity(8)
+		.noBlock() 
 })

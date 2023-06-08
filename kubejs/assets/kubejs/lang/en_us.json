@@ -32,5 +32,12 @@
 	 "item.kubejs.small_rod_red_sand_cast": "Small Rod Red Sand Cast",
 	 "item.kubejs.small_plate_sand_cast": "Small Plate Sand Cast",
 	 "item.kubejs.small_gear_sand_cast": "Small Gear Sand Cast",
-	 "item.kubejs.small_rod_sand_cast": "Small Rod Sand Cast"
+	 "item.kubejs.small_rod_sand_cast": "Small Rod Sand Cast",
+	 "item.kubejs.textolite": "Textolite",
+	 "item.kubejs.kelp_cloth": "Kelp Cloth",
+	 "item.kubejs.pine_dust": "Pine Dust",
+	 "block.kubejs.andesite_machine": "Andesite Machine",
+	 "block.kubejs.brass_machine": "Brass Machine",
+	 "fluid.kubejs.oleoresin": "Oleoresin"
+	 
 }

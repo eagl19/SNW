@@ -207,7 +207,10 @@ const FLUIDS={
 	MC_WATER:			'minecraft:water',
 	MC_LAVA:			'minecraft:lava',
 	TC_QUARTZ:			'tconstruct:molten_quartz',
-	OBSIDIAN:			'tconstruct:molten_obsidian'
+	OBSIDIAN:			'tconstruct:molten_obsidian',
+	OLEORESIN:			'kubejs:oleoresin',
+	VINEGAR:			'tfc:vinegar',
+	REDSTONE_ACID:		'immersiveengineering:redstone_acid'
 }
 const NUGGETS={
 	ALUMINUM: 		'immersiveengineering:nugget_aluminum',
@@ -334,7 +337,8 @@ const DUSTS={
 	ANDESITE_ALLOY:		'tfc_metalwork:metal/dust/andesite_alloy',
 	STAINLESS_STEEL:	'tfc_metalwork:metal/dust/stainless_steel',
 	CHARCOAL:			'mekanism:dust_charcoal',
-	COAL:				'mekanism:dust_coal'
+	COAL:				'mekanism:dust_coal',
+	PINE:				'kubejs:pine_dust'
 }
 const BLOCKS={
 	ALUMINUM: 		'tfc_metalwork:metal/block/aluminum',
@@ -1699,7 +1703,11 @@ const TFC_ITEM={
 	BLUE_STEEL_HAMMER:		'tfc:metal/hammer/blue_steel',
 	FERROBORON_SAW:			'tfc_metallum:metal/saw/ferroboron',
 	COBALT_CHISEL:			'tfc_metallum:metal/chisel/cobalt',
-	OSMIRIDIUM_SHEARS:		'tfc_metallum:metal/shears/osmiridium'
+	OSMIRIDIUM_SHEARS:		'tfc_metallum:metal/shears/osmiridium',
+	WINGED_KELP:			'tfc:plant/winged_kelp',
+	LEAFY_KELP:				'tfc:plant/leafy_kelp',
+	KELP_STRING:			'kubejs:kelp_string',
+	KELP_CLOTH:				'kubejs:kelp_cloth'
 	
 }
 const CREATE_ITEMS={
@@ -1725,7 +1733,9 @@ const CREATE_ITEMS={
 	SAW:					'create:mechanical_saw',
 	ROSE_QUARTZ:			'create:rose_quartz',
 	BRASS_CASING:			'create:brass_casing',
-	BRASS_MACHINE:			'kubejs:brass_machine'
+	BRASS_MACHINE:			'kubejs:brass_machine',
+	SPOUT:					'create:spout',
+	DRAIN:					'create:item_drain'
 }
 const IE_ITEM={
 	ROCKCUTTER:				'immersiveengineering:rockcutter',
@@ -1734,7 +1744,8 @@ const IE_ITEM={
 	HAMMER:					'immersiveengineering:hammer',
 	COKE_BRICK:				'immersiveengineering:cokebrick',
 	ALLOY_BRICK:			'immersiveengineering:alloybrick',
-	CIRCUIT_BOARD:			'immersiveengineering:circuit_board'
+	CIRCUIT_BOARD:			'immersiveengineering:circuit_board',
+	TEXTOLITE:				'kubejs:textolite'
 	
 }
 const ED_ITEMS={
@@ -1756,16 +1767,21 @@ const RECIPE_TYPE={
 	MC_BLASTING:		'minecraft:blasting',
 	MC_SMITHING:		'minecraft:smithing',
 	TFC_ANVIL:			'tfc:anvil',
+	TFC_LOOM:			'tfc:loom',
 	C_DEPLOIYNG:		'create:deploying',
 	C_COMPACTING:		'create:compacting',
 	C_MILLING:			'create:milling',
 	C_PRESSING:			'create:pressing',
 	C_MIXING:			'create:mixing',
+	C_CUTTING:			'create:cutting',
+	C_FILLING:			'create:filling',
 	CW_WOODCUTING:		'corail_woodcutter:woodcutting',
 	TC_MELTING:			'tconstruct:melting',
 	TC_CASTING_BASIN:	'tconstruct:casting_basin',
 	IE_COKE_OVEN:		'immersiveengineering:coke_oven',
-	IE_ALLOY:			'immersiveengineering:alloy'
+	IE_ALLOY:			'immersiveengineering:alloy',
+	FL_DRYING:			'firmalife:drying',
+	TFC_BARREL_INSRANT:	'tfc:barrel_instant'
 }
 
 const TAGS={
