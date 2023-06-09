@@ -72,12 +72,19 @@ onEvent('recipes', event => {
 		{INPUT: { NAME: INGOTS.STAINLESS_STEEL, ICOUNT: 10, FLUID: FLUIDS.MC_LAVA, FCOUNT: 1},	OUTPUT: BLOCKS.STAINLESS_STEEL,	KEY:'stainless_steel/ingot'},
 		
 		{INPUT: { NAME: DUSTS.CHARCOAL, 		ICOUNT: 9, 	FLUID: FLUIDS.MC_WATER, FCOUNT: 10},	OUTPUT: BLOCKS.CHARCOAL,	KEY:'block_charcoal'},
-		{INPUT: { NAME: DUSTS.COAL, 			ICOUNT: 9, 	FLUID: FLUIDS.MC_WATER, FCOUNT: 10},	OUTPUT: BLOCKS.COAL,		KEY:'coal_block'}
+		{INPUT: { NAME: DUSTS.COAL, 			ICOUNT: 9, 	FLUID: FLUIDS.MC_WATER, FCOUNT: 10},	OUTPUT: BLOCKS.COAL,		KEY:'coal_block'},	
+		
+		{INGREDIENTS:[{ item : CREATE_ITEMS.DOUGH },{ item : DYES.LIME },{ item : TFC_ITEM.GLUE },{fluid : FLUIDS.SPRING, nbt:{}, amount: 50}],	OUTPUT: MC_ITEM.SLIME_BALL,	KEY:'slime_ball'}
 		
 	]
 	recipes.forEach(recipe=>{
-		const INGREDIENTS=Array(recipe.INPUT.ICOUNT).fill({ item: recipe.INPUT.NAME })
-		INGREDIENTS.push({ fluid: recipe.INPUT.FLUID, nbt:{}, amount: recipe.INPUT.FCOUNT})		
+		let INGREDIENTS=null
+		if(recipe.INGREDIENTS){
+			INGREDIENTS=recipe.INGREDIENTS
+		}else{
+			INGREDIENTS=Array(recipe.INPUT.ICOUNT).fill({ item: recipe.INPUT.NAME })
+			INGREDIENTS.push({ fluid: recipe.INPUT.FLUID, nbt:{}, amount: recipe.INPUT.FCOUNT})		
+		}
 		event.custom({
 			type: RECIPE_TYPE.C_COMPACTING,
 			ingredients: INGREDIENTS,

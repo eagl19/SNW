@@ -210,7 +210,8 @@ const FLUIDS={
 	OBSIDIAN:			'tconstruct:molten_obsidian',
 	OLEORESIN:			'kubejs:oleoresin',
 	VINEGAR:			'tfc:vinegar',
-	REDSTONE_ACID:		'immersiveengineering:redstone_acid'
+	REDSTONE_ACID:		'immersiveengineering:redstone_acid',
+	SPRING:				'tfc:spring_water'
 }
 const NUGGETS={
 	ALUMINUM: 		'immersiveengineering:nugget_aluminum',
@@ -1676,6 +1677,40 @@ const FLUXS={
 const CHAINS={
 	COPPER:					'tfc:metal/chain/copper'	
 }
+const GRAINS={
+	OAT:					'tfc:food/oat_grain',
+	WHEAT:					'tfc:food/wheat_grain',
+	BARLEY:					'tfc:food/barley_grain',
+	RYE:					'tfc:food/rye_grain',
+	RICE:					'tfc:food/rice_grain',
+	MAZE:					'tfc:food/maize_grain'
+}
+const FLOUR={
+	OAT:					'tfc:food/oat_flour',
+	WHEAT:					'tfc:food/wheat_flour',
+	BARLEY:					'tfc:food/barley_flour',
+	RYE:					'tfc:food/rye_flour',
+	RICE:					'tfc:food/rice_flour',
+	MAZE:					'tfc:food/maize_flour'
+}
+const DYES={
+	WHITE:					'minecraft:white_dye',
+	ORANGE:					'minecraft:orange_dye',
+	MAGENTA:				'minecraft:magenta_dye',
+	LIGHT_BLUE:				'minecraft:light_blue_dye',
+	YELLOW:					'minecraft:yellow_dye',
+	LIME:					'minecraft:lime_dye',
+	PINK:					'minecraft:pink_dye',
+	GRAY:					'minecraft:gray_dye',
+	LIGHT_GRAY:				'minecraft:light_gray_dye',
+	CYAN:					'minecraft:cyan_dye',
+	PURPLE:					'minecraft:purple_dye',
+	BLUE:					'minecraft:blue_dye',
+	BROWN:					'minecraft:brown_dye',
+	GREEN:					'minecraft:green_dye',
+	RED:					'minecraft:red_dye',
+	BLACK:					'minecraft:black_dye'
+}
 const MC_ITEM={
 	HOPPER:					'minecraft:hopper',
 	FURNACE:				'minecraft:furnace',
@@ -1686,7 +1721,8 @@ const MC_ITEM={
 	COAL:					'minecraft:coal',
 	SMITHING_TABLE:			'minecraft:smithing_table',
 	REDSTONE:				'minecraft:redstone',
-	CLAY:					'minecraft:clay'
+	CLAY:					'minecraft:clay',
+	SLIME_BALL:				'minecraft:slime_ball'
 	
 }
 const TFC_ITEM={
@@ -1707,7 +1743,9 @@ const TFC_ITEM={
 	WINGED_KELP:			'tfc:plant/winged_kelp',
 	LEAFY_KELP:				'tfc:plant/leafy_kelp',
 	KELP_STRING:			'kubejs:kelp_string',
-	KELP_CLOTH:				'kubejs:kelp_cloth'
+	KELP_CLOTH:				'kubejs:kelp_cloth',
+	BEET:					'tfc:food/beet',
+	GLUE:					'tfc:glue'
 	
 }
 const CREATE_ITEMS={
@@ -1735,7 +1773,8 @@ const CREATE_ITEMS={
 	BRASS_CASING:			'create:brass_casing',
 	BRASS_MACHINE:			'kubejs:brass_machine',
 	SPOUT:					'create:spout',
-	DRAIN:					'create:item_drain'
+	DRAIN:					'create:item_drain',
+	DOUGH:					'create:dough'
 }
 const IE_ITEM={
 	ROCKCUTTER:				'immersiveengineering:rockcutter',
@@ -1788,6 +1827,21 @@ const TAGS={
 	SANDS: 					'forge:sand',
 	TFC_GRAVELS:			'tfc:rock/gravel',
 	TFC_LUMBER:				'tfc:lumber',
-	TFC_WORCKBENCHES:		'tfc:workbenches'
+	TFC_WORCKBENCHES:		'tfc:workbenches',
+	TFC_GRAINS:				'tfc:foods/grains',
+	TFC_FLOUR:				'tfc:foods/flour',
+	WHITE_DYE_PLANT:		'kubejs:white_dye_plant',
+	ORANGE_DYE_PLANT:		'kubejs:orange_dye_plant',
+	MAGENTA_DYE_PLANT:		'kubejs:magenta_dye_plant',
+	LIGHT_BLUE_DYE_PLANT:	'kubejs:light_blue_dye_plant',
+	YELLOW_DYE_PLANT:		'kubejs:yellow_dye_plant',
+	LIME_DYE_PLANT:			'kubejs:lime_dye_plant',
+	PINK_DYE_PLANT:			'kubejs:pink_dye_plant',
+	LIGHT_GRAY_DYE_PLANT:	'kubejs:light_gray_dye_plant',
+	PURPLE_DYE_PLANT:		'kubejs:purple_dye_plant',
+	BLUE_DYE_PLANT:			'kubejs:blue_dye_plant',
+	BROWN_DYE_PLANT:		'kubejs:brown_dye_plant',
+	GREEN_DYE_PLANT:		'kubejs:green_dye_plant',
+	RED_DYE_PLANT:			'kubejs:red_dye_plant'
 	
 }

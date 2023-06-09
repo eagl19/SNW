@@ -10,7 +10,7 @@
 	quests: [
 		{
 			icon: "create:cogwheel"
-			x: -7.0d
+			x: -9.0d
 			y: 0.0d
 			shape: "gear"
 			description: ["Вітаю Ви перейшли в епоху індустріалізації"]
@@ -20,7 +20,7 @@
 			id: "529EB1BCFFFC5C35"
 		}
 		{
-			x: -5.0d
+			x: -7.0d
 			y: 0.0d
 			dependencies: ["529EB1BCFFFC5C35"]
 			id: "1E1593F3393D40ED"
@@ -112,7 +112,7 @@
 			]
 		}
 		{
-			x: -4.5d
+			x: -3.0d
 			y: 2.0d
 			dependencies: [
 				"09C0671A8181E5CB"
@@ -128,7 +128,7 @@
 		}
 		{
 			x: -3.0d
-			y: 2.0d
+			y: 0.0d
 			dependencies: ["7A10C98128E74AD1"]
 			id: "1F244E4D0F7849BA"
 			tasks: [{
@@ -145,7 +145,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -5.0d
 			y: 0.0d
 			dependencies: [
 				"1F244E4D0F7849BA"
@@ -268,7 +268,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -5.0d
 			y: 2.0d
 			dependencies: ["529EB1BCFFFC5C35"]
 			id: "09C0671A8181E5CB"
@@ -287,7 +287,7 @@
 		}
 		{
 			x: -7.0d
-			y: 3.0d
+			y: 2.0d
 			dependencies: ["529EB1BCFFFC5C35"]
 			id: "713F285C992D033E"
 			tasks: [{
@@ -297,8 +297,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 3.5d
+			x: -7.0d
+			y: 4.0d
 			dependencies: ["713F285C992D033E"]
 			id: "35ABFADC5C56B94B"
 			tasks: [
@@ -326,7 +326,7 @@
 		}
 		{
 			x: -1.0d
-			y: 3.5d
+			y: 4.0d
 			dependencies: ["55D9C518A2F24FA0"]
 			id: "5FF455BAD6ED3190"
 			tasks: [
@@ -652,7 +652,7 @@
 		}
 		{
 			x: -1.0d
-			y: 5.5d
+			y: 6.0d
 			dependencies: ["55D9C518A2F24FA0"]
 			id: "7025DEB9D8052022"
 			tasks: [
@@ -670,7 +670,7 @@
 		}
 		{
 			x: 1.0d
-			y: 5.5d
+			y: 6.0d
 			dependencies: ["7025DEB9D8052022"]
 			id: "48FAB804FEE72764"
 			tasks: [{
@@ -681,7 +681,7 @@
 		}
 		{
 			x: -3.0d
-			y: 5.5d
+			y: 6.0d
 			dependencies: ["55D9C518A2F24FA0"]
 			id: "11FFF9BC620521AE"
 			tasks: [{
@@ -692,8 +692,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 3.5d
+			x: -5.0d
+			y: 4.0d
 			dependencies: ["35ABFADC5C56B94B"]
 			id: "15ADE13B07CE728B"
 			tasks: [{
@@ -726,6 +726,7 @@
 				"7DED04E49B879670"
 				"4969641A55C50C05"
 				"38DF2C607BDECDC0"
+				"21D36E5EBA3B7B67"
 			]
 			hide: true
 			id: "0404E1D602440CB4"
@@ -737,9 +738,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -6.0d
-			dependencies: ["0C064F8BC4334887"]
+			x: 3.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["529EB1BCFFFC5C35"]
 			hide: true
 			id: "4969641A55C50C05"
 			tasks: [{
@@ -787,17 +789,25 @@
 		}
 		{
 			x: 1.0d
-			y: 3.5d
+			y: 4.0d
 			id: "4E65D9C17BBA7CE0"
 			tasks: [{
-				id: "2A9108330CF7850E"
+				id: "5C164A057FB1BF29"
 				type: "item"
-				title: "Any #snw:kelp"
 				item: {
-					id: "itemfilters:tag"
+					id: "itemfilters:or"
 					Count: 1
 					tag: {
-						value: "snw:kelp"
+						items: [
+							{
+								id: "tfc:plant/winged_kelp"
+								Count: 1
+							}
+							{
+								id: "tfc:plant/leafy_kelp"
+								Count: 1
+							}
+						]
 					}
 				}
 			}]
@@ -809,15 +819,14 @@
 			hide: true
 			id: "5A2A39609C34778A"
 			tasks: [{
-				id: "0C65238973FE5729"
+				id: "506F3C89C3357F50"
 				type: "item"
-				item: "create:belt_connector"
-				count: 2L
+				item: "kubejs:kelp_string"
 			}]
 		}
 		{
-			x: -2.5d
-			y: 3.5d
+			x: -3.0d
+			y: 4.0d
 			dependencies: ["15ADE13B07CE728B"]
 			id: "55D9C518A2F24FA0"
 			tasks: [{
@@ -855,7 +864,7 @@
 			]
 		}
 		{
-			x: -1.0d
+			x: -3.0d
 			y: -8.0d
 			dependencies: ["15C1BEEB8B3071EB"]
 			id: "20D0DD3A2C1DB5AE"
@@ -863,6 +872,193 @@
 				id: "498EFC636AA3B0F8"
 				type: "item"
 				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["5A2A39609C34778A"]
+			id: "155295043E622105"
+			tasks: [{
+				id: "433D6F5CCF2CA1BA"
+				type: "item"
+				item: "kubejs:kelp_cloth"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: [
+				"155295043E622105"
+				"4F42AF5D2225196D"
+			]
+			id: "79CE2B2F3C86BBE4"
+			tasks: [{
+				id: "4990EB406A177CDC"
+				type: "item"
+				item: "kubejs:textolite"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: [
+				"79CE2B2F3C86BBE4"
+				"1A90A34FC3E74DC2"
+			]
+			id: "38BB1294F37ED0C0"
+			tasks: [{
+				id: "049522FB6A3873D6"
+				type: "item"
+				item: "immersiveengineering:circuit_board"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			dependencies: ["48FAB804FEE72764"]
+			id: "13579EDA6032C0B8"
+			tasks: [{
+				id: "067EABE2908F24D0"
+				type: "item"
+				item: "tconstruct:seared_fuel_tank"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.0d
+			dependencies: ["449A317546A36F61"]
+			id: "16BD3FCA63470DC9"
+			tasks: [{
+				id: "4F42AF5D2225196D"
+				type: "fluid"
+				fluid: "kubejs:flowing_oleoresin"
+				amount: 1000L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -8.0d
+			dependencies: ["20D0DD3A2C1DB5AE"]
+			id: "449A317546A36F61"
+			tasks: [{
+				id: "1013261D03545D57"
+				type: "item"
+				item: "kubejs:pine_dust"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["529EB1BCFFFC5C35"]
+			hide: true
+			id: "21D36E5EBA3B7B67"
+			tasks: [{
+				id: "26B6B812ED2847CD"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1
+					tag: {
+						items: [
+							{
+								id: "tfc:ore/cinnabar"
+								Count: 1
+							}
+							{
+								id: "tfc:ore/cryolite"
+								Count: 1
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["529EB1BCFFFC5C35"]
+			hide: true
+			id: "6EF2A84DD7879079"
+			tasks: [{
+				id: "64FA8293F1ECB7F9"
+				type: "fluid"
+				fluid: "tfc:flowing_vinegar"
+				amount: 1000L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			dependencies: [
+				"6EF2A84DD7879079"
+				"21D36E5EBA3B7B67"
+			]
+			id: "48D539EAB9708D15"
+			tasks: [{
+				id: "1A90A34FC3E74DC2"
+				type: "fluid"
+				fluid: "immersiveengineering:redstone_acid"
+				amount: 1000L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			dependencies: ["48FAB804FEE72764"]
+			id: "71EE19DF2B41DB25"
+			tasks: [{
+				id: "1EF83DACE96FEAE5"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.0d
+			dependencies: ["48FAB804FEE72764"]
+			id: "0F4A0E31F7DBC080"
+			tasks: [{
+				id: "4A3FB619A360F9E1"
+				type: "item"
+				item: "create:item_drain"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: [
+				"7CBE8C71E8BF3634"
+				"38BB1294F37ED0C0"
+				"1EF83DACE96FEAE5"
+			]
+			id: "627EA90288AB0C42"
+			tasks: [{
+				id: "590195CC982504A7"
+				type: "item"
+				item: "kubejs:brass_machine"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["529EB1BCFFFC5C35"]
+			hide: true
+			id: "780C2180FC312174"
+			tasks: [{
+				id: "285F121CCBBAADCF"
+				type: "item"
+				title: "Any #tfc:foods/grains"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1
+					tag: {
+						value: "tfc:foods/grains"
+					}
+				}
 			}]
 		}
 	]

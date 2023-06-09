@@ -165,18 +165,44 @@ onEvent('recipes', event => {
 		{INPUT: GRAVELS.SHALE, 				OUTPUT: [{item : SANDS.BLACK, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_shale'},
 		{INPUT: GRAVELS.SLATE, 				OUTPUT: [{item : SANDS.WHITE, 			count: 1}											  ], TIME: 250 , KEY: 'crushed_gravel_slate'},
 		
-		{INPUT: LOOSE_ROCKS.ANDESITE, 			OUTPUT: [{item : FLUXS.ANDESITE, 		count: 3}										  ], TIME: 250 , KEY: 'andesite_flux'},
-		{INPUT: MC_ITEM.CHARCOAL, 				OUTPUT: [{item : DUSTS.CHARCOAL, 		count: 1}										  ], TIME: 250 , KEY: 'charcoal'},
-		{INPUT: MC_ITEM.COAL, 					OUTPUT: [{item : DUSTS.COAL, 			count: 1}										  ], TIME: 250 , KEY: 'coal/coal'},
-		{INPUT: ORES.PRECIOUS.BITUMINUOS_COAL, 	OUTPUT: [{item : DUSTS.COAL, 			count: 3}										  ], TIME: 250 , KEY: 'coal/bituminous_coal'},
-		{INPUT: ORES.PRECIOUS.LIGNITE, 			OUTPUT: [{item : DUSTS.COAL, 			count: 2}										  ], TIME: 250 , KEY: 'coal/lignite'}
+		{INPUT: LOOSE_ROCKS.ANDESITE, 			OUTPUT: [{item : FLUXS.ANDESITE, 	count: 3}											  ], TIME: 250 , KEY: 'andesite_flux'},
+		{INPUT: MC_ITEM.CHARCOAL, 				OUTPUT: [{item : DUSTS.CHARCOAL, 	count: 1}											  ], TIME: 250 , KEY: 'charcoal'},
+		{INPUT: MC_ITEM.COAL, 					OUTPUT: [{item : DUSTS.COAL, 		count: 1}											  ], TIME: 250 , KEY: 'coal'},
+		{INPUT: ORES.PRECIOUS.BITUMINUOS_COAL, 	OUTPUT: [{item : DUSTS.COAL, 		count: 3}											  ], TIME: 250 , KEY: 'coal/bituminous_coal'},
+		{INPUT: ORES.PRECIOUS.LIGNITE, 			OUTPUT: [{item : DUSTS.COAL, 		count: 2}											  ], TIME: 250 , KEY: 'coal/lignite'},
+		
+		{INPUT: GRAINS.OAT, 					OUTPUT: [{item : FLOUR.OAT, 		count: 2}											  ], TIME: 250 , KEY: 'flour/oat'},
+		{INPUT: GRAINS.WHEAT, 					OUTPUT: [{item : FLOUR.WHEAT, 		count: 2}											  ], TIME: 250 , KEY: 'flour/wheat'},
+		{INPUT: GRAINS.BARLEY, 					OUTPUT: [{item : FLOUR.BARLEY, 		count: 2}											  ], TIME: 250 , KEY: 'flour/barley'},
+		{INPUT: GRAINS.RYE, 					OUTPUT: [{item : FLOUR.RYE, 		count: 2}											  ], TIME: 250 , KEY: 'flour/rye'},
+		{INPUT: GRAINS.RICE, 					OUTPUT: [{item : FLOUR.RICE, 		count: 2}											  ], TIME: 250 , KEY: 'flour/rice'},
+		{INPUT: GRAINS.MAZE, 					OUTPUT: [{item : FLOUR.MAZE, 		count: 2}											  ], TIME: 250 , KEY: 'flour/maize'},
+		
+		{INPUT: DUSTS.CHARCOAL, 				OUTPUT: [{item : DYES.BLACK, 		count: 4}											  ], TIME: 250 , KEY: 'dye/black/charcoal'},
+		{INPUT: DUSTS.COAL, 					OUTPUT: [{item : DYES.BLACK, 		count: 6}											  ], TIME: 250 , KEY: 'dye/black/coal'},
+		{INPUT: TFC_ITEM.BEET, 					OUTPUT: [{item : DYES.RED, 			count: 4}											  ], TIME: 250 , KEY: 'dye/red/beet'},
+		
+		{INPUT: `#${TAGS.WHITE_DYE_PLANT}`,		OUTPUT: [{item : DYES.WHITE, 		count: 4}, {item : DYES.GREEN,	chance: 0.25 }		  ], TIME: 250 , KEY: 'dye/white/plant'},
+		{INPUT: `#${TAGS.ORANGE_DYE_PLANT}`,	OUTPUT: [{item : DYES.ORANGE, 		count: 4}, {item : DYES.GREEN,	chance: 0.25 }		  ], TIME: 250 , KEY: 'dye/orange/plant'},
+		{INPUT: `#${TAGS.MAGENTA_DYE_PLANT}`,	OUTPUT: [{item : DYES.MAGENTA, 		count: 4}, {item : DYES.GREEN,	chance: 0.25 }		  ], TIME: 250 , KEY: 'dye/magenta/plant'},
+		{INPUT: `#${TAGS.LIGHT_BLUE_DYE_PLANT}`,OUTPUT: [{item : DYES.LIGHT_BLUE, 	count: 4}, {item : DYES.GREEN,	chance: 0.25 }		  ], TIME: 250 , KEY: 'dye/light_blue/plant'},
+		{INPUT: `#${TAGS.YELLOW_DYE_PLANT}`,	OUTPUT: [{item : DYES.YELLOW, 		count: 4}, {item : DYES.GREEN,	chance: 0.25 }		  ], TIME: 250 , KEY: 'dye/yellow/plant'},
+		{INPUT: `#${TAGS.LIME_DYE_PLANT}`,		OUTPUT: [{item : DYES.LIME, 		count: 4}, {item : DYES.GREEN,	chance: 0.25 }		  ], TIME: 250 , KEY: 'dye/lime/plant'},
+		{INPUT: `#${TAGS.PINK_DYE_PLANT}`,		OUTPUT: [{item : DYES.PINK, 		count: 4}, {item : DYES.GREEN,	chance: 0.25 }		  ], TIME: 250 , KEY: 'dye/pink/plant'},
+		{INPUT: `#${TAGS.LIGHT_GRAY_DYE_PLANT}`,OUTPUT: [{item : DYES.LIGHT_GRAY, 	count: 4}, {item : DYES.GREEN,	chance: 0.25 }		  ], TIME: 250 , KEY: 'dye/light_gray/plant'},
+		{INPUT: `#${TAGS.PURPLE_DYE_PLANT}`,	OUTPUT: [{item : DYES.PURPLE, 		count: 4}, {item : DYES.GREEN,	chance: 0.25 }		  ], TIME: 250 , KEY: 'dye/purple/plant'},
+		{INPUT: `#${TAGS.BLUE_DYE_PLANT}`,		OUTPUT: [{item : DYES.BLUE, 		count: 4}, {item : DYES.GREEN,	chance: 0.25 }		  ], TIME: 250 , KEY: 'dye/blue/plant'},
+		{INPUT: `#${TAGS.BROWN_DYE_PLANT}`,		OUTPUT: [{item : DYES.BROWN, 		count: 4}, {item : DYES.GREEN,	chance: 0.25 }		  ], TIME: 250 , KEY: 'dye/brown/plant'},
+		{INPUT: `#${TAGS.GREEN_DYE_PLANT}`,		OUTPUT: [{item : DYES.GREEN, 		count: 4}, {item : DYES.GREEN,	chance: 0.25 }		  ], TIME: 250 , KEY: 'dye/green/plant'},
+		{INPUT: `#${TAGS.RED_DYE_PLANT}`,		OUTPUT: [{item : DYES.RED, 			count: 4}, {item : DYES.GREEN,	chance: 0.25 }		  ], TIME: 250 , KEY: 'dye/red/plant'}
+		
 		
 	]
 	recipes.forEach(recipe=>{
 		event.custom({ 
 			type: RECIPE_TYPE.C_MILLING,
 			ingredients: [
-				{ item:  recipe.INPUT}
+				Id_or_tag_to_item(recipe.INPUT)
 			],
 			results: recipe.OUTPUT,
 			processingTime: recipe.TIME
