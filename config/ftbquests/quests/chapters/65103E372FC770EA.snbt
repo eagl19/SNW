@@ -767,18 +767,6 @@
 			x: 1.0d
 			y: 0.0d
 			dependencies: ["7A116BB1BAACE5E3"]
-			hide: true
-			id: "4F90CE3B89CE00D3"
-			tasks: [{
-				id: "52143B2B4EF78AD3"
-				type: "item"
-				item: "create:deployer"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 0.0d
-			dependencies: ["4F90CE3B89CE00D3"]
 			id: "7CBE8C71E8BF3634"
 			tasks: [{
 				id: "48A7AF1776AA85BE"
@@ -790,6 +778,9 @@
 		{
 			x: 1.0d
 			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["529EB1BCFFFC5C35"]
+			hide: true
 			id: "4E65D9C17BBA7CE0"
 			tasks: [{
 				id: "5C164A057FB1BF29"
@@ -892,6 +883,7 @@
 				"155295043E622105"
 				"4F42AF5D2225196D"
 			]
+			hide: true
 			id: "79CE2B2F3C86BBE4"
 			tasks: [{
 				id: "4990EB406A177CDC"
@@ -906,6 +898,7 @@
 				"79CE2B2F3C86BBE4"
 				"1A90A34FC3E74DC2"
 			]
+			hide: true
 			id: "38BB1294F37ED0C0"
 			tasks: [{
 				id: "049522FB6A3873D6"
@@ -1027,13 +1020,14 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 3.0d
 			y: 0.0d
 			dependencies: [
 				"7CBE8C71E8BF3634"
 				"38BB1294F37ED0C0"
 				"1EF83DACE96FEAE5"
 			]
+			hide: true
 			id: "627EA90288AB0C42"
 			tasks: [{
 				id: "590195CC982504A7"
@@ -1059,6 +1053,128 @@
 						value: "tfc:foods/grains"
 					}
 				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			dependencies: [
+				"780C2180FC312174"
+				"7DED04E49B879670"
+			]
+			id: "0A6E56550F916F98"
+			tasks: [{
+				id: "41249AFA695E3BEF"
+				type: "item"
+				item: "create:dough"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.0d
+			dependencies: ["0A6E56550F916F98"]
+			id: "205F7101CE6370C5"
+			tasks: [
+				{
+					id: "0BC06ECE9E4282B3"
+					type: "item"
+					item: "minecraft:slime_ball"
+				}
+				{
+					id: "01C30BCDD4E2D125"
+					type: "item"
+					item: "tconstruct:blood_slime_ball"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["627EA90288AB0C42"]
+			id: "68F67A2F944ACA74"
+			tasks: [{
+				id: "77A84F3A910EE882"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			dependencies: ["155295043E622105"]
+			id: "18D8523F30FA776D"
+			tasks: [{
+				id: "044E417282E83961"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["68F67A2F944ACA74"]
+			id: "115AE681F42F8CE8"
+			tasks: [{
+				id: "5ADC94F1D2A36EC2"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 21L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.0d
+			dependencies: ["11FFF9BC620521AE"]
+			id: "21F7961910054C84"
+			tasks: [{
+				id: "7A5D43A02056A2CB"
+				type: "fluid"
+				fluid: "tconstruct:flowing_blazing_blood"
+				amount: 1000L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			dependencies: ["115AE681F42F8CE8"]
+			id: "5FCAA2494106F315"
+			tasks: [{
+				id: "4B2A1E598112B624"
+				type: "item"
+				item: "create:flywheel"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			dependencies: ["5FCAA2494106F315"]
+			id: "0E35ACB26AA4CED9"
+			tasks: [{
+				id: "5A371F3E3DB5A031"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["68F67A2F944ACA74"]
+			id: "7C6FCB7C325809E6"
+			tasks: [{
+				id: "13683C3BF62AC2E6"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			dependencies: ["7C6FCB7C325809E6"]
+			id: "7BF24C56D9AF1153"
+			tasks: [{
+				id: "08954D62C76882D8"
+				type: "item"
+				item: "kubejs:copper_machine"
 			}]
 		}
 	]
