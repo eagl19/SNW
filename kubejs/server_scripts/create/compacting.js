@@ -74,7 +74,8 @@ onEvent('recipes', event => {
 		{INPUT: { NAME: DUSTS.CHARCOAL, 		ICOUNT: 9, 	FLUID: FLUIDS.MC_WATER, FCOUNT: 10},	OUTPUT: BLOCKS.CHARCOAL,	KEY:'block_charcoal'},
 		{INPUT: { NAME: DUSTS.COAL, 			ICOUNT: 9, 	FLUID: FLUIDS.MC_WATER, FCOUNT: 10},	OUTPUT: BLOCKS.COAL,		KEY:'coal_block'},	
 		
-		{INGREDIENTS:[{ item : CREATE_ITEMS.DOUGH },{ item : DYES.LIME },{ item : TFC_ITEM.GLUE },{fluid : FLUIDS.SPRING, nbt:{}, amount: 50}],	OUTPUT: MC_ITEM.SLIME_BALL,	KEY:'slime_ball'}
+		{INGREDIENTS:[{ item : CREATE_ITEMS.DOUGH },{ item : DYES.LIME },{ item : TFC_ITEM.GLUE },{fluid : FLUIDS.SPRING, nbt:{}, amount: 50}],	OUTPUT: MC_ITEM.SLIME_BALL,			KEY:'slime_ball'},
+		{INGREDIENTS:[{ item : CREATE_ITEMS.DOUGH },{ item : DYES.RED  },{ item : TFC_ITEM.GLUE },{fluid : FLUIDS.SPRING, nbt:{}, amount: 50}],	OUTPUT: TC_ITEM.BLOOD_SLIME_BALL,	KEY:'blood_slime_ball'}
 		
 	]
 	recipes.forEach(recipe=>{

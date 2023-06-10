@@ -31,6 +31,8 @@ onEvent('recipes', event => {
 					{name : FLUIDS.TUNGSTEN,		amount : 25 }, {name : FLUIDS.SOLDER, 			amount : 25  }	], OUTPUT : {fluid : FLUIDS.TUNGSTEN_STEEL, 	amount : 200 }, TEMPERATURE : 3690, KEY : 'tungsten_steel' },
 		{INPUT : [	{name : FLUIDS.CHROMIUM, 		amount : 25 }, {name : FLUIDS.NICKEL, 			amount : 15  },
 					{name : FLUIDS.STEEL, 			amount : 70 }													], OUTPUT : {fluid : FLUIDS.STAINLESS_STEEL, 	amount : 110 }, TEMPERATURE : 1540,  KEY : 'stainless_steel' },
+		{INPUT : [	{name : FLUIDS.MC_LAVA, 		amount : 50 }, {name : FLUIDS.CREOSOTE, 		amount : 40  },
+					{name : FLUIDS.BLOOD, 			amount : 10 }													], OUTPUT : {fluid : FLUIDS.BLAZING_BLOOD, 		amount : 100 }, TEMPERATURE : 900, 	 KEY : 'blazing_blood' }
 	]
 	recipes.forEach(recipe=>{
 		event.custom({

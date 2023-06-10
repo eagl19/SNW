@@ -211,7 +211,10 @@ const FLUIDS={
 	OLEORESIN:			'kubejs:oleoresin',
 	VINEGAR:			'tfc:vinegar',
 	REDSTONE_ACID:		'immersiveengineering:redstone_acid',
-	SPRING:				'tfc:spring_water'
+	SPRING:				'tfc:spring_water',
+	CREOSOTE:			'immersiveengineering:creosote',
+	BLOOD:				'tconstruct:blood',
+	BLAZING_BLOOD:		'tconstruct:blazing_blood'
 }
 const NUGGETS={
 	ALUMINUM: 		'immersiveengineering:nugget_aluminum',
@@ -287,7 +290,8 @@ const INGOTS={
 	STAINLESS_STEEL:	'firmalife:metal/ingot/stainless_steel',
 	M_IRON:				'minecraft:iron_ingot',
 	C_BRASS:			'create:brass_ingot',
-	M_GOLD:				'minecraft:gold_ingot'
+	M_GOLD:				'minecraft:gold_ingot',
+	M_COPPER:			'minecraft:copper_ingot'
 }
 const DUSTS={
 	ALUMINUM: 		'tfc_metalwork:metal/dust/aluminum',
@@ -824,7 +828,8 @@ const SHEETS={
 	STAINLESS_STEEL:	'firmalife:metal/sheet/stainless_steel',
 	C_GOLDEN:			'create:golden_sheet',
 	C_BRASS:			'create:brass_sheet',
-	C_IRON:				'create:iron_sheet'
+	C_IRON:				'create:iron_sheet',
+	C_COPPER:			'create:copper_sheet'
 }
 const CUT_BLOCKS={
 	ALUMINUM: 		'tfc_metalwork:metal/cut/aluminum',
@@ -1744,6 +1749,7 @@ const TFC_ITEM={
 	LEAFY_KELP:				'tfc:plant/leafy_kelp',
 	KELP_STRING:			'kubejs:kelp_string',
 	KELP_CLOTH:				'kubejs:kelp_cloth',
+	CREOSOTE_CLOTH:			'kubejs:creosote_cloth',
 	BEET:					'tfc:food/beet',
 	GLUE:					'tfc:glue'
 	
@@ -1775,7 +1781,16 @@ const CREATE_ITEMS={
 	SPOUT:					'create:spout',
 	DRAIN:					'create:item_drain',
 	DOUGH:					'create:dough',
-	DEPLOYER:				'create:deployer'
+	DEPLOYER:				'create:deployer',
+	BELT:					'create:belt_connector',
+	MECHANICAL_CRAFTER:		'create:mechanical_crafter',
+	FLYWHEEL:				'create:flywheel',
+	COPPER_CASING:			'create:copper_casing',
+	COPPER_MACHINE:			'kubejs:copper_machine',
+	CRUSHING_WHEEL:			'create:crushing_wheel',
+	INCOMPLECT:{
+		MECHANICAL_CRAFTER:	'kubejs:incomplete_mechanical_crafter'
+	}
 }
 const IE_ITEM={
 	ROCKCUTTER:				'immersiveengineering:rockcutter',
@@ -1797,31 +1812,36 @@ const TC_ITEM={
 	GROUT:					'tconstruct:grout',
 	SEARED_BRICK:			'tconstruct:seared_brick',
 	SEARED_MELTER:			'tconstruct:seared_melter',
-	FUEL_TANK:				'tconstruct:seared_fuel_tank'
+	FUEL_TANK:				'tconstruct:seared_fuel_tank',
+	SCORCHED_ALLOYER:		'tconstruct:scorched_alloyer',
+	BLOOD_SLIME_BALL:		'tconstruct:blood_slime_ball'
 }
 
 const RECIPE_TYPE={
-	MC_SHAPELESS: 		'minecraft:crafting_shapeless',
-	MC_SHAPED:			'minecraft:crafting_shaped',
-	MC_SMELTING:		'minecraft:smelting',
-	MC_BLASTING:		'minecraft:blasting',
-	MC_SMITHING:		'minecraft:smithing',
-	TFC_ANVIL:			'tfc:anvil',
-	TFC_LOOM:			'tfc:loom',
-	C_DEPLOIYNG:		'create:deploying',
-	C_COMPACTING:		'create:compacting',
-	C_MILLING:			'create:milling',
-	C_PRESSING:			'create:pressing',
-	C_MIXING:			'create:mixing',
-	C_CUTTING:			'create:cutting',
-	C_FILLING:			'create:filling',
-	CW_WOODCUTING:		'corail_woodcutter:woodcutting',
-	TC_MELTING:			'tconstruct:melting',
-	TC_CASTING_BASIN:	'tconstruct:casting_basin',
-	IE_COKE_OVEN:		'immersiveengineering:coke_oven',
-	IE_ALLOY:			'immersiveengineering:alloy',
-	FL_DRYING:			'firmalife:drying',
-	TFC_BARREL_INSRANT:	'tfc:barrel_instant'
+	MC_SHAPELESS: 			'minecraft:crafting_shapeless',
+	MC_SHAPED:				'minecraft:crafting_shaped',
+	MC_SMELTING:			'minecraft:smelting',
+	MC_BLASTING:			'minecraft:blasting',
+	MC_SMITHING:			'minecraft:smithing',
+	TFC_ANVIL:				'tfc:anvil',
+	TFC_LOOM:				'tfc:loom',
+	C_DEPLOIYNG:			'create:deploying',
+	C_COMPACTING:			'create:compacting',
+	C_MILLING:				'create:milling',
+	C_PRESSING:				'create:pressing',
+	C_MIXING:				'create:mixing',
+	C_CUTTING:				'create:cutting',
+	C_FILLING:				'create:filling',
+	C_ITEM_APPLICATION:		'create:item_application',
+	C_SEQUENCED_ASSEMBLY:	'create:sequenced_assembly',
+	C_MACHANICAL_CRAFTING:	'create:mechanical_crafting',
+	CW_WOODCUTING:			'corail_woodcutter:woodcutting',
+	TC_MELTING:				'tconstruct:melting',
+	TC_CASTING_BASIN:		'tconstruct:casting_basin',
+	IE_COKE_OVEN:			'immersiveengineering:coke_oven',
+	IE_ALLOY:				'immersiveengineering:alloy',
+	FL_DRYING:				'firmalife:drying',
+	TFC_BARREL_INSRANT:		'tfc:barrel_instant'
 }
 
 const TAGS={
@@ -1843,6 +1863,7 @@ const TAGS={
 	BLUE_DYE_PLANT:			'kubejs:blue_dye_plant',
 	BROWN_DYE_PLANT:		'kubejs:brown_dye_plant',
 	GREEN_DYE_PLANT:		'kubejs:green_dye_plant',
-	RED_DYE_PLANT:			'kubejs:red_dye_plant'
+	RED_DYE_PLANT:			'kubejs:red_dye_plant',
+	STRIPPED_LOG:			'forge:stripped_logs'
 	
 }

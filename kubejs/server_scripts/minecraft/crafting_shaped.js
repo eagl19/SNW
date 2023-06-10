@@ -36,7 +36,9 @@ onEvent('recipes', event => {
 														E : {item : RODS.PLATINUM}																},	OUTPUT : {item :  CREATE_ITEMS.WRENCH, 				count : 1}, KEY : 'create:crafting/kinetics/wrench'},
 		{PUTTERN : [" A ","BAB","BBB"], PUTTERN_KEY : { A : {item : GREATE_RODS.TITANIUM },			B : {item : PLATES.TITANIUM }				},	OUTPUT : {item :  CREATE_ITEMS.WHISK, 				count : 1}, KEY : 'create:crafting/kinetics/whisk'},
 		{PUTTERN : ["ABA","CDC","ABA"], PUTTERN_KEY : { A : {item : CREATE_ITEMS.BRASS_CASING },	B : {item : IE_ITEM.CIRCUIT_BOARD}, 	
-														C : {item : CREATE_ITEMS.ELECTRON_TUBE },	D : {item : CREATE_ITEMS.ANDESITE_MACHINE}	},	OUTPUT : {item :  CREATE_ITEMS.BRASS_MACHINE, 		count : 1}, KEY : 'create:crafting/kinetics/brass_machine'}
+														C : {item : CREATE_ITEMS.ELECTRON_TUBE },	D : {item : CREATE_ITEMS.ANDESITE_MACHINE}	},	OUTPUT : {item :  CREATE_ITEMS.BRASS_MACHINE, 		count : 1}, KEY : 'create:crafting/kinetics/brass_machine'},
+		{PUTTERN : ["ABA","CDC","ABA"], PUTTERN_KEY : { A : {item : CREATE_ITEMS.COPPER_CASING },	B : {item : GEARS.NICKEL_SILVER}, 	
+														C : {item : GREATE_GEARS.INVAR },			D : {item : CREATE_ITEMS.ANDESITE_MACHINE}	},	OUTPUT : {item :  CREATE_ITEMS.COPPER_MACHINE, 		count : 1}, KEY : 'create:crafting/kinetics/copper_machine'}
 														
 	]
 	event.remove({output : MC_ITEM.FURNACE})

@@ -51,7 +51,8 @@ onEvent('recipes', event => {
 		{ ITEM : '#forge:wires',				CONSUMED : true, FLUID:{NAME : FLUIDS.TUNGSTEN_STEEL, COUNT : 100}, OUTPUT : 'tconstruct:wire_cast', 			TIME: 824, KEY: 'wires'},
 		
 		{ ITEM : TFC_ITEM.PICKAXE_BLUE_STEEL,	CONSUMED : true, FLUID:{NAME : FLUIDS.FLORENTINE_BRONZE, 	COUNT : 1000}, OUTPUT : IE_ITEM.HAMMER, 				TIME: 824, 	KEY: 'immersiveengineering_hammer'},
-		{ ITEM : TFC_ITEM.KELP_CLOTH,			CONSUMED : true, FLUID:{NAME : FLUIDS.OLEORESIN, 			COUNT : 1000}, OUTPUT : IE_ITEM.TEXTOLITE, 				TIME: 54, 	KEY: 'textolite'}
+		{ ITEM : TFC_ITEM.KELP_CLOTH,			CONSUMED : true, FLUID:{NAME : FLUIDS.OLEORESIN, 			COUNT : 1000}, OUTPUT : IE_ITEM.TEXTOLITE, 				TIME: 54, 	KEY: 'textolite'},
+		{ ITEM : TFC_ITEM.KELP_CLOTH,			CONSUMED : true, FLUID:{NAME : FLUIDS.CREOSOTE, 			COUNT : 1000}, OUTPUT : TFC_ITEM.CREOSOTE_CLOTH, 		TIME: 54, 	KEY: 'creosote_cloth'}
 	]
 	cast_recipes.forEach(recipe=>{
 		let CAST=null

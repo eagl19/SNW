@@ -1,7 +1,7 @@
 // priority: 0
 
-settings.logAddedRecipes = false
-settings.logRemovedRecipes = false
+settings.logAddedRecipes = true
+settings.logRemovedRecipes = true
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
@@ -29,6 +29,9 @@ onEvent('recipes', event => {
 	event.remove({output :  /.*dye.*/,	 														type : RECIPE_TYPE.MC_SHAPELESS})
 	event.remove({id : 'immersiveengineering:crafting/treated_wood_horizontal'})
 	event.remove({id : 'immersiveengineering:crafting/stick_treated'})
+	event.remove({id : 'create:crafting/appliances/slime_ball'})
+	event.remove({output : CREATE_ITEMS.BRASS_CASING, 											type:RECIPE_TYPE.C_ITEM_APPLICATION})
+	event.remove({output : CREATE_ITEMS.COPPER_CASING, 											type:RECIPE_TYPE.C_ITEM_APPLICATION})
 })
 
 onEvent('item.tags', event => {

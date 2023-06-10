@@ -36,8 +36,10 @@
 	 "item.kubejs.textolite": "Textolite",
 	 "item.kubejs.kelp_cloth": "Kelp Cloth",
 	 "item.kubejs.pine_dust": "Pine Dust",
+	 "item.kubejs.creosote_cloth": "Creosote Cloth",
 	 "block.kubejs.andesite_machine": "Andesite Machine",
 	 "block.kubejs.brass_machine": "Brass Machine",
+	 "block.kubejs.copper_machine": "Copper Machine",
 	 "fluid.kubejs.oleoresin": "Oleoresin"
 	 
 }

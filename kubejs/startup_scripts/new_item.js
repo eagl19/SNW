@@ -1,4 +1,3 @@
-console.info('Hello, World! (You will only see this line once in console, during startup)')
 
 onEvent('item.registry', event => {
 	event.create('kubejs:andesite_dust').texture('tfc:item/powder/flux');
@@ -38,6 +37,7 @@ onEvent('item.registry', event => {
 	event.create('kubejs:textolite').texture('kubejs:item/textolite');
 	event.create('kubejs:kelp_cloth').texture('kubejs:item/kelp_cloth');
 	event.create('kubejs:pine_dust').texture('kubejs:item/pine_dust');
+	event.create('kubejs:creosote_cloth').texture('kubejs:item/creosote_cloth');
 })
 
 onEvent('block.registry', event => {
@@ -47,6 +47,11 @@ onEvent('block.registry', event => {
 		.tagBlock('minecraft:needs_iron_tool')
 		.lightLevel(0);
 	event.create('kubejs:brass_machine')
+		.material('metal')
+		.hardness(5.0)
+		.tagBlock('minecraft:needs_iron_tool')
+		.lightLevel(0);
+	event.create('kubejs:copper_machine')
 		.material('metal')
 		.hardness(5.0)
 		.tagBlock('minecraft:needs_iron_tool')
