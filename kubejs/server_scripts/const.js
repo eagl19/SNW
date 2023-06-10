@@ -1774,7 +1774,8 @@ const CREATE_ITEMS={
 	BRASS_MACHINE:			'kubejs:brass_machine',
 	SPOUT:					'create:spout',
 	DRAIN:					'create:item_drain',
-	DOUGH:					'create:dough'
+	DOUGH:					'create:dough',
+	DEPLOYER:				'create:deployer'
 }
 const IE_ITEM={
 	ROCKCUTTER:				'immersiveengineering:rockcutter',
