@@ -1342,8 +1342,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 6.0d
+			x: -3.0d
+			y: 8.0d
 			dependencies: ["11FFF9BC620521AE"]
 			id: "21F7961910054C84"
 			tasks: [{
@@ -1486,8 +1486,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 8.0d
+			x: -9.0d
+			y: 10.0d
 			dependencies: ["35D09FAC2B3646C2"]
 			id: "225B67FB606CDCC0"
 			tasks: [
@@ -1612,6 +1612,54 @@
 					count: 64L
 				}
 			]
+		}
+		{
+			x: -5.0d
+			y: 6.0d
+			dependencies: ["11FFF9BC620521AE"]
+			id: "7B4A325965E801B9"
+			tasks: [{
+				id: "21F3F0D530C669C6"
+				type: "fluid"
+				fluid: "kubejs:flowing_liquid_coal"
+				amount: 1000L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			dependencies: ["11FFF9BC620521AE"]
+			id: "009CCE71FBB536DA"
+			tasks: [{
+				id: "1259140EFF92F9E4"
+				type: "fluid"
+				fluid: "kubejs:flowing_liquid_coke"
+				amount: 1000L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.0d
+			dependencies: ["21F7961910054C84"]
+			id: "0DBE16F05B25FEA0"
+			tasks: [{
+				id: "67FE647D43B68428"
+				type: "fluid"
+				fluid: "kubejs:flowing_liquid_blazing_coal"
+				amount: 1000L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 10.0d
+			dependencies: ["21F7961910054C84"]
+			id: "7C7983AB192AC548"
+			tasks: [{
+				id: "3A9DF25BC1F96A95"
+				type: "fluid"
+				fluid: "kubejs:flowing_liquid_blazing_coke"
+				amount: 1000L
+			}]
 		}
 	]
 	quest_links: [ ]

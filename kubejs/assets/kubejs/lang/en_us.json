@@ -40,6 +40,10 @@
 	 "block.kubejs.andesite_machine": "Andesite Machine",
 	 "block.kubejs.brass_machine": "Brass Machine",
 	 "block.kubejs.copper_machine": "Copper Machine",
-	 "fluid.kubejs.oleoresin": "Oleoresin"
+	 "fluid.kubejs.oleoresin": "Oleoresin",
+	 "fluid.kubejs.liquid_coal": "Liquid Coal",
+	 "fluid.kubejs.liquid_coke": "Liquid Coke",
+	 "fluid.kubejs.liquid_blazing_coal": "Liquid Blazing Coal",
+	 "fluid.kubejs.liquid_blazing_coke": "Liquid Blazing Coke"
 	 
 }

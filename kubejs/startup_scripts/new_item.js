@@ -63,5 +63,25 @@ onEvent('fluid.registry', event => {
 		.thinTexture(0xB38935)
 		.bucketColor(0xFFD278)
 		.luminosity(8)
-		.noBlock() 
+		.noBlock();
+	event.create('kubejs:liquid_coal')
+		.stillTexture('kubejs:fluid/liquid_coal')
+		.bucketColor(0x9F0000)
+		.luminosity(8)
+		.noBlock();
+	event.create('kubejs:liquid_coke')
+		.stillTexture('kubejs:fluid/liquid_coke')
+		.bucketColor(0xF71C1C)
+		.luminosity(8)
+		.noBlock();
+	event.create('kubejs:liquid_blazing_coal')
+		.stillTexture('kubejs:fluid/liquid_blazing_coal')
+		.bucketColor(0xFE0040)
+		.luminosity(8)
+		.noBlock();
+	event.create('kubejs:liquid_blazing_coke')
+		.stillTexture('kubejs:fluid/liquid_blazing_coke')
+		.bucketColor(0xFA0000)
+		.luminosity(8)
+		.noBlock();
 })

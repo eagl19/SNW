@@ -214,7 +214,11 @@ const FLUIDS={
 	SPRING:				'tfc:spring_water',
 	CREOSOTE:			'immersiveengineering:creosote',
 	BLOOD:				'tconstruct:blood',
-	BLAZING_BLOOD:		'tconstruct:blazing_blood'
+	BLAZING_BLOOD:		'tconstruct:blazing_blood',
+	LIQUID_COAL: 		'kubejs:liquid_coal',
+	LIQUID_COKE:		'kubejs:liquid_coke',
+	LIQUID_BLAZING_COAL:'kubejs:liquid_blazing_coal',
+	LIQUID_BLAZING_COKE:'kubejs:liquid_blazing_coke'
 }
 const NUGGETS={
 	ALUMINUM: 		'immersiveengineering:nugget_aluminum',
@@ -343,7 +347,8 @@ const DUSTS={
 	STAINLESS_STEEL:	'tfc_metalwork:metal/dust/stainless_steel',
 	CHARCOAL:			'mekanism:dust_charcoal',
 	COAL:				'mekanism:dust_coal',
-	PINE:				'kubejs:pine_dust'
+	PINE:				'kubejs:pine_dust',
+	COKE:				'immersiveengineering:dust_coke'
 }
 const BLOCKS={
 	ALUMINUM: 		'tfc_metalwork:metal/block/aluminum',
