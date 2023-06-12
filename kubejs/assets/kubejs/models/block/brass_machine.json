@@ -2,15 +2,15 @@
 	"credit": "Made with Blockbench",
 	"parent": "kubejs:block/machine",
 	"textures": {
-		"0": "create:block/axis",
-		"3": "create:block/axis_top",
-		"4": "create:block/brass_casing_side",
-		"5": "create:block/brass_funnel_plating",
-		"6": "create:block/brass_casing",
-		"7": "create:block/andesite_casing_very_short",
-		"1_2": "create:block/cogwheel",
-		"particle": "create:block/brass_casing",
-		"mechanical_press_pole": "create:block/mechanical_press_pole"
+		"0": "kubejs:block/create_machines/axis",
+		"3": "kubejs:block/create_machines/axis_top",
+		"4": "kubejs:block/create_machines/brass_casing_side",
+		"5": "kubejs:block/create_machines/brass_funnel_plating",
+		"6": "kubejs:block/create_machines/brass_casing",
+		"7": "kubejs:block/create_machines/andesite_casing_very_short",
+		"1_2": "kubejs:block/create_machines/cogwheel",
+		"particle": "kubejs:block/create_machines/brass_casing",
+		"mechanical_press_pole": "kubejs:block/create_machines/mechanical_press_pole"
 	},
 	"elements": [
 		{

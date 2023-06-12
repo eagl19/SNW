@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			icon: "create:cogwheel"
+			icon: "minecraft:bucket"
 			x: -9.0d
 			y: 0.0d
 			shape: "gear"
@@ -132,14 +132,234 @@
 			dependencies: ["7A10C98128E74AD1"]
 			id: "1F244E4D0F7849BA"
 			tasks: [{
-				id: "4D6D70C3DA30A0C1"
+				id: "737D18DAF92E9F7B"
 				type: "item"
-				title: "Any #create:crushed_ores"
 				item: {
-					id: "itemfilters:tag"
+					id: "itemfilters:or"
 					Count: 1
 					tag: {
-						value: "create:crushed_ores"
+						items: [
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/aluminum"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/beryllium"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/cobalt"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/platinum"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/boron"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/iridium"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/lead"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/osmium"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/thorium"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/bismuth"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/copper"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/gold"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/nickel"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/silver"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/tin"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/zinc"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/wrought_iron"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/antimony"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/titanium"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/tungsten"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/uranium"
+								Count: 1
+							}
+							{
+								ForgeCaps: {
+									"tfc:item_heat": {
+										heat: 0.0f
+										ticks: 0L
+									}
+								}
+								id: "tfc_metalwork:metal/dust/chromium"
+								Count: 1
+							}
+						]
 					}
 				}
 			}]
@@ -1129,7 +1349,7 @@
 			tasks: [{
 				id: "7A5D43A02056A2CB"
 				type: "fluid"
-				fluid: "tconstruct:flowing_blazing_blood"
+				fluid: "tconstruct:blazing_blood"
 				amount: 1000L
 			}]
 		}
@@ -1176,6 +1396,222 @@
 				type: "item"
 				item: "kubejs:copper_machine"
 			}]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			dependencies: ["529EB1BCFFFC5C35"]
+			id: "2800E487CD44A7E3"
+			tasks: [{
+				id: "0B4ACF26A6D42494"
+				type: "item"
+				item: "rosia:fire_box"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.0d
+			dependencies: ["2800E487CD44A7E3"]
+			id: "19BCD0FD0DAEEB98"
+			tasks: [
+				{
+					id: "425062B800134FA9"
+					type: "item"
+					item: "rosia:steam_generator"
+				}
+				{
+					id: "30403FA5BC794BA8"
+					type: "item"
+					item: "rosia:nickel_iron_battery"
+				}
+				{
+					id: "6B64C53A09685596"
+					type: "item"
+					item: "rosia:water_pump"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 6.0d
+			dependencies: ["19BCD0FD0DAEEB98"]
+			id: "5973B7241FE45A04"
+			tasks: [{
+				id: "4398AE1A94E23B66"
+				type: "item"
+				item: "rosia:auto_quern"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 6.0d
+			dependencies: ["19BCD0FD0DAEEB98"]
+			id: "5895E6AA077E16E0"
+			tasks: [
+				{
+					id: "095ED4BDD22C45FC"
+					type: "item"
+					item: "rosia:extruding_machine"
+				}
+				{
+					id: "4657CA4BFDB48DE6"
+					type: "item"
+					item: "rosia:rolling_machine"
+				}
+				{
+					id: "72C4A7D4B7985C51"
+					type: "item"
+					item: "rosia:electric_forge"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 8.0d
+			dependencies: ["5895E6AA077E16E0"]
+			id: "35D09FAC2B3646C2"
+			tasks: [{
+				id: "121851D3E5EF6850"
+				type: "item"
+				item: {
+					id: "rosia:purple_steel_ingot"
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.0d
+			dependencies: ["35D09FAC2B3646C2"]
+			id: "225B67FB606CDCC0"
+			tasks: [
+				{
+					id: "65EE54A880676001"
+					type: "item"
+					item: {
+						id: "rosia:purple_steel_pickaxe"
+						Count: 1
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "61AC3B40C6660AE1"
+					type: "item"
+					item: {
+						id: "rosia:purple_steel_propick"
+						Count: 1
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 8.0d
+			dependencies: ["35D09FAC2B3646C2"]
+			id: "560A3EFC39E076B5"
+			tasks: [
+				{
+					id: "374E2004173980D2"
+					type: "item"
+					item: {
+						id: "rosia:purple_steel_axe"
+						Count: 1
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "7DB64BCC4248B330"
+					type: "item"
+					item: {
+						id: "rosia:purple_steel_shovel"
+						Count: 1
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "6539BE45FAD1032A"
+					type: "item"
+					item: {
+						id: "rosia:purple_steel_hoe"
+						Count: 1
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 10.0d
+			dependencies: ["35D09FAC2B3646C2"]
+			id: "5C42CBFD6EE7A7F2"
+			tasks: [
+				{
+					id: "7AC4D4F7DDEB4F42"
+					type: "item"
+					item: {
+						id: "rosia:purple_steel_rifle"
+						Count: 1
+						tag: {
+							ChargedProjectiles: [ ]
+							Damage: 0
+							Charged: 0b
+						}
+					}
+				}
+				{
+					id: "22B62156239A1FD0"
+					type: "item"
+					item: "rosia:rifle_ammo"
+					count: 64L
+				}
+			]
 		}
 	]
 	quest_links: [ ]
