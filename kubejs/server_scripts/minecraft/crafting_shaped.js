@@ -38,7 +38,11 @@ onEvent('recipes', event => {
 		{PUTTERN : ["ABA","CDC","ABA"], PUTTERN_KEY : { A : {item : CREATE_ITEMS.BRASS_CASING },	B : {item : IE_ITEM.CIRCUIT_BOARD}, 	
 														C : {item : CREATE_ITEMS.ELECTRON_TUBE },	D : {item : CREATE_ITEMS.ANDESITE_MACHINE}	},	OUTPUT : {item :  CREATE_ITEMS.BRASS_MACHINE, 		count : 1}, KEY : 'create:crafting/kinetics/brass_machine'},
 		{PUTTERN : ["ABA","CDC","ABA"], PUTTERN_KEY : { A : {item : CREATE_ITEMS.COPPER_CASING },	B : {item : GEARS.NICKEL_SILVER}, 	
-														C : {item : GREATE_GEARS.INVAR },			D : {item : CREATE_ITEMS.ANDESITE_MACHINE}	},	OUTPUT : {item :  CREATE_ITEMS.COPPER_MACHINE, 		count : 1}, KEY : 'create:crafting/kinetics/copper_machine'}
+														C : {item : GREATE_GEARS.INVAR },			D : {item : CREATE_ITEMS.ANDESITE_MACHINE}	},	OUTPUT : {item :  CREATE_ITEMS.COPPER_MACHINE, 		count : 1}, KEY : 'create:crafting/kinetics/copper_machine'},
+		{PUTTERN : ["ABA","CDC","ABA"], PUTTERN_KEY : { A : {item : CREATE_ITEMS.ANDESITE_CASING },	B : {item : GREATE_RODS.TITANIUM}, 	
+														C : {item : CREATE_ITEMS.LARGE_COGWHEEL },	D : {item : CREATE_ITEMS.ANDESITE_MACHINE}	},	OUTPUT : {item :  CREATE_ITEMS.ROLLING_MILL, 		count : 1}, KEY : 'createaddition:crafting/rolling_mill'},
+		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : WIRES.R_COPPER },				B : {item : IE_ITEM.STICK }					},	OUTPUT : {item :  ROSIA_ITEM.COPPER_COIL, 			count : 1}, KEY : 'rosia:crafting/copper_coil'},
+		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : WIRES.R_PURPLE_STEEL },			B : {item : IE_ITEM.STICK }					},	OUTPUT : {item :  ROSIA_ITEM.PURPLE_STEEL_COIL, 	count : 1}, KEY : 'rosia:crafting/purple_steel_coil'}
 														
 	]
 	event.remove({output : MC_ITEM.FURNACE})
@@ -59,6 +63,9 @@ onEvent('recipes', event => {
 	event.remove({output : CREATE_ITEMS.BASIN})
 	event.remove({output : CREATE_ITEMS.WRENCH})
 	event.remove({output : CREATE_ITEMS.WHISK})
+	event.remove({output : CREATE_ITEMS.ROLLING_MILL})
+	event.remove({output : ROSIA_ITEM.COPPER_COIL})
+	event.remove({output : ROSIA_ITEM.PURPLE_STEEL_COIL})
 	recipes.forEach(recipe=>{
 		event.recipes.minecraft.crafting_shaped({
 			pattern: recipe.PUTTERN,

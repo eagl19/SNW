@@ -1432,7 +1432,7 @@
 			]
 		}
 		{
-			x: -7.0d
+			x: -9.0d
 			y: 6.0d
 			dependencies: ["19BCD0FD0DAEEB98"]
 			id: "5973B7241FE45A04"
@@ -1443,7 +1443,7 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -7.0d
 			y: 6.0d
 			dependencies: ["19BCD0FD0DAEEB98"]
 			id: "5895E6AA077E16E0"
@@ -1615,7 +1615,7 @@
 		}
 		{
 			x: -5.0d
-			y: 6.0d
+			y: 8.0d
 			dependencies: ["11FFF9BC620521AE"]
 			id: "7B4A325965E801B9"
 			tasks: [{
@@ -1639,7 +1639,7 @@
 		}
 		{
 			x: -5.0d
-			y: 8.0d
+			y: 10.0d
 			dependencies: ["21F7961910054C84"]
 			id: "0DBE16F05B25FEA0"
 			tasks: [{
@@ -1650,7 +1650,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -1.0d
 			y: 10.0d
 			dependencies: ["21F7961910054C84"]
 			id: "7C7983AB192AC548"
@@ -1659,6 +1659,29 @@
 				type: "fluid"
 				fluid: "kubejs:flowing_liquid_blazing_coke"
 				amount: 1000L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			dependencies: ["3469B49AB5976CFF"]
+			hide: true
+			id: "7E450C48B5898858"
+			tasks: [{
+				id: "49D10A7D41400D73"
+				type: "item"
+				item: "tconstruct:scorched_alloyer"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.0d
+			dependencies: ["15ADE13B07CE728B"]
+			id: "44BD63EDF253FEC9"
+			tasks: [{
+				id: "4BCA865D6E9BC521"
+				type: "item"
+				item: "immersiveengineering:manual"
 			}]
 		}
 	]

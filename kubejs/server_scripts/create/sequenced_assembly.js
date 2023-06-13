@@ -1,7 +1,8 @@
 onEvent('recipes', event => {
 	const recipes=[
 		{
-			INPUT : CREATE_ITEMS.BRASS_MACHINE, INCOMPLETE : CREATE_ITEMS.INCOMPLECT.MECHANICAL_CRAFTER,
+			INPUT : CREATE_ITEMS.BRASS_MACHINE, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.MECHANICAL_CRAFTER,
 			SEQUENCES : [
 				{TYPE : 'cutting' },
 				{TYPE : 'deploying', INPUT : `#${TAGS.TFC_WORCKBENCHES}`},
@@ -21,9 +22,38 @@ onEvent('recipes', event => {
 			],
 			LOOP : 2,
 			KEY: 'mechanical_crafter'
+		},
+		{
+			INPUT : CREATE_ITEMS.BRASS_MACHINE, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.BRASS_TUNNEL,
+			SEQUENCES : [
+				{TYPE : 'cutting' },
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.ELECTRON_TUBE},
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.ELECTRON_TUBE}
+			],
+			RESULTS : [
+				{item : CREATE_ITEMS.BRASS_TUNNEL, count : 2 }
+			],
+			LOOP : 2,
+			KEY: 'brass_tunnel'
+		},
+		{
+			INPUT : CREATE_ITEMS.ANDESITE_MACHINE, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.ANDESITE_TUNNEL,
+			SEQUENCES : [
+				{TYPE : 'cutting' },
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.ELECTRON_TUBE}
+			],
+			RESULTS : [
+				{item : CREATE_ITEMS.ANDESITE_TUNNEL, count : 2 }
+			],
+			LOOP : 1,
+			KEY: 'andesite_tunnel'
 		}
 	]
 	event.remove({output : CREATE_ITEMS.MECHANICAL_CRAFTER})
+	event.remove({output : CREATE_ITEMS.ANDESITE_TUNNEL})
+	event.remove({output : CREATE_ITEMS.BRASS_TUNNEL})
 	recipes.forEach(recipe=>{
 		let SEQUENCE=[]
 		recipe.SEQUENCES.forEach(sequence=>{

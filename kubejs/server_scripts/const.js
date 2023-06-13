@@ -1721,6 +1721,15 @@ const DYES={
 	RED:					'minecraft:red_dye',
 	BLACK:					'minecraft:black_dye'
 }
+const WIRES={
+	R_COPPER:			'rosia:copper_wire',
+	R_PURPLE_STEEL:		'rosia:purple_steel_wire'
+}
+
+const ROSIA_ITEM={
+	COPPER_COIL:		'rosia:copper_coil',
+	PURPLE_STEEL_COIL:	'rosia:purple_steel_coil'
+}
 const MC_ITEM={
 	HOPPER:					'minecraft:hopper',
 	FURNACE:				'minecraft:furnace',
@@ -1793,8 +1802,13 @@ const CREATE_ITEMS={
 	COPPER_CASING:			'create:copper_casing',
 	COPPER_MACHINE:			'kubejs:copper_machine',
 	CRUSHING_WHEEL:			'create:crushing_wheel',
+	ROLLING_MILL:			'createaddition:rolling_mill',
+	ANDESITE_TUNNEL:		'create:andesite_tunnel',
+	BRASS_TUNNEL:			'create:brass_tunnel',
 	INCOMPLECT:{
-		MECHANICAL_CRAFTER:	'kubejs:incomplete_mechanical_crafter'
+		MECHANICAL_CRAFTER:	'kubejs:incomplete_mechanical_crafter',
+		ANDESITE_TUNNEL:	'kubejs:incomplete_andesite_tunnel',
+		BRASS_TUNNEL:		'kubejs:incomplete_brass_tunnel'
 	}
 }
 const IE_ITEM={
@@ -1823,13 +1837,6 @@ const TC_ITEM={
 }
 
 const RECIPE_TYPE={
-	MC_SHAPELESS: 			'minecraft:crafting_shapeless',
-	MC_SHAPED:				'minecraft:crafting_shaped',
-	MC_SMELTING:			'minecraft:smelting',
-	MC_BLASTING:			'minecraft:blasting',
-	MC_SMITHING:			'minecraft:smithing',
-	TFC_ANVIL:				'tfc:anvil',
-	TFC_LOOM:				'tfc:loom',
 	C_DEPLOIYNG:			'create:deploying',
 	C_COMPACTING:			'create:compacting',
 	C_MILLING:				'create:milling',
@@ -1840,7 +1847,15 @@ const RECIPE_TYPE={
 	C_ITEM_APPLICATION:		'create:item_application',
 	C_SEQUENCED_ASSEMBLY:	'create:sequenced_assembly',
 	C_MACHANICAL_CRAFTING:	'create:mechanical_crafting',
+	CA_ROLLING:				'createaddition:rolling',
 	CW_WOODCUTING:			'corail_woodcutter:woodcutting',
+	MC_SHAPELESS: 			'minecraft:crafting_shapeless',
+	MC_SHAPED:				'minecraft:crafting_shaped',
+	MC_SMELTING:			'minecraft:smelting',
+	MC_BLASTING:			'minecraft:blasting',
+	MC_SMITHING:			'minecraft:smithing',
+	TFC_ANVIL:				'tfc:anvil',
+	TFC_LOOM:				'tfc:loom',
 	TC_MELTING:				'tconstruct:melting',
 	TC_CASTING_BASIN:		'tconstruct:casting_basin',
 	IE_COKE_OVEN:			'immersiveengineering:coke_oven',

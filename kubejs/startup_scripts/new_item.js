@@ -1,8 +1,10 @@
 
 onEvent('item.registry', event => {
-	event.create('kubejs:andesite_dust').texture('tfc:item/powder/flux');
-	event.create('kubejs:kelp_string').texture('firmalife:item/pineapple_yarn');
-	event.create('kubejs:incomplete_mechanical_crafter').texture('create:block/crafter_topunderside');
+	event.create('kubejs:andesite_dust').texture('kubejs:item/andesite_dust');
+	event.create('kubejs:kelp_string').texture('kubejs:item/kelp_string');
+	event.create('kubejs:incomplete_mechanical_crafter').texture('kubejs:item/incomplete_crafter');
+	event.create('kubejs:incomplete_andesite_tunnel').texture('kubejs:item/incomplete_andesite_tunnel');
+	event.create('kubejs:incomplete_brass_tunnel').texture('kubejs:item/incomplete_brass_tunnel');
 	event.create('kubejs:crushed_bismuthinite_ore').texture('kubejs:item/crushed/bismuthinite_ore');
 	event.create('kubejs:crushed_bertrandite_ore').texture('kubejs:item/crushed/bertrandite_ore');
 	event.create('kubejs:crushed_cobaltite_ore').texture('kubejs:item/crushed/cobaltite_ore');
@@ -13,7 +15,7 @@ onEvent('item.registry', event => {
 	event.create('kubejs:crushed_stibnite_ore').texture('kubejs:item/crushed/stibnite_ore');
 	event.create('kubejs:crushed_wolframite_ore').texture('kubejs:item/crushed/wolframite_ore');
 	event.create('kubejs:crushed_chromite_ore').texture('kubejs:item/crushed/chromite_ore');
-	event.create('kubejs:crushed_wrought_iron_ore').texture('create:item/crushed_iron_ore');
+	event.create('kubejs:crushed_wrought_iron_ore').texture('kubejs:item/crushed_wrought_iron_ore');
 	event.create('kubejs:bismuth_nugget').texture('kubejs:item/nugget/bismuth');
 	event.create('kubejs:beryllium_nugget').texture('kubejs:item/nugget/beryllium');
 	event.create('kubejs:boron_nugget').texture('kubejs:item/nugget/boron');
@@ -24,7 +26,7 @@ onEvent('item.registry', event => {
 	event.create('kubejs:tungsten_nugget').texture('kubejs:item/nugget/tungsten');
 	event.create('kubejs:platinum_nugget').texture('kubejs:item/nugget/platinum');
 	event.create('kubejs:chromium_nugget').texture('kubejs:item/nugget/chromium');
-	event.create('kubejs:wrought_iron_nugget').texture('immersiveengineering:item/metal_nugget_iron');
+	event.create('kubejs:wrought_iron_nugget').texture('kubejs:item/wrought_iron_nugget');
 	event.create('kubejs:small_plate_cast').texture('kubejs:item//cast/small_plate');
 	event.create('kubejs:small_gear_cast').texture('kubejs:item/cast/small_gear');
 	event.create('kubejs:small_rod_cast').texture('kubejs:item/cast/small_rod');
