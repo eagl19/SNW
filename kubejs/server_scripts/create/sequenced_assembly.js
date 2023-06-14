@@ -24,36 +24,26 @@ onEvent('recipes', event => {
 			KEY: 'mechanical_crafter'
 		},
 		{
-			INPUT : CREATE_ITEMS.BRASS_MACHINE, 
-			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.BRASS_TUNNEL,
+			INPUT : GREATE_PLATES.ROSE_GOLD, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.PRECISION_MECHANISM,
 			SEQUENCES : [
-				{TYPE : 'cutting' },
-				{TYPE : 'deploying', INPUT : CREATE_ITEMS.ELECTRON_TUBE},
-				{TYPE : 'deploying', INPUT : CREATE_ITEMS.ELECTRON_TUBE}
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.COGWHEEL},
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.LARGE_COGWHEEL},
+				{TYPE : 'deploying', INPUT : NUGGETS.COBALT}
 			],
 			RESULTS : [
-				{item : CREATE_ITEMS.BRASS_TUNNEL, count : 2 }
+				{item : CREATE_ITEMS.PRECISION_MECHANISM, 	chance : 480},
+				{item : GREATE_PLATES.ROSE_GOLD, 			chance : 20	},
+				{item : CREATE_ITEMS.COGWHEEL, 				chance : 5	},
+				{item : CREATE_ITEMS.LARGE_COGWHEEL, 		chance : 5	},
+				{item : NUGGETS.COBALT, 					chance : 5	}
 			],
-			LOOP : 2,
-			KEY: 'brass_tunnel'
-		},
-		{
-			INPUT : CREATE_ITEMS.ANDESITE_MACHINE, 
-			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.ANDESITE_TUNNEL,
-			SEQUENCES : [
-				{TYPE : 'cutting' },
-				{TYPE : 'deploying', INPUT : CREATE_ITEMS.ELECTRON_TUBE}
-			],
-			RESULTS : [
-				{item : CREATE_ITEMS.ANDESITE_TUNNEL, count : 2 }
-			],
-			LOOP : 1,
-			KEY: 'andesite_tunnel'
+			LOOP : 5,
+			KEY: 'precision_mechanism'
 		}
 	]
 	event.remove({output : CREATE_ITEMS.MECHANICAL_CRAFTER})
-	event.remove({output : CREATE_ITEMS.ANDESITE_TUNNEL})
-	event.remove({output : CREATE_ITEMS.BRASS_TUNNEL})
+	event.remove({output : CREATE_ITEMS.PRECISION_MECHANISM})
 	recipes.forEach(recipe=>{
 		let SEQUENCE=[]
 		recipe.SEQUENCES.forEach(sequence=>{

@@ -1741,7 +1741,8 @@ const MC_ITEM={
 	SMITHING_TABLE:			'minecraft:smithing_table',
 	REDSTONE:				'minecraft:redstone',
 	CLAY:					'minecraft:clay',
-	SLIME_BALL:				'minecraft:slime_ball'
+	SLIME_BALL:				'minecraft:slime_ball',
+	STONECUTTER:			'minecraft:stonecutter'
 	
 }
 const TFC_ITEM={
@@ -1774,6 +1775,8 @@ const CREATE_ITEMS={
 	ANDESITE_MACHINE:		'kubejs:andesite_machine',
 	SHAFT:					'create:shaft',
 	FLUID_PIPER:			'create:fluid_pipe',
+	FLUID_VALVE:			'create:fluid_valve',
+	SMART_FLUID_PIPE:		'create:smart_fluid_pipe',
 	PUMP:					'create:mechanical_pump',
 	COGWHEEL:				'create:cogwheel',
 	LARGE_COGWHEEL:			'create:large_cogwheel',
@@ -1804,11 +1807,40 @@ const CREATE_ITEMS={
 	CRUSHING_WHEEL:			'create:crushing_wheel',
 	ROLLING_MILL:			'createaddition:rolling_mill',
 	ANDESITE_TUNNEL:		'create:andesite_tunnel',
+	ANDESITE_FUNNEL:		'create:andesite_funnel',
+	CHUTE:					'create:chute',
+	GEARBOX:				'create:gearbox',
+	CLUTCH:					'create:clutch',
+	GEARSHIFT:				'create:gearshift',
+	ENCASED_CHAIN_DRIVE:	'create:encased_chain_drive',
+	SMART_CHUTE:			'create:smart_chute',
 	BRASS_TUNNEL:			'create:brass_tunnel',
+	BRASS_FUNNEL:			'create:brass_funnel',
+	CONTENT_OBSERVER:		'create:content_observer',
+	STOCKPILE_SWITCH:		'create:stockpile_switch',
+	DISPLAY_LINK:			'create:display_link',
+	DISPLAY_BOARD:			'create:display_board',
+	SEQUENCED_GEARSHIFT:	'create:sequenced_gearshift',
+	SPEEDOMETER:			'create:speedometer',
+	STRESSOMETER:			'create:stressometer',
+	ROPE_PULLEY:			'create:rope_pulley',
+	ELEVATOR_PULLEY:		'create:elevator_pulley',
+	PORTABLE_STORAGE_INTERFACE:'create:portable_storage_interface',
+	CONTRAPTION_CONTROLS:	'create:contraption_controls',
+	REDSTONE_CONTACT:		'create:redstone_contact',
+	ADJUSTABLE_CHAIN_GEARSHIFT:'create:adjustable_chain_gearshift',
+	MECHANICAL_HARVESTER:	'create:mechanical_harvester',
+	MECHANICAL_PLOUGH:		'create:mechanical_plough',
+	WEIGHTED_EJECTOR:		'create:weighted_ejector',
+	STEAM_WHISTLE:			'create:steam_whistle',
+	STICKER:				'create:sticker',
+	HOSE_PULLEY:			'create:hose_pulley',
+	PORTABLE_FLUID_INTERFACE:'create:portable_fluid_interface',
+	PRECISION_MECHANISM:	'create:precision_mechanism',
+	ROTATION_SPEED_CONTROLLER:'create:rotation_speed_controller',
 	INCOMPLECT:{
 		MECHANICAL_CRAFTER:	'kubejs:incomplete_mechanical_crafter',
-		ANDESITE_TUNNEL:	'kubejs:incomplete_andesite_tunnel',
-		BRASS_TUNNEL:		'kubejs:incomplete_brass_tunnel'
+		PRECISION_MECHANISM:'create:incomplete_precision_mechanism'
 	}
 }
 const IE_ITEM={
@@ -1854,6 +1886,7 @@ const RECIPE_TYPE={
 	MC_SMELTING:			'minecraft:smelting',
 	MC_BLASTING:			'minecraft:blasting',
 	MC_SMITHING:			'minecraft:smithing',
+	MC_STONECUTTING:		'minecraft:stonecutting',
 	TFC_ANVIL:				'tfc:anvil',
 	TFC_LOOM:				'tfc:loom',
 	TC_MELTING:				'tconstruct:melting',

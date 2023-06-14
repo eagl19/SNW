@@ -2,9 +2,7 @@
 onEvent('item.registry', event => {
 	event.create('kubejs:andesite_dust').texture('kubejs:item/andesite_dust');
 	event.create('kubejs:kelp_string').texture('kubejs:item/kelp_string');
-	event.create('kubejs:incomplete_mechanical_crafter').texture('kubejs:item/incomplete_crafter');
-	event.create('kubejs:incomplete_andesite_tunnel').texture('kubejs:item/incomplete_andesite_tunnel');
-	event.create('kubejs:incomplete_brass_tunnel').texture('kubejs:item/incomplete_brass_tunnel');
+	//event.create('kubejs:incomplete_mechanical_crafter').texture('kubejs:item/incomplete_crafter');
 	event.create('kubejs:crushed_bismuthinite_ore').texture('kubejs:item/crushed/bismuthinite_ore');
 	event.create('kubejs:crushed_bertrandite_ore').texture('kubejs:item/crushed/bertrandite_ore');
 	event.create('kubejs:crushed_cobaltite_ore').texture('kubejs:item/crushed/cobaltite_ore');
@@ -43,6 +41,11 @@ onEvent('item.registry', event => {
 })
 
 onEvent('block.registry', event => {
+	event.create('kubejs:incomplete_mechanical_crafter')
+		.material('metal')
+		.hardness(5.0)
+		.tagBlock('minecraft:needs_iron_tool')
+		.lightLevel(0);
 	event.create('kubejs:andesite_machine')
 		.material('metal')
 		.hardness(5.0)

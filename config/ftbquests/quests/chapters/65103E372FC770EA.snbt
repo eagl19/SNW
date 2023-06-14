@@ -1684,6 +1684,17 @@
 				item: "immersiveengineering:manual"
 			}]
 		}
+		{
+			x: 7.0d
+			y: 4.0d
+			dependencies: ["7BF24C56D9AF1153"]
+			id: "178ABE46D6695235"
+			tasks: [{
+				id: "2399478FB509DE90"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
