@@ -1742,7 +1742,11 @@ const MC_ITEM={
 	REDSTONE:				'minecraft:redstone',
 	CLAY:					'minecraft:clay',
 	SLIME_BALL:				'minecraft:slime_ball',
-	STONECUTTER:			'minecraft:stonecutter'
+	STONECUTTER:			'minecraft:stonecutter',
+	PISTONE:				'minecraft:piston',
+	CLOCK:					'minecraft:clock',
+	ITEM_FRAME:				'minecraft:item_frame',
+	REDSTONE_TORCH:			'minecraft:redstone_torch'
 	
 }
 const TFC_ITEM={
@@ -1766,7 +1770,8 @@ const TFC_ITEM={
 	KELP_CLOTH:				'kubejs:kelp_cloth',
 	CREOSOTE_CLOTH:			'kubejs:creosote_cloth',
 	BEET:					'tfc:food/beet',
-	GLUE:					'tfc:glue'
+	GLUE:					'tfc:glue',
+	BRASS_MECHANISM:		'tfc:brass_mechanisms'
 	
 }
 const CREATE_ITEMS={
@@ -1838,6 +1843,30 @@ const CREATE_ITEMS={
 	PORTABLE_FLUID_INTERFACE:'create:portable_fluid_interface',
 	PRECISION_MECHANISM:	'create:precision_mechanism',
 	ROTATION_SPEED_CONTROLLER:'create:rotation_speed_controller',
+	MECHANICAL_PISTON:		'create:mechanical_piston',
+	PISTON_EXTENSION_POLE:	'create:piston_extension_pole',
+	GANTRY_CARRIAGE:		'create:gantry_carriage',
+	WINDMILL_BEARING:		'create:windmill_bearing',
+	MECHANICAL_BEARING:		'create:mechanical_bearing',
+	CLOCKWORK_BEARING:		'create:clockwork_bearing',
+	LINEAR_CHASSIS:			'create:linear_chassis',
+	RADIAL_CHASSIS:			'create:radial_chassis',
+	GANTRY_SHAFT:			'create:gantry_shaft',
+	CUCKOO_CLOCK:			'create:cuckoo_clock',
+	STEAM_ENGINE:			'create:steam_engine',
+	PROPELLER:				'create:propeller',
+	ENCASED_FAN:			'create:encased_fan',
+	ITEM_VAULT:				'create:item_vault',
+	MECHANICAL_DRILL:		'create:mechanical_drill',
+	BROWN_TOOLBOX:			'create:brown_toolbox',
+	MINECART_COUPLING:		'create:minecart_coupling',
+	METAL_GIRDER:			'create:metal_girder',
+	SUPER_GLUE:				'create:super_glue',
+	PECULIAR_BELL:			'create:peculiar_bell',
+	PULSE_REPEATER:			'create:pulse_repeater',
+	PULSE_EXTENDER:			'create:pulse_extender',
+	PLACARD:				'create:placard',
+	COPPER_VALVE_HANDLE:	'create:copper_valve_handle',
 	INCOMPLECT:{
 		MECHANICAL_CRAFTER:	'kubejs:incomplete_mechanical_crafter',
 		PRECISION_MECHANISM:'create:incomplete_precision_mechanism'
@@ -1851,7 +1880,8 @@ const IE_ITEM={
 	COKE_BRICK:				'immersiveengineering:cokebrick',
 	ALLOY_BRICK:			'immersiveengineering:alloybrick',
 	CIRCUIT_BOARD:			'immersiveengineering:circuit_board',
-	TEXTOLITE:				'kubejs:textolite'
+	TEXTOLITE:				'kubejs:textolite',
+	DRILLHEAD_STEEL:		'immersiveengineering:drillhead_steel'
 	
 }
 const ED_ITEMS={
@@ -1917,6 +1947,8 @@ const TAGS={
 	BROWN_DYE_PLANT:		'kubejs:brown_dye_plant',
 	GREEN_DYE_PLANT:		'kubejs:green_dye_plant',
 	RED_DYE_PLANT:			'kubejs:red_dye_plant',
-	STRIPPED_LOG:			'forge:stripped_logs'
+	STRIPPED_LOG:			'forge:stripped_logs',
+	B_WOODEN_CHESTS:		'balm:wooden_chests',
+	B_STONES:				'balm:stones'
 	
 }

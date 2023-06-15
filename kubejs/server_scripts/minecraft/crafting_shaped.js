@@ -42,8 +42,20 @@ onEvent('recipes', event => {
 		{PUTTERN : ["ABA","CDC","ABA"], PUTTERN_KEY : { A : {item : CREATE_ITEMS.ANDESITE_CASING },	B : {item : GREATE_RODS.TITANIUM}, 	
 														C : {item : CREATE_ITEMS.LARGE_COGWHEEL },	D : {item : CREATE_ITEMS.ANDESITE_MACHINE}	},	OUTPUT : {item :  CREATE_ITEMS.ROLLING_MILL, 		count : 1}, KEY : 'createaddition:crafting/rolling_mill'},
 		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : WIRES.R_COPPER },				B : {item : IE_ITEM.STICK }					},	OUTPUT : {item :  ROSIA_ITEM.COPPER_COIL, 			count : 1}, KEY : 'rosia:crafting/copper_coil'},
-		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : WIRES.R_PURPLE_STEEL },			B : {item : IE_ITEM.STICK }					},	OUTPUT : {item :  ROSIA_ITEM.PURPLE_STEEL_COIL, 	count : 1}, KEY : 'rosia:crafting/purple_steel_coil'}
-														
+		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : WIRES.R_PURPLE_STEEL },			B : {item : IE_ITEM.STICK }					},	OUTPUT : {item :  ROSIA_ITEM.PURPLE_STEEL_COIL, 	count : 1}, KEY : 'rosia:crafting/purple_steel_coil'},
+		{PUTTERN : [" A ","BCB"," D "], PUTTERN_KEY : { A : {item : CREATE_ITEMS.COGWHEEL },		B : {item : SHEETS.C_GOLDEN}, 	
+														C : {tag  : TAGS.B_WOODEN_CHESTS },			D : {item : TFC_ITEM.KELP_CLOTH}			},	OUTPUT : {item :  CREATE_ITEMS.BROWN_TOOLBOX, 		count : 1}, KEY : 'create:crafting/curiosities/brown_toolbox'},
+		{PUTTERN : ["  A"," B ","A  "], PUTTERN_KEY : { A : {item : CREATE_ITEMS.ANDESITE_ALLOY },	B : {item : SHEETS.C_IRON }					},	OUTPUT : {item :  CREATE_ITEMS.MINECART_COUPLING, 	count : 1}, KEY : 'create:crafting/curiosities/minecart_coupling'},
+		{PUTTERN : ["BBB","AAA"], 		PUTTERN_KEY : { A : {item : CREATE_ITEMS.ANDESITE_ALLOY },	B : {item : SHEETS.C_IRON }					},	OUTPUT : {item :  CREATE_ITEMS.METAL_GIRDER, 		count : 8}, KEY : 'create:crafting/kinetics/metal_girder'},
+		{PUTTERN : ["AB","CA"], 		PUTTERN_KEY : { A : {item : MC_ITEM.SLIME_BALL },			B : {item : SHEETS.C_IRON },
+														C : {item : NUGGETS.WROUGHT_IRON }														},	OUTPUT : {item :  CREATE_ITEMS.SUPER_GLUE, 			count : 1}, KEY : 'create:crafting/kinetics/super_glue'},
+		{PUTTERN : ["A","B"], 			PUTTERN_KEY : { A : {item : BLOCKS.BRASS },					B : {item : SHEETS.C_BRASS }				},	OUTPUT : {item :  CREATE_ITEMS.PECULIAR_BELL, 		count : 1}, KEY : 'create:crafting/curiosities/peculiar_bell'},
+		{PUTTERN : ["BBB"," A "], 		PUTTERN_KEY : { A : {item : CREATE_ITEMS.ANDESITE_ALLOY },	B : {item : SHEETS.C_COPPER }				},	OUTPUT : {item :  CREATE_ITEMS.COPPER_VALVE_HANDLE, count : 1}, KEY : 'create:crafting/kinetics/copper_valve_handle'},
+		{PUTTERN : ["AB"], 				PUTTERN_KEY : { A : {item : MC_ITEM.ITEM_FRAME },			B : {item : SHEETS.C_BRASS }				},	OUTPUT : {item :  CREATE_ITEMS.PLACARD, 			count : 1}, KEY : 'create:crafting/kinetics/placard'},
+		{PUTTERN : ["ABC","DDD"], 		PUTTERN_KEY : { A : {item : MC_ITEM.REDSTONE },				B : {item : SHEETS.C_BRASS },
+														C : {item : MC_ITEM.REDSTONE_TORCH },		D : {tag  : TAGS.B_STONES }					},	OUTPUT : {item :  CREATE_ITEMS.PULSE_REPEATER, 		count : 1}, KEY : 'create:crafting/logistics/pulse_repeater'},
+		{PUTTERN : ["  C","ABC","DDD"],	PUTTERN_KEY : { A : {item : MC_ITEM.REDSTONE },				B : {item : SHEETS.C_BRASS },
+														C : {item : MC_ITEM.REDSTONE_TORCH },		D : {tag  : TAGS.B_STONES }					},	OUTPUT : {item :  CREATE_ITEMS.PULSE_EXTENDER, 		count : 1}, KEY : 'create:crafting/logistics/pulse_extender'}
 	]
 	event.remove({output : MC_ITEM.FURNACE})
 	event.remove({output : MC_ITEM.BLAST_FURNACE})
