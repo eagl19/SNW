@@ -152,7 +152,22 @@ const ORES={
 		DIAMOND:			'tfc:ore/diamond',
 		CERTUS_QUARTZ:		'tfc_metallum:ore/certus_quartz',
 		BITUMINUOS_COAL:	'tfc:ore/bituminous_coal',
-		LIGNITE:			'tfc:ore/lignite'
+		LIGNITE:			'tfc:ore/lignite',
+		BORAX:				'tfc:ore/borax',
+		CINNABAR:			'tfc:ore/cinnabar',
+		SULFUR:				'tfc:ore/sulfur',
+		EMERALD: 			'tfc:ore/emerald',
+		TOPAZ:				'tfc:ore/topaz',
+		CRYOLITE: 			'tfc:ore/cryolite',
+		GYPSUM:				'tfc:ore/gypsum',
+		LAPIS:				'tfc:ore/lapis_lazuli',
+		OPAL:				'tfc:ore/opal',
+		GRAPHITE:			'tfc:ore/graphite',
+		KAOLINITE:			'tfc:ore/kaolinite',
+		SALTPETER:			'tfc:ore/saltpeter',
+		HALITE:				'tfc:ore/halite',
+		RUBIES:				'tfc:ore/ruby',
+		SYLVITE:			'tfc:ore/sylvite'
 	}
 }
 const FLUIDS={
@@ -348,7 +363,8 @@ const DUSTS={
 	CHARCOAL:			'mekanism:dust_charcoal',
 	COAL:				'mekanism:dust_coal',
 	PINE:				'kubejs:pine_dust',
-	COKE:				'immersiveengineering:dust_coke'
+	COKE:				'immersiveengineering:dust_coke',
+	C_OBSIDIAN:			'create:powdered_obsidian'
 }
 const BLOCKS={
 	ALUMINUM: 		'tfc_metalwork:metal/block/aluminum',
@@ -1728,7 +1744,8 @@ const WIRES={
 
 const ROSIA_ITEM={
 	COPPER_COIL:		'rosia:copper_coil',
-	PURPLE_STEEL_COIL:	'rosia:purple_steel_coil'
+	PURPLE_STEEL_COIL:	'rosia:purple_steel_coil',
+	PURPLE_STEEL_ROD:	'rosia:purple_steel_rod'
 }
 const MC_ITEM={
 	HOPPER:					'minecraft:hopper',
@@ -1867,9 +1884,12 @@ const CREATE_ITEMS={
 	PULSE_EXTENDER:			'create:pulse_extender',
 	PLACARD:				'create:placard',
 	COPPER_VALVE_HANDLE:	'create:copper_valve_handle',
+	RAILWAY_CASING:			'create:railway_casing',
+	STURDY_SHEET:			'create:sturdy_sheet',
 	INCOMPLECT:{
-		MECHANICAL_CRAFTER:	'kubejs:incomplete_mechanical_crafter',
-		PRECISION_MECHANISM:'create:incomplete_precision_mechanism'
+		MECHANICAL_CRAFTER:			'kubejs:incomplete_mechanical_crafter',
+		PRECISION_MECHANISM:		'create:incomplete_precision_mechanism',
+		UNPROCESSED_OBSIDIAN_SHEET:	'create:unprocessed_obsidian_sheet'
 	}
 }
 const IE_ITEM={
@@ -1909,6 +1929,7 @@ const RECIPE_TYPE={
 	C_ITEM_APPLICATION:		'create:item_application',
 	C_SEQUENCED_ASSEMBLY:	'create:sequenced_assembly',
 	C_MACHANICAL_CRAFTING:	'create:mechanical_crafting',
+	C_SPLASHING:			'create:splashing',
 	CA_ROLLING:				'createaddition:rolling',
 	CW_WOODCUTING:			'corail_woodcutter:woodcutting',
 	MC_SHAPELESS: 			'minecraft:crafting_shapeless',
@@ -1950,5 +1971,5 @@ const TAGS={
 	STRIPPED_LOG:			'forge:stripped_logs',
 	B_WOODEN_CHESTS:		'balm:wooden_chests',
 	B_STONES:				'balm:stones'
-	
+		
 }

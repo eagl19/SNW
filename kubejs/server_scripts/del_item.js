@@ -32,6 +32,7 @@ onEvent('recipes', event => {
 	event.remove({id : 'create:crafting/appliances/slime_ball'})
 	event.remove({output : CREATE_ITEMS.BRASS_CASING, 											type:RECIPE_TYPE.C_ITEM_APPLICATION})
 	event.remove({output : CREATE_ITEMS.COPPER_CASING, 											type:RECIPE_TYPE.C_ITEM_APPLICATION})
+	event.remove({output : CREATE_ITEMS.RAILWAY_CASING, 										type:RECIPE_TYPE.C_ITEM_APPLICATION})
 })
 
 onEvent('item.tags', event => {

@@ -40,10 +40,28 @@ onEvent('recipes', event => {
 			],
 			LOOP : 5,
 			KEY: 'precision_mechanism'
+		},
+		{
+			INPUT : DUSTS.C_OBSIDIAN, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.UNPROCESSED_OBSIDIAN_SHEET,
+			SEQUENCES : [
+				{TYPE : 'rolling'},
+				{TYPE : 'filling', 		INPUT : FLUIDS.LIQUID_BLAZING_COKE, AMOUNT: 500},
+				{TYPE : 'filling', 		INPUT : FLUIDS.MC_LAVA, 			AMOUNT: 500},
+				{TYPE : 'pressing'},
+				{TYPE : 'pressing'},
+				{TYPE : 'filling', 		INPUT : FLUIDS.MC_WATER, 			AMOUNT: 1000}
+			],
+			RESULTS : [
+				{item : CREATE_ITEMS.STURDY_SHEET, 	chance : 100}
+			],
+			LOOP : 1,
+			KEY: 'sturdy_sheet'
 		}
 	]
 	event.remove({output : CREATE_ITEMS.MECHANICAL_CRAFTER})
 	event.remove({output : CREATE_ITEMS.PRECISION_MECHANISM})
+	event.remove({output : CREATE_ITEMS.STURDY_SHEET})
 	recipes.forEach(recipe=>{
 		let SEQUENCE=[]
 		recipe.SEQUENCES.forEach(sequence=>{
@@ -56,6 +74,12 @@ onEvent('recipes', event => {
 					break;
 				case 'pressing' :
 					SEQUENCE.push(PRESSING({ INGREDIENTS : [{item : recipe.INCOMPLETE}], RESULTS : [{item : recipe.INCOMPLETE}]}));
+					break;
+				case 'rolling' :
+					SEQUENCE.push(ROLLING({ INPUT : recipe.INCOMPLETE, OUTPUT : {NAME : recipe.INCOMPLETE, COUNT: 1}}));
+					break;
+				case 'filling' :
+					SEQUENCE.push(FILLING({ INPUT : recipe.INCOMPLETE, FLUID : sequence.INPUT, AMOUNT: sequence.AMOUNT, RESULT: recipe.INCOMPLETE}));
 					break;
 			}
 		})
