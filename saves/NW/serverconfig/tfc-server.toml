@@ -53,12 +53,18 @@ farmlandMakesTheBestRaceTracks = false
 		snowMeltChance = 36
 
 	[blocks.plants]
-		#Chance for a plant to spread each random tick, does not include crops. Lower = slower growth. Set to 0 to disable random plant spreading.
+		#Chance for a plant to grow each random tick, does not include crops. Lower = slower growth. Set to 0 to disable random plant growth.
 		#Range: 0.0 ~ 1.0
 		plantGrowthChance = 0.05
 		#A movement multiplier for players moving through plants. Individual plants will use a ratio of this value, and lower = slower.
 		#Range: 0.0 ~ 1.0
 		plantsMovementModifier = 0.2
+		#Chance for a twisting/weeping/kelp plant to grow each random tick, does not include crops. Lower = slower growth. Set to 0 to disable random plant growth.
+		#Range: 0.0 ~ 1.0
+		plantLongGrowthChance = 0.03
+		#Chance for a plant to spread each random tick, does not include crops. Lower = slower growth. Set to 0 to disable random plant spreading.
+		#Range: 0.0 ~ 1.0
+		plantSpreadChance = 0.001
 
 	[blocks.leaves]
 		#A movement multiplier for players moving through leaves. Lower = slower.
@@ -243,6 +249,11 @@ farmlandMakesTheBestRaceTracks = false
 	[blocks.powderKeg]
 		#If true, powder kegs will interact with in-world automation such as hoppers on a side-specific basis.
 		powderKegEnableAutomation = true
+		#If true, powder kegs can be lit and exploded.
+		powderKegEnabled = true
+		#A modifier to the strength of powderkegs when exploding. A max powderkeg explosion is 64, and all explosions are capped to this size no matter the value of the modifier.
+		#Range: 0.0 ~ 64.0
+		powderKegStrengthModifier = 1.0
 
 	[blocks.hotWater]
 		#An amount that sitting in hot water will restore health, approximately twice per second.
@@ -352,11 +363,21 @@ farmlandMakesTheBestRaceTracks = false
 	[blocks.largeVessel]
 		#If true, large vessels will seal and unseal on redstone signal.
 		largeVesselEnableRedstoneSeal = true
+		#If true, large vessels will interact with in-world automation such as hoppers on a side-specific basis.
+		largeVesselEnableAutomation = true
 
 	[blocks.grass]
 		#The chance that when grass that freezes and thaws it will have a loose rock rise to the surface, provided some conditions are met. Set to 0 to disable.
 		#Range: 0.0 ~ 1.0
 		grassSpawningRocksChance = 0.01
+
+	[blocks.loom]
+		#If true, looms will interact with in-world automation such as hoppers on a side-specific basis.
+		loomEnableAutomation = true
+
+	[blocks.dispenser]
+		#If true, dispensers can light TFC devices.
+		dispenserEnableLighting = true
 
 [items]
 
@@ -426,8 +447,6 @@ farmlandMakesTheBestRaceTracks = false
 		#Tank capacity of a wooden bucket (in mB).
 		#Range: 0 ~ 2147483645
 		woodenBucketCapacity = 1000
-		#Should the wooden bucket place source blocks?
-		enableSourcesFromWoodenBucket = false
 
 [mechanics]
 
@@ -522,6 +541,8 @@ farmlandMakesTheBestRaceTracks = false
 		#Nutrition below this value will linearly scale to the minimum multiplier.
 		#Range: 0.001 ~ 1000.0
 		nutritionDefaultHealthModifier = 0.85
+		#If player's nutrition should be kept even after death. Hunger and thirst are not affected and will be reset.
+		keepNutritionAfterDeath = true
 
 	[mechanics.vanillaChanges]
 		#If vanilla bonemeal's instant-growth effect should be enabled.
@@ -878,4 +899,37 @@ farmlandMakesTheBestRaceTracks = false
 			#Ticks until egg is ready to hatch
 			#Range: > 0
 			quailHatchDays = 8
+
+	[mechanics.foodTraits]
+		#The modifier for the 'Salted' food trait. Values less than 1 extend food lifetime, values greater than one decrease it. A value of zero stops decay.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		traitSaltedModifier = 0.5
+		#The modifier for the 'Brined' food trait. Values less than 1 extend food lifetime, values greater than one decrease it. A value of zero stops decay.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		traitBrinedModifier = 1.0
+		#The modifier for the 'Pickled' food trait. Values less than 1 extend food lifetime, values greater than one decrease it. A value of zero stops decay.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		traitPickledModifier = 0.5
+		#The modifier for the 'Preserved' food trait. Values less than 1 extend food lifetime, values greater than one decrease it. A value of zero stops decay.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		traitPreservedModifier = 0.5
+		#The modifier for the 'Vinegar' food trait. Values less than 1 extend food lifetime, values greater than one decrease it. A value of zero stops decay.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		traitVinegarModifier = 0.1
+		#The modifier for the 'Charcoal Grilled' food trait. Values less than 1 extend food lifetime, values greater than one decrease it. A value of zero stops decay.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		traitCharcoalGrilledModifier = 1.25
+		#The modifier for the 'Wood Grilled' food trait. Values less than 1 extend food lifetime, values greater than one decrease it. A value of zero stops decay.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		traitWoodGrilledModifier = 0.8
+		#The modifier for the 'Burnt To A Crisp' food trait. Values less than 1 extend food lifetime, values greater than one decrease it. A value of zero stops decay.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		traitBurntToACrispModifier = 2.5
+		#The modifier for the 'Wild' food trait. Values less than 1 extend food lifetime, values greater than one decrease it. A value of zero stops decay.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		traitWildModifier = 0.5
+
+	[mechanics.fluids]
+		#If true, TFC buckets that naturally place sources (colored steel) will place sources. If false, this behavior is disabled.
+		enableBucketsPlacingSources = true
 

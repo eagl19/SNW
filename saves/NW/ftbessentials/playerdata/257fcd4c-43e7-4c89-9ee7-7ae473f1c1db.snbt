@@ -1,0 +1,17 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "Eagl"
+	last_seen: { dim: "minecraft:overworld", x: 3003, y: 75, z: -6812, time: 1686916788492L, xRot: 24.600021f, yRot: 172.50923f }
+	recording: 0
+	teleport_history: [
+		{ dim: "minecraft:overworld", x: 3008, y: 74, z: -6812, time: 1686648437931L, xRot: 9.001346f, yRot: 13.658081f }
+		{ dim: "minecraft:overworld", x: 2029, y: 76, z: -6059, time: 1686649159399L, xRot: 17.999966f, yRot: 92.12134f }
+		{ dim: "minecraft:overworld", x: 2768, y: 69, z: -5696, time: 1686822800013L, xRot: 13.050169f, yRot: 60.907017f }
+	]
+	homes: {
+		home: { dim: "minecraft:overworld", x: 3010, y: 74, z: -6815, time: 1686648432430L, xRot: 11.701344f, yRot: -79.191925f }
+	}
+}
