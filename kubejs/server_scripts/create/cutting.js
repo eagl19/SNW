@@ -1,6 +1,6 @@
 onEvent('recipes', event => {
 	const recipes=[
-		{INPUT : LUMBERS.PINE, 	RESULTS: [ {item: DUSTS.PINE, count: 8}], TIME : 50, KEY:'pine_dust'}
+		{INPUT : LUMBERS.PINE, 		RESULTS: [ {item: DUSTS.PINE, 						count: 8}], TIME : 50, KEY:'pine_dust'}
 		
 	]
 	recipes.forEach(recipe=>{

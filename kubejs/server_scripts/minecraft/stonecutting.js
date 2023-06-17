@@ -35,7 +35,16 @@ onEvent('recipes', event => {
 		
 		{INPUT : CREATE_ITEMS.ANDESITE_CASING, 	RESULT: CREATE_ITEMS.LINEAR_CHASSIS,				COUNT: 3, KEY:'create/linear_chassis'},
 		{INPUT : CREATE_ITEMS.ANDESITE_CASING, 	RESULT: CREATE_ITEMS.RADIAL_CHASSIS,				COUNT: 3, KEY:'create/radial_chassis'},
-		{INPUT : CREATE_ITEMS.SHAFT, 			RESULT: CREATE_ITEMS.GANTRY_SHAFT,					COUNT: 1, KEY:'create/gantry_shaft'}
+		{INPUT : CREATE_ITEMS.SHAFT, 			RESULT: CREATE_ITEMS.GANTRY_SHAFT,					COUNT: 1, KEY:'create/gantry_shaft'},		
+		
+		{INPUT : INGOTS.C_ZINC, 				RESULT: CREATE_ITEMS.COPYCAT_STEP, 					COUNT: 4, KEY:'create/copycat_step'},
+		{INPUT : INGOTS.C_ZINC, 				RESULT: CREATE_ITEMS.COPYCAT_PANEL, 				COUNT: 4, KEY:'create/copycat_panel'},
+		{INPUT : INGOTS.C_BRASS, 				RESULT: CREATE_ITEMS.BRASS_SCAFFOLDING, 			COUNT: 2, KEY:'create/brass_scaffolding'},
+		{INPUT : INGOTS.C_BRASS, 				RESULT: CREATE_ITEMS.BRASS_BARS, 					COUNT: 4, KEY:'create/brass_bars'},
+		{INPUT : INGOTS.C_BRASS, 				RESULT: CREATE_ITEMS.BRASS_LADDER, 					COUNT: 2, KEY:'create/brass_ladder'},
+		{INPUT : INGOTS.M_COPPER, 				RESULT: CREATE_ITEMS.COPPER_SCAFFOLDING, 			COUNT: 2, KEY:'create/copper_scaffolding'},
+		{INPUT : INGOTS.M_COPPER, 				RESULT: CREATE_ITEMS.COPPER_BARS, 					COUNT: 4, KEY:'create/copper_bars'},
+		{INPUT : INGOTS.M_COPPER, 				RESULT: CREATE_ITEMS.COPPER_LADDER, 				COUNT: 2, KEY:'create/copper_ladder'}
 	]
 		
 	recipes.forEach(recipe=>{

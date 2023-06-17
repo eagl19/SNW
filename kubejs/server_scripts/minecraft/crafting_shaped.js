@@ -55,7 +55,13 @@ onEvent('recipes', event => {
 		{PUTTERN : ["ABC","DDD"], 		PUTTERN_KEY : { A : {item : MC_ITEM.REDSTONE },				B : {item : SHEETS.C_BRASS },
 														C : {item : MC_ITEM.REDSTONE_TORCH },		D : {tag  : TAGS.B_STONES }					},	OUTPUT : {item :  CREATE_ITEMS.PULSE_REPEATER, 		count : 1}, KEY : 'create:crafting/logistics/pulse_repeater'},
 		{PUTTERN : ["  C","ABC","DDD"],	PUTTERN_KEY : { A : {item : MC_ITEM.REDSTONE },				B : {item : SHEETS.C_BRASS },
-														C : {item : MC_ITEM.REDSTONE_TORCH },		D : {tag  : TAGS.B_STONES }					},	OUTPUT : {item :  CREATE_ITEMS.PULSE_EXTENDER, 		count : 1}, KEY : 'create:crafting/logistics/pulse_extender'}
+														C : {item : MC_ITEM.REDSTONE_TORCH },		D : {tag  : TAGS.B_STONES }					},	OUTPUT : {item :  CREATE_ITEMS.PULSE_EXTENDER, 		count : 1}, KEY : 'create:crafting/logistics/pulse_extender'},
+		{PUTTERN : ["AB","C "],			PUTTERN_KEY : { A : {item : CREATE_ITEMS.POLISHED_ROZE_QUARTZ }, 
+														B : {item : MC_ITEM.REDSTONE }, 			C : {item : SHEETS.C_BRASS }				},	OUTPUT : {item :  CREATE_ITEMS.ROSE_QUARTZ_LAMP, 	count : 1}, KEY : 'create:crafting/kinetics/rose_quartz_lamp'},
+		{PUTTERN : ["ABA"], 			PUTTERN_KEY : { A : {item : NUGGETS.BRASS },				B : {item : TFC_ITEM.KELP_CLOTH }			},	OUTPUT : {item :  CREATE_ITEMS.FILTER, 				count : 1}, KEY : 'create:crafting/kinetics/filter'},
+		{PUTTERN : ["ABA"], 			PUTTERN_KEY : { A : {item : NUGGETS.GOLD },					B : {item : TFC_ITEM.KELP_CLOTH }			},	OUTPUT : {item :  CREATE_ITEMS.ATTRIBUTE_FILTER, 	count : 1}, KEY : 'create:crafting/kinetics/attribute_filter'},
+		{PUTTERN : ["A A","ABA","ACA"],	PUTTERN_KEY : { A : {item : INGOTS.M_GOLD },				B : {item : IE_ITEM.STICK },
+														C : {item : CREATE_ITEMS.ELECTRON_TUBE }												},	OUTPUT : {item :  CREATE_ITEMS.CONTROLLER_RAIL, 	count : 1}, KEY : 'create:crafting/kinetics/controller_rail'}
 	]
 	event.remove({output : MC_ITEM.FURNACE})
 	event.remove({output : MC_ITEM.BLAST_FURNACE})
@@ -78,6 +84,20 @@ onEvent('recipes', event => {
 	event.remove({output : CREATE_ITEMS.ROLLING_MILL})
 	event.remove({output : ROSIA_ITEM.COPPER_COIL})
 	event.remove({output : ROSIA_ITEM.PURPLE_STEEL_COIL})
+	event.remove({output : CREATE_ITEMS.BROWN_TOOLBOX})
+	event.remove({output : CREATE_ITEMS.MINECART_COUPLING})
+	event.remove({output : CREATE_ITEMS.METAL_GIRDER})
+	event.remove({output : CREATE_ITEMS.SUPER_GLUE})
+	event.remove({output : CREATE_ITEMS.PECULIAR_BELL})
+	event.remove({output : CREATE_ITEMS.COPPER_VALVE_HANDLE})
+	event.remove({output : CREATE_ITEMS.PLACARD})
+	event.remove({output : CREATE_ITEMS.PULSE_REPEATER})
+	event.remove({output : CREATE_ITEMS.PULSE_EXTENDER})
+	event.remove({output : CREATE_ITEMS.ROSE_QUARTZ_LAMP})
+	event.remove({output : CREATE_ITEMS.FILTER})
+	event.remove({output : CREATE_ITEMS.ATTRIBUTE_FILTER})
+	event.remove({output : CREATE_ITEMS.CONTROLLER_RAIL})
+	
 	recipes.forEach(recipe=>{
 		event.recipes.minecraft.crafting_shaped({
 			pattern: recipe.PUTTERN,

@@ -57,11 +57,27 @@ onEvent('recipes', event => {
 			],
 			LOOP : 1,
 			KEY: 'sturdy_sheet'
+		},
+		{
+			INPUT : TFC_ITEM.SMOOTH_BASALT_SLAB, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.TRACK,
+			SEQUENCES : [
+				{TYPE : 'rolling'},
+				{TYPE : 'deploying', 		INPUT : RODS.CA_IRON},
+				{TYPE : 'deploying', 		INPUT : RODS.CA_IRON},
+				{TYPE : 'pressing'}
+			],
+			RESULTS : [
+				{item : CREATE_ITEMS.TRACK, 	chance : 100}
+			],
+			LOOP : 1,
+			KEY: 'track'
 		}
 	]
 	event.remove({output : CREATE_ITEMS.MECHANICAL_CRAFTER})
 	event.remove({output : CREATE_ITEMS.PRECISION_MECHANISM})
 	event.remove({output : CREATE_ITEMS.STURDY_SHEET})
+	event.remove({output : CREATE_ITEMS.TRACK})
 	recipes.forEach(recipe=>{
 		let SEQUENCE=[]
 		recipe.SEQUENCES.forEach(sequence=>{

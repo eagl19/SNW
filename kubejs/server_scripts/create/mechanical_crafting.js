@@ -9,7 +9,13 @@ onEvent('recipes', event => {
 		{PATTERN : ["AAAAAAA","ABBBBBA","ABCDCBA","ABDEDBA",
 					"ABCDCBA","ABBBBBA","AAAAAAA"], 			PUTTERN_KEY: {A : {item : CREATE_ITEMS.RAILWAY_CASING},		B : {item : CREATE_ITEMS.BRASS_MACHINE},
 																			  C : {item : ROSIA_ITEM.PURPLE_STEEL_ROD},		D : {item : ROSIA_ITEM.PURPLE_STEEL_COIL},	
-																			  E : {item : CREATE_ITEMS.PROPELLER} 													}, 	RESULT : { NAME: CREATE_ITEMS.ENCASED_FAN, 		COUNT : 1}, KEY: 'encased_fan'}
+																			  E : {item : CREATE_ITEMS.PROPELLER} 													}, 	RESULT : { NAME: CREATE_ITEMS.ENCASED_FAN, 		COUNT : 1}, KEY: 'encased_fan'},
+		{PATTERN : ["ABCD ","B  H ","E    ","F    ","GGGGG"],	PUTTERN_KEY: {A : {item : SHEETS.C_GOLDEN},					B : {item : SHEETS.C_BRASS},
+																			  C : {item : CREATE_ITEMS.ANDESITE_MACHINE},	D : {item : CREATE_ITEMS.ANDESITE_CASING},
+																			  E : {item : CREATE_ITEMS.BRASS_MACHINE},		F : {item : CREATE_ITEMS.PRECISION_MECHANISM},
+																			  G : {item : CREATE_ITEMS.BRASS_CASING},	 	H : {item : CREATE_ITEMS.DEPLOYER}		}, 	RESULT : { NAME: CREATE_ITEMS.MECHANICAL_ARM, 	COUNT : 1}, KEY: 'mechanical_arm'},
+		{PATTERN : [" A "," B ","CCC","CCC"," D "], 			PUTTERN_KEY: {A : {item : INGOTS.C_BRASS},					B : {item : CREATE_ITEMS.PRECISION_MECHANISM},
+																			  C : {item : IE_ITEM.STICK},					D : {item : CREATE_ITEMS.BRASS_HAND}	}, 	RESULT : { NAME: CREATE_ITEMS.EXTENDO_GRIP, 	COUNT : 1}, KEY: 'extendo_grip'}
 	]
 	
 	recipes.forEach(recipe=>{

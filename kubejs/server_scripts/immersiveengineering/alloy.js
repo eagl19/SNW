@@ -4,7 +4,8 @@ onEvent('recipes', event => {
 		{INPUT: [ INGOTS.WROUGHT_IRON, 	INGOTS.WROUGHT_IRON ], 	OUTPUT: { ITEM : INGOTS.M_IRON, 	COUNT : 1 },  	TIME: 200, 	KEY:'iron'},
 		{INPUT: [ INGOTS.BRASS, 		INGOTS.BRASS ], 		OUTPUT: { ITEM : INGOTS.C_BRASS, 	COUNT : 1 },  	TIME: 200, 	KEY:'brass'},
 		{INPUT: [ INGOTS.GOLD, 			INGOTS.GOLD ], 			OUTPUT: { ITEM : INGOTS.M_GOLD, 	COUNT : 1 },  	TIME: 200, 	KEY:'gold'},
-		{INPUT: [ INGOTS.COPPER, 		INGOTS.COPPER ], 		OUTPUT: { ITEM : INGOTS.M_COPPER, 	COUNT : 1 },  	TIME: 200, 	KEY:'copper'}
+		{INPUT: [ INGOTS.COPPER, 		INGOTS.COPPER ], 		OUTPUT: { ITEM : INGOTS.M_COPPER, 	COUNT : 1 },  	TIME: 200, 	KEY:'copper'},
+		{INPUT: [ INGOTS.ZINC, 			INGOTS.ZINC ], 			OUTPUT: { ITEM : INGOTS.C_ZINC, 	COUNT : 1 },  	TIME: 200, 	KEY:'zinc'}
 		
 	]
 	recipes.forEach(recipe=>{

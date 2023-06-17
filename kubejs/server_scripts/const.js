@@ -167,7 +167,8 @@ const ORES={
 		SALTPETER:			'tfc:ore/saltpeter',
 		HALITE:				'tfc:ore/halite',
 		RUBIES:				'tfc:ore/ruby',
-		SYLVITE:			'tfc:ore/sylvite'
+		SYLVITE:			'tfc:ore/sylvite',
+		AMETHYST:			'tfc:ore/amethyst'
 	}
 }
 const FLUIDS={
@@ -257,7 +258,8 @@ const NUGGETS={
 	CHROMIUM:		'kubejs:chromium_nugget',
 	URANIUM:		'immersiveengineering:nugget_uranium',
 	PLATINUM:		'kubejs:platinum_nugget',
-	OSMIUM:			'mekanism:nugget_osmium'
+	OSMIUM:			'mekanism:nugget_osmium',
+	BRASS:			'create:brass_nugget'
 }
 const INGOTS={
 	ALUMINUM: 		'tfc_metallum:metal/ingot/aluminum',
@@ -310,7 +312,8 @@ const INGOTS={
 	M_IRON:				'minecraft:iron_ingot',
 	C_BRASS:			'create:brass_ingot',
 	M_GOLD:				'minecraft:gold_ingot',
-	M_COPPER:			'minecraft:copper_ingot'
+	M_COPPER:			'minecraft:copper_ingot',
+	C_ZINC:				'create:zinc_ingot'
 }
 const DUSTS={
 	ALUMINUM: 		'tfc_metalwork:metal/dust/aluminum',
@@ -510,7 +513,8 @@ const RODS={
 	PEWTER:				'tfc_metallum:metal/rod/pewter',
 	SOLDER:				'tfc_metallum:metal/rod/solder',
 	TUNGSTEN_STEEL:		'tfc_metallum:metal/rod/tungsten_steel',
-	STAINLESS_STEEL:	'firmalife:metal/rod/stainless_steel'
+	STAINLESS_STEEL:	'firmalife:metal/rod/stainless_steel',
+	CA_IRON:			'createaddition:iron_rod'
 }
 const PLATES={
 	ALUMINUM: 		'tfc_metalwork:metal/plate/aluminum',
@@ -850,7 +854,8 @@ const SHEETS={
 	C_GOLDEN:			'create:golden_sheet',
 	C_BRASS:			'create:brass_sheet',
 	C_IRON:				'create:iron_sheet',
-	C_COPPER:			'create:copper_sheet'
+	C_COPPER:			'create:copper_sheet',
+	C_ZINC:				'createaddition:zinc_sheet'
 }
 const CUT_BLOCKS={
 	ALUMINUM: 		'tfc_metalwork:metal/cut/aluminum',
@@ -1763,7 +1768,8 @@ const MC_ITEM={
 	PISTONE:				'minecraft:piston',
 	CLOCK:					'minecraft:clock',
 	ITEM_FRAME:				'minecraft:item_frame',
-	REDSTONE_TORCH:			'minecraft:redstone_torch'
+	REDSTONE_TORCH:			'minecraft:redstone_torch',
+	COMPASS:				'minecraft:compass'
 	
 }
 const TFC_ITEM={
@@ -1788,7 +1794,8 @@ const TFC_ITEM={
 	CREOSOTE_CLOTH:			'kubejs:creosote_cloth',
 	BEET:					'tfc:food/beet',
 	GLUE:					'tfc:glue',
-	BRASS_MECHANISM:		'tfc:brass_mechanisms'
+	BRASS_MECHANISM:		'tfc:brass_mechanisms',
+	SMOOTH_BASALT_SLAB:		'tfc:rock/smooth/basalt_slab'
 	
 }
 const CREATE_ITEMS={
@@ -1886,10 +1893,39 @@ const CREATE_ITEMS={
 	COPPER_VALVE_HANDLE:	'create:copper_valve_handle',
 	RAILWAY_CASING:			'create:railway_casing',
 	STURDY_SHEET:			'create:sturdy_sheet',
+	MECHANICAL_ARM:			'create:mechanical_arm',
+	NIXIE_TUBE:				'create:nixie_tube',
+	ROSE_QUARTZ_LAMP:		'create:rose_quartz_lamp',
+	TRAIN_TRAPDOOR:			'create:train_trapdoor',
+	TRAIN_DOOR:				'create:train_door',
+	ANDESITE_DOOR:			'create:andesite_door',
+	COPPER_DOOR:			'create:copper_door',
+	BRASS_DOOR:				'create:brass_door',
+	CONTROLS:				'create:controls',
+	TRACK_OBSERVER:			'create:track_observer',
+	TRACK_SIGNAL:			'create:track_signal',
+	TRACK_STATION:			'create:track_station',
+	TRACK:					'create:track',
+	FILTER:					'create:filter',
+	ATTRIBUTE_FILTER:		'create:attribute_filter',
+	COPYCAT_STEP:			'create:copycat_step',
+	COPYCAT_PANEL:			'create:copycat_panel',
+	BRASS_SCAFFOLDING:		'create:brass_scaffolding',
+	BRASS_BARS:				'create:brass_bars',
+	BRASS_LADDER:			'create:brass_ladder',
+	COPPER_SCAFFOLDING:		'create:copper_scaffolding',
+	COPPER_BARS:			'create:copper_bars',
+	COPPER_LADDER:			'create:copper_ladder',
+	REDSTONE_LINK:			'create:redstone_link',
+	ANALOG_LEVER:			'create:analog_lever',
+	CONTROLLER_RAIL:		'create:controller_rail',
+	MECHANICAL_ROLLER:		'create:mechanical_roller',
+	EXTENDO_GRIP:			'create:extendo_grip',
 	INCOMPLECT:{
 		MECHANICAL_CRAFTER:			'kubejs:incomplete_mechanical_crafter',
 		PRECISION_MECHANISM:		'create:incomplete_precision_mechanism',
-		UNPROCESSED_OBSIDIAN_SHEET:	'create:unprocessed_obsidian_sheet'
+		UNPROCESSED_OBSIDIAN_SHEET:	'create:unprocessed_obsidian_sheet',
+		TRACK:						'create:incomplete_track'
 	}
 }
 const IE_ITEM={
@@ -1970,6 +2006,10 @@ const TAGS={
 	RED_DYE_PLANT:			'kubejs:red_dye_plant',
 	STRIPPED_LOG:			'forge:stripped_logs',
 	B_WOODEN_CHESTS:		'balm:wooden_chests',
-	B_STONES:				'balm:stones'
+	B_STONES:				'balm:stones',
+	C_SANDPAPER:			'create:sandpaper',
+	M_WOODEN_TRAPDOORS:		'minecraft:wooden_trapdoors',
+	M_WOODEN_DOORS:			'minecraft:wooden_doors',
+	M_WOODEN_PRESSURE_PLATES:'minecraft:wooden_pressure_plates'
 		
 }
