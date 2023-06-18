@@ -1053,7 +1053,8 @@ onEvent('recipes', event => {
 		{INPUT: DOUBLE_SHEETS.TUNGSTEN_STEEL, 		OUTPUT:{FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT: 400 }, TEMPERATURE: 3690, 	TIME: 1564, KEY: 'tungsten_steel/double_sheet' },
 		{INPUT: DOUBLE_SHEETS.STAINLESS_STEEL, 		OUTPUT:{FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT: 400 }, TEMPERATURE: 1540, 	TIME: 214,  KEY: 'stainless_steel/double_sheet' },
 		
-		{INPUT: ORES.PRECIOUS.CERTUS_QUARTZ, 		OUTPUT:{FLUID:FLUIDS.TC_QUARTZ, 		COUNT: 250 }, TEMPERATURE: 637, 	TIME: 55,  	KEY: 'molten_quartz/certus_quartz' }
+		{INPUT: ORES.PRECIOUS.CERTUS_QUARTZ, 		OUTPUT:{FLUID:FLUIDS.TC_QUARTZ, 		COUNT: 250 }, TEMPERATURE: 637, 	TIME: 55,  	KEY: 'molten_quartz/certus_quartz' },
+		{INPUT: DUSTS.GLASS_POWDER, 				OUTPUT:{FLUID:FLUIDS.MOLTEN_GLASS, 		COUNT: 1000}, TEMPERATURE: 2500, 	TIME: 55,  	KEY: 'molten_glass/glass_powder' }
 	]
 	recipes.forEach(recipe=>{
 		event.custom({ 

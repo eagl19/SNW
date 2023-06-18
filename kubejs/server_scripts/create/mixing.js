@@ -22,7 +22,9 @@ onEvent('recipes', event => {
 		{INGREDIENTS : [{ item : DYES.WHITE },	{ item : DYES.GRAY }							], FLUID_BASE : {NAME : FLUIDS.SPRING, 	AMOUNT : 100 }, RESULTS : [{ item:DYES.LIGHT_GRAY, 	count: 2 }], KEY : 'light_gray/white_gray'},
 		{INGREDIENTS : [{ item : DYES.WHITE },	{ item : DYES.WHITE },	{ item : DYES.BLACK }	], FLUID_BASE : {NAME : FLUIDS.SPRING, 	AMOUNT : 100 }, RESULTS : [{ item:DYES.LIGHT_GRAY, 	count: 3 }], KEY : 'light_gray/white_white_black'},
 		{INGREDIENTS : [{ item : DYES.GREEN },	{ item : DYES.BLUE }							], FLUID_BASE : {NAME : FLUIDS.SPRING, 	AMOUNT : 100 }, RESULTS : [{ item:DYES.CYAN, 		count: 2 }], KEY : 'cyan/green_blue'},
-		{INGREDIENTS : [{ item : DYES.RED },	{ item : DYES.BLUE }							], FLUID_BASE : {NAME : FLUIDS.SPRING, 	AMOUNT : 100 }, RESULTS : [{ item:DYES.PURPLE, 		count: 2 }], KEY : 'purple/red_blue'}
+		{INGREDIENTS : [{ item : DYES.RED },	{ item : DYES.BLUE }							], FLUID_BASE : {NAME : FLUIDS.SPRING, 	AMOUNT : 100 }, RESULTS : [{ item:DYES.PURPLE, 		count: 2 }], KEY : 'purple/red_blue'},
+		
+		{ITEM_BASE :{ NAME : FLUXS.FLUX, 		COUNT : 1 }, FLUID_BASE : {NAME: FLUIDS.MC_WATER,		AMOUNT: 500 }, RESULTS: [ {fluid: FLUIDS.LIMEWATER, 			amount: 500 }], KEY:'limewater'},
 		
 		
 	]

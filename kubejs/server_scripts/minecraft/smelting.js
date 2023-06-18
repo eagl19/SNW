@@ -19,7 +19,10 @@ onEvent('recipes', event => {
 		{INPUT : COBBLES.RHYOLITE, 		OUTPUT : RAW_ROCKS.RHYOLITE, 		TIME : 150, EXP : 0.1, KEY : 'raw/rhyolite'},
 		{INPUT : COBBLES.SCHIST, 		OUTPUT : RAW_ROCKS.SCHIST, 			TIME : 150, EXP : 0.1, KEY : 'raw/schist'},
 		{INPUT : COBBLES.SHALE, 		OUTPUT : RAW_ROCKS.SHALE, 			TIME : 150, EXP : 0.1, KEY : 'raw/shale'},
-		{INPUT : COBBLES.SLATE, 		OUTPUT : RAW_ROCKS.SLATE, 			TIME : 150, EXP : 0.1, KEY : 'raw/slate'}
+		{INPUT : COBBLES.SLATE, 		OUTPUT : RAW_ROCKS.SLATE, 			TIME : 150, EXP : 0.1, KEY : 'raw/slate'},
+		
+		{INPUT : RAW_ROCKS.CHALK, 		OUTPUT : DUSTS.CHALK, 				TIME : 150, EXP : 0.1, KEY : 'dust/chalk'},
+		{INPUT : RAW_ROCKS.LIMESTONE, 	OUTPUT : DUSTS.LIME, 				TIME : 150, EXP : 0.1, KEY : 'dust/lime'}
 		
 	]
 	recipes.forEach(recipe=>{

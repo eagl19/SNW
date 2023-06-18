@@ -59,6 +59,22 @@ onEvent('recipes', event => {
 			KEY: 'sturdy_sheet'
 		},
 		{
+			INPUT : DUSTS.SALT, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.TRACK,
+			SEQUENCES : [
+				{TYPE : 'pressing'},
+				{TYPE : 'filling', 			INPUT : FLUIDS.LIMEWATER, AMOUNT: 100},				
+				{TYPE : 'deploying', 		INPUT : `#${TAGS.GLASS_MATERIALS}`},
+				{TYPE : 'deploying', 		INPUT : SANDS.WHITE},
+				{TYPE : 'pressing'}				
+			],
+			RESULTS : [
+				{item : DUSTS.GLASS_POWDER, 	chance : 100}
+			],
+			LOOP : 10,
+			KEY: 'glass_powder'
+		},
+		{
 			INPUT : TFC_ITEM.SMOOTH_BASALT_SLAB, 
 			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.TRACK,
 			SEQUENCES : [
@@ -97,6 +113,7 @@ onEvent('recipes', event => {
 				case 'filling' :
 					SEQUENCE.push(FILLING({ INPUT : recipe.INCOMPLETE, FLUID : sequence.INPUT, AMOUNT: sequence.AMOUNT, RESULT: recipe.INCOMPLETE}));
 					break;
+				
 			}
 		})
 		event.custom({
@@ -112,3 +129,4 @@ onEvent('recipes', event => {
 	})
 	
 })
+

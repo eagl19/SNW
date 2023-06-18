@@ -61,7 +61,9 @@ onEvent('recipes', event => {
 		{PUTTERN : ["ABA"], 			PUTTERN_KEY : { A : {item : NUGGETS.BRASS },				B : {item : TFC_ITEM.KELP_CLOTH }			},	OUTPUT : {item :  CREATE_ITEMS.FILTER, 				count : 1}, KEY : 'create:crafting/kinetics/filter'},
 		{PUTTERN : ["ABA"], 			PUTTERN_KEY : { A : {item : NUGGETS.GOLD },					B : {item : TFC_ITEM.KELP_CLOTH }			},	OUTPUT : {item :  CREATE_ITEMS.ATTRIBUTE_FILTER, 	count : 1}, KEY : 'create:crafting/kinetics/attribute_filter'},
 		{PUTTERN : ["A A","ABA","ACA"],	PUTTERN_KEY : { A : {item : INGOTS.M_GOLD },				B : {item : IE_ITEM.STICK },
-														C : {item : CREATE_ITEMS.ELECTRON_TUBE }												},	OUTPUT : {item :  CREATE_ITEMS.CONTROLLER_RAIL, 	count : 1}, KEY : 'create:crafting/kinetics/controller_rail'}
+														C : {item : CREATE_ITEMS.ELECTRON_TUBE }												},	OUTPUT : {item :  CREATE_ITEMS.CONTROLLER_RAIL, 	count : 1}, KEY : 'create:crafting/kinetics/controller_rail'},
+		{PUTTERN : [" A ","BCB"],		PUTTERN_KEY : { A : {item : TFC_ITEM.KELP_STRING }, 
+														B : {item : TC_ITEM.CLEAR_GLASS }, 			C : {item : SHEETS.C_GOLDEN }				},	OUTPUT : {item :  CREATE_ITEMS.GOGGLES, 			count : 1}, KEY : 'create:crafting/kinetics/goggles'}
 	]
 	event.remove({output : MC_ITEM.FURNACE})
 	event.remove({output : MC_ITEM.BLAST_FURNACE})
@@ -97,6 +99,7 @@ onEvent('recipes', event => {
 	event.remove({output : CREATE_ITEMS.FILTER})
 	event.remove({output : CREATE_ITEMS.ATTRIBUTE_FILTER})
 	event.remove({output : CREATE_ITEMS.CONTROLLER_RAIL})
+	event.remove({output : CREATE_ITEMS.GOGGLES})
 	
 	recipes.forEach(recipe=>{
 		event.recipes.minecraft.crafting_shaped({

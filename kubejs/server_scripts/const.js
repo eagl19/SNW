@@ -234,7 +234,9 @@ const FLUIDS={
 	LIQUID_COAL: 		'kubejs:liquid_coal',
 	LIQUID_COKE:		'kubejs:liquid_coke',
 	LIQUID_BLAZING_COAL:'kubejs:liquid_blazing_coal',
-	LIQUID_BLAZING_COKE:'kubejs:liquid_blazing_coke'
+	LIQUID_BLAZING_COKE:'kubejs:liquid_blazing_coke',
+	LIMEWATER:			'tfc:limewater',
+	MOLTEN_GLASS:		'tconstruct:molten_glass'
 }
 const NUGGETS={
 	ALUMINUM: 		'immersiveengineering:nugget_aluminum',
@@ -367,7 +369,11 @@ const DUSTS={
 	COAL:				'mekanism:dust_coal',
 	PINE:				'kubejs:pine_dust',
 	COKE:				'immersiveengineering:dust_coke',
-	C_OBSIDIAN:			'create:powdered_obsidian'
+	C_OBSIDIAN:			'create:powdered_obsidian',
+	LIME:				'kubejs:lime',
+	CHALK:				'kubejs:chalk',
+	SALT:				'tfc:powder/salt',
+	GLASS_POWDER:		'kubejs:glass_powder'
 }
 const BLOCKS={
 	ALUMINUM: 		'tfc_metalwork:metal/block/aluminum',
@@ -1921,6 +1927,9 @@ const CREATE_ITEMS={
 	CONTROLLER_RAIL:		'create:controller_rail',
 	MECHANICAL_ROLLER:		'create:mechanical_roller',
 	EXTENDO_GRIP:			'create:extendo_grip',
+	FRAMED_GLASS_DOOR:		'create:framed_glass_door',
+	FRAMED_GLASS_TRAPDOOR:	'create:framed_glass_trapdoor',
+	GOGGLES:				'create:goggles',
 	INCOMPLECT:{
 		MECHANICAL_CRAFTER:			'kubejs:incomplete_mechanical_crafter',
 		PRECISION_MECHANISM:		'create:incomplete_precision_mechanism',
@@ -1951,7 +1960,8 @@ const TC_ITEM={
 	SEARED_MELTER:			'tconstruct:seared_melter',
 	FUEL_TANK:				'tconstruct:seared_fuel_tank',
 	SCORCHED_ALLOYER:		'tconstruct:scorched_alloyer',
-	BLOOD_SLIME_BALL:		'tconstruct:blood_slime_ball'
+	BLOOD_SLIME_BALL:		'tconstruct:blood_slime_ball',
+	CLEAR_GLASS:			'tconstruct:clear_glass'
 }
 
 const RECIPE_TYPE={
@@ -2010,6 +2020,7 @@ const TAGS={
 	C_SANDPAPER:			'create:sandpaper',
 	M_WOODEN_TRAPDOORS:		'minecraft:wooden_trapdoors',
 	M_WOODEN_DOORS:			'minecraft:wooden_doors',
-	M_WOODEN_PRESSURE_PLATES:'minecraft:wooden_pressure_plates'
+	M_WOODEN_PRESSURE_PLATES:'minecraft:wooden_pressure_plates',
+	GLASS_MATERIALS:		'kubejs:glass_materials'
 		
 }

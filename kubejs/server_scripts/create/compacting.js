@@ -83,7 +83,7 @@ onEvent('recipes', event => {
 		if(recipe.INGREDIENTS){
 			INGREDIENTS=recipe.INGREDIENTS
 		}else{
-			INGREDIENTS=Array(recipe.INPUT.ICOUNT).fill({ item: recipe.INPUT.NAME })
+			INGREDIENTS=Array(recipe.INPUT.ICOUNT).fill(Id_or_tag_to_item(recipe.INPUT.NAME))
 			INGREDIENTS.push({ fluid: recipe.INPUT.FLUID, nbt:{}, amount: recipe.INPUT.FCOUNT})		
 		}
 		event.custom({
