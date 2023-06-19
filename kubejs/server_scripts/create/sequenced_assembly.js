@@ -60,7 +60,7 @@ onEvent('recipes', event => {
 		},
 		{
 			INPUT : DUSTS.SALT, 
-			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.TRACK,
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.RAW_GLASS_POWDER,
 			SEQUENCES : [
 				{TYPE : 'pressing'},
 				{TYPE : 'filling', 			INPUT : FLUIDS.LIMEWATER, AMOUNT: 100},				

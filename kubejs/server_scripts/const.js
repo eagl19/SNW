@@ -1934,7 +1934,8 @@ const CREATE_ITEMS={
 		MECHANICAL_CRAFTER:			'kubejs:incomplete_mechanical_crafter',
 		PRECISION_MECHANISM:		'create:incomplete_precision_mechanism',
 		UNPROCESSED_OBSIDIAN_SHEET:	'create:unprocessed_obsidian_sheet',
-		TRACK:						'create:incomplete_track'
+		TRACK:						'create:incomplete_track',
+		RAW_GLASS_POWDER:			'kubejs:raw_glass_powder'
 	}
 }
 const IE_ITEM={

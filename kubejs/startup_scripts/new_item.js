@@ -4,6 +4,7 @@ onEvent('item.registry', event => {
 	event.create('kubejs:lime').texture('kubejs:item/lime');
 	event.create('kubejs:chalk').texture('kubejs:item/chalk');
 	event.create('kubejs:glass_powder').texture('kubejs:item/glass_powder');
+	event.create('kubejs:raw_glass_powder').texture('kubejs:item/glass_powder');
 	event.create('kubejs:kelp_string').texture('kubejs:item/kelp_string');
 	event.create('kubejs:crushed_bismuthinite_ore').texture('kubejs:item/crushed/bismuthinite_ore');
 	event.create('kubejs:crushed_bertrandite_ore').texture('kubejs:item/crushed/bertrandite_ore');
