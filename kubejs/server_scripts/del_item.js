@@ -44,6 +44,8 @@ onEvent('recipes', event => {
 	event.remove({output : CREATE_ITEMS.BRASS_CASING, 											type:RECIPE_TYPE.C_ITEM_APPLICATION})
 	event.remove({output : CREATE_ITEMS.COPPER_CASING, 											type:RECIPE_TYPE.C_ITEM_APPLICATION})
 	event.remove({output : CREATE_ITEMS.RAILWAY_CASING, 										type:RECIPE_TYPE.C_ITEM_APPLICATION})
+	event.remove({output : CREATE_ITEMS.ANDESITE_ALLOY, 										type : RECIPE_TYPE.C_MIXING})
+	event.remove({output : CREATE_ITEMS.ANDESITE_ALLOY, 										type : RECIPE_TYPE.TC_MELTING})
 })
 
 onEvent('item.tags', event => {

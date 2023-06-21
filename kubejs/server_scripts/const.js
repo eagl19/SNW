@@ -423,7 +423,9 @@ const BLOCKS={
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/block/tungsten_steel',
 	STAINLESS_STEEL:	'tfc_metalwork:metal/block/stainless_steel',
 	CHARCOAL:			'mekanism:block_charcoal',
-	COAL:				'minecraft:coal_block'
+	COAL:				'minecraft:coal_block',
+	C_ANDESITE_ALLOY:	'create:andesite_alloy_block',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/block/andesite_alloy'
 }
 const GEARS={
 	ALUMINUM: 		'tfc_metalwork:metal/small_gear/aluminum',
@@ -471,7 +473,8 @@ const GEARS={
 	PEWTER:				'tfc_metalwork:metal/small_gear/pewter',
 	SOLDER:				'tfc_metalwork:metal/small_gear/solder',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/small_gear/tungsten_steel',
-	STAINLESS_STEEL:	'tfc_metalwork:metal/small_gear/stainless_steel'
+	STAINLESS_STEEL:	'tfc_metalwork:metal/small_gear/stainless_steel',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/small_gear/andesite_alloy'
 }
 const RODS={
 	ALUMINUM: 		'tfc_metallum:metal/rod/aluminum',
@@ -520,6 +523,7 @@ const RODS={
 	SOLDER:				'tfc_metallum:metal/rod/solder',
 	TUNGSTEN_STEEL:		'tfc_metallum:metal/rod/tungsten_steel',
 	STAINLESS_STEEL:	'firmalife:metal/rod/stainless_steel',
+	ANDESITE_ALLOY:		'tfc_metallum:metal/rod/andesite_alloy',
 	CA_IRON:			'createaddition:iron_rod'
 }
 const PLATES={
@@ -568,7 +572,8 @@ const PLATES={
 	PEWTER:				'tfc_metalwork:metal/plate/pewter',
 	SOLDER:				'tfc_metalwork:metal/plate/solder',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/plate/tungsten_steel',
-	STAINLESS_STEEL:	'tfc_metalwork:metal/plate/stainless_steel'
+	STAINLESS_STEEL:	'tfc_metalwork:metal/plate/stainless_steel',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/plate/andesite_alloy'
 }
 const GREATE_PLATES={
 	ALUMINUM: 		'tfc_metalwork:metal/large_plate/aluminum',
@@ -616,7 +621,8 @@ const GREATE_PLATES={
 	PEWTER:				'tfc_metalwork:metal/large_plate/pewter',
 	SOLDER:				'tfc_metalwork:metal/large_plate/solder',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/large_plate/tungsten_steel',
-	STAINLESS_STEEL:	'tfc_metalwork:metal/large_plate/stainless_steel'
+	STAINLESS_STEEL:	'tfc_metalwork:metal/large_plate/stainless_steel',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/large_plate/andesite_alloy'
 }
 const GREATE_GEARS={
 	ALUMINUM: 		'tfc_metalwork:metal/large_gear/aluminum',
@@ -664,7 +670,8 @@ const GREATE_GEARS={
 	PEWTER:				'tfc_metalwork:metal/large_gear/pewter',
 	SOLDER:				'tfc_metalwork:metal/large_gear/solder',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/large_gear/tungsten_steel',
-	STAINLESS_STEEL:	'tfc_metalwork:metal/large_gear/stainless_steel'
+	STAINLESS_STEEL:	'tfc_metalwork:metal/large_gear/stainless_steel',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/large_gear/andesite_alloy'
 }
 const GREATE_RODS={
 	ALUMINUM: 		'tfc_metalwork:metal/large_rod/aluminum',
@@ -712,7 +719,8 @@ const GREATE_RODS={
 	PEWTER:				'tfc_metalwork:metal/large_rod/pewter',
 	SOLDER:				'tfc_metalwork:metal/large_rod/solder',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/large_rod/tungsten_steel',
-	STAINLESS_STEEL:	'tfc_metalwork:metal/large_rod/stainless_steel'
+	STAINLESS_STEEL:	'tfc_metalwork:metal/large_rod/stainless_steel',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/large_rod/andesite_alloy'
 }
 const DOUBLE_INGOTS={
 	ALUMINUM: 		'tfc_metallum:metal/double_ingot/aluminum',
@@ -760,7 +768,8 @@ const DOUBLE_INGOTS={
 	PEWTER:				'tfc_metallum:metal/double_ingot/pewter',
 	SOLDER:				'tfc_metallum:metal/double_ingot/solder',
 	TUNGSTEN_STEEL:		'tfc_metallum:metal/double_ingot/tungsten_steel',
-	STAINLESS_STEEL:	'firmalife:metal/double_ingot/stainless_steel'
+	STAINLESS_STEEL:	'firmalife:metal/double_ingot/stainless_steel',
+	ANDESITE_ALLOY:		'tfc_metallum:metal/double_ingot/andesite_alloy'
 }
 const DOUBLE_SHEETS={
 	ALUMINUM: 		'tfc_metallum:metal/double_sheet/aluminum',
@@ -808,7 +817,8 @@ const DOUBLE_SHEETS={
 	PEWTER:				'tfc_metallum:metal/double_sheet/pewter',
 	SOLDER:				'tfc_metallum:metal/double_sheet/solder',
 	TUNGSTEN_STEEL:		'tfc_metallum:metal/double_sheet/tungsten_steel',
-	STAINLESS_STEEL:	'firmalife:metal/double_sheet/stainless_steel'
+	STAINLESS_STEEL:	'firmalife:metal/double_sheet/stainless_steel',
+	ANDESITE_ALLOY:		'tfc_metallum:metal/double_sheet/andesite_alloy'
 }
 const SHEETS={
 	ALUMINUM: 		'tfc_metallum:metal/sheet/aluminum',
@@ -857,6 +867,7 @@ const SHEETS={
 	SOLDER:				'tfc_metallum:metal/sheet/solder',
 	TUNGSTEN_STEEL:		'tfc_metallum:metal/sheet/tungsten_steel',
 	STAINLESS_STEEL:	'firmalife:metal/sheet/stainless_steel',
+	ANDESITE_ALLOY:		'tfc_metallum:metal/sheet/andesite_alloy',
 	C_GOLDEN:			'create:golden_sheet',
 	C_BRASS:			'create:brass_sheet',
 	C_IRON:				'create:iron_sheet',
@@ -909,7 +920,8 @@ const CUT_BLOCKS={
 	PEWTER:				'tfc_metalwork:metal/cut/pewter',
 	SOLDER:				'tfc_metalwork:metal/cut/solder',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/cut/tungsten_steel',
-	STAINLESS_STEEL:	'tfc_metalwork:metal/cut/stainless_steel'
+	STAINLESS_STEEL:	'tfc_metalwork:metal/cut/stainless_steel',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/cut/andesite_alloy'
 }
 const SLABS={
 	ALUMINUM: 		'tfc_metalwork:metal/block/aluminum_slab',
@@ -958,6 +970,7 @@ const SLABS={
 	SOLDER:				'tfc_metalwork:metal/block/solder_slab',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/block/tungsten_steel_slab',
 	STAINLESS_STEEL:	'tfc_metalwork:metal/block/stainless_steel_slab',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/block/andesite_alloy_slab',
 	ACACIA:			'tfc:wood/planks/acacia_slab',
 	ASH:			'tfc:wood/planks/ash_slab',
 	ASPEN:			'tfc:wood/planks/aspen_slab',
@@ -1028,6 +1041,7 @@ const STAIRS={
 	SOLDER:				'tfc_metalwork:metal/block/solder_stairs',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/block/tungsten_steel_stairs',
 	STAINLESS_STEEL:	'tfc_metalwork:metal/block/stainless_steel_stairs',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/block/andesite_alloy_stairs',
 	ACACIA:			'tfc:wood/planks/acacia_stairs',
 	ASH:			'tfc:wood/planks/ash_stairs',
 	ASPEN:			'tfc:wood/planks/aspen_stairs',
@@ -1097,7 +1111,8 @@ const WALLS={
 	PEWTER:				'tfc_metalwork:metal/block/pewter_wall',
 	SOLDER:				'tfc_metalwork:metal/block/solder_wall',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/block/tungsten_steel_wall',
-	STAINLESS_STEEL:	'tfc_metalwork:metal/block/stainless_steel_wall'
+	STAINLESS_STEEL:	'tfc_metalwork:metal/block/stainless_steel_wall',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/block/andesite_alloy_wall'
 }
 const CUT_SLABS={
 	ALUMINUM: 		'tfc_metalwork:metal/cut/aluminum_slab',
@@ -1145,7 +1160,8 @@ const CUT_SLABS={
 	PEWTER:				'tfc_metalwork:metal/cut/pewter_slab',
 	SOLDER:				'tfc_metalwork:metal/cut/solder_slab',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/cut/tungsten_steel_slab',
-	STAINLESS_STEEL:	'tfc_metalwork:metal/cut/stainless_steel_slab'
+	STAINLESS_STEEL:	'tfc_metalwork:metal/cut/stainless_steel_slab',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/cut/andesite_alloy_slab'
 }
 const CUT_STAIRS={
 	ALUMINUM: 		'tfc_metalwork:metal/cut/aluminum_stairs',
@@ -1193,7 +1209,8 @@ const CUT_STAIRS={
 	PEWTER:				'tfc_metalwork:metal/cut/pewter_stairs',
 	SOLDER:				'tfc_metalwork:metal/cut/solder_stairs',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/cut/tungsten_steel_stairs',
-	STAINLESS_STEEL:	'tfc_metalwork:metal/cut/stainless_steel_stairs'
+	STAINLESS_STEEL:	'tfc_metalwork:metal/cut/stainless_steel_stairs',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/cut/andesite_alloy_stairs'
 }
 const CUT_WALLS={
 	ALUMINUM: 		'tfc_metalwork:metal/cut/aluminum_wall',
@@ -1241,7 +1258,8 @@ const CUT_WALLS={
 	PEWTER:				'tfc_metalwork:metal/cut/pewter_wall',
 	SOLDER:				'tfc_metalwork:metal/cut/solder_wall',
 	TUNGSTEN_STEEL:		'tfc_metalwork:metal/cut/tungsten_steel_wall',
-	STAINLESS_STEEL:	'tfc_metalwork:metal/cut/stainless_steel_wall'
+	STAINLESS_STEEL:	'tfc_metalwork:metal/cut/stainless_steel_wall',
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/cut/andesite_alloy_wall'
 }
 const LOGS={
 	ACACIA:			'tfc:wood/log/acacia',

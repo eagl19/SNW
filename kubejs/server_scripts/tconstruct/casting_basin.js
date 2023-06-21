@@ -46,7 +46,8 @@ onEvent('recipes', event => {
 		{INPUT : { name : FLUIDS.PEWTER, 			amount: 1000 }, OUTPUT : BLOCKS.PEWTER, 			TIME : 416,  KEY : 'pewter'},
 		{INPUT : { name : FLUIDS.SOLDER, 			amount: 1000 }, OUTPUT : BLOCKS.SOLDER, 			TIME : 112,  KEY : 'solder'},
 		{INPUT : { name : FLUIDS.TUNGSTEN_STEEL, 	amount: 1000 }, OUTPUT : BLOCKS.TUNGSTEN_STEEL, 	TIME : 3128, KEY : 'tungsten_steel'},
-		{INPUT : { name : FLUIDS.STAINLESS_STEEL, 	amount: 1000 }, OUTPUT : BLOCKS.STAINLESS_STEEL, 	TIME : 428,  KEY : 'stainless_steel'}
+		{INPUT : { name : FLUIDS.STAINLESS_STEEL, 	amount: 1000 }, OUTPUT : BLOCKS.STAINLESS_STEEL, 	TIME : 428,  KEY : 'stainless_steel'},
+		{INPUT : { name : FLUIDS.ANDESITE_ALLOY, 	amount: 1000 }, OUTPUT : BLOCKS.ANDESITE_ALLOY, 	TIME : 428,  KEY : 'andesite_alloy'}
 		
 	]
 	recipes.forEach(recipe=>{
@@ -62,7 +63,8 @@ onEvent('recipes', event => {
 	const recipes_cast=[
 		{CAST : CREATE_ITEMS.FLUID_TANK, 		CAST_CONSUMED : true, INPUT : { name : FLUIDS.TC_QUARTZ, 	amount: 1000 }, OUTPUT : TC_ITEM.FUEL_TANK, 		TIME : 237,  KEY : 'seared_fuel_tank'},
 		{CAST : TFC_ITEM.FIRE_BRICKS, 			CAST_CONSUMED : true, INPUT : { name : FLUIDS.OBSIDIAN, 	amount: 1000 }, OUTPUT : IE_ITEM.COKE_BRICK, 		TIME : 133,  KEY : 'cokebrick'},
-		{CAST : CREATE_ITEMS.ANDESITE_CASING, 	CAST_CONSUMED : true, INPUT : { name : FLUIDS.BRASS, 		amount: 1000 }, OUTPUT : CREATE_ITEMS.BRASS_CASING, TIME : 133,  KEY : 'brass_casing'}
+		{CAST : CREATE_ITEMS.ANDESITE_CASING, 	CAST_CONSUMED : true, INPUT : { name : FLUIDS.BRASS, 		amount: 1000 }, OUTPUT : CREATE_ITEMS.BRASS_CASING, TIME : 133,  KEY : 'brass_casing'},
+		{CAST : RAW_ROCKS.ANDESITE, 			CAST_CONSUMED : true, INPUT : { name : FLUIDS.ZINC, 		amount: 1000 }, OUTPUT : BLOCKS.ANDESITE_ALLOY, 	TIME : 133,  KEY : 'andesite_alloy_block'}
 	]	
 	event.remove({output : TC_ITEM.FUEL_TANK, type : RECIPE_TYPE.MC_SHAPED})
 	recipes_cast.forEach(recipe=>{

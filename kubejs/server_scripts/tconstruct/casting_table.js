@@ -189,6 +189,7 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 100 }, OUTPUT : INGOTS.SOLDER, 				CONSUMED : true, 	TYPE : CASTS.INGOT,  TIME : 28,  KEY : 'solder/ingot_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 100 }, OUTPUT : INGOTS.TUNGSTEN_STEEL, 		CONSUMED : true, 	TYPE : CASTS.INGOT,  TIME : 782, KEY : 'tungsten_steel/ingot_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 100 }, OUTPUT : INGOTS.STAINLESS_STEEL, 	CONSUMED : true, 	TYPE : CASTS.INGOT,  TIME : 107, KEY : 'stainless_steel/ingot_sand_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 100 }, OUTPUT : INGOTS.ANDESITE_ALLOY, 		CONSUMED : true, 	TYPE : CASTS.INGOT,  TIME : 80 , KEY : 'andesite_alloy/ingot_sand_cast'},
 
 		{ INPUT : { FLUID:FLUIDS.BRONZE, 			COUNT : 100 }, OUTPUT : INGOTS.BRONZE, 				CONSUMED : false, 	TYPE : CASTS.INGOT,  TIME : 66,  KEY : 'bronze/ingot_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.BISMUTH_BRONZE,	COUNT : 100 }, OUTPUT : INGOTS.BISMUTH_BRONZE,		CONSUMED : false, 	TYPE : CASTS.INGOT,  TIME : 68,  KEY : 'bismuth_bronze/ingot_gold_cast'},
@@ -214,6 +215,7 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 100 }, OUTPUT : INGOTS.SOLDER, 				CONSUMED : false, 	TYPE : CASTS.INGOT,  TIME : 28,  KEY : 'solder/ingot_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 100 }, OUTPUT : INGOTS.TUNGSTEN_STEEL, 		CONSUMED : false, 	TYPE : CASTS.INGOT,  TIME : 782, KEY : 'tungsten_steel/ingot_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 100 }, OUTPUT : INGOTS.STAINLESS_STEEL, 	CONSUMED : false, 	TYPE : CASTS.INGOT,  TIME : 107, KEY : 'stainless_steel/ingot_gold_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 100 }, OUTPUT : INGOTS.ANDESITE_ALLOY, 		CONSUMED : false, 	TYPE : CASTS.INGOT,  TIME : 80 , KEY : 'andesite_alloy/ingot_gold_cast'},
 		
 		{ INPUT : { FLUID:FLUIDS.ALUMINUM,		COUNT : 200 }, OUTPUT : GEARS.ALUMINUM,		CONSUMED : true, 	TYPE : CASTS.GEAR,  TIME : 106,  KEY : 'aluminum/small_gear_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.COPPER,		COUNT : 200 }, OUTPUT : GEARS.COPPER,		CONSUMED : true, 	TYPE : CASTS.GEAR,  TIME : 150,  KEY : 'copper/small_gear_sand_cast'},
@@ -285,6 +287,7 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 200 }, OUTPUT : GEARS.SOLDER, 				CONSUMED : true, 	TYPE : CASTS.GEAR,  TIME : 28,  KEY : 'solder/small_gear_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 200 }, OUTPUT : GEARS.TUNGSTEN_STEEL, 		CONSUMED : true, 	TYPE : CASTS.GEAR,  TIME : 782, KEY : 'tungsten_steel/small_gear_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 200 }, OUTPUT : GEARS.STAINLESS_STEEL, 		CONSUMED : true, 	TYPE : CASTS.GEAR,  TIME : 107, KEY : 'stainless_steel/small_gear_sand_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 200 }, OUTPUT : GEARS.ANDESITE_ALLOY, 		CONSUMED : true, 	TYPE : CASTS.GEAR,  TIME : 80 , KEY : 'andesite_alloy/small_gear_sand_cast'},
 
 		{ INPUT : { FLUID:FLUIDS.BRONZE, 			COUNT : 200 }, OUTPUT : GEARS.BRONZE, 				CONSUMED : false, 	TYPE : CASTS.GEAR,  TIME : 66,  KEY : 'bronze/small_gear_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.BISMUTH_BRONZE,	COUNT : 200 }, OUTPUT : GEARS.BISMUTH_BRONZE,		CONSUMED : false, 	TYPE : CASTS.GEAR,  TIME : 68,  KEY : 'bismuth_bronze/small_gear_gold_cast'},
@@ -310,6 +313,7 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 200 }, OUTPUT : GEARS.SOLDER, 				CONSUMED : false, 	TYPE : CASTS.GEAR,  TIME : 28,  KEY : 'solder/small_gear_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 200 }, OUTPUT : GEARS.TUNGSTEN_STEEL, 		CONSUMED : false, 	TYPE : CASTS.GEAR,  TIME : 782, KEY : 'tungsten_steel/small_gear_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 200 }, OUTPUT : GEARS.STAINLESS_STEEL, 		CONSUMED : false, 	TYPE : CASTS.GEAR,  TIME : 107, KEY : 'stainless_steel/small_gear_gold_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 200 }, OUTPUT : GEARS.ANDESITE_ALLOY, 		CONSUMED : false, 	TYPE : CASTS.GEAR,  TIME : 80 , KEY : 'andesite_alloy/small_gear_gold_cast'},
 		
 		{ INPUT : { FLUID:FLUIDS.ALUMINUM,		COUNT : 50 }, OUTPUT : RODS.ALUMINUM,		CONSUMED : true, 	TYPE : CASTS.ROD,  TIME : 53,  KEY : 'aluminum/small_rod_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.COPPER,		COUNT : 50 }, OUTPUT : RODS.COPPER,			CONSUMED : true, 	TYPE : CASTS.ROD,  TIME : 75,  KEY : 'copper/small_rod_sand_cast'},
@@ -381,6 +385,7 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 50  }, OUTPUT : RODS.SOLDER, 				CONSUMED : true, 	TYPE : CASTS.ROD,  TIME : 28,  KEY : 'solder/small_rod_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 50  }, OUTPUT : RODS.TUNGSTEN_STEEL, 		CONSUMED : true, 	TYPE : CASTS.ROD,  TIME : 782, KEY : 'tungsten_steel/small_rod_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 50  }, OUTPUT : RODS.STAINLESS_STEEL, 		CONSUMED : true, 	TYPE : CASTS.ROD,  TIME : 107, KEY : 'stainless_steel/small_rod_sand_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 50  }, OUTPUT : RODS.ANDESITE_ALLOY, 		CONSUMED : true, 	TYPE : CASTS.ROD,  TIME : 80 , KEY : 'andesite_alloy/small_rod_sand_cast'},
 
 		{ INPUT : { FLUID:FLUIDS.BRONZE, 			COUNT : 50  }, OUTPUT : RODS.BRONZE, 				CONSUMED : false, 	TYPE : CASTS.ROD,  TIME : 66,  KEY : 'bronze/small_rod_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.BISMUTH_BRONZE,	COUNT : 50  }, OUTPUT : RODS.BISMUTH_BRONZE,		CONSUMED : false, 	TYPE : CASTS.ROD,  TIME : 68,  KEY : 'bismuth_bronze/small_rod_gold_cast'},
@@ -405,7 +410,8 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.PEWTER, 			COUNT : 50  }, OUTPUT : RODS.PEWTER, 				CONSUMED : false, 	TYPE : CASTS.ROD,  TIME : 104, KEY : 'pewter/small_rod_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 50  }, OUTPUT : RODS.SOLDER, 				CONSUMED : false, 	TYPE : CASTS.ROD,  TIME : 28,  KEY : 'solder/small_rod_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 50  }, OUTPUT : RODS.TUNGSTEN_STEEL, 		CONSUMED : false, 	TYPE : CASTS.ROD,  TIME : 782, KEY : 'tungsten_steel/small_rod_gold_cast'},
-		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 50  }, OUTPUT : RODS.STAINLESS_STEEL, 		CONSUMED : false, 	TYPE : CASTS.ROD,  TIME : 782, KEY : 'stainless_steel/small_rod_gold_cast'},
+		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 50  }, OUTPUT : RODS.STAINLESS_STEEL, 		CONSUMED : false, 	TYPE : CASTS.ROD,  TIME : 107, KEY : 'stainless_steel/small_rod_gold_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 50  }, OUTPUT : RODS.ANDESITE_ALLOY, 		CONSUMED : false, 	TYPE : CASTS.ROD,  TIME : 80 , KEY : 'andesite_alloy/small_rod_gold_cast'},
 		
 		{ INPUT : { FLUID:FLUIDS.ALUMINUM,		COUNT : 200 }, OUTPUT : PLATES.ALUMINUM,	CONSUMED : true, 	TYPE : CASTS.PLATE,  TIME : 106,  KEY : 'aluminum/small_plate_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.COPPER,		COUNT : 200 }, OUTPUT : PLATES.COPPER,		CONSUMED : true, 	TYPE : CASTS.PLATE,  TIME : 150,  KEY : 'copper/small_plate_sand_cast'},
@@ -477,6 +483,7 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 200 }, OUTPUT : PLATES.SOLDER, 				CONSUMED : true, 	TYPE : CASTS.PLATE,  TIME : 28,  KEY : 'solder/small_plate_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 200 }, OUTPUT : PLATES.TUNGSTEN_STEEL, 		CONSUMED : true, 	TYPE : CASTS.PLATE,  TIME : 782, KEY : 'tungsten_steel/small_plate_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 200 }, OUTPUT : PLATES.STAINLESS_STEEL, 	CONSUMED : true, 	TYPE : CASTS.PLATE,  TIME : 107, KEY : 'stainless_steel/small_plate_sand_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 200 }, OUTPUT : PLATES.ANDESITE_ALLOY, 		CONSUMED : true, 	TYPE : CASTS.PLATE,  TIME : 80 , KEY : 'andesite_alloy/small_plate_sand_cast'},
 
 		{ INPUT : { FLUID:FLUIDS.BRONZE, 			COUNT : 200 }, OUTPUT : PLATES.BRONZE, 				CONSUMED : false, 	TYPE : CASTS.PLATE,  TIME : 66,  KEY : 'bronze/small_plate_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.BISMUTH_BRONZE,	COUNT : 200 }, OUTPUT : PLATES.BISMUTH_BRONZE,		CONSUMED : false, 	TYPE : CASTS.PLATE,  TIME : 68,  KEY : 'bismuth_bronze/small_plate_gold_cast'},
@@ -502,6 +509,7 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 200 }, OUTPUT : PLATES.SOLDER, 				CONSUMED : false, 	TYPE : CASTS.PLATE,  TIME : 28,  KEY : 'solder/small_plate_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 200 }, OUTPUT : PLATES.TUNGSTEN_STEEL, 		CONSUMED : false, 	TYPE : CASTS.PLATE,  TIME : 782, KEY : 'tungsten_steel/small_plate_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 200 }, OUTPUT : PLATES.STAINLESS_STEEL, 	CONSUMED : false, 	TYPE : CASTS.PLATE,  TIME : 107, KEY : 'stainless_steel/small_plate_gold_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 200 }, OUTPUT : PLATES.ANDESITE_ALLOY, 		CONSUMED : false, 	TYPE : CASTS.PLATE,  TIME : 80 , KEY : 'andesite_alloy/small_plate_gold_cast'},
 		
 		{ INPUT : { FLUID:FLUIDS.ALUMINUM,		COUNT : 400 }, OUTPUT : GREATE_PLATES.ALUMINUM,		CONSUMED : true, 	TYPE : CASTS.GREATE_PLATE,  TIME : 106,  KEY : 'aluminum/plate_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.COPPER,		COUNT : 400 }, OUTPUT : GREATE_PLATES.COPPER,		CONSUMED : true, 	TYPE : CASTS.GREATE_PLATE,  TIME : 150,  KEY : 'copper/plate_sand_cast'},
@@ -573,6 +581,7 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 400 }, OUTPUT : GREATE_PLATES.SOLDER, 				CONSUMED : true, 	TYPE : CASTS.GREATE_PLATE,  TIME : 56,  KEY : 'solder/plate_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 400 }, OUTPUT : GREATE_PLATES.TUNGSTEN_STEEL, 		CONSUMED : true, 	TYPE : CASTS.GREATE_PLATE,  TIME : 1564,KEY : 'tungsten_steel/plate_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 400 }, OUTPUT : GREATE_PLATES.STAINLESS_STEEL, 		CONSUMED : true, 	TYPE : CASTS.GREATE_PLATE,  TIME : 214, KEY : 'stainless_steel/plate_sand_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 400 }, OUTPUT : GREATE_PLATES.ANDESITE_ALLOY, 		CONSUMED : true, 	TYPE : CASTS.GREATE_PLATE,  TIME : 160, KEY : 'andesite_alloy/plate_sand_cast'},
 
 		{ INPUT : { FLUID:FLUIDS.BRONZE, 			COUNT : 400 }, OUTPUT : GREATE_PLATES.BRONZE, 				CONSUMED : false, 	TYPE : CASTS.GREATE_PLATE,  TIME : 132, KEY : 'bronze/plate_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.BISMUTH_BRONZE,	COUNT : 400 }, OUTPUT : GREATE_PLATES.BISMUTH_BRONZE,		CONSUMED : false, 	TYPE : CASTS.GREATE_PLATE,  TIME : 136, KEY : 'bismuth_bronze/plate_gold_cast'},
@@ -598,6 +607,7 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 400 }, OUTPUT : GREATE_PLATES.SOLDER, 				CONSUMED : false, 	TYPE : CASTS.GREATE_PLATE,  TIME : 56,  KEY : 'solder/plate_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 400 }, OUTPUT : GREATE_PLATES.TUNGSTEN_STEEL, 		CONSUMED : false, 	TYPE : CASTS.GREATE_PLATE,  TIME : 1564,KEY : 'tungsten_steel/plate_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 400 }, OUTPUT : GREATE_PLATES.STAINLESS_STEEL, 		CONSUMED : false, 	TYPE : CASTS.GREATE_PLATE,  TIME : 214, KEY : 'stainless_steel/plate_gold_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 400 }, OUTPUT : GREATE_PLATES.ANDESITE_ALLOY, 		CONSUMED : false, 	TYPE : CASTS.GREATE_PLATE,  TIME : 160, KEY : 'andesite_alloy/plate_gold_cast'},
 		
 		{ INPUT : { FLUID:FLUIDS.ALUMINUM,		COUNT : 400 }, OUTPUT : GREATE_GEARS.ALUMINUM,		CONSUMED : true, 	TYPE : CASTS.GREATE_GEAR,  TIME : 106,  KEY : 'aluminum/gear_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.COPPER,		COUNT : 400 }, OUTPUT : GREATE_GEARS.COPPER,		CONSUMED : true, 	TYPE : CASTS.GREATE_GEAR,  TIME : 150,  KEY : 'copper/gear_sand_cast'},
@@ -669,6 +679,7 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 400 }, OUTPUT : GREATE_GEARS.SOLDER, 				CONSUMED : true, 	TYPE : CASTS.GREATE_GEAR,  TIME : 56,  KEY : 'solder/gear_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 400 }, OUTPUT : GREATE_GEARS.TUNGSTEN_STEEL, 		CONSUMED : true, 	TYPE : CASTS.GREATE_GEAR,  TIME : 1564,KEY : 'tungsten_steel/gear_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 400 }, OUTPUT : GREATE_GEARS.STAINLESS_STEEL, 		CONSUMED : true, 	TYPE : CASTS.GREATE_GEAR,  TIME : 214, KEY : 'stainless_steel/gear_sand_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 400 }, OUTPUT : GREATE_GEARS.ANDESITE_ALLOY, 		CONSUMED : true, 	TYPE : CASTS.GREATE_GEAR,  TIME : 160, KEY : 'andesite_alloy/gear_sand_cast'},
 
 		{ INPUT : { FLUID:FLUIDS.BRONZE, 			COUNT : 400 }, OUTPUT : GREATE_GEARS.BRONZE, 				CONSUMED : false, 	TYPE : CASTS.GREATE_GEAR,  TIME : 132, KEY : 'bronze/gear_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.BISMUTH_BRONZE,	COUNT : 400 }, OUTPUT : GREATE_GEARS.BISMUTH_BRONZE,		CONSUMED : false, 	TYPE : CASTS.GREATE_GEAR,  TIME : 136, KEY : 'bismuth_bronze/gear_gold_cast'},
@@ -694,6 +705,7 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 400 }, OUTPUT : GREATE_GEARS.SOLDER, 				CONSUMED : false, 	TYPE : CASTS.GREATE_GEAR,  TIME : 56,  KEY : 'solder/gear_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 400 }, OUTPUT : GREATE_GEARS.TUNGSTEN_STEEL, 		CONSUMED : false, 	TYPE : CASTS.GREATE_GEAR,  TIME : 1564,KEY : 'tungsten_steel/gear_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 400 }, OUTPUT : GREATE_GEARS.STAINLESS_STEEL, 		CONSUMED : false, 	TYPE : CASTS.GREATE_GEAR,  TIME : 214, KEY : 'stainless_steel/gear_gold_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 400 }, OUTPUT : GREATE_GEARS.ANDESITE_ALLOY, 		CONSUMED : false, 	TYPE : CASTS.GREATE_GEAR,  TIME : 160, KEY : 'andesite_alloy/gear_gold_cast'},
 		
 		{ INPUT : { FLUID:FLUIDS.ALUMINUM,		COUNT : 200 }, OUTPUT : GREATE_RODS.ALUMINUM,		CONSUMED : true, 	TYPE : CASTS.GREATE_ROD,  TIME : 106,  KEY : 'aluminum/rod_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.COPPER,		COUNT : 200 }, OUTPUT : GREATE_RODS.COPPER,			CONSUMED : true, 	TYPE : CASTS.GREATE_ROD,  TIME : 150,  KEY : 'copper/rod_sand_cast'},
@@ -765,6 +777,7 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 100 }, OUTPUT : GREATE_RODS.SOLDER, 			CONSUMED : true, 	TYPE : CASTS.GREATE_ROD,  TIME : 28,  KEY : 'solder/rod_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 100 }, OUTPUT : GREATE_RODS.TUNGSTEN_STEEL, 	CONSUMED : true, 	TYPE : CASTS.GREATE_ROD,  TIME : 782, KEY : 'tungsten_steel/rod_sand_cast'},
 		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 100 }, OUTPUT : GREATE_RODS.STAINLESS_STEEL, 	CONSUMED : true, 	TYPE : CASTS.GREATE_ROD,  TIME : 107, KEY : 'stainless_steel/rod_sand_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 100 }, OUTPUT : GREATE_RODS.ANDESITE_ALLOY, 	CONSUMED : true, 	TYPE : CASTS.GREATE_ROD,  TIME : 80 , KEY : 'andesite_alloy/rod_sand_cast'},
 
 		{ INPUT : { FLUID:FLUIDS.BRONZE, 			COUNT : 100 }, OUTPUT : GREATE_RODS.BRONZE, 			CONSUMED : false, 	TYPE : CASTS.GREATE_ROD,  TIME : 66,  KEY : 'bronze/rod_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.BISMUTH_BRONZE,	COUNT : 100 }, OUTPUT : GREATE_RODS.BISMUTH_BRONZE,		CONSUMED : false, 	TYPE : CASTS.GREATE_ROD,  TIME : 68,  KEY : 'bismuth_bronze/rod_gold_cast'},
@@ -789,7 +802,8 @@ onEvent('recipes', event => {
 		{ INPUT : { FLUID:FLUIDS.PEWTER, 			COUNT : 100 }, OUTPUT : GREATE_RODS.PEWTER, 			CONSUMED : false, 	TYPE : CASTS.GREATE_ROD,  TIME : 104, KEY : 'pewter/rod_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.SOLDER, 			COUNT : 100 }, OUTPUT : GREATE_RODS.SOLDER, 			CONSUMED : false, 	TYPE : CASTS.GREATE_ROD,  TIME : 28,  KEY : 'solder/rod_gold_cast'},
 		{ INPUT : { FLUID:FLUIDS.TUNGSTEN_STEEL, 	COUNT : 100 }, OUTPUT : GREATE_RODS.TUNGSTEN_STEEL, 	CONSUMED : false, 	TYPE : CASTS.GREATE_ROD,  TIME : 782, KEY : 'tungsten_steel/rod_gold_cast'},
-		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 100 }, OUTPUT : GREATE_RODS.STAINLESS_STEEL, 	CONSUMED : false, 	TYPE : CASTS.GREATE_ROD,  TIME : 107, KEY : 'stainless_steel/rod_gold_cast'}
+		{ INPUT : { FLUID:FLUIDS.STAINLESS_STEEL, 	COUNT : 100 }, OUTPUT : GREATE_RODS.STAINLESS_STEEL, 	CONSUMED : false, 	TYPE : CASTS.GREATE_ROD,  TIME : 107, KEY : 'stainless_steel/rod_gold_cast'},
+		{ INPUT : { FLUID:FLUIDS.ANDESITE_ALLOY, 	COUNT : 100 }, OUTPUT : GREATE_RODS.ANDESITE_ALLOY, 	CONSUMED : false, 	TYPE : CASTS.GREATE_ROD,  TIME : 80 , KEY : 'andesite_alloy/rod_gold_cast'}
 	]
 	recipes.forEach(recipe=>{
 		event.custom({ 

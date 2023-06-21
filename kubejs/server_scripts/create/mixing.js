@@ -24,7 +24,8 @@ onEvent('recipes', event => {
 		{INGREDIENTS : [{ item : DYES.GREEN },	{ item : DYES.BLUE }							], FLUID_BASE : {NAME : FLUIDS.SPRING, 	AMOUNT : 100 }, RESULTS : [{ item:DYES.CYAN, 		count: 2 }], KEY : 'cyan/green_blue'},
 		{INGREDIENTS : [{ item : DYES.RED },	{ item : DYES.BLUE }							], FLUID_BASE : {NAME : FLUIDS.SPRING, 	AMOUNT : 100 }, RESULTS : [{ item:DYES.PURPLE, 		count: 2 }], KEY : 'purple/red_blue'},
 		
-		{ITEM_BASE :{ NAME : FLUXS.FLUX, 		COUNT : 1 }, FLUID_BASE : {NAME: FLUIDS.MC_WATER,		AMOUNT: 500 }, RESULTS: [ {fluid: FLUIDS.LIMEWATER, 			amount: 500 }], KEY:'limewater'},
+		{ITEM_BASE :{ NAME : FLUXS.FLUX, 			COUNT : 1 }, FLUID_BASE : {NAME: FLUIDS.MC_WATER,		AMOUNT: 500 }, RESULTS: [ {fluid: FLUIDS.LIMEWATER, 			amount: 500 }], KEY:'limewater'},
+		{ITEM_BASE :{ NAME : RAW_ROCKS.ANDESITE, 	COUNT : 1 }, FLUID_BASE : {NAME: FLUIDS.ZINC,			AMOUNT: 1000}, RESULTS: [ {item: BLOCKS.ANDESITE_ALLOY, 		count: 2}], 	KEY:'andesite_alloy_block'}
 		
 		
 	]
