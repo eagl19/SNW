@@ -88,12 +88,139 @@ onEvent('recipes', event => {
 			],
 			LOOP : 1,
 			KEY: 'track'
+		},
+		{
+			INPUT : SHEETS.C_COPPER, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.HYDRAULIC_ENGINE,
+			SEQUENCES : [
+				{TYPE : 'rolling'},
+				{TYPE : 'filling', 		INPUT : FLUIDS.MC_WATER, 			AMOUNT: 500},
+				{TYPE : 'pressing'},
+				{TYPE : 'pressing'}
+			],
+			RESULTS : [
+				{item : CREATE_ITEMS.HYDRAULIC_ENGINE, 	chance : 200},
+				{item : SHEETS.C_COPPER, 				chance : 20},
+				{item : INGOTS.M_COPPER, 				chance : 10}
+			],
+			LOOP : 10,
+			KEY: 'hydraulic_engine'
+		},
+		{
+			INPUT : SHEETS.C_BRASS, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.CA_STEAM_ENGINE,
+			SEQUENCES : [
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.COGWHEEL},
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.LARGE_COGWHEEL},
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.PROPELLER},
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.ANDESITE_ALLOY}
+			],
+			RESULTS : [
+				{item : CREATE_ITEMS.CA_STEAM_ENGINE, 	chance : 400},
+				{item : SHEETS.C_BRASS, 				chance : 20},
+				{item : INGOTS.C_BRASS, 				chance : 10},
+				{item : CREATE_ITEMS.PROPELLER, 		chance : 10},
+				{item : CREATE_ITEMS.ANDESITE_ALLOY, 	chance : 10}
+			],
+			LOOP : 5,
+			KEY: 'steam_engine'
+		},
+		{
+			INPUT : CREATE_ITEMS.ANDESITE_ALLOY, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.HEAT_ENGINE,
+			SEQUENCES : [
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.COGWHEEL},
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.LARGE_COGWHEEL},
+				{TYPE : 'deploying', INPUT : NUGGETS.THORIUM},
+				{TYPE : 'deploying', INPUT : NUGGETS.COBALT}
+			],
+			RESULTS : [
+				{item : CREATE_ITEMS.HEAT_ENGINE, 		chance : 400},
+				{item : CREATE_ITEMS.ANDESITE_ALLOY, 	chance : 20},
+				{item : NUGGETS.THORIUM, 				chance : 10},
+				{item : NUGGETS.COBALT, 				chance : 10}
+			],
+			LOOP : 5,
+			KEY: 'heat_engine'
+		},
+		{
+			INPUT : CREATE_ITEMS.SMALL_FILLING_TANK, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.MEDIUM_FILLING_TANK,
+			SEQUENCES : [
+				{TYPE : 'deploying', INPUT : SHEETS.C_COPPER}
+			],
+			RESULTS : [
+				{item : CREATE_ITEMS.MEDIUM_FILLING_TANK, 	chance : 400},
+				{item : SHEETS.C_COPPER, 					chance : 20}
+			],
+			LOOP : 4,
+			KEY: 'medium_filling_tank'
+		},
+		{
+			INPUT : CREATE_ITEMS.MEDIUM_FILLING_TANK, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.LARGE_FILLING_TANK,
+			SEQUENCES : [
+				{TYPE : 'deploying', INPUT : SHEETS.C_COPPER}
+			],
+			RESULTS : [
+				{item : CREATE_ITEMS.LARGE_FILLING_TANK, 	chance : 400},
+				{item : SHEETS.C_COPPER, 					chance : 20}
+			],
+			LOOP : 8,
+			KEY: 'large_filling_tank'
+		},
+		{
+			INPUT : CREATE_ITEMS.SMALL_FILLING_TANK, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.SMALL_FUELING_TANK,
+			SEQUENCES : [
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.STURDY_SHEET}
+			],
+			RESULTS : [
+				{item : CREATE_ITEMS.SMALL_FUELING_TANK, 	chance : 400},
+				{item : CREATE_ITEMS.STURDY_SHEET, 			chance : 20}
+			],
+			LOOP : 4,
+			KEY: 'small_fueling_tank'
+		},
+		{
+			INPUT : CREATE_ITEMS.SMALL_FUELING_TANK, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.MEDIUM_FUELING_TANK,
+			SEQUENCES : [
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.STURDY_SHEET}
+			],
+			RESULTS : [
+				{item : CREATE_ITEMS.MEDIUM_FUELING_TANK, 	chance : 400},
+				{item : CREATE_ITEMS.STURDY_SHEET, 			chance : 20}
+			],
+			LOOP : 8,
+			KEY: 'medium_fueling_tank'
+		},
+		{
+			INPUT : CREATE_ITEMS.MEDIUM_FUELING_TANK, 
+			INCOMPLETE : CREATE_ITEMS.INCOMPLECT.LARGE_FUELING_TANK,
+			SEQUENCES : [
+				{TYPE : 'deploying', INPUT : CREATE_ITEMS.STURDY_SHEET}
+			],
+			RESULTS : [
+				{item : CREATE_ITEMS.LARGE_FUELING_TANK, 	chance : 400},
+				{item : CREATE_ITEMS.STURDY_SHEET, 			chance : 20}
+			],
+			LOOP : 12,
+			KEY: 'large_fueling_tank'
 		}
 	]
 	event.remove({output : CREATE_ITEMS.MECHANICAL_CRAFTER})
 	event.remove({output : CREATE_ITEMS.PRECISION_MECHANISM})
 	event.remove({output : CREATE_ITEMS.STURDY_SHEET})
 	event.remove({output : CREATE_ITEMS.TRACK})
+	event.remove({output : CREATE_ITEMS.HYDRAULIC_ENGINE})
+	event.remove({output : CREATE_ITEMS.CA_STEAM_ENGINE})
+	event.remove({output : CREATE_ITEMS.HEAT_ENGINE})
+	event.remove({output : CREATE_ITEMS.MEDIUM_FILLING_TANK})
+	event.remove({output : CREATE_ITEMS.LARGE_FILLING_TANK})
+	event.remove({output : CREATE_ITEMS.SMALL_FUELING_TANK})
+	event.remove({output : CREATE_ITEMS.MEDIUM_FUELING_TANK})
+	event.remove({output : CREATE_ITEMS.LARGE_FUELING_TANK})
 	recipes.forEach(recipe=>{
 		let SEQUENCE=[]
 		recipe.SEQUENCES.forEach(sequence=>{

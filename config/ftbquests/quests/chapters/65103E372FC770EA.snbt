@@ -1758,6 +1758,23 @@
 				item: "create:mechanical_arm"
 			}]
 		}
+		{
+			x: 9.5d
+			y: -2.0d
+			dependencies: ["3EE4BA8DFB254177"]
+			id: "302476E622099D35"
+			tasks: [{
+				id: "67B41AAD3C90D05C"
+				type: "item"
+				item: {
+					id: "create_sa:brass_jetpack_chestplate"
+					Count: 1
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

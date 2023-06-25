@@ -63,7 +63,9 @@ onEvent('recipes', event => {
 		{PUTTERN : ["A A","ABA","ACA"],	PUTTERN_KEY : { A : {item : INGOTS.M_GOLD },				B : {item : IE_ITEM.STICK },
 														C : {item : CREATE_ITEMS.ELECTRON_TUBE }												},	OUTPUT : {item :  CREATE_ITEMS.CONTROLLER_RAIL, 	count : 1}, KEY : 'create:crafting/kinetics/controller_rail'},
 		{PUTTERN : [" A ","BCB"],		PUTTERN_KEY : { A : {item : TFC_ITEM.KELP_STRING }, 
-														B : {item : TC_ITEM.CLEAR_GLASS }, 			C : {item : SHEETS.C_GOLDEN }				},	OUTPUT : {item :  CREATE_ITEMS.GOGGLES, 			count : 1}, KEY : 'create:crafting/kinetics/goggles'}
+														B : {item : TC_ITEM.CLEAR_GLASS }, 			C : {item : SHEETS.C_GOLDEN }				},	OUTPUT : {item :  CREATE_ITEMS.GOGGLES, 			count : 1}, KEY : 'create:crafting/kinetics/goggles'},
+		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : INGOTS.C_BRASS },				B : {item : INGOTS.NETHERITE }				},	OUTPUT : {item :  CREATE_ITEMS.BRASS_CUBE, 			count : 1}, KEY : 'create_sa:brass_cube_recipe'},
+		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : INGOTS.M_COPPER },				B : {item : INGOTS.NETHERITE }				},	OUTPUT : {item :  CREATE_ITEMS.COPPER_MAGNET, 		count : 1}, KEY : 'create_sa:copper_magnet_recipe'}
 	]
 	event.remove({output : MC_ITEM.FURNACE})
 	event.remove({output : MC_ITEM.BLAST_FURNACE})
@@ -100,7 +102,8 @@ onEvent('recipes', event => {
 	event.remove({output : CREATE_ITEMS.ATTRIBUTE_FILTER})
 	event.remove({output : CREATE_ITEMS.CONTROLLER_RAIL})
 	event.remove({output : CREATE_ITEMS.GOGGLES})
-	
+	event.remove({output : CREATE_ITEMS.BRASS_CUBE})
+	event.remove({output : CREATE_ITEMS.COPPER_MAGNET})
 	recipes.forEach(recipe=>{
 		event.recipes.minecraft.crafting_shaped({
 			pattern: recipe.PUTTERN,

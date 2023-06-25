@@ -315,7 +315,8 @@ const INGOTS={
 	C_BRASS:			'create:brass_ingot',
 	M_GOLD:				'minecraft:gold_ingot',
 	M_COPPER:			'minecraft:copper_ingot',
-	C_ZINC:				'create:zinc_ingot'
+	C_ZINC:				'create:zinc_ingot',
+	NETHERITE:			'minecraft:netherite_ingot'
 }
 const DUSTS={
 	ALUMINUM: 		'tfc_metalwork:metal/dust/aluminum',
@@ -425,7 +426,9 @@ const BLOCKS={
 	CHARCOAL:			'mekanism:block_charcoal',
 	COAL:				'minecraft:coal_block',
 	C_ANDESITE_ALLOY:	'create:andesite_alloy_block',
-	ANDESITE_ALLOY:		'tfc_metalwork:metal/block/andesite_alloy'
+	ANDESITE_ALLOY:		'tfc_metalwork:metal/block/andesite_alloy',
+	M_COPPER:			'minecraft:copper_block',
+	C_BRASS:			'create:brass_block'
 }
 const GEARS={
 	ALUMINUM: 		'tfc_metalwork:metal/small_gear/aluminum',
@@ -524,7 +527,8 @@ const RODS={
 	TUNGSTEN_STEEL:		'tfc_metallum:metal/rod/tungsten_steel',
 	STAINLESS_STEEL:	'firmalife:metal/rod/stainless_steel',
 	ANDESITE_ALLOY:		'tfc_metallum:metal/rod/andesite_alloy',
-	CA_IRON:			'createaddition:iron_rod'
+	CA_IRON:			'createaddition:iron_rod',
+	CA_COPPER:			'createaddition:copper_rod'
 }
 const PLATES={
 	ALUMINUM: 		'tfc_metalwork:metal/plate/aluminum',
@@ -1768,13 +1772,94 @@ const DYES={
 }
 const WIRES={
 	R_COPPER:			'rosia:copper_wire',
-	R_PURPLE_STEEL:		'rosia:purple_steel_wire'
+	R_PURPLE_STEEL:		'rosia:purple_steel_wire',
+	CA_GOLD_WIRE:		'createaddition:gold_wire'
 }
-
+const TOOLS={ 
+	HOE:{
+		CREATE:{
+			COPPER:		'create_sa:copper_hoe',
+			ZINC:		'create_sa:zinc_hoe',
+			BRASS:		'create_sa:brass_hoe'
+		}
+	},
+	SHOVEL:{
+		CREATE:{
+			COPPER:		'create_sa:copper_shovel',
+			ZINC:		'create_sa:zinc_shovel',
+			BRASS:		'create_sa:brass_shovel',
+			ROZE_QUARTZ:'create_sa:rose_quartz_shovel'
+		}
+	},
+	SWORD:{
+		CREATE:{
+			COPPER:		'create_sa:copper_sword',
+			ZINC:		'create_sa:zinc_sword',
+			BRASS:		'create_sa:brass_sword',
+			ROZE_QUARTZ:'create_sa:rose_quartz_sword'
+		}
+	},
+	AXE:{
+		CREATE:{
+			COPPER: 	'create_sa:copper_axe',
+			ZINC:		'create_sa:zinc_axe',
+			BRASS:		'create_sa:brass_axe',
+			ROZE_QUARTZ:'create_sa:rose_quartz_axe'
+		}
+	},
+	PICKAXE:{
+		CREATE:{
+			COPPER: 	'create_sa:copper_pickaxe',
+			ZINC:		'create_sa:zinc_pickaxe',
+			BRASS:		'create_sa:brass_pickaxe',
+			ROZE_QUARTZ:'create_sa:rose_quartz_pickaxe'
+		}
+	},
+	HELMET:{
+		CREATE:{
+			COPPER: 	'create_sa:copper_helmet',
+			ZINC:		'create_sa:zinc_helmet',
+			BRASS:		'create_sa:brass_helmet'
+		}
+	},
+	CHESTPLATE:{
+		CREATE:{
+			COPPER:		'create_sa:copper_chestplate',
+			ZINC:		'create_sa:zinc_chestplate',
+			BRASS:		'create_sa:brass_chestplate'
+		},
+		EXOSKELETON:{
+			COPPER:		'create_sa:copper_exoskeleton_chestplate',
+			ANDESITE:	'create_sa:andesite_exoskeleton_chestplate',
+			BRASS: 		'create_sa:brass_exoskeleton_chestplate'
+		},
+		JETPACK:{
+			COPPER:		'create_sa:copper_jetpack_chestplate',
+			ANDESITE:	'create_sa:andesite_jetpack_chestplate',
+			BRASS: 		'create_sa:brass_jetpack_chestplate'
+		}
+	},
+	LEGGINS:{
+		CREATE:{
+			COPPER: 	'create_sa:copper_leggings',
+			ZINC:		'create_sa:zinc_leggings',
+			BRASS:		'create_sa:brass_leggings'
+		}
+	},
+	BOOTS:{
+		CREATE:{
+			COPPER: 	'create_sa:copper_boots',
+			ZINC:		'create_sa:zinc_boots',
+			BRASS:		'create_sa:brass_boots'
+		}
+	}
+	
+}
 const ROSIA_ITEM={
 	COPPER_COIL:		'rosia:copper_coil',
 	PURPLE_STEEL_COIL:	'rosia:purple_steel_coil',
-	PURPLE_STEEL_ROD:	'rosia:purple_steel_rod'
+	PURPLE_STEEL_ROD:	'rosia:purple_steel_rod',
+	NICKEL_IRON_BATTERY:'rosia:nickel_iron_battery'
 }
 const MC_ITEM={
 	HOPPER:					'minecraft:hopper',
@@ -1948,12 +2033,43 @@ const CREATE_ITEMS={
 	FRAMED_GLASS_DOOR:		'create:framed_glass_door',
 	FRAMED_GLASS_TRAPDOOR:	'create:framed_glass_trapdoor',
 	GOGGLES:				'create:goggles',
+	FAN_COMPONENT:			'create_sa:fan_component',
+	HYDRAULIC_ENGINE:		'create_sa:hydraulic_engine',
+	CA_STEAM_ENGINE:		'create_sa:steam_engine',
+	HEAT_ENGINE:			'create_sa:heat_engine',
+	BRASS_DRILL_HEAD:		'create_sa:brass_drill_head',
+	SMALL_FILLING_TANK:		'create_sa:small_filling_tank',
+	MEDIUM_FILLING_TANK:	'create_sa:medium_filling_tank',
+	LARGE_FILLING_TANK:		'create_sa:large_filling_tank',
+	BRASS_CUBE:				'create_sa:brass_cube',
+	PORTABLE_DRILL:			'create_sa:portable_drill',
+	GRAPPLIN_WISK:			'create_sa:grapplin_whisk',
+	COPPER_MAGNET:			'create_sa:copper_magnet',
+	BLOCK_PICKER:			'create_sa:block_picker',
+	ZINC_HANDLE:			'create_sa:zinc_handle',
+	LINKED_CONTROLLER: 		'create:linked_controller',
+	DRONE_CONTROLLER:		'create_sa:drone_controller',
+	SMALL_FUELING_TANK:		'create_sa:small_fueling_tank',
+	MEDIUM_FUELING_TANK:	'create_sa:medium_fueling_tank',
+	LARGE_FUELING_TANK:		'create_sa:large_fueling_tank',
+	SPOOL:					'createaddition:spool',
+	CAPACITOR:				'createaddition:capacitor',
+	CONNECTOR:				'createaddition:connector',
+	MODULAR_ACCUMULATOR:	'createaddition:modular_accumulator',
 	INCOMPLECT:{
 		MECHANICAL_CRAFTER:			'kubejs:incomplete_mechanical_crafter',
 		PRECISION_MECHANISM:		'create:incomplete_precision_mechanism',
 		UNPROCESSED_OBSIDIAN_SHEET:	'create:unprocessed_obsidian_sheet',
 		TRACK:						'create:incomplete_track',
-		RAW_GLASS_POWDER:			'kubejs:raw_glass_powder'
+		RAW_GLASS_POWDER:			'kubejs:raw_glass_powder',
+		HYDRAULIC_ENGINE:			'create_sa:incomplete_hydraulic_engine',
+		CA_STEAM_ENGINE: 			'create_sa:incomplete_steam_engine',
+		HEAT_ENGINE:				'create_sa:incomplete_heat_engine',
+		MEDIUM_FILLING_TANK:		'kubejs:incomplete_medium_filling_tank',
+		LARGE_FILLING_TANK:			'kubejs:incomplete_large_filling_tank',
+		SMALL_FUELING_TANK:			'kubejs:incomplete_small_fueling_tank',
+		MEDIUM_FUELING_TANK:		'kubejs:incomplete_medium_fueling_tank',
+		LARGE_FUELING_TANK:			'kubejs:incomplete_large_fueling_tank',
 	}
 }
 const IE_ITEM={

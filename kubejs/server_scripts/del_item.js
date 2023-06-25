@@ -33,6 +33,7 @@ onEvent('recipes', event => {
 	event.remove({output : `#${TAGS.M_WOODEN_DOORS}`,											type : RECIPE_TYPE.MC_SHAPED})
 	event.remove({input : TC_ITEM.SEARED_MELTER,												type : RECIPE_TYPE.TC_MELTING})
 	event.remove({output :  /.*dye.*/,	 														type : RECIPE_TYPE.MC_SHAPELESS})
+	//event.remove({output :  /.*block.*/,	 													type : RECIPE_TYPE.MC_SHAPED})
 	event.remove({id : 'immersiveengineering:crafting/treated_wood_horizontal'})
 	event.remove({id : 'immersiveengineering:crafting/stick_treated'})
 	event.remove({id : 'create:crafting/appliances/slime_ball'})

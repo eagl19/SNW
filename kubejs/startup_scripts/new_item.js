@@ -41,6 +41,11 @@ onEvent('item.registry', event => {
 	event.create('kubejs:kelp_cloth').texture('kubejs:item/kelp_cloth');
 	event.create('kubejs:pine_dust').texture('kubejs:item/pine_dust');
 	event.create('kubejs:creosote_cloth').texture('kubejs:item/creosote_cloth');
+	event.create('kubejs:incomplete_medium_filling_tank').texture('kubejs:item/incomplete_medium_filling_tank');
+	event.create('kubejs:incomplete_large_filling_tank').texture('kubejs:item/incomplete_large_filling_tank');
+	event.create('kubejs:incomplete_small_fueling_tank').texture('kubejs:item/incomplete_small_fueling_tank');
+	event.create('kubejs:incomplete_medium_fueling_tank').texture('kubejs:item/incomplete_medium_fueling_tank');
+	event.create('kubejs:incomplete_large_fueling_tank').texture('kubejs:item/incomplete_large_fueling_tank');
 })
 
 onEvent('block.registry', event => {
