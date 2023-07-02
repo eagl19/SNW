@@ -65,7 +65,8 @@ onEvent('recipes', event => {
 		{PUTTERN : [" A ","BCB"],		PUTTERN_KEY : { A : {item : TFC_ITEM.KELP_STRING }, 
 														B : {item : TC_ITEM.CLEAR_GLASS }, 			C : {item : SHEETS.C_GOLDEN }				},	OUTPUT : {item :  CREATE_ITEMS.GOGGLES, 			count : 1}, KEY : 'create:crafting/kinetics/goggles'},
 		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : INGOTS.C_BRASS },				B : {item : INGOTS.NETHERITE }				},	OUTPUT : {item :  CREATE_ITEMS.BRASS_CUBE, 			count : 1}, KEY : 'create_sa:brass_cube_recipe'},
-		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : INGOTS.M_COPPER },				B : {item : INGOTS.NETHERITE }				},	OUTPUT : {item :  CREATE_ITEMS.COPPER_MAGNET, 		count : 1}, KEY : 'create_sa:copper_magnet_recipe'}
+		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : INGOTS.M_COPPER },				B : {item : INGOTS.NETHERITE }				},	OUTPUT : {item :  CREATE_ITEMS.COPPER_MAGNET, 		count : 1}, KEY : 'create_sa:copper_magnet_recipe'},
+		{PUTTERN : ["AB","BA"], 		PUTTERN_KEY : { A : {tag  : TAGS.M_DIRT },					B : {tag  : TAGS.TFC_GRAVELS }				},	OUTPUT : {item :  MC_ITEM.COARSE_DIRT, 				count : 4}, KEY : 'minecraft:coarse_dirt'}
 	]
 	event.remove({output : MC_ITEM.FURNACE})
 	event.remove({output : MC_ITEM.BLAST_FURNACE})

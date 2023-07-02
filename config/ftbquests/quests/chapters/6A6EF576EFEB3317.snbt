@@ -1,0 +1,427 @@
+{
+	id: "6A6EF576EFEB3317"
+	group: "15A9B19DFCCA9D8A"
+	order_index: 2
+	filename: "6A6EF576EFEB3317"
+	title: "Бджільництво"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "productivebees:honey_treat"
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["506910C123E62230"]
+			id: "7AB9291F1FCC22A2"
+			tasks: [{
+				id: "3244DEB8B41FFC61"
+				type: "checkmark"
+				title: "Бджільництво"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["7AB9291F1FCC22A2"]
+			id: "401B3BDCB4314AAF"
+			tasks: [{
+				id: "70019A605D294D0A"
+				type: "item"
+				item: "productivebees:bee_cage"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "5F6B434F2AB13B09"
+			tasks: [{
+				id: "22C22135AAFA79BF"
+				type: "item"
+				item: "productivebees:oak_wood_nest"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "4F1B2CD01738A34F"
+			tasks: [{
+				id: "549710247CD811B0"
+				type: "item"
+				item: "productivebees:spruce_wood_nest"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "742927E158063CAB"
+			tasks: [{
+				id: "3888D811305F68D4"
+				type: "item"
+				item: "productivebees:dark_oak_wood_nest"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "6AB3A363D6EA87CD"
+			tasks: [{
+				id: "14E404E0B71C087A"
+				type: "item"
+				item: "productivebees:birch_wood_nest"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "7DB35ACEAA30D0FE"
+			tasks: [{
+				id: "4BCFD3577F855E17"
+				type: "item"
+				item: "productivebees:jungle_wood_nest"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "6966F8D6987CF3D2"
+			tasks: [{
+				id: "3C82698151CAD2DA"
+				type: "item"
+				item: "productivebees:acacia_wood_nest"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "461314DA6CDEEDBB"
+			tasks: [{
+				id: "08A5EE75622D8E33"
+				type: "item"
+				item: "productivebees:stone_nest"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "659F52369FE4C8B2"
+			tasks: [{
+				id: "5CAED2790BC564BF"
+				type: "item"
+				item: "productivebees:coarse_dirt_nest"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "3E78EFE684D95746"
+			tasks: [{
+				id: "56DE765E31855840"
+				type: "item"
+				item: "productivebees:sand_nest"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -5.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "2C266DC3C2D8DD6D"
+			tasks: [{
+				id: "514252591798CB4F"
+				type: "item"
+				item: "productivebees:snow_nest"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -5.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "458CE31F48CD88A2"
+			tasks: [{
+				id: "131ED15DC1AF3C40"
+				type: "item"
+				item: "productivebees:gravel_nest"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -5.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "73787AF174B6E1DC"
+			tasks: [{
+				id: "2972363269E4982C"
+				type: "item"
+				item: "productivebees:slimy_nest"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "197E2D4457611417"
+			tasks: [{
+				id: "607008ECC1F6A221"
+				type: "item"
+				item: "productivebees:sugar_cane_nest"
+			}]
+		}
+		{
+			title: "Бджола з синіми смугами"
+			x: 3.0d
+			y: -7.0d
+			dependencies: [
+				"6966F8D6987CF3D2"
+				"4BCFD3577F855E17"
+				"3888D811305F68D4"
+			]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "3EEDEAC1D20E39EB"
+			tasks: [{
+				id: "33E548D4BE0FA271"
+				type: "observation"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:blue_banded_bee"
+			}]
+		}
+		{
+			title: "Зелена бджола тесляр"
+			x: 2.0d
+			y: -7.0d
+			dependencies: [
+				"7DB35ACEAA30D0FE"
+				"14E404E0B71C087A"
+				"3888D811305F68D4"
+				"22C22135AAFA79BF"
+			]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "776C79BFD3B51080"
+			tasks: [{
+				id: "19954B2779E9F213"
+				type: "observation"
+				title: "Зелена бджола-тесляр"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:green_carpenter_bee"
+			}]
+		}
+		{
+			title: "Жовта бджола тесляр"
+			x: 1.0d
+			y: -7.0d
+			dependencies: [
+				"4BCFD3577F855E17"
+				"6AB3A363D6EA87CD"
+				"3888D811305F68D4"
+				"22C22135AAFA79BF"
+				"549710247CD811B0"
+			]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "5970203CE2D4C876"
+			tasks: [{
+				id: "1958C7416C922A73"
+				type: "observation"
+				title: "Жовта бджола-тесляр"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:yellow_black_carpenter_bee"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			dependencies: ["4F1B2CD01738A34F"]
+			dependency_requirement: "one_started"
+			id: "47F65FB5813B01AD"
+			tasks: [{
+				id: "2422B825B2E9A381"
+				type: "observation"
+				title: "Смоляна бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:resin_bee"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -7.0d
+			dependencies: ["197E2D4457611417"]
+			dependency_requirement: "one_started"
+			id: "19C5B7129564778B"
+			tasks: [{
+				id: "5A2B5F0DDE7E076B"
+				type: "observation"
+				title: "Очеретяна бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:reed_bee"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			dependencies: [
+				"461314DA6CDEEDBB"
+				"131ED15DC1AF3C40"
+			]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "6E64E81A49C2C100"
+			tasks: [{
+				id: "71E5BE359B086B68"
+				type: "observation"
+				title: "Бджола копалка"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:digger_bee"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			dependencies: [
+				"461314DA6CDEEDBB"
+				"607008ECC1F6A221"
+			]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "6189F760F382CCBF"
+			tasks: [{
+				id: "483D5642A2F9568C"
+				type: "observation"
+				title: "Бджола кам'яниця"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:mason_bee"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -7.0d
+			dependencies: [
+				"5CAED2790BC564BF"
+				"131ED15DC1AF3C40"
+				"3E78EFE684D95746"
+			]
+			hide: true
+			dependency_requirement: "one_started"
+			id: "6DB5794CEEE711CB"
+			tasks: [{
+				id: "73FD1598240445C0"
+				type: "observation"
+				title: "Шоколадня шахтарська бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:chocolate_mining_bee"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.0d
+			dependencies: ["659F52369FE4C8B2"]
+			dependency_requirement: "one_started"
+			id: "2493E747FF12C4B3"
+			tasks: [{
+				id: "281F02A2FAF11301"
+				type: "observation"
+				title: "Бджола-листорізка"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:leafcutter_bee"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -7.0d
+			dependencies: [
+				"5CAED2790BC564BF"
+				"458CE31F48CD88A2"
+			]
+			hide: true
+			id: "22D09C319D7DC259"
+			tasks: [{
+				id: "684D8E2A6F7A44BB"
+				type: "observation"
+				title: "Попеляста бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:ashy_mining_bee"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -7.0d
+			dependencies: ["2C266DC3C2D8DD6D"]
+			id: "0DC3FCC941C5D738"
+			tasks: [{
+				id: "2C9C34A5463F4E21"
+				type: "observation"
+				title: "Потова бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:sweat_bee"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -7.0d
+			dependencies: ["73787AF174B6E1DC"]
+			id: "41D1BF7A73024BC1"
+			tasks: [{
+				id: "3115B93CDC77EE01"
+				type: "observation"
+				title: "Слимакова бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:slimy"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.0d
+			dependencies: [
+				"6DB5794CEEE711CB"
+				"71E5BE359B086B68"
+			]
+			hide: true
+			id: "31D4075FF9668268"
+			tasks: [{
+				id: "540B91C4628BE4CD"
+				type: "observation"
+				title: "Кар'єрна бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:quarry_bee"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -9.0d
+			dependencies: [
+				"1958C7416C922A73"
+				"776C79BFD3B51080"
+			]
+			id: "28688BE88CFC60A4"
+			tasks: [{
+				id: "1D5E24527E15FC3B"
+				type: "observation"
+				title: "Лісова бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:lumber_bee"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

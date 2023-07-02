@@ -88,7 +88,16 @@ onEvent('recipes', event => {
 																			  C : {item : MC_ITEM.SLIME_BALL}														},	RESULT : { NAME: CREATE_ITEMS.CONNECTOR,			COUNT : 1}, KEY: 'connector'},
 		{PATTERN : ["AAAAA","ABCBA","ACDCA","ACECA","AAAAA"],	PUTTERN_KEY: {A : {item : CREATE_ITEMS.BRASS_CASING}, 		B : {item : CREATE_ITEMS.CONNECTOR},
 																			  C : {item : CREATE_ITEMS.CAPACITOR},			D : {item : ROSIA_ITEM.NICKEL_IRON_BATTERY},
-																			  E : {item : WIRES.CA_GOLD_WIRE}														},	RESULT : { NAME: CREATE_ITEMS.MODULAR_ACCUMULATOR,	COUNT : 1}, KEY: 'modular_accumulator'}
+																			  E : {item : WIRES.CA_GOLD}															},	RESULT : { NAME: CREATE_ITEMS.MODULAR_ACCUMULATOR,	COUNT : 1}, KEY: 'modular_accumulator'},
+		{PATTERN : ["AAA"," B ","CDC","EFE"],					PUTTERN_KEY: {A : {item : CREATE_ITEMS.COPPER_SPOOL}, 		B : {item : CREATE_ITEMS.ANDESITE_ALLOY},
+																			  C : {item : CREATE_ITEMS.CAPACITOR},			D : {item : CREATE_ITEMS.BRASS_MACHINE},
+																			  E : {item : SHEETS.C_BRASS},					F : {item : CREATE_ITEMS.ELECTRON_TUBE}	},	RESULT : { NAME: CREATE_ITEMS.TESLA_COIL,			COUNT : 1}, KEY: 'tesla_coil'},
+		{PATTERN : ["  A  "," BCB ","BCDCB"," BEB "],			PUTTERN_KEY: {A : {item : CREATE_ITEMS.ANDESITE_ALLOY}, 	B : {item : SHEETS.C_IRON},
+																			  C : {item : CREATE_ITEMS.COPPER_SPOOL},		D : {item : RODS.CA_IRON},
+																			  E : {item : CREATE_ITEMS.CAPACITOR}													},	RESULT : { NAME: CREATE_ITEMS.ALTERNATOR,			COUNT : 1}, KEY: 'alternator'},
+		{PATTERN : ["  A  "," BCB ","BCDCB"," BEB "],			PUTTERN_KEY: {A : {item : CREATE_ITEMS.ANDESITE_ALLOY}, 	B : {item : SHEETS.C_BRASS},
+																			  C : {item : CREATE_ITEMS.COPPER_SPOOL},		D : {item : RODS.CA_IRON},
+																			  E : {item : CREATE_ITEMS.CAPACITOR}													},	RESULT : { NAME: CREATE_ITEMS.ELECTRIC_MOTOR,		COUNT : 1}, KEY: 'electric_motor'}
 	]
 	
 	recipes.forEach(recipe=>{

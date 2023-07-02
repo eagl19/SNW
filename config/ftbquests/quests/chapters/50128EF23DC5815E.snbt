@@ -760,7 +760,7 @@
 			y: -1.5d
 			dependencies: [
 				"1D99EAA06AF621F7"
-				"1D9A051E70D7E934"
+				"0273B8680BB888E8"
 			]
 			id: "5637A0EF11B6198C"
 			tasks: [{
@@ -783,7 +783,7 @@
 			y: -1.5d
 			dependencies: [
 				"3C609FC8FAA4406C"
-				"56860F222F271B4D"
+				"2621878C9FFBA0AA"
 			]
 			id: "1D99EAA06AF621F7"
 			tasks: [{
@@ -1070,7 +1070,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 3.0d
 			y: 2.5d
 			dependencies: ["203E26A4686911F5"]
 			hide: true
@@ -1082,7 +1082,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 5.0d
 			y: 2.5d
 			dependencies: [
 				"69BDA9CBFF0B3B0C"
@@ -1217,7 +1217,7 @@
 			]
 		}
 		{
-			x: 5.0d
+			x: 7.0d
 			y: 2.5d
 			dependencies: ["2882507D112E5CCD"]
 			hide: true
@@ -1254,7 +1254,7 @@
 			]
 		}
 		{
-			x: 7.0d
+			x: 9.0d
 			y: 2.5d
 			dependencies: [
 				"05F5B0F457E47701"
@@ -1278,8 +1278,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 0.5d
+			x: 13.0d
+			y: 2.5d
 			dependencies: ["5553DCE24963712F"]
 			hide: true
 			id: "6AFAA8706C2BA90E"
@@ -1315,7 +1315,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 11.0d
 			y: 2.5d
 			dependencies: [
 				"6AFAA8706C2BA90E"
@@ -1356,7 +1356,7 @@
 		}
 		{
 			x: 11.0d
-			y: 2.5d
+			y: 0.5d
 			dependencies: ["535D6DCC48A5E377"]
 			hide: true
 			id: "2621878C9FFBA0AA"
@@ -1397,8 +1397,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 2.5d
+			x: 15.0d
+			y: 0.5d
 			dependencies: [
 				"4A0192ED732DAA46"
 				"108C7DC3E491168C"
@@ -1593,6 +1593,107 @@
 				id: "033F9B2438DA856C"
 				type: "item"
 				item: "ftbquests:screen_1"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["5E2128932DB97B95"]
+			hide: true
+			id: "712D7DD426A0937A"
+			tasks: [
+				{
+					id: "3C19A6EFB2D68FFA"
+					type: "item"
+					item: {
+						id: "firmalife:beehive_frame"
+						Count: 1
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "30C6DCF79F0FB42A"
+					type: "item"
+					item: "firmalife:beehive"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["712D7DD426A0937A"]
+			id: "2814F7CEDE405283"
+			tasks: [
+				{
+					id: "52CD682A5551A3C0"
+					type: "item"
+					item: {
+						id: "firmalife:beekeeper_helmet"
+						Count: 1
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F97BDF271E2BA76"
+					type: "item"
+					item: {
+						id: "firmalife:beekeeper_chestplate"
+						Count: 1
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C558B7ABAE2C9BC"
+					type: "item"
+					item: {
+						id: "firmalife:beekeeper_leggings"
+						Count: 1
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33A7D54A2CC4CBAB"
+					type: "item"
+					item: {
+						id: "firmalife:beekeeper_boots"
+						Count: 1
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["712D7DD426A0937A"]
+			id: "785ED9D68E3BB54B"
+			tasks: [{
+				id: "5EF7B295D648815C"
+				type: "item"
+				item: "firmalife:raw_honey"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			dependencies: ["785ED9D68E3BB54B"]
+			id: "506910C123E62230"
+			tasks: [{
+				id: "1A4ED02C486177DF"
+				type: "item"
+				item: "productivebees:honey_treat"
 			}]
 		}
 	]
