@@ -558,7 +558,7 @@
 				{
 					id: "042F469BB03C90A2"
 					type: "item"
-					item: "electrodynamics:coalcoke"
+					item: "kubejs:coalcoke"
 				}
 			]
 		}

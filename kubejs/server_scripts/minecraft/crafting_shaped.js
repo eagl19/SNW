@@ -66,7 +66,23 @@ onEvent('recipes', event => {
 														B : {item : TC_ITEM.CLEAR_GLASS }, 			C : {item : SHEETS.C_GOLDEN }				},	OUTPUT : {item :  CREATE_ITEMS.GOGGLES, 			count : 1}, KEY : 'create:crafting/kinetics/goggles'},
 		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : INGOTS.C_BRASS },				B : {item : INGOTS.NETHERITE }				},	OUTPUT : {item :  CREATE_ITEMS.BRASS_CUBE, 			count : 1}, KEY : 'create_sa:brass_cube_recipe'},
 		{PUTTERN : ["AAA","ABA","AAA"], PUTTERN_KEY : { A : {item : INGOTS.M_COPPER },				B : {item : INGOTS.NETHERITE }				},	OUTPUT : {item :  CREATE_ITEMS.COPPER_MAGNET, 		count : 1}, KEY : 'create_sa:copper_magnet_recipe'},
-		{PUTTERN : ["AB","BA"], 		PUTTERN_KEY : { A : {tag  : TAGS.M_DIRT },					B : {tag  : TAGS.TFC_GRAVELS }				},	OUTPUT : {item :  MC_ITEM.COARSE_DIRT, 				count : 4}, KEY : 'minecraft:coarse_dirt'}
+		{PUTTERN : ["AB","BA"], 		PUTTERN_KEY : { A : {tag  : TAGS.M_DIRT },					B : {tag  : TAGS.TFC_GRAVELS }				},	OUTPUT : {item :  MC_ITEM.COARSE_DIRT, 				count : 4}, KEY : 'minecraft:coarse_dirt'},
+		{PUTTERN : ["AAA","ABA","AAA"],	PUTTERN_KEY : { A : {item : LOGS.OAK },						B : {item : TFC_ITEM.RAW_HONEY }			},	OUTPUT : {item :  MC_ITEM.BEEHIVE, 					count : 1}, KEY : 'minecraft:beehive'},
+		{PUTTERN : ["AAA","BCB","DEF"],	PUTTERN_KEY : { A : {item : PLANKS.OAK },					B : {item : MC_ITEM.HONEYCOMB },
+														C : {item : MC_ITEM.BEEHIVE },				D : {item : MC_ITEM.GLASS_BOTTLE },
+														E : {item : MC_ITEM.HOPPER },			F : {item : TFC_ITEM.FLORENTINE_BRONZE_SHEARS }},	OUTPUT : {item :  PB_ITEM.BEEHIVE.OAK, 				count : 1}, KEY : 'productivebees:hives/advanced_oak_beehive'},
+		{PUTTERN : ["AAA","ABA","AAA"],	PUTTERN_KEY : { A : {item : PLANKS.OAK },					B : {item : PB_ITEM.UPGRADE.BASE }			},	OUTPUT : {item :  PB_ITEM.BEEHIVE.OAK_BOX, 			count : 1}, KEY : 'productivebees:boxes/expansion_box_oak'},
+		{PUTTERN : ["AB","C "],			PUTTERN_KEY : { A : {item : TFC_ITEM.KELP_CLOTH },			B : {item : TFC_ITEM.GLUE },
+														C : {item : SANDS.YELLOW }																},	OUTPUT : {item :  CREATE_ITEMS.SANDPAPER.WHITE, 	count : 1}, KEY : 'create:crafting/materials/sand_paper'},
+		{PUTTERN : ["AB","C "],			PUTTERN_KEY : { A : {item : TFC_ITEM.KELP_CLOTH },			B : {item : TFC_ITEM.GLUE },
+														C : {item : SANDS.RED }																	},	OUTPUT : {item :  CREATE_ITEMS.SANDPAPER.RED, 		count : 1}, KEY : 'create:crafting/materials/red_sand_paper'},
+		{PUTTERN : ["AB","C "],			PUTTERN_KEY : { A : {item : TFC_ITEM.KELP_CLOTH },			B : {item : TFC_ITEM.GLUE },
+														C : {item : DUSTS.DIAMOND }																},	OUTPUT : {item :  CREATE_ITEMS.SANDPAPER.DIAMOND,	count : 1}, KEY : 'createaddition:crafting/diamond_grit_sandpaper'},
+		{PUTTERN : ["AB"], 				PUTTERN_KEY : { A : {tag  : TAGS.FISHING_RODS },			B : {item  : PB_ITEM.HONEY_TREAT }			},	OUTPUT : {item :  PB_ITEM.TREAT_STICK, 				count : 4}, KEY : 'productivebees:treat_on_a_stick'},
+		{PUTTERN : ["ABA","BCB","ADA"],	PUTTERN_KEY : { A : {tag : TAGS.TFC_TWIGS },				B : {item : TFC_ITEM.GEMS.EMERALD },
+														C : {item : BLOCKS.WAX }, 					D : {item : TFC_ITEM.GEMS.DIAMOND }			},	OUTPUT : {item :  PB_ITEM.UPGRADE.BASE, 			count : 1}, KEY : 'productivebees:upgrades/base'},
+		{PUTTERN : ["ABA","CDC","ABA"],	PUTTERN_KEY : { A : {tag : TAGS.HONEYCOMB_BLOCK },			B : {item : MC_ITEM.HONEY_BOTTLE},
+														C : {item : TFC_ITEM.BLUE_STEEL_SWORD }, 	D : {item : PB_ITEM.UPGRADE.BASE }			},	OUTPUT : {item :  PB_ITEM.UPGRADE.SAMPLER, 			count : 1}, KEY : 'productivebees:upgrades/bee_sampler'}
 	]
 	event.remove({output : MC_ITEM.FURNACE})
 	event.remove({output : MC_ITEM.BLAST_FURNACE})
@@ -105,6 +121,13 @@ onEvent('recipes', event => {
 	event.remove({output : CREATE_ITEMS.GOGGLES})
 	event.remove({output : CREATE_ITEMS.BRASS_CUBE})
 	event.remove({output : CREATE_ITEMS.COPPER_MAGNET})
+	event.remove({output : MC_ITEM.BEEHIVE})
+	event.remove({output : CREATE_ITEMS.SANDPAPER.WHITE})
+	event.remove({output : CREATE_ITEMS.SANDPAPER.RED})
+	event.remove({output : CREATE_ITEMS.SANDPAPER.DIAMOND})
+	event.remove({output : PB_ITEM.TREAT_STICK})
+	event.remove({output : PB_ITEM.UPGRADE.BASE})
+	event.remove({output : PB_ITEM.UPGRADE.SAMPLER})
 	recipes.forEach(recipe=>{
 		event.recipes.minecraft.crafting_shaped({
 			pattern: recipe.PUTTERN,

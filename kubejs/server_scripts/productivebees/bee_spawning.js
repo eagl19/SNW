@@ -6,13 +6,37 @@ onEvent('recipes', event => {
 		{INGREDIENTS : PB_ITEM.NEST.SAND, 			RESULTS : [{bee : BEES.CHOCOLATE},	{bee : BEES.AHSY}], 						KEY : 'sand_nest'},
 		{INGREDIENTS : PB_ITEM.NEST.GRAVEL, 		RESULTS : [{bee : BEES.DIGGER},		{bee : BEES.CHOCOLATE},	{bee : BEES.AHSY}],	KEY : 'gravel_nest'}
 	]
+	event.remove({id : 'productivebees:bee_spawning/mason_stone_nest'})
+	event.remove({id : 'productivebees:bee_spawning/digger_stone_nest'})
+	event.remove({id : 'productivebees:bee_spawning/reed_sugar_cane_nest'})
+	event.remove({id : 'productivebees:bee_spawning/mason_sugar_cane_nest'})
+	event.remove({id : 'productivebees:bee_spawning/ashy_mining_coarse_dirt_nest'})
+	event.remove({id : 'productivebees:bee_spawning/chocolate_mining_coarse_dirt_nest'})
+	event.remove({id : 'productivebees:bee_spawning/leafcutter_coarse_dirt_nest'})
+	event.remove({id : 'productivebees:bee_spawning/chocolate_mining_sand_nest'})
+	event.remove({id : 'productivebees:bee_spawning/ashy_mining_sand_nest'})
+	event.remove({id : 'productivebees:bee_spawning/ashy_mining_gravel_nest'})
+	event.remove({id : 'productivebees:bee_spawning/chocolate_mining_gravel_nest'})
+	event.remove({id : 'productivebees:bee_spawning/digger_gravel_nest'})	
+	
 	recipes.forEach(recipe=>{
-		event.custom({ 
-			type: RECIPE_TYPE.PB_SPAWNING,
-			ingredient: {
-				item: recipe.INGREDIENTS
-			},
-			results: recipe.RESULTS
-		}).id(`productivebees:bee_spawning/${recipe.KEY}`)
+		if (recipe.BIOMES){
+			event.custom({ 
+				type: RECIPE_TYPE.PB_SPAWNING,
+				ingredient: {
+					item: recipe.INGREDIENTS
+				},
+				results: recipe.RESULTS,
+				biomes: recipe.BIOMES
+			}).id(`productivebees:bee_spawning/${recipe.KEY}`)
+		}else{
+			event.custom({ 
+				type: RECIPE_TYPE.PB_SPAWNING,
+				ingredient: {
+					item: recipe.INGREDIENTS
+				},
+				results: recipe.RESULTS
+			}).id(`productivebees:bee_spawning/${recipe.KEY}`)
+		}
 	})
 })

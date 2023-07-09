@@ -13,7 +13,8 @@ onEvent('recipes', event => {
 		{INGREDIENTS : [{ tag  : TAGS.TFC_GRAVELS},		{ tag : TAGS.STONE_JAVELIN_HEAD}],			OUTPUT : PB_ITEM.NEST.GRAVEL, 		KEY : 'gravel_nest'},
 		{INGREDIENTS : [{ item : BLOCKS.SLIME},			{ tag : TAGS.STONE_JAVELIN_HEAD}],			OUTPUT : PB_ITEM.NEST.SLIMY, 		KEY : 'slimy_nest'},
 		{INGREDIENTS : [{ item : MC_ITEM.SUGAR_CANE},	{ item : TFC_ITEM.KELP_STRING}],			OUTPUT : PB_ITEM.NEST.SUGAR_CANE, 	KEY : 'm_sugar_cane_nest'},
-		{INGREDIENTS : [{ item : TFC_ITEM.SUGAR_CANE},	{ item : TFC_ITEM.KELP_STRING}],			OUTPUT : PB_ITEM.NEST.SUGAR_CANE, 	KEY : 'sugar_cane_nest'}
+		{INGREDIENTS : [{ item : TFC_ITEM.SUGAR_CANE},	{ item : TFC_ITEM.KELP_STRING}],			OUTPUT : PB_ITEM.NEST.SUGAR_CANE, 	KEY : 'sugar_cane_nest'},
+		{INGREDIENTS : [{ tag  : TAGS.TFC_GRASS},		{ tag : TAGS.STONE_JAVELIN_HEAD}],			OUTPUT : PB_ITEM.NEST.BAMBLE_BEE, 	KEY : 'gravel_nest'}
 	]
 	recipes.forEach(recipe=>{
 		event.custom({ 

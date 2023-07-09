@@ -46,6 +46,9 @@ onEvent('item.registry', event => {
 	event.create('kubejs:incomplete_small_fueling_tank').texture('kubejs:item/incomplete_small_fueling_tank');
 	event.create('kubejs:incomplete_medium_fueling_tank').texture('kubejs:item/incomplete_medium_fueling_tank');
 	event.create('kubejs:incomplete_large_fueling_tank').texture('kubejs:item/incomplete_large_fueling_tank');
+	event.create('kubejs:coalcoke').texture('kubejs:item/ed/coalcoke');
+	event.create('kubejs:ceramicwet').texture('kubejs:item/ed/ceramicwet');
+	event.create('kubejs:ceramicplate').texture('kubejs:item/ed/ceramicplate');
 })
 
 onEvent('block.registry', event => {

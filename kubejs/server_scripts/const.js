@@ -149,26 +149,28 @@ const ORES={
 		OSMIUM: 		'tfc_metallum:ore/small_native_osmium',
 	},
 	PRECIOUS:{
-		DIAMOND:			'tfc:ore/diamond',
 		CERTUS_QUARTZ:		'tfc_metallum:ore/certus_quartz',
 		BITUMINUOS_COAL:	'tfc:ore/bituminous_coal',
 		LIGNITE:			'tfc:ore/lignite',
 		BORAX:				'tfc:ore/borax',
 		CINNABAR:			'tfc:ore/cinnabar',
 		SULFUR:				'tfc:ore/sulfur',
-		EMERALD: 			'tfc:ore/emerald',
-		TOPAZ:				'tfc:ore/topaz',
 		CRYOLITE: 			'tfc:ore/cryolite',
 		GYPSUM:				'tfc:ore/gypsum',
-		LAPIS:				'tfc:ore/lapis_lazuli',
-		OPAL:				'tfc:ore/opal',
 		GRAPHITE:			'tfc:ore/graphite',
 		KAOLINITE:			'tfc:ore/kaolinite',
 		SALTPETER:			'tfc:ore/saltpeter',
 		HALITE:				'tfc:ore/halite',
-		RUBIES:				'tfc:ore/ruby',
 		SYLVITE:			'tfc:ore/sylvite',
-		AMETHYST:			'tfc:ore/amethyst'
+		DIAMOND:			'tfc:ore/diamond',
+		EMERALD:			'tfc:ore/emerald',
+		LAPIS:				'tfc:ore/lapis_lazuli',
+		AMETHYST:			'tfc:ore/amethyst',
+		OPAL:				'tfc:ore/opal',
+		PYRITE:				'tfc:ore/pyrite',
+		RUBY:				'tfc:ore/ruby',
+		SAPPHIRE:			'tfc:ore/sapphire',
+		TOPAZ:				'tfc:ore/topaz'
 	}
 }
 const FLUIDS={
@@ -237,7 +239,8 @@ const FLUIDS={
 	LIQUID_BLAZING_COKE:'kubejs:liquid_blazing_coke',
 	LIMEWATER:			'tfc:limewater',
 	MOLTEN_GLASS:		'tconstruct:molten_glass',
-	SUGAR:				'firmalife:sugar_water'
+	SUGAR:				'firmalife:sugar_water',
+	PB_HONEY:			'productivebees:honey'
 }
 const NUGGETS={
 	ALUMINUM: 		'immersiveengineering:nugget_aluminum',
@@ -375,7 +378,8 @@ const DUSTS={
 	LIME:				'kubejs:lime',
 	CHALK:				'kubejs:chalk',
 	SALT:				'tfc:powder/salt',
-	GLASS_POWDER:		'kubejs:glass_powder'
+	GLASS_POWDER:		'kubejs:glass_powder',
+	DIAMOND:			'tfc:powder/diamond'
 }
 const BLOCKS={
 	ALUMINUM: 		'tfc_metalwork:metal/block/aluminum',
@@ -431,7 +435,8 @@ const BLOCKS={
 	M_COPPER:			'minecraft:copper_block',
 	C_BRASS:			'create:brass_block',
 	SNOW:				'minecraft:snow_block',
-	SLIME:				'minecraft:slime_block'
+	SLIME:				'minecraft:slime_block',
+	WAX:				'productivebees:wax_block'
 }
 const GEARS={
 	ALUMINUM: 		'tfc_metalwork:metal/small_gear/aluminum',
@@ -1866,7 +1871,17 @@ const BEES={
 	REED:					'productivebees:reed_bee',
 	CHOCOLATE:				'productivebees:chocolate_mining_bee',
 	LEAFCUTTER:				'productivebees:leafcutter_bee',
-	AHSY:					'productivebees:ashy_mining_bee'
+	AHSY:					'productivebees:ashy_mining_bee',
+	BLUE_BANDED:			'productivebees:blue_banded_bee',
+	GREEN_CARPENTER:		'productivebees:green_carpenter_bee',
+	YELLOW_CARPENTER:		'productivebees:yellow_black_carpenter_bee',
+	BUMBLE:					'productivebees:bumble_bee',
+	MINECRAFT:				'minecraft:bee',
+	CUPID:					'productivebees:cupid_bee',
+	CRYSTALLINE:			'productivebees:crystalline',
+	SUGARBAG:				'productivebees:sugarbag',
+	ALUMINUM:				'productivebees:aluminum',
+	TIN:					'productivebees:tin'
 }
 const ROSIA_ITEM={
 	COPPER_COIL:			'rosia:copper_coil',
@@ -1894,7 +1909,11 @@ const MC_ITEM={
 	COMPASS:				'minecraft:compass',
 	STONE:					'minecraft:stone',
 	COARSE_DIRT:			'minecraft:coarse_dirt',
-	SUGAR_CANE:				'minecraft:sugar_cane'
+	SUGAR_CANE:				'minecraft:sugar_cane',
+	BEEHIVE:				'minecraft:beehive',
+	HONEYCOMB:				'minecraft:honeycomb',
+	GLASS_BOTTLE:			'minecraft:glass_bottle',
+	HONEY_BOTTLE:			'minecraft:honey_bottle'
 	
 }
 const TFC_ITEM={
@@ -1923,7 +1942,20 @@ const TFC_ITEM={
 	SMOOTH_BASALT_SLAB:		'tfc:rock/smooth/basalt_slab',
 	RAW_HONEY:				'firmalife:raw_honey',
 	WROUGHT_IRON_JAVELIN:	'tfc:metal/javelin_head/wrought_iron',
-	SUGAR_CANE:				'tfc:wild_crop/sugarcane'
+	SUGAR_CANE:				'tfc:wild_crop/sugarcane',
+	FLORENTINE_BRONZE_SHEARS:'tfc_metallum:metal/shears/florentine_bronze',
+	BLUE_STEEL_SWORD:		'tfc:metal/sword/blue_steel',
+	GEMS:{
+		DIAMOND:			'tfc:gem/diamond',
+		EMERALD:			'tfc:gem/emerald',
+		LAPIS:				'tfc:gem/lapis_lazuli',
+		AMETHYST:			'tfc:gem/amethyst',
+		OPAL:				'tfc:gem/opal',
+		PYRITE:				'tfc:gem/pyrite',
+		RUBY:				'tfc:gem/ruby',
+		SAPPHIRE:			'tfc:gem/sapphire',
+		TOPAZ:				'tfc:gem/topaz'
+	}
 	
 }
 const CREATE_ITEMS={
@@ -2079,6 +2111,11 @@ const CREATE_ITEMS={
 	COPPER_SPOOL:			'createaddition:copper_spool',
 	ALTERNATOR:				'createaddition:alternator',
 	ELECTRIC_MOTOR:			'createaddition:electric_motor',
+	SANDPAPER:{
+		WHITE:				'create:sand_paper',
+		RED:				'create:red_sand_paper',
+		DIAMOND:			'createaddition:diamond_grit_sandpaper'
+	},
 	INCOMPLECT:{
 		MECHANICAL_CRAFTER:			'kubejs:incomplete_mechanical_crafter',
 		PRECISION_MECHANISM:		'create:incomplete_precision_mechanism',
@@ -2104,13 +2141,17 @@ const IE_ITEM={
 	ALLOY_BRICK:			'immersiveengineering:alloybrick',
 	CIRCUIT_BOARD:			'immersiveengineering:circuit_board',
 	TEXTOLITE:				'kubejs:textolite',
-	DRILLHEAD_STEEL:		'immersiveengineering:drillhead_steel'
+	DRILLHEAD_STEEL:		'immersiveengineering:drillhead_steel',
+	RAW_ALUMINUM:			'immersiveengineering:raw_aluminum'
 	
 }
 const ED_ITEMS={
-	COKE:					'electrodynamics:coalcoke',
-	CERAMICWET:				'electrodynamics:ceramicwet',
-	CERAMICPLATE:			'electrodynamics:ceramicplate'
+	COKE:					'kubejs:coalcoke',
+	CERAMICWET:				'kubejs:ceramicwet',
+	CERAMICPLATE:			'kubejs:ceramicplate'
+}
+const MEK_ITEM={
+	RAW_TIN:				'mekanism:raw_tin'
 }
 const TC_ITEM={
 	GROUT:					'tconstruct:grout',
@@ -2123,6 +2164,7 @@ const TC_ITEM={
 }
 const PB_ITEM={
 	HONEY_TREAT:			'productivebees:honey_treat',
+	TREAT_STICK:			'productivebees:treat_on_a_stick',
 	NEST:{
 		ACACIA:				'productivebees:acacia_wood_nest',
 		OAK:				'productivebees:oak_wood_nest',
@@ -2136,7 +2178,21 @@ const PB_ITEM={
 		SNOW:				'productivebees:snow_nest',
 		GRAVEL:				'productivebees:gravel_nest',
 		SLIMY:				'productivebees:slimy_nest',
-		SUGAR_CANE:			'productivebees:sugar_cane_nest'
+		SUGAR_CANE:			'productivebees:sugar_cane_nest',
+		BAMBLE_BEE:			'productivebees:bumble_bee_nest',
+		NETHER_QUARTZ:		'productivebees:nether_quartz_nest',
+		SUGARBAG:			'productivebees:sugarbag_nest'
+	},
+	BEEHIVE:{
+		OAK:				'productivebees:advanced_oak_beehive',
+		OAK_BOX:			'productivebees:expansion_box_oak'
+	},
+	UPGRADE:{
+		BASE:				'productivebees:upgrade_base',
+		SAMPLER:			'productivebees:upgrade_bee_sampler'
+	},
+	HONEYCOMB:{
+		MILKY:				'productivebees:honeycomb_milky'
 	}
 }
 
@@ -2152,6 +2208,7 @@ const RECIPE_TYPE={
 	C_SEQUENCED_ASSEMBLY:	'create:sequenced_assembly',
 	C_MACHANICAL_CRAFTING:	'create:mechanical_crafting',
 	C_SPLASHING:			'create:splashing',
+	C_SANDPAPER_POLISHING:	'create:sandpaper_polishing',
 	CA_ROLLING:				'createaddition:rolling',
 	CW_WOODCUTING:			'corail_woodcutter:woodcutting',
 	MC_SHAPELESS: 			'minecraft:crafting_shapeless',
@@ -2169,7 +2226,10 @@ const RECIPE_TYPE={
 	FL_DRYING:				'firmalife:drying',
 	FL_VAT:					'firmalife:vat',
 	TFC_BARREL_INSRANT:		'tfc:barrel_instant',
-	PB_SPAWNING:			'productivebees:bee_spawning'
+	PB_SPAWNING:			'productivebees:bee_spawning',
+	PB_CONVERSION:			'productivebees:bee_conversion',
+	PB_ADVANCED_BEEHIVE:	'productivebees:advanced_beehive',
+	PB_CENTRIFUGE:			'productivebees:centrifuge'
 }
 
 const TAGS={
@@ -2201,6 +2261,11 @@ const TAGS={
 	M_WOODEN_DOORS:			'minecraft:wooden_doors',
 	M_WOODEN_PRESSURE_PLATES:'minecraft:wooden_pressure_plates',
 	GLASS_MATERIALS:		'kubejs:glass_materials',
-	STONE_JAVELIN_HEAD:		'kubejs:stone_javelin_head'
+	STONE_JAVELIN_HEAD:		'kubejs:stone_javelin_head',
+	TFC_GRASS:				'kubejs:tfc_grass',
+	FISHING_RODS:			'forge:fishing_rods',
+	TFC_TWIGS:				'tfc:twigs',
+	HONEYCOMB_BLOCK:		'forge:storage_blocks/honeycombs',
+	WAX:					'forge:wax'
 		
 }

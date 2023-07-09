@@ -9,8 +9,8 @@
 	quests: [
 		{
 			icon: "productivebees:honey_treat"
-			x: -3.0d
-			y: -1.0d
+			x: -9.0d
+			y: -3.0d
 			dependencies: ["506910C123E62230"]
 			id: "7AB9291F1FCC22A2"
 			tasks: [{
@@ -24,11 +24,18 @@
 			y: -3.0d
 			dependencies: ["7AB9291F1FCC22A2"]
 			id: "401B3BDCB4314AAF"
-			tasks: [{
-				id: "70019A605D294D0A"
-				type: "item"
-				item: "productivebees:bee_cage"
-			}]
+			tasks: [
+				{
+					id: "70019A605D294D0A"
+					type: "item"
+					item: "productivebees:bee_cage"
+				}
+				{
+					id: "4F5CCE4A44C7D6DF"
+					type: "item"
+					item: "productivebees:honey_treat"
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -412,6 +419,7 @@
 				"1958C7416C922A73"
 				"776C79BFD3B51080"
 			]
+			hide: true
 			id: "28688BE88CFC60A4"
 			tasks: [{
 				id: "1D5E24527E15FC3B"
@@ -420,6 +428,784 @@
 				timer: 0L
 				observe_type: 5
 				to_observe: "productivebees:lumber_bee"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "041B4540716D6885"
+			tasks: [{
+				id: "20FA1B7E18566CA8"
+				type: "item"
+				title: "Any #productivebees:advanced_beehives"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1
+					tag: {
+						value: "productivebees:advanced_beehives"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -11.0d
+			dependencies: [
+				"2C9C34A5463F4E21"
+				"28688BE88CFC60A4"
+			]
+			hide: true
+			id: "145F1EDABED90053"
+			tasks: [{
+				id: "1DBC90916A8BC9B2"
+				type: "observation"
+				title: "Бджола скотоводка"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:rancher_bee"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -13.0d
+			dependencies: ["145F1EDABED90053"]
+			id: "591BFAC70C816B7A"
+			tasks: [{
+				id: "24B43AB42CFFE324"
+				type: "observation"
+				title: "Бджола фермер"
+				timer: 0L
+				observe_type: 0
+				to_observe: "productivebees:farmer_bee"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.0d
+			dependencies: ["3EEDEAC1D20E39EB"]
+			hide: true
+			id: "0C239F3C94F7733C"
+			tasks: [{
+				id: "049C67B5EB292B2E"
+				type: "observation"
+				title: "Бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:bee"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			dependencies: ["401B3BDCB4314AAF"]
+			id: "2DB3B36709057D42"
+			tasks: [{
+				id: "44063BC458C13D58"
+				type: "item"
+				item: "productivebees:bumble_bee_nest"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.0d
+			dependencies: ["0CF7516F710FF33C"]
+			id: "3ABBF7157BE4206F"
+			tasks: [
+				{
+					id: "52B8B641A043AAF5"
+					type: "item"
+					item: {
+						id: "productivebees:treat_on_a_stick"
+						Count: 1
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E78E046E6A9299C"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+			]
+		}
+		{
+			title: "Джміль"
+			x: -7.0d
+			y: -1.0d
+			dependencies: ["2DB3B36709057D42"]
+			id: "0CF7516F710FF33C"
+			tasks: [{
+				id: "68116ED7E503E448"
+				type: "observation"
+				title: "Джміль"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:bumble_bee"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -15.0d
+			dependencies: ["591BFAC70C816B7A"]
+			id: "192E083D72FA2CCD"
+			tasks: [{
+				id: "68B2AC3F17166057"
+				type: "observation"
+				title: "Амурна бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:cupid_bee"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["041B4540716D6885"]
+			id: "06444296F75A7E03"
+			tasks: [{
+				id: "5857449D5EB2165A"
+				type: "item"
+				item: "productivebees:centrifuge"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["06444296F75A7E03"]
+			id: "2AA48FAAFBDEADFA"
+			tasks: [{
+				id: "4D3A8B11C0B8189B"
+				type: "item"
+				item: "productivebees:bottler"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["06444296F75A7E03"]
+			id: "690F138E907C1637"
+			tasks: [{
+				id: "726F66AD0A1B29AC"
+				type: "item"
+				item: "productivebees:powered_centrifuge"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["690F138E907C1637"]
+			id: "22643C7475A1EF63"
+			tasks: [{
+				id: "2DCDFED9613EA7E5"
+				type: "item"
+				item: "productivebees:heated_centrifuge"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["06444296F75A7E03"]
+			id: "04B71BC2E2893612"
+			tasks: [{
+				id: "48286F2549881992"
+				type: "item"
+				item: "productivebees:wax"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["041B4540716D6885"]
+			id: "2FDD48EB61D4F52E"
+			tasks: [{
+				id: "6202DA6EE75D6ECD"
+				type: "item"
+				item: "minecraft:honey_bottle"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["2FDD48EB61D4F52E"]
+			id: "02FA22CDE5AB7FC6"
+			tasks: [{
+				id: "1F63167A93D8BAA9"
+				type: "item"
+				item: "productivebees:honey_generator"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			dependencies: ["68B2AC3F17166057"]
+			hide: true
+			id: "33A47AA6DE672772"
+			tasks: [{
+				id: "31C2100E4E1315AB"
+				type: "item"
+				item: "productivebees:honeycomb_milky"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["33A47AA6DE672772"]
+			id: "51358B3A713F99B0"
+			tasks: [{
+				id: "695EBBAB16229D50"
+				type: "item"
+				item: "productivebees:milk_bottle"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["06444296F75A7E03"]
+			id: "0CA838FE3034A343"
+			tasks: [{
+				id: "14E92EA7E5E8E592"
+				type: "item"
+				item: "productivebees:upgrade_base"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["0CA838FE3034A343"]
+			id: "631475BFF5FDFAFB"
+			tasks: [{
+				id: "7103E2E7D663D35C"
+				type: "item"
+				title: "Any #productivebees:expansion_boxes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1
+					tag: {
+						value: "productivebees:expansion_boxes"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["0CA838FE3034A343"]
+			id: "12C3079D55C3B48E"
+			tasks: [
+				{
+					id: "314997D127FF6F18"
+					type: "item"
+					item: "productivebees:upgrade_productivity"
+				}
+				{
+					id: "25ACDAB61EAC1526"
+					type: "item"
+					item: "productivebees:upgrade_time"
+				}
+				{
+					id: "440D588BD500E031"
+					type: "item"
+					item: "productivebees:upgrade_comb_block"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["0CA838FE3034A343"]
+			id: "6BC941267521BE24"
+			tasks: [
+				{
+					id: "4BDC429FFAF497C3"
+					type: "item"
+					item: "productivebees:upgrade_breeding"
+				}
+				{
+					id: "2FE191EEFBDEAC50"
+					type: "item"
+					item: "productivebees:upgrade_not_babee"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["0CA838FE3034A343"]
+			id: "0FC3F707F2FB1B1F"
+			tasks: [
+				{
+					id: "2E42EC5FC5EC858D"
+					type: "item"
+					item: "productivebees:upgrade_anti_teleport"
+				}
+				{
+					id: "55DDA4D263EDFB89"
+					type: "item"
+					item: "productivebees:upgrade_range"
+				}
+				{
+					id: "2C48C34C677D2377"
+					type: "item"
+					item: "productivebees:upgrade_filter"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			dependencies: ["0CA838FE3034A343"]
+			id: "453224BE44DC1EC6"
+			tasks: [
+				{
+					id: "66B80E648C004700"
+					type: "item"
+					item: "productivebees:upgrade_bee_sampler"
+				}
+				{
+					id: "5479725750314E37"
+					type: "item"
+					item: "productivebees:upgrade_simulator"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			dependencies: ["453224BE44DC1EC6"]
+			id: "467E212149959F89"
+			tasks: [{
+				id: "29406920E017A047"
+				type: "item"
+				item: "productivebees:gene_indexer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			dependencies: ["0FC3F707F2FB1B1F"]
+			id: "43D5E719439893A9"
+			tasks: [{
+				id: "2E408CA5E3220E1F"
+				type: "item"
+				item: "productivebees:catcher"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			dependencies: ["6BC941267521BE24"]
+			id: "284C15E5E3EC4D9B"
+			tasks: [{
+				id: "78274BEA0ADC94B2"
+				type: "item"
+				item: "productivebees:incubator"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -9.0d
+			dependencies: ["0C239F3C94F7733C"]
+			id: "509F3FA044A3D9CE"
+			tasks: [{
+				id: "1E7605E54AE74ABF"
+				type: "observation"
+				title: "Кристалічна бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:crystalline"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			dependencies: ["1E7605E54AE74ABF"]
+			hide: true
+			id: "47277D5F6C9BF985"
+			tasks: [{
+				id: "2A0F6E74A149CE9B"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1
+					tag: {
+						EntityTag: {
+							type: "productivebees:crystalline"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			dependencies: ["47277D5F6C9BF985"]
+			id: "5C64FA042F433460"
+			tasks: [{
+				id: "5BAB4D82BD77E66E"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -9.0d
+			dependencies: [
+				"1E7605E54AE74ABF"
+				"6189F760F382CCBF"
+			]
+			hide: true
+			id: "2D7403892E58E7A3"
+			tasks: [{
+				id: "266579E7A328C9EC"
+				type: "observation"
+				title: "Золота бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:gold"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			dependencies: ["266579E7A328C9EC"]
+			hide: true
+			id: "08ED1B5FEA44E1D4"
+			tasks: [{
+				id: "6A33A4FC868891DD"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1
+					tag: {
+						EntityTag: {
+							type: "productivebees:gold"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 7.5d
+			dependencies: ["08ED1B5FEA44E1D4"]
+			id: "5DE26F12F3D8C214"
+			tasks: [{
+				id: "422CB0412CD87EE4"
+				type: "item"
+				item: "minecraft:raw_gold"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			dependencies: ["6BC941267521BE24"]
+			id: "7A95792F7906BFB1"
+			tasks: [{
+				id: "6E3D2795CB88D3B6"
+				type: "item"
+				item: "productivebees:breeding_chamber"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -9.0d
+			dependencies: [
+				"22D09C319D7DC259"
+				"1E7605E54AE74ABF"
+			]
+			hide: true
+			id: "52996170E7997FDF"
+			tasks: [{
+				id: "0FD208D204BFA5E2"
+				type: "observation"
+				title: "Мідна бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:copper"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			dependencies: ["0FD208D204BFA5E2"]
+			hide: true
+			id: "6C9139F6C42B902D"
+			tasks: [{
+				id: "6CE77361E21A3177"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1
+					tag: {
+						EntityTag: {
+							type: "productivebees:copper"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 7.5d
+			dependencies: ["6C9139F6C42B902D"]
+			id: "1CF4B80EE146B99F"
+			tasks: [{
+				id: "71CD5DCD7857AB78"
+				type: "item"
+				item: "minecraft:raw_copper"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -9.0d
+			dependencies: [
+				"22D09C319D7DC259"
+				"1E7605E54AE74ABF"
+			]
+			hide: true
+			id: "354599790D80867C"
+			tasks: [{
+				id: "60CD8F10413C5796"
+				type: "observation"
+				title: "Залізна бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:iron"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			dependencies: ["60CD8F10413C5796"]
+			hide: true
+			id: "57D102E92F238405"
+			tasks: [{
+				id: "0E8ABFE86AB6453D"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1
+					tag: {
+						EntityTag: {
+							type: "productivebees:iron"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 7.5d
+			dependencies: ["57D102E92F238405"]
+			id: "2838CD7DD024AF7E"
+			tasks: [{
+				id: "727CBCF4D4376F90"
+				type: "item"
+				item: "minecraft:raw_iron"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -9.0d
+			dependencies: [
+				"22D09C319D7DC259"
+				"1E7605E54AE74ABF"
+			]
+			hide: true
+			id: "02543D14057AC2D9"
+			tasks: [{
+				id: "21BD5E10BEB5F4D3"
+				type: "observation"
+				title: "Алюмінієва бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:aluminum"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			dependencies: ["21BD5E10BEB5F4D3"]
+			hide: true
+			id: "05042E3470F4A12B"
+			tasks: [{
+				id: "77FC964F7EDB9D7F"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1
+					tag: {
+						EntityTag: {
+							type: "productivebees:aluminum"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 7.5d
+			dependencies: ["05042E3470F4A12B"]
+			id: "051E10507ACEFD9F"
+			tasks: [{
+				id: "539FD7179C6DFBF6"
+				type: "item"
+				item: "immersiveengineering:raw_aluminum"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -9.0d
+			dependencies: [
+				"22D09C319D7DC259"
+				"1E7605E54AE74ABF"
+			]
+			hide: true
+			id: "7E6A3FB434770254"
+			tasks: [{
+				id: "57F460C30AE1AC7F"
+				type: "observation"
+				title: "Оловяна бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:tin"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 5.5d
+			dependencies: ["57F460C30AE1AC7F"]
+			hide: true
+			id: "4D0C074058244A8A"
+			tasks: [{
+				id: "307EE4486983490A"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1
+					tag: {
+						EntityTag: {
+							type: "productivebees:tin"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 7.5d
+			dependencies: ["4D0C074058244A8A"]
+			id: "69003E841B2FBA1F"
+			tasks: [{
+				id: "7544FB0EFD4DB501"
+				type: "item"
+				item: "mekanism:raw_tin"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			dependencies: ["70019A605D294D0A"]
+			hide: true
+			secret: true
+			id: "563BF1CBF5C755C3"
+			tasks: [{
+				id: "229443227AA190EA"
+				type: "observation"
+				title: "Скелетна бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:skeletal"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			dependencies: ["563BF1CBF5C755C3"]
+			id: "1EFD44FC67207BDC"
+			tasks: [{
+				id: "0CB7A0887F250CE3"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1
+					tag: {
+						EntityTag: {
+							type: "productivebees:skeletal"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			dependencies: ["1EFD44FC67207BDC"]
+			id: "3DEDC99E71C6ABE8"
+			tasks: [{
+				id: "10F62F07D63B112E"
+				type: "item"
+				item: "minecraft:bone_meal"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -11.0d
+			dependencies: [
+				"509F3FA044A3D9CE"
+				"266579E7A328C9EC"
+			]
+			hide: true
+			id: "62421FF66F156A9C"
+			tasks: [{
+				id: "1D513326A6DB7D1D"
+				type: "observation"
+				title: "Вісмутова бджола"
+				timer: 0L
+				observe_type: 5
+				to_observe: "productivebees:bismuth"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 5.5d
+			dependencies: ["1D513326A6DB7D1D"]
+			hide: true
+			id: "1BF2595AB0A52B78"
+			tasks: [{
+				id: "314C805C11E776BE"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1
+					tag: {
+						EntityTag: {
+							type: "productivebees:bismuth"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 7.5d
+			dependencies: ["1BF2595AB0A52B78"]
+			id: "33CA66667A79BE73"
+			tasks: [{
+				id: "100F10A4D2467EF6"
+				type: "item"
+				item: {
+					id: "tfc_metalwork:metal/dust/bismuth"
+					Count: 1
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
 			}]
 		}
 	]

@@ -5,7 +5,7 @@ onEvent('item.modification', event => {
 	event.modify('tfc:ore/lignite', item => {
 		item.burnTime = 2200
 	})
-	event.modify('electrodynamics:coalcoke', item => {
+	event.modify('kubejs:coalcoke', item => {
 		item.burnTime = 2200
 	})
 })
